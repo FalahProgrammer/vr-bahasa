@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a248462aa2a8c4eb7e6643d6245ee0, type: 3}
+  m_Name: Repository Log
+  m_EditorClassIdentifier: 
+  content_id: 6
+  logs:
+    Items:
+    - duration: 00:59:42
+      question: hello, how are you?
+      right_answer: "I\u2019m great, how about you?"
+      user_answer: <color=#000000>i</color><color=#FF0000>'</color><color=#000000>m</color><color=#000000>
+        </color><color=#000000>g</color><color=#000000>r</color><color=#000000>e</color><color=#000000>a</color><color=#000000>t</color><color=#000000>
+        </color><color=#000000>h</color><color=#000000>o</color><color=#000000>w</color><color=#000000>
+        </color><color=#000000>a</color><color=#000000>b</color><color=#000000>o</color><color=#000000>u</color><color=#000000>t</color><color=#000000>
+        </color><color=#000000>y</color><color=#000000>o</color><color=#000000>u</color>
+      answer_status: 1
+      score: 95.65217391304348
+    - duration: 00:00:00
+      question: "I\u2019m great too, where do you came from?"
+      right_answer: "I\u2019m from Indonesia"
+      user_answer: "<color=#FF0000>-</color><color=#FF0000>\u2019</color><color=#FF0000>m</color><color=#FF0000>
+        </color><color=#FF0000>f</color><color=#FF0000>r</color><color=#FF0000>o</color><color=#FF0000>m</color><color=#FF0000>
+        </color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000>d</color><color=#FF0000>o</color><color=#FF0000>n</color><color=#FF0000>e</color><color=#FF0000>s</color><color=#FF0000>i</color><color=#FF0000>a</color>"
+      answer_status: 0
+      score: 0
+    - duration: 00:00:00
+      question: oh I see, welcome to the boot camp
+      right_answer: thank you, this barracks is so clean and comfortable
+      user_answer: <color=#FF0000>-</color><color=#FF0000>h</color><color=#FF0000>a</color><color=#FF0000>n</color><color=#FF0000>k</color><color=#FF0000>
+        </color><color=#FF0000>y</color><color=#FF0000>o</color><color=#FF0000>u</color><color=#FF0000>
+        </color><color=#FF0000>t</color><color=#FF0000>h</color><color=#FF0000>i</color><color=#FF0000>s</color><color=#FF0000>
+        </color><color=#FF0000>b</color><color=#FF0000>a</color><color=#FF0000>r</color><color=#FF0000>r</color><color=#FF0000>a</color><color=#FF0000>c</color><color=#FF0000>k</color><color=#FF0000>s</color><color=#FF0000>
+        </color><color=#FF0000>i</color><color=#FF0000>s</color><color=#FF0000> </color><color=#FF0000>s</color><color=#FF0000>o</color><color=#FF0000>
+        </color><color=#FF0000>c</color><color=#FF0000>l</color><color=#FF0000>e</color><color=#FF0000>a</color><color=#FF0000>n</color><color=#FF0000>
+        </color><color=#FF0000>a</color><color=#FF0000>n</color><color=#FF0000>d</color><color=#FF0000>
+        </color><color=#FF0000>c</color><color=#FF0000>o</color><color=#FF0000>m</color><color=#FF0000>f</color><color=#FF0000>o</color><color=#FF0000>r</color><color=#FF0000>t</color><color=#FF0000>a</color><color=#FF0000>b</color><color=#FF0000>l</color><color=#FF0000>e</color>
+      answer_status: 0
+      score: 0
+    - duration: 00:00:00
+      question: do you think so? anyway do you know who are the soldiers in United
+        States Army?
+      right_answer: of course, they are volunteers
+      user_answer: <color=#FF0000>-</color><color=#FF0000>f</color><color=#FF0000>
+        </color><color=#FF0000>c</color><color=#FF0000>o</color><color=#FF0000>u</color><color=#FF0000>r</color><color=#FF0000>s</color><color=#FF0000>e</color><color=#FF0000>
+        </color><color=#FF0000>t</color><color=#FF0000>h</color><color=#FF0000>e</color><color=#FF0000>y</color><color=#FF0000>
+        </color><color=#FF0000>a</color><color=#FF0000>r</color><color=#FF0000>e</color><color=#FF0000>
+        </color><color=#FF0000>v</color><color=#FF0000>o</color><color=#FF0000>l</color><color=#FF0000>u</color><color=#FF0000>n</color><color=#FF0000>t</color><color=#FF0000>e</color><color=#FF0000>e</color><color=#FF0000>r</color><color=#FF0000>s</color>
+      answer_status: 0
+      score: 0
+    - duration: 00:00:00
+      question: you are correct, do you know which units the army trains recruits?
+      right_answer: the army trains recruit at basic training unit
+      user_answer: <color=#FF0000>-</color><color=#FF0000>h</color><color=#FF0000>e</color><color=#FF0000>
+        </color><color=#FF0000>a</color><color=#FF0000>r</color><color=#FF0000>m</color><color=#FF0000>y</color><color=#FF0000>
+        </color><color=#FF0000>t</color><color=#FF0000>r</color><color=#FF0000>a</color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000>s</color><color=#FF0000>
+        </color><color=#FF0000>r</color><color=#FF0000>e</color><color=#FF0000>c</color><color=#FF0000>r</color><color=#FF0000>u</color><color=#FF0000>i</color><color=#FF0000>t</color><color=#FF0000>
+        </color><color=#FF0000>a</color><color=#FF0000>t</color><color=#FF0000> </color><color=#FF0000>b</color><color=#FF0000>a</color><color=#FF0000>s</color><color=#FF0000>i</color><color=#FF0000>c</color><color=#FF0000>
+        </color><color=#FF0000>t</color><color=#FF0000>r</color><color=#FF0000>a</color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000>g</color><color=#FF0000>
+        </color><color=#FF0000>u</color><color=#FF0000>n</color><color=#FF0000>i</color><color=#FF0000>t</color>
+      answer_status: 0
+      score: 0
+    - duration: 00:00:00
+      question: great, the main basic unit is Fort Jackson in South Carolina. do
+        you know how long does the basic training take?
+      right_answer: basic training takes nine weeks until graduation
+      user_answer: <color=#FF0000>-</color><color=#FF0000>a</color><color=#FF0000>s</color><color=#FF0000>i</color><color=#FF0000>c</color><color=#FF0000>
+        </color><color=#FF0000>t</color><color=#FF0000>r</color><color=#FF0000>a</color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000>g</color><color=#FF0000>
+        </color><color=#FF0000>t</color><color=#FF0000>a</color><color=#FF0000>k</color><color=#FF0000>e</color><color=#FF0000>s</color><color=#FF0000>
+        </color><color=#FF0000>n</color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000>e</color><color=#FF0000>
+        </color><color=#FF0000>w</color><color=#FF0000>e</color><color=#FF0000>e</color><color=#FF0000>k</color><color=#FF0000>s</color><color=#FF0000>
+        </color><color=#FF0000>u</color><color=#FF0000>n</color><color=#FF0000>t</color><color=#FF0000>i</color><color=#FF0000>l</color><color=#FF0000>
+        </color><color=#FF0000>g</color><color=#FF0000>r</color><color=#FF0000>a</color><color=#FF0000>d</color><color=#FF0000>u</color><color=#FF0000>a</color><color=#FF0000>t</color><color=#FF0000>i</color><color=#FF0000>o</color><color=#FF0000>n</color>
+      answer_status: 0
+      score: 0
+    - duration: 00:00:00
+      question: you are right, for your information, the instructors are non-commissioned
+        officers. Do you know what skills will be taught by instructors in boot camp?
+      right_answer: instructors will teach about basic military skills, including
+        drill and weapons training.
+      user_answer: <color=#FF0000>-</color><color=#FF0000>n</color><color=#FF0000>s</color><color=#FF0000>t</color><color=#FF0000>r</color><color=#FF0000>u</color><color=#FF0000>c</color><color=#FF0000>t</color><color=#FF0000>o</color><color=#FF0000>r</color><color=#FF0000>s</color><color=#FF0000>
+        </color><color=#FF0000>w</color><color=#FF0000>i</color><color=#FF0000>l</color><color=#FF0000>l</color><color=#FF0000>
+        </color><color=#FF0000>t</color><color=#FF0000>e</color><color=#FF0000>a</color><color=#FF0000>c</color><color=#FF0000>h</color><color=#FF0000>
+        </color><color=#FF0000>a</color><color=#FF0000>b</color><color=#FF0000>o</color><color=#FF0000>u</color><color=#FF0000>t</color><color=#FF0000>
+        </color><color=#FF0000>b</color><color=#FF0000>a</color><color=#FF0000>s</color><color=#FF0000>i</color><color=#FF0000>c</color><color=#FF0000>
+        </color><color=#FF0000>m</color><color=#FF0000>i</color><color=#FF0000>l</color><color=#FF0000>i</color><color=#FF0000>t</color><color=#FF0000>a</color><color=#FF0000>r</color><color=#FF0000>y</color><color=#FF0000>
+        </color><color=#FF0000>s</color><color=#FF0000>k</color><color=#FF0000>i</color><color=#FF0000>l</color><color=#FF0000>l</color><color=#FF0000>s</color><color=#FF0000>
+        </color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000>c</color><color=#FF0000>l</color><color=#FF0000>u</color><color=#FF0000>d</color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000>g</color><color=#FF0000>
+        </color><color=#FF0000>d</color><color=#FF0000>r</color><color=#FF0000>i</color><color=#FF0000>l</color><color=#FF0000>l</color><color=#FF0000>
+        </color><color=#FF0000>a</color><color=#FF0000>n</color><color=#FF0000>d</color><color=#FF0000>
+        </color><color=#FF0000>w</color><color=#FF0000>e</color><color=#FF0000>a</color><color=#FF0000>p</color><color=#FF0000>o</color><color=#FF0000>n</color><color=#FF0000>s</color><color=#FF0000>
+        </color><color=#FF0000>t</color><color=#FF0000>r</color><color=#FF0000>a</color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000>g</color>
+      answer_status: 0
+      score: 0
+    - duration: 00:00:00
+      question: ' wow, tell me more about basic combat training information that
+        you know!'
+      right_answer: "recruits in basic training live and sleep in barracks. They
+        wear a military uniform, and the don\u2019t go home during basic training
+        and they don\u2019t see their family before graduation. "
+      user_answer: "<color=#FF0000>-</color><color=#FF0000>e</color><color=#FF0000>c</color><color=#FF0000>r</color><color=#FF0000>u</color><color=#FF0000>i</color><color=#FF0000>t</color><color=#FF0000>s</color><color=#FF0000>
+        </color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000> </color><color=#FF0000>b</color><color=#FF0000>a</color><color=#FF0000>s</color><color=#FF0000>i</color><color=#FF0000>c</color><color=#FF0000>
+        </color><color=#FF0000>t</color><color=#FF0000>r</color><color=#FF0000>a</color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000>g</color><color=#FF0000>
+        </color><color=#FF0000>l</color><color=#FF0000>i</color><color=#FF0000>v</color><color=#FF0000>e</color><color=#FF0000>
+        </color><color=#FF0000>a</color><color=#FF0000>n</color><color=#FF0000>d</color><color=#FF0000>
+        </color><color=#FF0000>s</color><color=#FF0000>l</color><color=#FF0000>e</color><color=#FF0000>e</color><color=#FF0000>p</color><color=#FF0000>
+        </color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000> </color><color=#FF0000>b</color><color=#FF0000>a</color><color=#FF0000>r</color><color=#FF0000>r</color><color=#FF0000>a</color><color=#FF0000>c</color><color=#FF0000>k</color><color=#FF0000>s</color><color=#FF0000>
+        </color><color=#FF0000>t</color><color=#FF0000>h</color><color=#FF0000>e</color><color=#FF0000>y</color><color=#FF0000>
+        </color><color=#FF0000>w</color><color=#FF0000>e</color><color=#FF0000>a</color><color=#FF0000>r</color><color=#FF0000>
+        </color><color=#FF0000>a</color><color=#FF0000> </color><color=#FF0000>m</color><color=#FF0000>i</color><color=#FF0000>l</color><color=#FF0000>i</color><color=#FF0000>t</color><color=#FF0000>a</color><color=#FF0000>r</color><color=#FF0000>y</color><color=#FF0000>
+        </color><color=#FF0000>u</color><color=#FF0000>n</color><color=#FF0000>i</color><color=#FF0000>f</color><color=#FF0000>o</color><color=#FF0000>r</color><color=#FF0000>m</color><color=#FF0000>
+        </color><color=#FF0000>a</color><color=#FF0000>n</color><color=#FF0000>d</color><color=#FF0000>
+        </color><color=#FF0000>t</color><color=#FF0000>h</color><color=#FF0000>e</color><color=#FF0000>
+        </color><color=#FF0000>d</color><color=#FF0000>o</color><color=#FF0000>n</color><color=#FF0000>\u2019</color><color=#FF0000>t</color><color=#FF0000>
+        </color><color=#FF0000>g</color><color=#FF0000>o</color><color=#FF0000> </color><color=#FF0000>h</color><color=#FF0000>o</color><color=#FF0000>m</color><color=#FF0000>e</color><color=#FF0000>
+        </color><color=#FF0000>d</color><color=#FF0000>u</color><color=#FF0000>r</color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000>g</color><color=#FF0000>
+        </color><color=#FF0000>b</color><color=#FF0000>a</color><color=#FF0000>s</color><color=#FF0000>i</color><color=#FF0000>c</color><color=#FF0000>
+        </color><color=#FF0000>t</color><color=#FF0000>r</color><color=#FF0000>a</color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000>i</color><color=#FF0000>n</color><color=#FF0000>g</color><color=#FF0000>
+        </color><color=#FF0000>a</color><color=#FF0000>n</color><color=#FF0000>d</color><color=#FF0000>
+        </color><color=#FF0000>t</color><color=#FF0000>h</color><color=#FF0000>e</color><color=#FF0000>y</color><color=#FF0000>
+        </color><color=#FF0000>d</color><color=#FF0000>o</color><color=#FF0000>n</color><color=#FF0000>\u2019</color><color=#FF0000>t</color><color=#FF0000>
+        </color><color=#FF0000>s</color><color=#FF0000>e</color><color=#FF0000>e</color><color=#FF0000>
+        </color><color=#FF0000>t</color><color=#FF0000>h</color><color=#FF0000>e</color><color=#FF0000>i</color><color=#FF0000>r</color><color=#FF0000>
+        </color><color=#FF0000>f</color><color=#FF0000>a</color><color=#FF0000>m</color><color=#FF0000>i</color><color=#FF0000>l</color><color=#FF0000>y</color><color=#FF0000>
+        </color><color=#FF0000>b</color><color=#FF0000>e</color><color=#FF0000>f</color><color=#FF0000>o</color><color=#FF0000>r</color><color=#FF0000>e</color><color=#FF0000>
+        </color><color=#FF0000>g</color><color=#FF0000>r</color><color=#FF0000>a</color><color=#FF0000>d</color><color=#FF0000>u</color><color=#FF0000>a</color><color=#FF0000>t</color><color=#FF0000>i</color><color=#FF0000>o</color><color=#FF0000>n</color><color=#FF0000>
+        </color>"
+      answer_status: 0
+      score: 0
+    - duration: 00:00:00
+      question: " wow, I\u2019m impressed. I\u2019m sorry I have to leave this barracks
+        immediately, it\u2019s really nice to see you."
+      right_answer: Nice to see you too
+      user_answer: <color=#FF0000>-</color><color=#FF0000>i</color><color=#FF0000>c</color><color=#FF0000>e</color><color=#FF0000>
+        </color><color=#FF0000>t</color><color=#FF0000>o</color><color=#FF0000> </color><color=#FF0000>s</color><color=#FF0000>e</color><color=#FF0000>e</color><color=#FF0000>
+        </color><color=#FF0000>y</color><color=#FF0000>o</color><color=#FF0000>u</color><color=#FF0000>
+        </color><color=#FF0000>t</color><color=#FF0000>o</color><color=#FF0000>o</color>
+      answer_status: 0
+      score: 0

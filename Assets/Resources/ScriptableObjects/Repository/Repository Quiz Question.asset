@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 766df575c72f94444b35cacc0a84ff39, type: 3}
+  m_Name: Repository Quiz Question
+  m_EditorClassIdentifier: 
+  Items:
+  - materi_id: 2
+    chapter_id: 4
+    question_id: 10
+    questions: hello, how are you?
+    right_answer_id: 19
+    answers:
+    - id: 19
+      text: "I\u2019m great, how about you?"
+    - id: 20
+      text: Goodbye
+    status: Active
+  - materi_id: 2
+    chapter_id: 4
+    question_id: 11
+    questions: "I\u2019m great too, where do you came from?"
+    right_answer_id: 21
+    answers:
+    - id: 21
+      text: "I\u2019m from Indonesia"
+    - id: 22
+      text: Goodbye
+    status: Active
+  - materi_id: 2
+    chapter_id: 4
+    question_id: 12
+    questions: oh I see, welcome to the boot camp
+    right_answer_id: 23
+    answers:
+    - id: 23
+      text: thank you, this barracks is so clean and comfortable
+    - id: 24
+      text: Goodbye
+    status: Active
+  - materi_id: 2
+    chapter_id: 4
+    question_id: 13
+    questions: do you think so? anyway do you know who are the soldiers in United
+      States Army?
+    right_answer_id: 25
+    answers:
+    - id: 25
+      text: of course, they are volunteers
+    - id: 26
+      text: Goodbye
+    status: Active
+  - materi_id: 2
+    chapter_id: 4
+    question_id: 14
+    questions: you are correct, do you know which units the army trains recruits?
+    right_answer_id: 27
+    answers:
+    - id: 27
+      text: the army trains recruit at basic training unit
+    - id: 28
+      text: Goodbye
+    status: Active
+  - materi_id: 2
+    chapter_id: 4
+    question_id: 15
+    questions: great, the main basic unit is Fort Jackson in South Carolina. do you
+      know how long does the basic training take?
+    right_answer_id: 29
+    answers:
+    - id: 29
+      text: basic training takes nine weeks until graduation
+    - id: 30
+      text: Goodbye
+    status: Active
+  - materi_id: 2
+    chapter_id: 4
+    question_id: 16
+    questions: you are right, for your information, the instructors are non-commissioned
+      officers. Do you know what skills will be taught by instructors in boot camp?
+    right_answer_id: 31
+    answers:
+    - id: 31
+      text: instructors will teach about basic military skills, including drill and
+        weapons training.
+    - id: 32
+      text: Goodbye
+    status: Active
+  - materi_id: 2
+    chapter_id: 4
+    question_id: 17
+    questions: wow, tell me more about basic combat training information that you
+      know!
+    right_answer_id: 33
+    answers:
+    - id: 33
+      text: "recruits in basic training live and sleep in barracks. They wear a military
+        uniform, and the don\u2019t go home during basic training and they don\u2019t
+        see their family before graduation. "
+    - id: 34
+      text: Goodbye
+    status: Active
+  - materi_id: 2
+    chapter_id: 4
+    question_id: 18
+    questions: "wow, I\u2019m impressed. I\u2019m sorry I have to leave this barracks
+      immediately, it\u2019s really nice to see you."
+    right_answer_id: 35
+    answers:
+    - id: 35
+      text: Nice to see you too
+    - id: 36
+      text: Goodbye
+    status: Active

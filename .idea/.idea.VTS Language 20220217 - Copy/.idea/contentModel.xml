@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\FIT-SD\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\FIT-SD\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_VTS Language 20220217 - Copy.1508937432.00" t="ExcludeRecursive" />
-    <e p="D:\Backup FIle\Share Folder\VTS_Language_20220317_-_2020.3.30f1" t="IncludeRecursive">
+    <e p="C:\Users\FIT-3D\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\FIT-3D\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_VTS Language 20220217 - Copy.1606904587.00" t="ExcludeRecursive" />
+    <e p="D:\Backup FIle\Share Folder\VTS Language 20220217 - Copy" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="_www.unityassetcollection.com.txt" t="Include" />
         <e p="File Content" t="Include">
-          <e p="Shaders" t="Include">
+          <e p="SHADER 2 SIDES" t="Include">
             <e p="Standard 2-Sided.shader" t="Include" />
           </e>
         </e>
@@ -636,6 +637,223 @@
             </e>
           </e>
         </e>
+        <e p="Scripts" t="Include">
+          <e p="Boolean" t="Include">
+            <e p="Booleanbehaviour.cs" t="Include" />
+          </e>
+          <e p="Do Move Object" t="Include">
+            <e p="DoMoveBehaviour.cs" t="Include" />
+            <e p="DoMoveObject.cs" t="Include" />
+          </e>
+          <e p="Do Scale Object" t="Include">
+            <e p="DoScaleBehaviour.cs" t="Include" />
+            <e p="DoScaleObject.cs" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="ButtonControllerEditor.cs" t="Include" />
+            <e p="DoMoveEditor.cs" t="Include" />
+            <e p="DoScaleEditor.cs" t="Include" />
+            <e p="FadingEditor.cs" t="Include" />
+            <e p="PrefabButtonEditor.cs" t="Include" />
+            <e p="TimerEditor.cs" t="Include" />
+          </e>
+          <e p="Fading" t="Include">
+            <e p="Fading.cs" t="Include" />
+            <e p="FadingBehaviour.cs" t="Include" />
+          </e>
+          <e p="Fill Ammount Loading" t="Include">
+            <e p="FillAmmountLoading.cs" t="Include" />
+            <e p="LoadingExecution.cs" t="Include" />
+          </e>
+          <e p="GetData" t="Include">
+            <e p="GetDataScenario" t="Include">
+              <e p="DataAnswerScenario.cs" t="Include" />
+              <e p="DataExamQuestionScenario.cs" t="Include" />
+              <e p="DataLog.cs" t="Include" />
+              <e p="DataQuizQuestionScenario.cs" t="Include" />
+              <e p="GetDataScenario.cs" t="Include" />
+              <e p="PrefabAnswerController.cs" t="Include" />
+              <e p="PrefabLogController.cs" t="Include" />
+              <e p="ScenarioQuizController.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Grabable Object" t="Include">
+            <e p="AddObjects.cs" t="Include" />
+            <e p="AddObjectsBehaviour.cs" t="Include" />
+            <e p="IAddRemoveObject.cs" t="Include" />
+            <e p="InitializeGrab.cs" t="Include" />
+            <e p="InitialPosRotBehaviour.cs" t="Include" />
+          </e>
+          <e p="Grasp Event Handler" t="Include">
+            <e p="GraspEventHandler.cs" t="Include" />
+          </e>
+          <e p="IPointer Button Handler" t="Include">
+            <e p="PointerHandlerBehaviour.cs" t="Include" />
+          </e>
+          <e p="Laser Controller" t="Include">
+            <e p="SteamVRLaserController.cs" t="Include" />
+          </e>
+          <e p="Leap Motion Event" t="Include">
+            <e p="LeapMotionEvent.cs" t="Include" />
+            <e p="LeapMotionEventBehaviour.cs" t="Include" />
+          </e>
+          <e p="Log Controller" t="Include">
+            <e p="LogController.cs" t="Include" />
+            <e p="LogControllerBehaviour.cs" t="Include" />
+            <e p="SentenceChecker.cs" t="Include" />
+          </e>
+          <e p="Move Control" t="Include">
+            <e p="MoveControlBehaviour.cs" t="Include" />
+            <e p="MovePlayer.cs" t="Include" />
+          </e>
+          <e p="Network API" t="Include">
+            <e p="NetworkApiManager.cs" t="Include" />
+          </e>
+          <e p="NPC Interaction" t="Include">
+            <e p="InitializeNpcInteraction.cs" t="Include" />
+            <e p="NpcInteraction.cs" t="Include" />
+            <e p="NpcInteractionManager.cs" t="Include" />
+          </e>
+          <e p="Outline Object" t="Include">
+            <e p="iOutline.cs" t="Include" />
+            <e p="OutlineSetting.cs" t="Include" />
+            <e p="OutlineSettingBehaviour.cs" t="Include" />
+          </e>
+          <e p="Pinch Object" t="Include">
+            <e p="HandleDirectionController.cs" t="Include" />
+            <e p="PinchObject.cs" t="Include" />
+            <e p="PinchObjectBehaviour.cs" t="Include" />
+            <e p="RegisterHand.cs" t="Include" />
+            <e p="RotateDirection.cs" t="Include" />
+          </e>
+          <e p="Raycast" t="Include">
+            <e p="ExampleClass.cs" t="Include" />
+            <e p="GraspBehaviour.cs" t="Include" />
+            <e p="GraspWithEvent.cs" t="Include" />
+            <e p="Ray2D.cs" t="Include" />
+            <e p="RayController.cs" t="Include" />
+          </e>
+          <e p="Recenter HTC 5" t="Include">
+            <e p="RecenterHTC5.cs" t="Include" />
+          </e>
+          <e p="Reset Object" t="Include">
+            <e p="iResetable.cs" t="Include" />
+            <e p="iResetableManager.cs" t="Include" />
+            <e p="ResetableObject.cs" t="Include" />
+            <e p="ResetObjectBehaviour.cs" t="Include" />
+          </e>
+          <e p="Scenario" t="Include">
+            <e p="CommandSequence.cs" t="Include" />
+            <e p="CommandSequenceManager.cs" t="Include" />
+            <e p="CustomTimer.cs" t="Include" />
+            <e p="Language Sequence" t="Include">
+              <e p="AndCommandSequence.cs" t="Include" />
+              <e p="AnimInteraction.cs" t="Include" />
+              <e p="CommandSequences.cs" t="Include" />
+              <e p="ScenarioEvent.cs" t="Include" />
+              <e p="ScenarioEventBehaviour.cs" t="Include" />
+              <e p="SequentialAnimation.cs" t="Include" />
+            </e>
+            <e p="SpeechStep.cs" t="Include" />
+          </e>
+          <e p="Scene Management" t="Include">
+            <e p="ResetScene.cs" t="Include" />
+            <e p="SceneLoader.cs" t="Include" />
+            <e p="SceneLoaderManager.cs" t="Include" />
+            <e p="SceneManagement.cs" t="Include" />
+          </e>
+          <e p="Scriptable" t="Include">
+            <e p="Object" t="Include">
+              <e p="Scriptable Canvas Group" t="Include">
+                <e p="ScriptableCanvasGroup.cs" t="Include" />
+              </e>
+              <e p="Scriptable Game Object" t="Include">
+                <e p="ScriptableGameObjectDataController.cs" t="Include" />
+              </e>
+              <e p="Scriptable Transform" t="Include">
+                <e p="ScriptableListTransform.cs" t="Include" />
+                <e p="ScriptableTransform.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Repository" t="Include">
+              <e p="LogRepository.cs" t="Include" />
+              <e p="RepositoryContentArea.cs" t="Include" />
+              <e p="RepositoryExamQuestion.cs" t="Include" />
+              <e p="RepositoryLocation.cs" t="Include" />
+              <e p="RepositoryQuizQuestion.cs" t="Include" />
+            </e>
+            <e p="Variable" t="Include">
+              <e p="Int" t="Include">
+                <e p="IntegerVariable.cs" t="Include" />
+              </e>
+              <e p="String" t="Include">
+                <e p="DataVariable.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="SpeechToText" t="Include">
+            <e p="SpeechMicController.cs" t="Include" />
+          </e>
+          <e p="Steam VR Event" t="Include">
+            <e p="Events" t="Include">
+              <e p="FalahSteamVREvent.cs" t="Include" />
+              <e p="FalahSteamVREventBehaviour.cs" t="Include" />
+            </e>
+            <e p="Grabbing" t="Include">
+              <e p="DistanceGrabbingBehaviour.cs" t="Include" />
+              <e p="IDistanceGrabbing.cs" t="Include" />
+              <e p="IDistanceGrabbingBehaviour.cs" t="Include" />
+            </e>
+          </e>
+          <e p="stringsim.cs" t="Include" />
+          <e p="StringSimiliarity" t="Include">
+            <e p="AnswerCheckerBehaviour.cs" t="Include" />
+            <e p="ChangeLanguage.cs" t="Include" />
+            <e p="StringSimiliarity.cs" t="Include" />
+          </e>
+          <e p="Teleport" t="Include">
+            <e p="InitializeTeleport.cs" t="Include" />
+            <e p="Teleport.cs" t="Include" />
+            <e p="TeleportBehaviour.cs" t="Include" />
+            <e p="TeleportController.cs" t="Include" />
+          </e>
+          <e p="Time Countdown" t="Include">
+            <e p="TimerBehaviour.cs" t="Include" />
+          </e>
+          <e p="Typer Text" t="Include">
+            <e p="TextSubmitBehaviour.cs" t="Include" />
+            <e p="TyperTextBehaviour.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="Button Controlller" t="Include">
+              <e p="ButtonController.cs" t="Include" />
+            </e>
+            <e p="Group Menu Data Controller" t="Include">
+              <e p="ContentAreaController.cs" t="Include" />
+              <e p="DataContentArea.cs" t="Include" />
+              <e p="DataController.cs" t="Include" />
+              <e p="DataControllerBehaviour.cs" t="Include" />
+              <e p="DataLocation.cs" t="Include" />
+              <e p="IGetData.cs" t="Include" />
+              <e p="JsonHelper.cs" t="Include" />
+              <e p="LocationController.cs" t="Include" />
+              <e p="PrefabButtonDataController.cs" t="Include" />
+              <e p="RuntimeSet.cs" t="Include" />
+            </e>
+            <e p="Menu Navigation Controller" t="Include">
+              <e p="InteractionCanvasGroupCommand.cs" t="Include" />
+              <e p="MenuController.cs" t="Include" />
+              <e p="MenuControllerBehaviour.cs" t="Include" />
+              <e p="ScriptController.cs" t="Include" />
+              <e p="ToggleButton.cs" t="Include" />
+            </e>
+          </e>
+          <e p="XR Changer" t="Include">
+            <e p="ToggleBehaviour.cs" t="Include" />
+            <e p="ToggleController.cs" t="Include" />
+            <e p="ToggleKey.cs" t="Include" />
+          </e>
+        </e>
         <e p="SkySerie Freebie" t="Include">
           <e p="Hdri setup.txt" t="Include" />
         </e>
@@ -930,12 +1148,6 @@
             </e>
           </e>
           <e p="link.xml" t="Include" />
-          <e p="OpenVRUnityXRPackage" t="Include">
-            <e p="Editor" t="Include">
-              <e p="OpenVRPackageInstaller.cs" t="Include" />
-              <e p="OpenVRSimpleJSON.cs" t="Include" />
-            </e>
-          </e>
           <e p="Plugins" t="Include">
             <e p="openvr_api.cs" t="Include" />
           </e>

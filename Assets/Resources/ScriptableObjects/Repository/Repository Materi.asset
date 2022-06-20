@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb75bb034b6cb04db0365349af8cbb3, type: 3}
+  m_Name: Repository Materi
+  m_EditorClassIdentifier: 
+  Items:
+  - id: 1
+    title: Indonesia
+    type: Bahasa
+  - id: 2
+    title: English
+    type: Bahasa
+  - id: 3
+    title: Arab
+    type: Bahasa
+  - id: 4
+    title: Germany
+    type: Bahasa
+  - id: 5
+    title: Russia
+    type: Bahasa
+  - id: 6
+    title: Mandarin
+    type: Bahasa
+  - id: 7
+    title: Japan
+    type: Bahasa
+  - id: 8
+    title: France
+    type: Bahasa
+  - id: 9
+    title: Korean
+    type: Bahasa

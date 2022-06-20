@@ -8,9 +8,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/stringsim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/NetworkApiManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -176,13 +173,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/ContentAreaController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteraction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/PlaceHolder/PlaceHolderController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/DoMoveEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ButtonControllerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Button Controlller/ButtonController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteraction.cs" />
       </list>
     </option>
   </component>
@@ -192,7 +189,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -223,7 +220,7 @@
     </configuration>
   </component>
   <component name="SvnConfiguration">
-    <configuration>C:\Users\FIT-SD\AppData\Roaming\Subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -279,8 +276,7 @@
       <workItem from="1655349468746" duration="3502000" />
       <workItem from="1655354571183" duration="8919000" />
       <workItem from="1655452022292" duration="1422000" />
-      <workItem from="1655696945536" duration="3065000" />
-      <workItem from="1655700056061" duration="706000" />
+      <workItem from="1655696945536" duration="368000" />
     </task>
     <servers />
   </component>
