@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99c69635-610c-4701-9b96-cb889ac100b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/English/Barracks/Indonesian Airforce Staff 1/Barracks.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/English/Barracks/Indonesian Airforce Staff 1/Barracks.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" afterDir="false" />
@@ -23,6 +24,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/AnimInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendScoreBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/ScenarioAnimatorController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -35,6 +38,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/ScenarioAnimatorController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -84,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655713379848</updated>
-      <workItem from="1655713382646" duration="6369000" />
+      <workItem from="1655713382646" duration="7370000" />
     </task>
     <servers />
   </component>
