@@ -2,7 +2,27 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Aa]ssets/
+/[Aa]ssets/_TerrainAutoUpgrade
+/[Aa]ssets/AddressableAssetsData
+/[Aa]ssets/AssetStoreTools
+/[Aa]ssets/File Content
+/[Aa]ssets/LMRealisticMaleHands
+/[Aa]ssets/Materials
+/[Aa]ssets/OutlineEffect
+/[Aa]ssets/Plugins
+/[Aa]ssets/Prefabs
+/[Aa]ssets/Samples
+/[Aa]ssets/SkySerie Freebie
+/[Aa]ssets/SpeechRecognitionSystem
+/[Aa]ssets/Standard Assets
+/[Aa]ssets/SteamVR
+/[Aa]ssets/SteamVR_Input
+/[Aa]ssets/SteamVR_Resources
+/[Aa]ssets/StreamingAssets
+/[Aa]ssets/TextMesh Pro
+/[Aa]ssets/UBER
+/[Aa]ssets/UI
+/[Aa]ssets/XR
 /[Aa]ssetBundles/
 /[Ll]ibrary/
 /[Tt]emp/
@@ -14,7 +34,7 @@
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
-!/[Aa]ssets/Scripts/
+!/[Aa]ssets/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
