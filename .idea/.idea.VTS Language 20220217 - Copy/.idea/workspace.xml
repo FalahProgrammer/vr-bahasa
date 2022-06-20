@@ -25,6 +25,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -65,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647487223534</updated>
       <workItem from="1647487226178" duration="1230000" />
-      <workItem from="1655708339471" duration="643000" />
+      <workItem from="1655708339471" duration="901000" />
     </task>
     <task id="LOCAL-00001" summary="perubahan ignore">
       <created>1655708863043</created>
@@ -81,7 +82,28 @@
       <option name="project" value="LOCAL" />
       <updated>1655708978248</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="xml">
+      <created>1655709006453</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655709006453</updated>
+    </task>
+    <task id="LOCAL-00004" summary="perubahan gitignore 2">
+      <created>1655709116888</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655709116888</updated>
+    </task>
+    <task id="LOCAL-00005" summary="perubahan gitignore 2">
+      <created>1655709166809</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655709166809</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +126,8 @@
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="perubahan ignore" />
     <MESSAGE value="xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="xml" />
+    <MESSAGE value="perubahan gitignore 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="perubahan gitignore 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
