@@ -10,7 +10,7 @@ using UnityEngine.Events;
 public class SequentialAnimation : MonoBehaviour
 {
     public int _currentIteration;
-    [SerializeField] private int _id;
+    public int _id;
     [SerializeField] private IntegerVariable _integerVariable;
     [SerializeField] public List<AnimInteraction> AnimationList = new List<AnimInteraction>();
     public AudioSource AudioSource;

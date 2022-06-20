@@ -19,6 +19,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
     [SerializeField] private FadingBehaviour _panelQuestionFading;
     [SerializeField] private LogControllerBehaviour _logControllerBehaviour;
     [SerializeField] private SendScoreBehaviour _sendScoreBehaviour;
+    [SerializeField] private GenerateScenarioBehaviour _generateScenarioBehaviour;
     [SerializeField] private TextMeshProUGUI _answerText;
     public int questionCounter;
 
@@ -40,6 +41,8 @@ public class ScenarioEventBehaviour : MonoBehaviour
         
         for (int i = 0; i < SequentialAnimation.AnimationList.Count; i++)
         {
+            SequentialAnimation.AnimationList[i].Animators.Add(_generateScenarioBehaviour._scenarioAnimatorController._selectedAnimator);
+            
             if (i == 0)
             {
                 //Debug.Log((SequentialAnimation.AnimationList[i].AudioClip.name));

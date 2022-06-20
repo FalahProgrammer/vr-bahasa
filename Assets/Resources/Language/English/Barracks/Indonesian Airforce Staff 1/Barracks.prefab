@@ -1082,6 +1082,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CD-MD-US-AF01-FIT036-211201 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5e5174667b7d3114aa51baa6e5ba4f6d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6202453140254759060, guid: 5e5174667b7d3114aa51baa6e5ba4f6d, type: 3}
       propertyPath: m_LocalPosition.z
       value: -2.2824
@@ -1171,6 +1175,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5e5174667b7d3114aa51baa6e5ba4f6d, type: 3}
       propertyPath: m_Name
       value: CD-MD-US-AF01-FIT036-211201 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5e5174667b7d3114aa51baa6e5ba4f6d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6202453140254759060, guid: 5e5174667b7d3114aa51baa6e5ba4f6d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1519,6 +1527,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5e5174667b7d3114aa51baa6e5ba4f6d, type: 3}
       propertyPath: m_Name
       value: CD-MD-US-AF01-FIT036-211201
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5e5174667b7d3114aa51baa6e5ba4f6d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6202453140254759060, guid: 5e5174667b7d3114aa51baa6e5ba4f6d, type: 3}
       propertyPath: m_LocalPosition.z

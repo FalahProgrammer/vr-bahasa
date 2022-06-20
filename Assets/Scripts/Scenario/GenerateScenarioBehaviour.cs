@@ -27,7 +27,7 @@ public class GenerateScenarioBehaviour : MonoBehaviour
     
     [SerializeField] private List<GameObject> _listScenario= new List<GameObject>();
 
-    
+    public ScenarioAnimatorController _scenarioAnimatorController;
     private void Awake()
     {
 
@@ -81,17 +81,22 @@ public class GenerateScenarioBehaviour : MonoBehaviour
 
         _commandSequenceManager._commandSequences =
             _scriptableGameObjectDataController.ContentButton.GetComponent<SequentialAnimation>();
+
+        _scenarioAnimatorController =
+            _scriptableGameObjectDataController.ContentButton.GetComponent<ScenarioAnimatorController>(); 
         
         _scenarioEventBehaviour.SequentialAnimation = _scriptableGameObjectDataController.ContentButton.GetComponent<SequentialAnimation>();
         
         _scriptableGameObjectDataController.ContentButton.GetComponent<SequentialAnimation>().AudioSource =
             Camera.main.GetComponent<AudioSource>();
             
-        _scriptableGameObjectDataController.ContentButton.transform.localScale = new Vector3(1, 1, 1);
+        //_scriptableGameObjectDataController.ContentButton.transform.localScale = new Vector3(1, 1, 1);
             
         var localPosition = _scriptableGameObjectDataController.ContentButton.transform.localPosition;
             
-        localPosition = new Vector3(localPosition.x, localPosition.y, 0);
+        //localPosition = new Vector3(localPosition.x, localPosition.y, 0);
+        
+        localPosition = new Vector3(localPosition.x, localPosition.y, localPosition.z);
             
         _scriptableGameObjectDataController.ContentButton.transform.localPosition = localPosition;
             
