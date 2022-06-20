@@ -1,0 +1,33 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "cec367c5-6d6f-4386-82e1-da3a6b555ac2",
+            "actions": [
+                {
+                    "name": "Button Click",
+                    "type": "Value",
+                    "id": "1977d579-3b27-49d8-ae67-481c9b6c676c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "eafd0434-d055-4b44-8136-33d4f383cccf",
+                    "path": "<XRInputV1::HTC::OpenVRHeadsetvivecosmos>/istracked",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Button Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 652219bdacab3904d8dc4db2153c7f26, type: 3}
+  m_Name: Repository Content Area Backup
+  m_EditorClassIdentifier: 
+  Items:
+  - id: 1
+    materi_id: 1
+    chapter_id: 1
+    area_name: Mobile Passport Control Place (Immigration Area)
+    conversation_topic: Guidance to use the machine
+    npc_name: Airport Security 1
+    duration: 10
+    AreaPrefab: {fileID: 5843648213660027234, guid: ab7cec3b746e8f04583d2f8c78bb9352, type: 3}
+  - id: 2
+    materi_id: 1
+    chapter_id: 1
+    area_name: Immigration Area
+    conversation_topic: Direction to immigration interview
+    npc_name: Airport Officer 1
+    duration: 1
+    AreaPrefab: {fileID: 5843648213660027234, guid: ab7cec3b746e8f04583d2f8c78bb9352, type: 3}
+  - id: 20
+    materi_id: 1
+    chapter_id: 20
+    area_name: Barracks
+    conversation_topic: Talk about basic combat training
+    npc_name: Indonesian Airforce Staff 1
+    duration: 600
+    AreaPrefab: {fileID: 5843648213660027234, guid: ab7cec3b746e8f04583d2f8c78bb9352, type: 3}
+  - id: 21
+    materi_id: 1
+    chapter_id: 20
+    area_name: Classroom 1
+    conversation_topic: Tell the rules in this place
+    npc_name: Indonesian Airforce Staff 2
+    duration: 1
+    AreaPrefab: {fileID: 5843648213660027234, guid: ab7cec3b746e8f04583d2f8c78bb9352, type: 3}
+  - id: 1
+    materi_id: 7
+    chapter_id: 22
+    area_name: In Front of Lift
+    conversation_topic: Ask Waiters
+    npc_name: Waiters 1
+    duration: 1
+    AreaPrefab: {fileID: 6196569816171924414, guid: 84a10826dbe05de4fb33ea9c48765b6a, type: 3}
+  - id: 2
+    materi_id: 7
+    chapter_id: 22
+    area_name: Bar Lobby
+    conversation_topic: Order a cappuccino
+    npc_name: Indonesian Airforce Staff 2
+    duration: 1
+    AreaPrefab: {fileID: 6196569816171924414, guid: 84a10826dbe05de4fb33ea9c48765b6a, type: 3}

@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 652219bdacab3904d8dc4db2153c7f26, type: 3}
+  m_Name: Repository Content Area
+  m_EditorClassIdentifier: 
+  Items:
+  - id: 1
+    materi_id: 1
+    chapter_id: 1
+    area_name: Mobile Passport Control Place (Immigration Area)
+    conversation_topic: Guidance to use the machine
+    npc_name: Airport Security 1
+    duration: 120
+    path_area_prefab: Language/Indonesia/Mobile Passport Control Place (Immigration
+      Area)/Airport Security 1
+    AreaPrefab: {fileID: 0}
+  - id: 2
+    materi_id: 1
+    chapter_id: 1
+    area_name: Immigration Area
+    conversation_topic: Direction to immigration interview
+    npc_name: Airport Officer 1
+    duration: 120
+    path_area_prefab: Language/Indonesia/Immigration Area/Airport Officer 1
+    AreaPrefab: {fileID: 0}
+  - id: 3
+    materi_id: 1
+    chapter_id: 2
+    area_name: Barracks
+    conversation_topic: Talk about basic combat training
+    npc_name: Indonesian Airforce Staff 1
+    duration: 120
+    path_area_prefab: Language/Indonesia/Barracks/Indonesian Airforce Staff 1
+    AreaPrefab: {fileID: 0}
+  - id: 4
+    materi_id: 2
+    chapter_id: 3
+    area_name: Mobile Passport Control Place (Immigration Area)
+    conversation_topic: Guidance to use the machine
+    npc_name: Airport Security 1
+    duration: 60
+    path_area_prefab: Language/English/Barracks/Indonesian Airforce Staff 1
+    AreaPrefab: {fileID: 5843648213660027234, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+  - id: 5
+    materi_id: 2
+    chapter_id: 3
+    area_name: Immigration Area
+    conversation_topic: Direction to immigration interview
+    npc_name: Airport Officer 1
+    duration: 60
+    path_area_prefab: Language/English/Barracks/Indonesian Airforce Staff 1
+    AreaPrefab: {fileID: 5843648213660027234, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+  - id: 6
+    materi_id: 2
+    chapter_id: 4
+    area_name: Barracks
+    conversation_topic: Talk about basic combat training
+    npc_name: Indonesian Airforce Staff 1
+    duration: 60
+    path_area_prefab: Language/English/Barracks/Indonesian Airforce Staff 1
+    AreaPrefab: {fileID: 5843648213660027234, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+  - id: 7
+    materi_id: 3
+    chapter_id: 5
+    area_name: Mobile Passport Control Place (Immigration Area)
+    conversation_topic: Guidance to use the machine
+    npc_name: Airport Security 1
+    duration: 120
+    path_area_prefab: Language/Arab/Mobile Passport Control Place (Immigration Area)/Airport
+      Security 1
+    AreaPrefab: {fileID: 0}
+  - id: 8
+    materi_id: 3
+    chapter_id: 5
+    area_name: Immigration Area
+    conversation_topic: Direction to immigration interview
+    npc_name: Airport Officer 1
+    duration: 120
+    path_area_prefab: Language/Arab/Immigration Area/Airport Officer 1
+    AreaPrefab: {fileID: 0}
+  - id: 9
+    materi_id: 3
+    chapter_id: 6
+    area_name: Barracks
+    conversation_topic: Talk about basic combat training
+    npc_name: Indonesian Airforce Staff 1
+    duration: 120
+    path_area_prefab: Language/Arab/Barracks/Indonesian Airforce Staff 1
+    AreaPrefab: {fileID: 0}
+  - id: 10
+    materi_id: 4
+    chapter_id: 7
+    area_name: Mobile Passport Control Place (Immigration Area)
+    conversation_topic: Guidance to use the machine
+    npc_name: Airport Security 1
+    duration: 60
+    path_area_prefab: Language/Germany/Mobile Passport Control Place (Immigration
+      Area)/Airport Security 1
+    AreaPrefab: {fileID: 0}
+  - id: 11
+    materi_id: 4
+    chapter_id: 7
+    area_name: Immigration Area
+    conversation_topic: Direction to immigration interview
+    npc_name: Airport Officer 1
+    duration: 60
+    path_area_prefab: Language/Germany/Immigration Area/Airport Officer 1
+    AreaPrefab: {fileID: 0}
+  - id: 12
+    materi_id: 4
+    chapter_id: 8
+    area_name: Barracks
+    conversation_topic: Talk about basic combat training
+    npc_name: Indonesian Airforce Staff 1
+    duration: 60
+    path_area_prefab: Language/Germany/Barracks/Indonesian Airforce Staff 1
+    AreaPrefab: {fileID: 0}
+  - id: 13
+    materi_id: 5
+    chapter_id: 9
+    area_name: Mobile Passport Control Place (Immigration Area)
+    conversation_topic: Guidance to use the machine
+    npc_name: Airport Security 1
+    duration: 120
+    path_area_prefab: Language/Russia/Mobile Passport Control Place (Immigration
+      Area)/Airport Security 1
+    AreaPrefab: {fileID: 0}
+  - id: 14
+    materi_id: 5
+    chapter_id: 9
+    area_name: Immigration Area
+    conversation_topic: Direction to immigration interview
+    npc_name: Airport Officer 1
+    duration: 120
+    path_area_prefab: Language/Russia/Immigration Area/Airport Officer 1
+    AreaPrefab: {fileID: 0}
+  - id: 15
+    materi_id: 5
+    chapter_id: 10
+    area_name: Barracks
+    conversation_topic: Talk about basic combat training
+    npc_name: Indonesian Airforce Staff 1
+    duration: 120
+    path_area_prefab: Language/Russia/Barracks/Indonesian Airforce Staff 1
+    AreaPrefab: {fileID: 0}
+  - id: 16
+    materi_id: 6
+    chapter_id: 11
+    area_name: Mobile Passport Control Place (Immigration Area)
+    conversation_topic: Guidance to use the machine
+    npc_name: Airport Security 1
+    duration: 60
+    path_area_prefab: Language/Mandarin/Mobile Passport Control Place (Immigration
+      Area)/Airport Security 1
+    AreaPrefab: {fileID: 0}
+  - id: 17
+    materi_id: 6
+    chapter_id: 11
+    area_name: Immigration Area
+    conversation_topic: Direction to immigration interview
+    npc_name: Airport Officer 1
+    duration: 60
+    path_area_prefab: Language/Mandarin/Immigration Area/Airport Officer 1
+    AreaPrefab: {fileID: 0}
+  - id: 18
+    materi_id: 6
+    chapter_id: 12
+    area_name: Barracks
+    conversation_topic: Talk about basic combat training
+    npc_name: Indonesian Airforce Staff 1
+    duration: 60
+    path_area_prefab: Language/Mandarin/Barracks/Indonesian Airforce Staff 1
+    AreaPrefab: {fileID: 0}
+  - id: 19
+    materi_id: 7
+    chapter_id: 13
+    area_name: Mobile Passport Control Place (Immigration Area)
+    conversation_topic: Guidance to use the machine
+    npc_name: Airport Security 1
+    duration: 120
+    path_area_prefab: Language/Japan/Mobile Passport Control Place (Immigration Area)/Airport
+      Security 1
+    AreaPrefab: {fileID: 0}
+  - id: 20
+    materi_id: 7
+    chapter_id: 13
+    area_name: Immigration Area
+    conversation_topic: Direction to immigration interview
+    npc_name: Airport Officer 1
+    duration: 120
+    path_area_prefab: Language/Japan/Immigration Area/Airport Officer 1
+    AreaPrefab: {fileID: 0}
+  - id: 21
+    materi_id: 7
+    chapter_id: 14
+    area_name: Barracks
+    conversation_topic: Talk about basic combat training
+    npc_name: Indonesian Airforce Staff 1
+    duration: 120
+    path_area_prefab: Language/Japan/Barracks/Indonesian Airforce Staff 1
+    AreaPrefab: {fileID: 0}
+  - id: 22
+    materi_id: 8
+    chapter_id: 15
+    area_name: Mobile Passport Control Place (Immigration Area)
+    conversation_topic: Guidance to use the machine
+    npc_name: Airport Security 1
+    duration: 60
+    path_area_prefab: Language/France/Mobile Passport Control Place (Immigration
+      Area)/Airport Security 1
+    AreaPrefab: {fileID: 0}
+  - id: 23
+    materi_id: 8
+    chapter_id: 15
+    area_name: Immigration Area
+    conversation_topic: Direction to immigration interview
+    npc_name: Airport Officer 1
+    duration: 60
+    path_area_prefab: Language/France/Immigration Area/Airport Officer 1
+    AreaPrefab: {fileID: 0}
+  - id: 24
+    materi_id: 8
+    chapter_id: 16
+    area_name: Barracks
+    conversation_topic: Talk about basic combat training
+    npc_name: Indonesian Airforce Staff 1
+    duration: 60
+    path_area_prefab: Language/France/Barracks/Indonesian Airforce Staff 1
+    AreaPrefab: {fileID: 0}
+  - id: 25
+    materi_id: 9
+    chapter_id: 17
+    area_name: Mobile Passport Control Place (Immigration Area)
+    conversation_topic: Guidance to use the machine
+    npc_name: Airport Security 1
+    duration: 120
+    path_area_prefab: Language/Korean/Mobile Passport Control Place (Immigration
+      Area)/Airport Security 1
+    AreaPrefab: {fileID: 0}
+  - id: 26
+    materi_id: 9
+    chapter_id: 17
+    area_name: Immigration Area
+    conversation_topic: Direction to immigration interview
+    npc_name: Airport Officer 1
+    duration: 120
+    path_area_prefab: Language/Korean/Immigration Area/Airport Officer 1
+    AreaPrefab: {fileID: 0}
+  - id: 27
+    materi_id: 9
+    chapter_id: 18
+    area_name: Barracks
+    conversation_topic: Talk about basic combat training
+    npc_name: Indonesian Airforce Staff 1
+    duration: 120
+    path_area_prefab: Language/Korean/Barracks/Indonesian Airforce Staff 1
+    AreaPrefab: {fileID: 0}
