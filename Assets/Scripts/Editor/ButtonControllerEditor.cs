@@ -25,7 +25,7 @@ namespace Editor
 
             buttonController.Logo = (Texture2D) Resources.Load("logo", typeof(Texture2D));
 
-            //GUI.DrawTexture(new Rect(20, 30, 560, 100), buttonController.Logo, ScaleMode.StretchToFill, true, 10.0F);
+            GUI.DrawTexture(new Rect(20, 30, 560, 100), buttonController.Logo, ScaleMode.StretchToFill, true, 10.0F);
 
             EditorGUILayout.Space(115);
 

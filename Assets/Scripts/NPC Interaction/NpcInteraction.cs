@@ -17,17 +17,25 @@ public class NpcInteraction : MonoBehaviour
 
     public SequentialAnimation SequentialAnimation;*/
     
-    [SerializeField] private RepositoryContentArea _repositoryContentArea;
+    /*[SerializeField] private RepositoryContentArea _repositoryContentArea;
     
-    [SerializeField] private DataVariable _dataVariable;
+    [SerializeField] private DataVariable _dataVariable;*/
 
     [SerializeField] private GraspBehaviour _graspBehaviour;
+    
+    public Animator Animator;
+    
+    [SerializeField] private NpcInteractionManager _npcInteractionManager;
+
+    [SerializeField] private ScriptController _scriptController;
+    
+    [SerializeField] private GenerateScenarioBehaviour _generateScenarioBehaviour;
 
     public IntegerVariable _integerVariable;
     
-    [SerializeField] private Text[] _scenarioNameText;
+    /*[SerializeField] private Text[] _scenarioNameText;
     
-    [SerializeField] private Text[] _scenarioDescText;
+    [SerializeField] private Text[] _scenarioDescText;*/
 
     [SerializeField] private UnityEvent OnInteract;
 
@@ -46,6 +54,16 @@ public class NpcInteraction : MonoBehaviour
     private void OnEnable()
     {
         //_npcInteractionManager._npcInteractions.Add(this);
+
+        _graspBehaviour = FindObjectOfType<GraspBehaviour>();
+
+        _npcInteractionManager = FindObjectOfType<NpcInteractionManager>();
+        
+        _scriptController = FindObjectOfType<ScriptController>();
+
+        _generateScenarioBehaviour = FindObjectOfType<GenerateScenarioBehaviour>();
+        
+        _npcInteractionManager._npcInteractions.Add(this);
     }
 
     void Update()
@@ -54,7 +72,7 @@ public class NpcInteraction : MonoBehaviour
         {
             OnInteract.Invoke();
             
-            for (int j = 0; j < _repositoryContentArea.Items.Count; j++)
+            /*for (int j = 0; j < _repositoryContentArea.Items.Count; j++)
             {
                 if (_repositoryContentArea.Items[j].chapter_id.Equals(_dataVariable.chapter_id) &&
                     _repositoryContentArea.Items[j].materi_id.Equals(_dataVariable.materi_id) && 
@@ -70,13 +88,17 @@ public class NpcInteraction : MonoBehaviour
                         _scenarioDescText[k].text = _repositoryContentArea.Items[j].npc_name;
                     }
                 }
-            }
+            }*/
 
             /*int questid = Int32.Parse(_dataVariable.qustion_id);
 
             int tot = (SequentialAnimation.AnimationList.Count / 2) - 1;
 
             _dataVariable.qustion_id = (questid - tot).ToString();*/
+            
+            _scriptController.Reset();
+            
+            _generateScenarioBehaviour.GetScenario();
         }
     }
 
@@ -93,7 +115,8 @@ public class NpcInteraction : MonoBehaviour
 
                     OnInteract.Invoke();
                     
-                    for (int j = 0; j < _repositoryContentArea.Items.Count; j++)
+                    _scriptController.Reset();
+                    /*for (int j = 0; j < _repositoryContentArea.Items.Count; j++)
                     {
                         if (_repositoryContentArea.Items[j].chapter_id.Equals(_dataVariable.chapter_id) &&
                             _repositoryContentArea.Items[j].materi_id.Equals(_dataVariable.materi_id) && 
@@ -104,7 +127,7 @@ public class NpcInteraction : MonoBehaviour
                                 _scenarioNameText[i].text = _repositoryContentArea.Items[j].conversation_topic;
                             }
                         }
-                    }
+                    }*/
 
                     //npcInteractionManager.IncreamentInteraction++;
                 }

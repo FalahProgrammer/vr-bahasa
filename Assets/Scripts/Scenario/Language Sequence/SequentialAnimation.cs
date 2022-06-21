@@ -26,6 +26,7 @@ public class SequentialAnimation : MonoBehaviour
     public bool IsPlaying;
 
 
+
     public void PlayAnimation()
     {
         if (IsPlaying && !CanBeInterrupted)

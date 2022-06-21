@@ -19,19 +19,21 @@ public class ScenarioEventBehaviour : MonoBehaviour
     [SerializeField] private FadingBehaviour _panelQuestionFading;
     [SerializeField] private LogControllerBehaviour _logControllerBehaviour;
     [SerializeField] private SendScoreBehaviour _sendScoreBehaviour;
-    [SerializeField] private GenerateScenarioBehaviour _generateScenarioBehaviour;
+    [SerializeField] private NpcInteractionManager _npcInteractionManager;
     [SerializeField] private TextMeshProUGUI _answerText;
     public int questionCounter;
 
     private void Start()
     {
+        _npcInteractionManager = FindObjectOfType<NpcInteractionManager>();
+
         //SequentialAnimation = FindObjectOfType<SequentialAnimation>();
 
         /*for (int i = 0; i < SequentialAnimation.AnimationList.Count; i++)
         {
             ScenarioEvents.Add(new ScenarioEvent());
         }*/
-        
+
         //ScenarioSubmiter();
     }
 
@@ -41,7 +43,15 @@ public class ScenarioEventBehaviour : MonoBehaviour
         
         for (int i = 0; i < SequentialAnimation.AnimationList.Count; i++)
         {
-            SequentialAnimation.AnimationList[i].Animators.Add(_generateScenarioBehaviour._scenarioAnimatorController._selectedAnimator);
+            //SequentialAnimation.AnimationList[i].Animators.Add(_npcInteractionManager._npcInteractions[i].);
+            for (int j = 0; j < _npcInteractionManager._npcInteractions.Count; j++)
+            {
+                if (SequentialAnimation._id == _npcInteractionManager._npcInteractions[j]._id)
+                {
+                    SequentialAnimation.AnimationList[i].Animators
+                        .Add(_npcInteractionManager._npcInteractions[j].Animator);
+                }
+            }
             
             if (i == 0)
             {

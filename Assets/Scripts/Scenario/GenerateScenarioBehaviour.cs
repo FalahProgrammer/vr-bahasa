@@ -11,23 +11,33 @@ public class GenerateScenarioBehaviour : MonoBehaviour
 
     [SerializeField] private IntegerVariable _integerVariable;
     
-    [SerializeField] private TimerBehaviour _timerBehaviour;
+    [SerializeField] private RepositoryContentArea _repositoryContentArea;
+    
+    [SerializeField] private DataVariable _dataVariable;
     
     [SerializeField] private ScriptableGameObjectDataController _scriptableGameObjectDataController;
     
     [SerializeField] private Transform _groupButtonContentArea;
     
-    [SerializeField] private Text _duration;
-    
-    [SerializeField] private Text _durationFinal;
+    [SerializeField] private TimerBehaviour _timerBehaviour;
 
     [SerializeField] private CommandSequenceManager _commandSequenceManager;
 
     [SerializeField] private ScenarioEventBehaviour _scenarioEventBehaviour;
+
+    //public ScenarioAnimatorController _scenarioAnimatorController;
+    
+    //[SerializeField] private GraspBehaviour _graspBehaviour;
+    
+    [SerializeField] private Text _duration;
+    
+    [SerializeField] private Text _durationFinal;
     
     [SerializeField] private List<GameObject> _listScenario= new List<GameObject>();
 
-    public ScenarioAnimatorController _scenarioAnimatorController;
+    [SerializeField] private Text[] _scenarioNameText;
+    
+    [SerializeField] private Text[] _scenarioDescText;
     private void Awake()
     {
 
@@ -82,8 +92,8 @@ public class GenerateScenarioBehaviour : MonoBehaviour
         _commandSequenceManager._commandSequences =
             _scriptableGameObjectDataController.ContentButton.GetComponent<SequentialAnimation>();
 
-        _scenarioAnimatorController =
-            _scriptableGameObjectDataController.ContentButton.GetComponent<ScenarioAnimatorController>(); 
+        /*_scenarioAnimatorController =
+            _scriptableGameObjectDataController.ContentButton.GetComponent<ScenarioAnimatorController>(); */
         
         _scenarioEventBehaviour.SequentialAnimation = _scriptableGameObjectDataController.ContentButton.GetComponent<SequentialAnimation>();
         
@@ -102,6 +112,23 @@ public class GenerateScenarioBehaviour : MonoBehaviour
             
         _scriptableGameObjectDataController.ContentButton.transform.localRotation = new Quaternion(0 , 0 , 0 , 0);
         
+        for (int j = 0; j < _repositoryContentArea.Items.Count; j++)
+        {
+            if (_repositoryContentArea.Items[j].chapter_id.Equals(_dataVariable.chapter_id) &&
+                _repositoryContentArea.Items[j].materi_id.Equals(_dataVariable.materi_id) && 
+                _repositoryContentArea.Items[j].id.Equals(_dataVariable.exam_id.ToString()))
+            {
+                for (int i = 0; i < _scenarioNameText.Length; i++)
+                {
+                    _scenarioNameText[i].text = _repositoryContentArea.Items[j].conversation_topic;
+                }
+                    
+                for (int k = 0; k < _scenarioDescText.Length; k++)
+                {
+                    _scenarioDescText[k].text = _repositoryContentArea.Items[j].npc_name;
+                }
+            }
+        }
         onFinishedLoadAsset?.Invoke(_scriptableGameObjectDataController.ContentButton);
     }
     

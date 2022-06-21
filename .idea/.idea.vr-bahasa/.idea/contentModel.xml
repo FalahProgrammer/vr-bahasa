@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Personal\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -778,7 +778,6 @@
               <e p="SequentialAnimation.cs" t="Include" />
             </e>
             <e p="LoadPrefabContentBehaviour.cs" t="Include" />
-            <e p="ScenarioAnimatorController.cs" t="Include" />
             <e p="SpeechStep.cs" t="Include" />
           </e>
           <e p="Scene Management" t="Include">

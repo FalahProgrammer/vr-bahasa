@@ -1,13 +1,21 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99c69635-610c-4701-9b96-cb889ac100b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/English/Barracks/Indonesian Airforce Staff 1/Barracks.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/English/Barracks/Indonesian Airforce Staff 1/Barracks.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/ButtonControllerEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/ButtonControllerEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteraction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/ScenarioAnimatorController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/ScenarioAnimatorController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Button Controlller/ButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Button Controlller/ButtonController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,25 +28,36 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/AnimInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendScoreBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast/GraspBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/ScenarioAnimatorController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scoring/AnswerCheckerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Button Controlller/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Menu Navigation Controller/ScriptController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteractionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteraction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/ButtonControllerEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/CommandSequenceManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/ScenarioAnimatorController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/ScenarioAnimatorController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteraction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ButtonControllerEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Button Controlller/ButtonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -70,10 +89,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="2492">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="2492" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -88,8 +107,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655713379848</updated>
-      <workItem from="1655713382646" duration="7370000" />
+      <workItem from="1655713382646" duration="7674000" />
+      <workItem from="1655781195317" duration="12895000" />
     </task>
+    <task id="LOCAL-00001" summary="perubahan pada konsep pembacaan animator, tatapi masih butuh review faizrizky 20/06/2022 17:23">
+      <created>1655721023629</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655721023629</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +130,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -110,6 +140,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="perubahan pada konsep pembacaan animator, tatapi masih butuh review faizrizky 20/06/2022 17:23" />
+    <option name="LAST_COMMIT_MESSAGE" value="perubahan pada konsep pembacaan animator, tatapi masih butuh review faizrizky 20/06/2022 17:23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

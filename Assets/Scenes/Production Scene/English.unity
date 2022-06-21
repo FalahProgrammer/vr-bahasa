@@ -3550,7 +3550,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &100150112
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4314,7 +4314,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &128261759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6131,7 +6130,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &201025582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9914,6 +9912,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3117197110006019285}
     m_Modifications:
+    - target: {fileID: 3476680687838222704, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476680687838222704, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[3]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476680687838222704, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[8]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8422030411297375900, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
       propertyPath: m_Name
       value: CD-MD-US-AF01-FIT036-211201 (1)
@@ -10074,6 +10084,7 @@ Transform:
   m_Children:
   - {fileID: 1495330255}
   - {fileID: 3117197110006019285}
+  - {fileID: 1747820564}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10354,7 +10365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5025872821345043781, guid: 8e4c7c88ff3594446a30fea2e7ea0843, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 82.5
       objectReference: {fileID: 0}
     - target: {fileID: 5025872821505236676, guid: 8e4c7c88ff3594446a30fea2e7ea0843, type: 3}
       propertyPath: m_AnchorMax.y
@@ -12498,7 +12509,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
+        m_CallState: 0
 --- !u!1 &437130786
 GameObject:
   m_ObjectHideFlags: 0
@@ -13309,7 +13320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5025872821345043781, guid: 8e4c7c88ff3594446a30fea2e7ea0843, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 82.5
       objectReference: {fileID: 0}
     - target: {fileID: 5025872821505236676, guid: 8e4c7c88ff3594446a30fea2e7ea0843, type: 3}
       propertyPath: m_AnchorMax.y
@@ -13412,17 +13423,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _integerVariable: {fileID: 11400000, guid: 05e3189e17a53fa44b625301249eeb94, type: 2}
-  _timerBehaviour: {fileID: 1331350786}
+  _repositoryContentArea: {fileID: 11400000, guid: a089e9a1dd29ef24996b4dcf855e6d17, type: 2}
+  _dataVariable: {fileID: 11400000, guid: 9a271b6f96e2b7e418b05ec8e3c2eb1b, type: 2}
   _scriptableGameObjectDataController: {fileID: 11400000, guid: 32e97577a9b737941a258f99d739b0a0, type: 2}
   _groupButtonContentArea: {fileID: 435632283}
-  _duration: {fileID: 978940336}
-  _durationFinal: {fileID: 1510958259}
+  _timerBehaviour: {fileID: 1331350786}
   _commandSequenceManager: {fileID: 1926092538}
   _scenarioEventBehaviour: {fileID: 1115527134}
+  _duration: {fileID: 978940336}
+  _durationFinal: {fileID: 1510958259}
   _listScenario:
-  - {fileID: 8234571543875088540, guid: b999cfac6eacaef4fa0ef43e40a8986a, type: 3}
+  - {fileID: 8234571543875088540, guid: c225f39897063c048a4c07ee5f407564, type: 3}
   - {fileID: 8234571543875088540, guid: 647fab63158187c4cb017b6ced1ef973, type: 3}
   - {fileID: 8234571543875088540, guid: 32bad4342e0799348ae0caca50e9886a, type: 3}
+  _scenarioNameText:
+  - {fileID: 587012467}
+  - {fileID: 447677023}
+  - {fileID: 292420294}
+  _scenarioDescText:
+  - {fileID: 1927203931}
+  - {fileID: 1395787426}
 --- !u!4 &443258433
 Transform:
   m_ObjectHideFlags: 0
@@ -15559,6 +15579,91 @@ MonoBehaviour:
   BoolDelayTime: 0
   SelectType: 1
   Logo: {fileID: 2800000, guid: d01ed61e1ee2efe4c9ca846183b26938, type: 3}
+--- !u!1001 &523038043
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 316624368}
+    m_Modifications:
+    - target: {fileID: 1153529228521462194, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153529228521462194, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153529228521462194, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153529228521462194, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153529228521462194, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153529228521462194, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153529228521462194, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153529228521462194, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153529228521462194, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153529228521462194, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153529228521462194, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919074456756683813, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: _graspBehaviour
+      value: 
+      objectReference: {fileID: 254648273}
+    - target: {fileID: 2919074456756683813, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: OnInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1806312666}
+    - target: {fileID: 2919074456756683813, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: OnInteract.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 443258432}
+    - target: {fileID: 4336556010183859721, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: _graspBehaviour
+      value: 
+      objectReference: {fileID: 254648273}
+    - target: {fileID: 4336556010183859721, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: OnInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1806312666}
+    - target: {fileID: 4336556010183859721, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: OnInteract.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 443258432}
+    - target: {fileID: 5843648213660027234, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: m_Name
+      value: Barracks (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843648213660027234, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
 --- !u!1 &526765503
 GameObject:
   m_ObjectHideFlags: 0
@@ -22846,6 +22951,7 @@ MonoBehaviour:
   _finalScoreText: {fileID: 1272405593}
   _correctText: {fileID: 1235952055}
   _inCorrectText: {fileID: 1033693984}
+  _logScrollbar: {fileID: 2017000540}
   _timerBehaviour: {fileID: 1331350786}
   _contentAreaController: {fileID: 436882055}
   _logRepository: {fileID: 11400000, guid: a9d1165d1b45da243ab99c6bf74f4ede, type: 2}
@@ -23677,7 +23783,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &614608535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26216,6 +26321,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1385540310}
         m_TargetAssemblyTypeName: 
         m_MethodName: SetToggle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 443258432}
+        m_TargetAssemblyTypeName: GenerateScenarioBehaviour, Assembly-CSharp
+        m_MethodName: GetScenario
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -30426,7 +30543,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 2
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &821316306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31070,7 +31186,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &831547061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31362,7 +31477,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &832773763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34233,7 +34347,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &929669077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36065,7 +36178,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &993565840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38094,7 +38206,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &1040228394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38209,8 +38320,7 @@ MonoBehaviour:
   _integerVariable: {fileID: 11400000, guid: 05e3189e17a53fa44b625301249eeb94, type: 2}
   AnimationList:
   - QuestionID: 0
-    Animators:
-    - {fileID: 1867515366}
+    Animators: []
     AnimationState:
     - SC2_1
     AudioClip: {fileID: 8300000, guid: 203f7a98ac1edbe4fa133cec836193dc, type: 3}
@@ -38237,8 +38347,7 @@ MonoBehaviour:
             m_BoolArgument: 1
           m_CallState: 0
   - QuestionID: 0
-    Animators:
-    - {fileID: 1867515366}
+    Animators: []
     AnimationState:
     - SC2_idle
     AudioClip: {fileID: 8300000, guid: fca00bafdb073b244ad8b9d72009b81f, type: 3}
@@ -38253,8 +38362,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - QuestionID: 0
-    Animators:
-    - {fileID: 1867515366}
+    Animators: []
     AnimationState:
     - SC2_2
     AudioClip: {fileID: 8300000, guid: 4df9878a9097dc94b97ed83306d38c42, type: 3}
@@ -38305,8 +38413,7 @@ MonoBehaviour:
             m_BoolArgument: 1
           m_CallState: 0
   - QuestionID: 0
-    Animators:
-    - {fileID: 1867515366}
+    Animators: []
     AnimationState:
     - SC2_idle
     AudioClip: {fileID: 8300000, guid: 8e0412edc49c1fa4195eacfd8d4c8e03, type: 3}
@@ -40316,17 +40423,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 2
-  _repositoryContentArea: {fileID: 11400000, guid: a089e9a1dd29ef24996b4dcf855e6d17, type: 2}
-  _dataVariable: {fileID: 11400000, guid: 9a271b6f96e2b7e418b05ec8e3c2eb1b, type: 2}
   _graspBehaviour: {fileID: 254648273}
+  Animator: {fileID: 0}
+  _npcInteractionManager: {fileID: 0}
+  _scriptController: {fileID: 0}
+  _generateScenarioBehaviour: {fileID: 0}
   _integerVariable: {fileID: 11400000, guid: 05e3189e17a53fa44b625301249eeb94, type: 2}
-  _scenarioNameText:
-  - {fileID: 587012467}
-  - {fileID: 447677023}
-  - {fileID: 292420294}
-  _scenarioDescText:
-  - {fileID: 1927203931}
-  - {fileID: 1395787426}
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -40811,7 +40913,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &1102772115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41076,6 +41177,7 @@ MonoBehaviour:
   _panelQuestionFading: {fileID: 2029595595}
   _logControllerBehaviour: {fileID: 583033371}
   _sendScoreBehaviour: {fileID: 121178218}
+  _npcInteractionManager: {fileID: 1244734211}
   _answerText: {fileID: 19099056}
   questionCounter: 0
 --- !u!1 &1117414856
@@ -42066,7 +42168,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &1145888702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44435,7 +44536,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &1190514633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45796,10 +45896,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _integerVariable: {fileID: 11400000, guid: 05e3189e17a53fa44b625301249eeb94, type: 2}
   _graspBehaviour: {fileID: 254648273}
-  _npcInteractions:
-  - {fileID: 6196569816412295904}
-  - {fileID: 1096057050}
-  - {fileID: 1466372834}
+  _npcInteractions: []
 --- !u!1 &1249152549
 GameObject:
   m_ObjectHideFlags: 0
@@ -50763,7 +50860,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &1382721259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50981,7 +51077,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &1385177112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51497,7 +51592,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &1385540313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51952,17 +52046,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7197849229674226262, guid: 1249294f6d5e9884db8f4c5f16e89bb2, type: 3}
   m_PrefabInstance: {fileID: 1158628656}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1398960256 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7664927232323015639, guid: 1249294f6d5e9884db8f4c5f16e89bb2, type: 3}
-  m_PrefabInstance: {fileID: 1158628656}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3701d35111b0265438f51b585217885e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1402228037
 GameObject:
   m_ObjectHideFlags: 0
@@ -55837,17 +55920,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 3
-  _repositoryContentArea: {fileID: 11400000, guid: a089e9a1dd29ef24996b4dcf855e6d17, type: 2}
-  _dataVariable: {fileID: 11400000, guid: 9a271b6f96e2b7e418b05ec8e3c2eb1b, type: 2}
   _graspBehaviour: {fileID: 254648273}
+  Animator: {fileID: 0}
+  _npcInteractionManager: {fileID: 0}
+  _scriptController: {fileID: 0}
+  _generateScenarioBehaviour: {fileID: 0}
   _integerVariable: {fileID: 11400000, guid: 05e3189e17a53fa44b625301249eeb94, type: 2}
-  _scenarioNameText:
-  - {fileID: 587012467}
-  - {fileID: 447677023}
-  - {fileID: 292420294}
-  _scenarioDescText:
-  - {fileID: 1927203931}
-  - {fileID: 1395787426}
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -56387,7 +56465,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &1475679886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56706,7 +56783,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -57674,7 +57751,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &1511406063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58222,7 +58298,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5025872821345043781, guid: 8e4c7c88ff3594446a30fea2e7ea0843, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 82.5
       objectReference: {fileID: 0}
     - target: {fileID: 5025872821505236676, guid: 8e4c7c88ff3594446a30fea2e7ea0843, type: 3}
       propertyPath: m_AnchorMax.y
@@ -67722,7 +67798,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &1694548876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68230,7 +68305,6 @@ MonoBehaviour:
   _placeHolderPivot: 15
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 1398960256}
 --- !u!114 &1706380765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70123,6 +70197,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 2
+--- !u!4 &1747820564 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1153529228521462194, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+  m_PrefabInstance: {fileID: 523038043}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1749987343
 GameObject:
   m_ObjectHideFlags: 0
@@ -72491,7 +72570,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 2
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &1815292861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73092,8 +73170,7 @@ MonoBehaviour:
   _integerVariable: {fileID: 11400000, guid: 05e3189e17a53fa44b625301249eeb94, type: 2}
   AnimationList:
   - QuestionID: 0
-    Animators:
-    - {fileID: 541094390}
+    Animators: []
     AnimationState:
     - SC1_idle
     AudioClip: {fileID: 8300000, guid: 1bf411093ae4b6e46859fe07ef76d5b6, type: 3}
@@ -74559,6 +74636,781 @@ Transform:
   m_Father: {fileID: 764540856}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1896261515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8422030411297375900, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  m_PrefabInstance: {fileID: 3167044613572536590}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1896261517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896261515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 540ab4b9b45c52149b84ee43e23bd83f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Animator: {fileID: 0}
+--- !u!114 &1896261518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896261515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 433a6ff288908bd46a1612c0773ccde6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _currentIteration: 0
+  _id: 1
+  _integerVariable: {fileID: 11400000, guid: 05e3189e17a53fa44b625301249eeb94, type: 2}
+  AnimationList:
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - S+1
+    AudioClip: {fileID: 8300000, guid: 565b5e934e65745478a5e88fd4fdca7a, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 3
+    WaitForInteraction: 1
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: SetButtonOn
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 0
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    WaitForInteraction: 0
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - S+2
+    AudioClip: {fileID: 8300000, guid: 0488e46ab22e3254a832c8674697d774, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 2
+    WaitForInteraction: 1
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: SetButtonOn
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 0
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 2
+    WaitForInteraction: 0
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: ClickMyTargetMenu
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: BeginFadingOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - S+3
+    AudioClip: {fileID: 8300000, guid: c43cc6319bf30b64995c1b27ed4fe59e, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 2
+    WaitForInteraction: 1
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 9a271b6f96e2b7e418b05ec8e3c2eb1b, type: 2}
+          m_TargetAssemblyTypeName: DataVariable, Assembly-CSharp
+          m_MethodName: Question_Id
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 7
+            m_BoolArgument: 0
+          m_CallState: 0
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: ClickMyTargetMenu
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: BeginFadingOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 2
+    WaitForInteraction: 0
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: ClickMyTargetMenu
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: BeginFadingOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - S+4
+    AudioClip: {fileID: 8300000, guid: 8f1b165cde836f3499328f453fbcc19c, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 2
+    WaitForInteraction: 1
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 9a271b6f96e2b7e418b05ec8e3c2eb1b, type: 2}
+          m_TargetAssemblyTypeName: DataVariable, Assembly-CSharp
+          m_MethodName: Question_Id
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 8
+            m_BoolArgument: 0
+          m_CallState: 0
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: ClickMyTargetMenu
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: BeginFadingOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 2
+    WaitForInteraction: 0
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: ClickMyTargetMenu
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: BeginFadingOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - S+5
+    AudioClip: {fileID: 8300000, guid: e1e9b4a21fd6fda47b60f31c32718aef, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 2
+    WaitForInteraction: 1
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 9a271b6f96e2b7e418b05ec8e3c2eb1b, type: 2}
+          m_TargetAssemblyTypeName: DataVariable, Assembly-CSharp
+          m_MethodName: Question_Id
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 9
+            m_BoolArgument: 0
+          m_CallState: 0
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: ClickMyTargetMenu
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: BeginFadingOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 2
+    WaitForInteraction: 0
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: ClickMyTargetMenu
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: BeginFadingOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - S+6
+    AudioClip: {fileID: 8300000, guid: 742025198dac20446a7c3e3d1aca61b5, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 2
+    WaitForInteraction: 1
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 9a271b6f96e2b7e418b05ec8e3c2eb1b, type: 2}
+          m_TargetAssemblyTypeName: DataVariable, Assembly-CSharp
+          m_MethodName: Question_Id
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 10
+            m_BoolArgument: 0
+          m_CallState: 0
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: ClickMyTargetMenu
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: BeginFadingOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 2
+    WaitForInteraction: 0
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: ClickMyTargetMenu
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: BeginFadingOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - S+7
+    AudioClip: {fileID: 8300000, guid: c755011a8599ad4468cf68ae1e096351, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 2
+    WaitForInteraction: 1
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 9a271b6f96e2b7e418b05ec8e3c2eb1b, type: 2}
+          m_TargetAssemblyTypeName: DataVariable, Assembly-CSharp
+          m_MethodName: Question_Id
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 11
+            m_BoolArgument: 0
+          m_CallState: 0
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: ClickMyTargetMenu
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: BeginFadingOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 2
+    WaitForInteraction: 0
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: ClickMyTargetMenu
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: BeginFadingOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - S+8
+    AudioClip: {fileID: 8300000, guid: 8a956da7450872746b053e9c6d3e4c6a, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 2
+    WaitForInteraction: 1
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 9a271b6f96e2b7e418b05ec8e3c2eb1b, type: 2}
+          m_TargetAssemblyTypeName: DataVariable, Assembly-CSharp
+          m_MethodName: Question_Id
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 12
+            m_BoolArgument: 0
+          m_CallState: 0
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: ClickMyTargetMenu
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: BeginFadingOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 2
+    WaitForInteraction: 0
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: ClickMyTargetMenu
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: BeginFadingOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - S+9
+    AudioClip: {fileID: 8300000, guid: 9d0396e1232122f4fb55bc8542ce6bef, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 2
+    WaitForInteraction: 1
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 9a271b6f96e2b7e418b05ec8e3c2eb1b, type: 2}
+          m_TargetAssemblyTypeName: DataVariable, Assembly-CSharp
+          m_MethodName: Question_Id
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 13
+            m_BoolArgument: 0
+          m_CallState: 0
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: ClickMyTargetMenu
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: BeginFadingOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+  - QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 2
+    WaitForInteraction: 0
+    Length: 6
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: ClickMyTargetMenu
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: BeginFadingOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+  AudioSource: {fileID: 294359501}
+  CanBeInterrupted: 0
+  IsPlaying: 0
 --- !u!1 &1898560361
 GameObject:
   m_ObjectHideFlags: 0
@@ -75233,7 +76085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3317abc2bdbfe6419aea60f345917db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _commandSequences: {fileID: 775652877}
+  _commandSequences: {fileID: 0}
   _dataVariable: {fileID: 11400000, guid: 9a271b6f96e2b7e418b05ec8e3c2eb1b, type: 2}
   _answerCheckerBehaviour: {fileID: 91813336}
   _scenarioQuizController: {fileID: 277765785}
@@ -75922,7 +76774,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!114 &1950868306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78435,8 +79286,8 @@ MonoBehaviour:
   m_Viewport: {fileID: 141062392}
   m_HorizontalScrollbar: {fileID: 100150113}
   m_VerticalScrollbar: {fileID: 798079048}
-  m_HorizontalScrollbarVisibility: 1
-  m_VerticalScrollbarVisibility: 1
+  m_HorizontalScrollbarVisibility: 0
+  m_VerticalScrollbarVisibility: 0
   m_HorizontalScrollbarSpacing: -3
   m_VerticalScrollbarSpacing: -3
   m_OnValueChanged:
@@ -83400,7 +84251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1562763944944403641, guid: 1f4b139bc1471364b9e19af0d7059bb6, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 52.5
       objectReference: {fileID: 0}
     - target: {fileID: 1562763944985157432, guid: 1f4b139bc1471364b9e19af0d7059bb6, type: 3}
       propertyPath: m_AnchorMax.y
@@ -83878,7 +84729,6 @@ MonoBehaviour:
   _placeHolderPivot: 15
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!1 &1872271941033453640
 GameObject:
   m_ObjectHideFlags: 0
@@ -91505,7 +92355,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!224 &2961196364635800695
 RectTransform:
   m_ObjectHideFlags: 0
@@ -91713,7 +92562,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!224 &2961196364805826793
 RectTransform:
   m_ObjectHideFlags: 0
@@ -92128,7 +92976,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!224 &2961196365080689997
 RectTransform:
   m_ObjectHideFlags: 0
@@ -92568,7 +93415,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!224 &2961196365518093657
 RectTransform:
   m_ObjectHideFlags: 0
@@ -92788,7 +93634,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!224 &2961196365683904967
 RectTransform:
   m_ObjectHideFlags: 0
@@ -93463,7 +94308,6 @@ MonoBehaviour:
   _placeHolderPivot: 0
   PivotMode: 0
   ImageMode: 1
-  _doMoveBehaviour: {fileID: 0}
 --- !u!224 &2961196366332474011
 RectTransform:
   m_ObjectHideFlags: 0
@@ -94157,11 +95001,11 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
-  - {fileID: 6077989153743877416}
   - {fileID: 6077989154645406614}
   - {fileID: 6040421749429983109}
   - {fileID: 6381551082516004986}
   - {fileID: 4269600434347377676}
+  - {fileID: 6077989153743877416}
   - {fileID: 841211938}
   m_Father: {fileID: 316624368}
   m_RootOrder: 1
@@ -94218,9 +95062,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: CD-MD-US-AF01-FIT036-211201
       objectReference: {fileID: 0}
+    - target: {fileID: 8422030411297375900, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9199377004067724326, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9199377004067724326, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
       propertyPath: m_LocalPosition.x
@@ -94822,7 +95670,7 @@ Transform:
   - {fileID: 4269600433836248514}
   - {fileID: 4269600434458225051}
   m_Father: {fileID: 3117197110006019285}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4269600434347377677
 GameObject:
@@ -96328,7 +97176,7 @@ Transform:
   - {fileID: 6040421749394805003}
   - {fileID: 6040421748339091689}
   m_Father: {fileID: 3117197110006019285}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &6040421749765915252
 Light:
@@ -96656,7 +97504,7 @@ Transform:
   - {fileID: 1457427577752132540}
   - {fileID: 347022813781482091}
   m_Father: {fileID: 3117197110006019285}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &6081626335823946727
 Transform:
@@ -101694,17 +102542,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 1
-  _repositoryContentArea: {fileID: 11400000, guid: a089e9a1dd29ef24996b4dcf855e6d17, type: 2}
-  _dataVariable: {fileID: 11400000, guid: 9a271b6f96e2b7e418b05ec8e3c2eb1b, type: 2}
   _graspBehaviour: {fileID: 254648273}
+  Animator: {fileID: 0}
+  _npcInteractionManager: {fileID: 0}
+  _scriptController: {fileID: 0}
+  _generateScenarioBehaviour: {fileID: 0}
   _integerVariable: {fileID: 11400000, guid: 05e3189e17a53fa44b625301249eeb94, type: 2}
-  _scenarioNameText:
-  - {fileID: 587012467}
-  - {fileID: 447677023}
-  - {fileID: 292420294}
-  _scenarioDescText:
-  - {fileID: 1927203931}
-  - {fileID: 1395787426}
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -101986,7 +102829,7 @@ Transform:
   - {fileID: 6040421749209157762}
   - {fileID: 6040421749261546319}
   m_Father: {fileID: 3117197110006019285}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &6386659687168242645
 Transform:

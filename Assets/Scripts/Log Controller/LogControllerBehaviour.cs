@@ -28,6 +28,8 @@ public class LogControllerBehaviour : MonoBehaviour, iResetable
 
     [SerializeField] private Text _inCorrectText;
 
+    [SerializeField] private ScrollRect _logScrollbar;
+        
     public TimerBehaviour _timerBehaviour;
 
     [SerializeField] private ContentAreaController _contentAreaController;
@@ -101,11 +103,14 @@ public class LogControllerBehaviour : MonoBehaviour, iResetable
 
         FormatDuration(duration);
         
+        Canvas.ForceUpdateCanvases();
+        
+        _logScrollbar.verticalNormalizedPosition = 0;
+        
         Debug.Log(FormatDuration(duration));
 
         var durationFormat = FormatDuration(duration).ToString();
-
-
+        
         for (int i = 0; i < _contentAreaController.ListContent.Count; i++)
         {
             if (_contentAreaController.ListContent[i].materi_id == _dataVariable.materi_id)
@@ -166,8 +171,6 @@ public class LogControllerBehaviour : MonoBehaviour, iResetable
 
     public void CalculateCorrectInCorrectAnswer(double score, int limit_score)
     {
-
-        
         if (score <= limit_score)
         {
             _repositoryLogAnswer.InCorrectAnswer += 1;
@@ -227,7 +230,6 @@ public class LogControllerBehaviour : MonoBehaviour, iResetable
 
     public void GenerateLog(float sDuration, string sQuestion, string sRightAnswer, string sYourAnswer, Image IndicatorIcon)
     {
-
         switch (Mode)
         {
             case Type.Exercise:
@@ -265,7 +267,7 @@ public class LogControllerBehaviour : MonoBehaviour, iResetable
                 _logIndicatorIcon = prefabButtonAnswerControllerExercise.IndicatorIcon;
         
                 prefabButtonAnswerControllerExercise.IndicatorIcon = IndicatorIcon;
-                
+
                 break;
             
             case Type.Exam:

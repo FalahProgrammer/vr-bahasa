@@ -57,7 +57,7 @@ public class ButtonController : DoScaleBehaviour, iResetable
 
     private PointerHandlerBehaviour _pointerHandlerBehaviour;
 
-     public  DoMoveBehaviour _doMoveBehaviour;
+    private DoMoveBehaviour _doMoveBehaviour;
 
     private void Start()
     {
