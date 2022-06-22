@@ -9,7 +9,7 @@ public class ScriptController : MonoBehaviour, iResetable
     [SerializeField] private IntegerVariable _integerVariable;
     
     [Header("Game Object NPC Interactor")]
-    [SerializeField] private List<GameObject> _npcInteractor = new List<GameObject>();
+    private List<GameObject> _npcInteractor = new List<GameObject>();
     
     [Header("Menu Panel User")]
     [SerializeField] private MenuControllerBehaviour _menuPanelUser;
@@ -40,12 +40,14 @@ public class ScriptController : MonoBehaviour, iResetable
     [Header("Ray Controller")]
     [SerializeField] private ToggleController _rayToggleController;
     
-    [SerializeField] private List<ToggleBehaviour> _laserToggleController = new List<ToggleBehaviour>();
+    //[SerializeField] private List<ToggleBehaviour> _laserToggleController = new List<ToggleBehaviour>();
 
-    [SerializeField] private List<GraspBehaviour> _graspBehaviours = new List<GraspBehaviour>();
-    
     [Header("Answer Checker")]
     [SerializeField] private AnswerCheckerBehaviour _answerCheckerBehaviour;
+    
+    [SerializeField] private List<GraspBehaviour> _graspBehaviours = new List<GraspBehaviour>();
+    
+
     
     private void UITransition()
     {
@@ -103,10 +105,10 @@ public class ScriptController : MonoBehaviour, iResetable
             _graspBehaviours[i].Reset();
         }
         
-        for (int i = 0; i < _laserToggleController.Count; i++)
+        /*for (int i = 0; i < _laserToggleController.Count; i++)
         {
-            //_laserToggleController[i].SetToggle();
-        }
+            _laserToggleController[i].SetToggle();
+        }*/
 
         for (int i = 0; i < _npcInteractor.Count; i++)
         {

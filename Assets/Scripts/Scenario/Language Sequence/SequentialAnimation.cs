@@ -98,6 +98,8 @@ public class SequentialAnimation : MonoBehaviour
             {
                 _currentIteration = AnimationList.IndexOf(AnimationList[i]);
                 
+                Debug.Log("Anim Lenght : " + AnimationList[i].Animators[i].runtimeAnimatorController.animationClips[0].length);
+
                 yield return new WaitForSeconds(AnimationList[i].Length);
                 
                 if(AnimationList[i].OnPartialAnimationFinished!=null)
@@ -107,6 +109,8 @@ public class SequentialAnimation : MonoBehaviour
             }
             else
             {
+                Debug.Log("Anim Lenght : " + AnimationList[i].Animators[i].runtimeAnimatorController.animationClips[0].length);
+                
                 yield return new WaitForSeconds(AnimationList[i].Length);
                 
                 if(AnimationList[i].OnPartialAnimationFinished!=null)

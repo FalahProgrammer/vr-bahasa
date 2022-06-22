@@ -10,19 +10,32 @@ using UnityEngine.UI;
 public class ScenarioEventBehaviour : MonoBehaviour
 {
     public SequentialAnimation SequentialAnimation;
+    
     [SerializeField] private DataVariable _dataVariable;
+    
     //public List<ScenarioEvent> ScenarioEvents = new List<ScenarioEvent>();
+    
     public ButtonController Microphone;
+    
     [SerializeField] private FadingBehaviour _answerFading;
+    
     [SerializeField] private MenuControllerBehaviour _menuScenario;
+    
     [SerializeField] private CanvasGroup _panelScore;
+    
     [SerializeField] private FadingBehaviour _panelQuestionFading;
+    
     [SerializeField] private LogControllerBehaviour _logControllerBehaviour;
+    
     [SerializeField] private SendScoreBehaviour _sendScoreBehaviour;
+    
     [SerializeField] private NpcInteractionManager _npcInteractionManager;
+    
     [SerializeField] private TextMeshProUGUI _answerText;
+    
     public int questionCounter;
-
+    
+    int counter = 0;
     private void Start()
     {
         _npcInteractionManager = FindObjectOfType<NpcInteractionManager>();
@@ -40,12 +53,16 @@ public class ScenarioEventBehaviour : MonoBehaviour
     public void ScenarioSubmiter()
     {
         questionCounter = Int32.Parse(_dataVariable.qustion_id);
+
+        
         
         for (int i = 0; i < SequentialAnimation.AnimationList.Count; i++)
         {
             //SequentialAnimation.AnimationList[i].Animators.Add(_npcInteractionManager._npcInteractions[i].);
             
             SequentialAnimation.AnimationList[i].Animators.Clear();
+            
+            SequentialAnimation.AnimationList[i].AnimationState.Add("");
             
             for (int j = 0; j < _npcInteractionManager._npcInteractions.Count; j++)
             {
@@ -60,13 +77,31 @@ public class ScenarioEventBehaviour : MonoBehaviour
             {
                 //Debug.Log((SequentialAnimation.AnimationList[i].AudioClip.name));
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(Microphone.SetButtonOn);
+                
+                counter += 1;
+                
+                for (int j = 0; j < SequentialAnimation.AnimationList[i].AnimationState.Count; j++)
+                {
+                    Debug.Log("Ini counter : S + " + counter);
+                    
+                    SequentialAnimation.AnimationList[i].AnimationState[j] = "S+" + counter;
+                    
+                    Debug.Log("Index : " + i + " Name : " + SequentialAnimation.AnimationList[i].AnimationState[j]);
+                }
             }
+            
             else if (i !=0 && i % 2 == 0 && i != SequentialAnimation.AnimationList.Count - 1 )
             {
                 //Debug.Log("Even : "+i);
                 
+                counter += 1;
+                
                 for (int j = 0; j < SequentialAnimation.AnimationList[i].AnimationState.Count; j++)
                 {
+                    Debug.Log("Ini counter : S + " + counter);
+
+                    SequentialAnimation.AnimationList[i].AnimationState[j] = "S+" + counter;
+                    
                     Debug.Log("Index : " + i + " Name : "+SequentialAnimation.AnimationList[i].AnimationState[j]);
                 }
                 
@@ -103,6 +138,15 @@ public class ScenarioEventBehaviour : MonoBehaviour
                 });
 
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(Microphone.SetButtonOn);
+            }
+            else if (i !=0 && i % 2 == 1 && i != SequentialAnimation.AnimationList.Count - 1 )
+            {
+                for (int j = 0; j < SequentialAnimation.AnimationList[i].AnimationState.Count; j++)
+                {
+                    Debug.Log("Index : " + i + " Name : "+SequentialAnimation.AnimationList[i].AnimationState[j]);
+                    
+                    SequentialAnimation.AnimationList[i].AnimationState[j] = "IDLE";
+                }
             }
             
             if (i == SequentialAnimation.AnimationList.Count - 1)
