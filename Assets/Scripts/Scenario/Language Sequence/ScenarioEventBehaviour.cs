@@ -44,6 +44,9 @@ public class ScenarioEventBehaviour : MonoBehaviour
         for (int i = 0; i < SequentialAnimation.AnimationList.Count; i++)
         {
             //SequentialAnimation.AnimationList[i].Animators.Add(_npcInteractionManager._npcInteractions[i].);
+            
+            SequentialAnimation.AnimationList[i].Animators.Clear();
+            
             for (int j = 0; j < _npcInteractionManager._npcInteractions.Count; j++)
             {
                 if (SequentialAnimation._id == _npcInteractionManager._npcInteractions[j]._id)
