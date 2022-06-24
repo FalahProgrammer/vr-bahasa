@@ -4206,7 +4206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sendPost: 1
-  url: http://vr-bahasa.test/api/v1/report
+  url: http://192.168.100.78/vr-bahasa/public/api/v1/logs
   UserId: 19
   _sendPostMethod: {fileID: 58444767}
   _dataVariable: {fileID: 11400000, guid: 9a271b6f96e2b7e418b05ec8e3c2eb1b, type: 2}

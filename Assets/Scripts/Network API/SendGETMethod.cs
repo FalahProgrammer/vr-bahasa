@@ -9,7 +9,7 @@ public class SendGETMethod : MonoBehaviour
 {
     [SerializeField] private bool _isStart;
     
-    private string URL = "http://vr-bahasa.test/api/v1/tokens";
+    private string URL = "http://192.168.100.78/vr-bahasa/public/api/v1/tokens";
     
     public List<RequestHeader> Header = new List<RequestHeader>();
     
@@ -55,15 +55,15 @@ public class SendGETMethod : MonoBehaviour
     {
         GetToken();
         
-        GetRepositoryMateri("http://vr-bahasa.test/api/v1/materis");
+        GetRepositoryMateri("http://192.168.100.78/vr-bahasa/public/api/v1/materis");
 
-        GetRepositoryLocation("http://vr-bahasa.test/api/v1/chapters");
+        GetRepositoryLocation("http://192.168.100.78/vr-bahasa/public/api/v1/chapters");
         
-        GetRepositoryContentArea("http://vr-bahasa.test/api/v1/contents");
+        GetRepositoryContentArea("http://192.168.100.78/vr-bahasa/public/api/v1/contents");
         
-        GetRepositoryDataQuiz("http://vr-bahasa.test/api/v1/quiz-questions");
+        GetRepositoryDataQuiz("http://192.168.100.78/vr-bahasa/public/api/v1/quiz-questions");
 
-        GetRepositoryPassingGrade("http://vr-bahasa.test/api/v1/passgrade");
+        GetRepositoryPassingGrade("http://192.168.100.78/vr-bahasa/public/api/v1/passgrade");
     }
     
     public void GetRepositoryMateri(string url)

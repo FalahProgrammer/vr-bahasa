@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99c69635-610c-4701-9b96-cb889ac100b8" name="Default Changelist" comment="" />
+    <list default="true" id="99c69635-610c-4701-9b96-cb889ac100b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Login Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Login Data.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Login.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Login.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network API/LoginVerificationBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Network API/LoginVerificationBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network API/SendGETMethod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Network API/SendGETMethod.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network API/SendScoreBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Network API/SendScoreBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scriptable/Object/Scriptable Transform/Transforms List.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scriptable/Object/Scriptable Transform/Transforms List.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,32 +29,36 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/LeapMotion/Core/Scripts/LeapServiceProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendGETMethod.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/Scripts/VideoLoader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendScoreBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast/GraspBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendPOSTMethod.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Object/Scriptable Transform/ScriptableListTransform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/LoginVerificationBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scoring/AnswerCheckerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Menu Navigation Controller/ScriptController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateEnvirontmentBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4928367-10F1-493C-A019-0FE9374A37DA/d0/103531c0/Animator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteractionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteraction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/ButtonControllerEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/CommandSequenceManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/AnimInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/testread.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Asset Bundle Loader/LoadAsyncLanguageAssetBundle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://D:/Scripts/VideoLoader.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Button Controlller/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendScoreBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast/GraspBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/LeapMotion/Core/Scripts/LeapServiceProvider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendPOSTMethod.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/testread.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4928367-10F1-493C-A019-0FE9374A37DA/d0/103531c0/Animator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scoring/AnswerCheckerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Menu Navigation Controller/ScriptController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateEnvirontmentBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteractionManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Scripts/DownloadAssetVideo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteraction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/ButtonControllerEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/DataSceneManagement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Scripts/DownloadAssetBundle.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/CommandSequenceManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Button Controlller/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -57,6 +74,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteraction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/testread.cs" />
+        <option value="C:/Windows/System32/drivers/etc/hosts" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Network API/LoginVerificationBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Network API/SendGETMethod.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Network API/SendScoreBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -111,6 +132,7 @@
       <workItem from="1655867799676" duration="13310000" />
       <workItem from="1655955101061" duration="4063000" />
       <workItem from="1656045494487" duration="614000" />
+      <workItem from="1656056455845" duration="4428000" />
     </task>
     <task id="LOCAL-00001" summary="perubahan pada konsep pembacaan animator, tatapi masih butuh review faizrizky 20/06/2022 17:23">
       <created>1655721023629</created>
