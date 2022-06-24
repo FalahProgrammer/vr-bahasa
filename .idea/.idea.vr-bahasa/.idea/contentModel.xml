@@ -849,6 +849,7 @@
             <e p="TeleportBehaviour.cs" t="Include" />
             <e p="TeleportController.cs" t="Include" />
           </e>
+          <e p="testread.cs" t="Include" />
           <e p="Time Countdown" t="Include">
             <e p="TimerBehaviour.cs" t="Include" />
           </e>

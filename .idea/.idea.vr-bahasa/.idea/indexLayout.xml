@@ -61,7 +61,7 @@
       <Path>AssetBundles</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
-      <Path>Temp</Path>
+      <Path>MemoryCaptures</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
     </explicitExcludes>
