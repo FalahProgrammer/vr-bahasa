@@ -21,17 +21,19 @@ public class NpcInteraction : MonoBehaviour
     
     [SerializeField] private DataVariable _dataVariable;*/
 
-    [SerializeField] private GraspBehaviour _graspBehaviour;
+    private GraspBehaviour _graspBehaviour;
     
     public Animator Animator;
     
-    [SerializeField] private NpcInteractionManager _npcInteractionManager;
-
-    [SerializeField] private ScriptController _scriptController;
+    [SerializeField] private IntegerVariable _integerVariable;
     
-    [SerializeField] private GenerateScenarioBehaviour _generateScenarioBehaviour;
+    private NpcInteractionManager _npcInteractionManager;
 
-    public IntegerVariable _integerVariable;
+    private ScriptController _scriptController;
+    
+    private GenerateScenarioBehaviour _generateScenarioBehaviour;
+
+    
     
     /*[SerializeField] private Text[] _scenarioNameText;
     
