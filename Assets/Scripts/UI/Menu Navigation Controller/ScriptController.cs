@@ -8,6 +8,9 @@ public class ScriptController : MonoBehaviour, iResetable
     [Header("Integer Variable")] 
     [SerializeField] private IntegerVariable _integerVariable;
     
+    [Header("List Interactor")] 
+    [SerializeField] private ListInteractor _listInteractor;
+    
     [Header("Game Object NPC Interactor")]
     private List<GameObject> _npcInteractor = new List<GameObject>();
     
@@ -46,8 +49,8 @@ public class ScriptController : MonoBehaviour, iResetable
     [SerializeField] private AnswerCheckerBehaviour _answerCheckerBehaviour;
     
     [SerializeField] private List<GraspBehaviour> _graspBehaviours = new List<GraspBehaviour>();
-    
 
+    [SerializeField] private Transform _target;
     
     private void UITransition()
     {
@@ -58,18 +61,49 @@ public class ScriptController : MonoBehaviour, iResetable
 
     public void UIMovement()
     {
-        for (int i = 0; i < _setTargetLocationUIMovement.Count; i++)
+        // dimaz revision
+        int index = _integerVariable.IntegerValue - 1;
+        for (int i = 0; i < _listInteractor.ListUIPosition.Count; i++)
+        {
+            _target.position = _listInteractor.ListUIPosition[index];
+            _uiMovement.SetTargetLocation(_target);
+        }
+        
+        // original: 
+        /*for (int i = 0; i < _setTargetLocationUIMovement.Count; i++)
         {
             _uiMovement.SetTargetLocation(_setTargetLocationUIMovement[_integerVariable.IntegerValue -1]);
-        }
+        }*/
         
         _uiMovement.BeginDoLocalMove();
     }
 
     public void PlayerMove()
     {
+        // dimaz revision
+        int index = _integerVariable.IntegerValue - 1;
+        for (int i = 0; i < _listInteractor.listCharacterPosition.Count; i++)
+        {
+            if (i == _integerVariable.IntegerValue - 1)
+            {
+                _target.position = _listInteractor.listCharacterPosition[index];
+                
+                Quaternion rotation = Quaternion.Euler(_listInteractor.listCharacterRotation[index]);
+                Debug.Log("Vector 3 Rotation: " + _listInteractor.listCharacterRotation[index] + ", Quartenion Rotation: " + rotation);
+                
+                _target.rotation = rotation;
+                
+                _playerMove.SetTargetLocation(_target);
+                
+                //Debug.Log(_setTargetLocationPlayerMove[_integerVariable.IntegerValue - 1].name);   
+                
+                _playerFading.BeginFadingIn();
+                
+                break;
+            }
+        }
         
-        for (int i = 0; i < _setTargetLocationPlayerMove.Count; i++)
+        /*for (int i = 0; i < _setTargetLocationPlayerMove.Count; i++)
         {
             if (i == _integerVariable.IntegerValue - 1)
             {
@@ -81,10 +115,7 @@ public class ScriptController : MonoBehaviour, iResetable
                 
                 break;
             }
-            
-
-
-        }
+        }*/
         
         
     }
