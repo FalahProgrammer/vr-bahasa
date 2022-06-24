@@ -302,7 +302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LoadingValue: {fileID: 788003352}
   _loadingSlider: {fileID: 649768967}
-  RepositoryLoginData: {fileID: 0}
+  RepositoryLoginData: {fileID: 11400000, guid: 5963289fb74bab24a9a73d8ef01b5920, type: 2}
   OnFinishedLoadScene:
     m_PersistentCalls:
       m_Calls: []
@@ -4140,6 +4140,9 @@ MonoBehaviour:
   _hoverColor: {r: 0, g: 0, b: 0, a: 0}
   _clickColor: {r: 0, g: 0, b: 0, a: 0}
   _idleColor: {r: 0, g: 0, b: 0, a: 0}
+  _usePlaceHolderText: 0
+  _placeHolderPivot: 0
+  PivotMode: 0
   ImageMode: 1
 --- !u!114 &1871922417
 MonoBehaviour:
@@ -4339,7 +4342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7901f14f23a64b94586e9ed5b10ad257, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: http://vr-bahasa.test/api/v1/login
+  url: http://192.168.100.78/vr-bahasa/public/api/v1/login
   Header:
   - key: Content-Type
     value: application/json
@@ -4397,7 +4400,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
   _onInvalidLogin:
     m_PersistentCalls:
       m_Calls: []

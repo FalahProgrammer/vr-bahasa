@@ -73,7 +73,7 @@ public class SendScoreBehaviour : MonoBehaviour
         if (UserId.ToString() == "")
             Debug.Log("No UserID Found");
 
-        var URL = "http://vr-bahasa.test/api/v1/report";
+        var URL = "http://192.168.100.78/vr-bahasa/public/api/v1/report";
         
         for (int i = 0; i < _contentAreaController.ListContent.Count; i++)
         {
@@ -94,7 +94,7 @@ public class SendScoreBehaviour : MonoBehaviour
                 Debug.Log(JSON);
 
                 if (_sendPost)
-                    _sendPostMethod.SendPOST(URL,JSON, (x) =>
+                    _sendPostMethod.SendPOST(url,JSON, (x) =>
                     {
                         
                         Debug.Log("Callback : " + x);
@@ -110,14 +110,14 @@ public class SendScoreBehaviour : MonoBehaviour
     public void PostLogs()
     {
     
-        var URL = "http://vr-bahasa.test/api/v1/logs";
+        var URL = "http://192.168.100.78/vr-bahasa/public/api/v1/logs";
         //Header.Add(_repositoryLoginData.Header[0]);
         string JSON = JsonUtility.ToJson(_repositoryLog);
             
         Debug.Log(JSON);
         
         if(_sendPost)
-            _sendPostMethod.SendPOST(URL,JSON, (x) =>
+            _sendPostMethod.SendPOST(url,JSON, (x) =>
             {
                 Debug.Log("Callback : " + x);
                 
@@ -135,7 +135,7 @@ public class SendScoreBehaviour : MonoBehaviour
         if (UserId.ToString() == "")
             Debug.Log("No UserID Found");
 
-        var URL = "http://vr-bahasa.test/api/v1/report";
+        var URL = "http://192.168.100.78/vr-bahasa/public/api/v1/report";
         
         for (int i = 0; i < _contentAreaController.ListContent.Count; i++)
         {
