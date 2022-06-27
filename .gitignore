@@ -2,7 +2,10 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/.idea/
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/contentModel.xml
+
 /[Aa]ssets/_TerrainAutoUpgrade
 /[Aa]ssets/AddressableAssetsData
 /[Aa]ssets/AssetStoreTools
