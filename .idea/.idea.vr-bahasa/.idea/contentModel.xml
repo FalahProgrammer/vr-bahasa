@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Personal\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Personal\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_vr-bahasa.1091179060.00" t="ExcludeRecursive" />
-    <e p="D:\Projects\Pusdiklat Bahasa\VTS Language 20220624 - 2020.3.30f1\vr-bahasa" t="IncludeRecursive">
+    <e p="C:\Users\Personal\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_vr-bahasa.-1134701379.00" t="ExcludeRecursive" />
+    <e p="D:\GitHub\VTS Language 20220317 - 2020.3.30f1\vr-bahasa" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -645,6 +645,9 @@
           <e p="Boolean" t="Include">
             <e p="Booleanbehaviour.cs" t="Include" />
           </e>
+          <e p="Camera" t="Include">
+            <e p="VRCheck.cs" t="Include" />
+          </e>
           <e p="Config JSON" t="Include">
             <e p="ConfigFile.cs" t="Include" />
             <e p="ConfigLoader.cs" t="Include" />
@@ -717,6 +720,7 @@
             <e p="SentenceChecker2.cs" t="Include" />
           </e>
           <e p="LookAt" t="Include">
+            <e p="AlwaysLookAtCamera.cs" t="Include" />
             <e p="LookAtBehaviour.cs" t="Include" />
           </e>
           <e p="Move Control" t="Include">
@@ -746,6 +750,10 @@
             <e p="PinchObjectBehaviour.cs" t="Include" />
             <e p="RegisterHand.cs" t="Include" />
             <e p="RotateDirection.cs" t="Include" />
+          </e>
+          <e p="Prefab Object" t="Include">
+            <e p="AreaPrefab.cs" t="Include" />
+            <e p="CharacterAdjustment.cs" t="Include" />
           </e>
           <e p="Raycast" t="Include">
             <e p="ExampleClass.cs" t="Include" />
@@ -818,6 +826,7 @@
             </e>
             <e p="Scene Management" t="Include">
               <e p="DataSceneManagement.cs" t="Include" />
+              <e p="ListInteractor.cs" t="Include" />
             </e>
             <e p="Variable" t="Include">
               <e p="Int" t="Include">

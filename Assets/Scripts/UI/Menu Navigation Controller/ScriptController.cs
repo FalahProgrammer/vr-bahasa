@@ -87,6 +87,9 @@ public class ScriptController : MonoBehaviour, iResetable
             if (i == _integerVariable.IntegerValue - 1)
             {
                 _target.position = _listInteractor.listCharacterPosition[index];
+
+                /*if (!vr)
+                    _target.position.y += 1;*/
                 
                 Quaternion rotation = Quaternion.Euler(_listInteractor.listCharacterRotation[index]);
                 Debug.Log("Vector 3 Rotation: " + _listInteractor.listCharacterRotation[index] + ", Quartenion Rotation: " + rotation);

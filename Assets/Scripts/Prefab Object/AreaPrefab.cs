@@ -31,9 +31,6 @@ public class AreaPrefab : MonoBehaviour
          var tempUI = c.GetChild(0).position;
          CharacterAdjustment charAdjustment = c.GetComponent<CharacterAdjustment>();
          
-        
-         
-         
          // Interactor's transform position
          _listInteractor.listInteractors.Add(c);
          
@@ -44,14 +41,14 @@ public class AreaPrefab : MonoBehaviour
                var adjustmentUIPosition = charAdjustment.adjustmentUIPosition;
                
                _listInteractor.ListUIPosition.Add(new Vector3(
-                  tempUI.x - 0.5f + adjustmentUIPosition.x,
+                  tempUI.x + 0.5f + adjustmentUIPosition.x,
                   tempUI.y + 3 + adjustmentUIPosition.y, 
                   tempUI.z + adjustmentUIPosition.z));
                
                break;
             case false:
                _listInteractor.ListUIPosition.Add(new Vector3(
-                  tempUI.x - 0.5f,
+                  tempUI.x + 0.5f,
                   tempUI.y + 3, 
                   tempUI.z));
                break;
