@@ -15,3 +15,4 @@ MonoBehaviour:
   listInteractors: []
   ListUIPosition: []
   listCharacterPosition: []
+  listCharacterRotation: []

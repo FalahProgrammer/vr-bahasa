@@ -6,6 +6,7 @@
 /.idea/**/*.xml
 /.idea/**/*.iml
 **/.idea/
+.idea/
 
 /[Aa]ssets/_TerrainAutoUpgrade
 /[Aa]ssets/AddressableAssetsData
