@@ -25577,7 +25577,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cb420101732ac0d4ba90a2254b7cb337, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b463a0f08fab5342b6c827fe8dfe196, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -55742,7 +55742,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5ec2e7ec9024a7b4e82c7fdef116670f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4caa70f9633cc2b408fece1fba792c67, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -56337,11 +56337,11 @@ RectTransform:
   m_Father: {fileID: 680535974}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 2.5, y: 2.5}
-  m_SizeDelta: {x: 92.5, y: 30}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 13}
+  m_SizeDelta: {x: 115, y: 15}
+  m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1508824226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56380,9 +56380,9 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 5b964491dc225bb489190e46b82093ca, type: 3}
     m_FontSize: 5
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 5
-    m_MaxSize: 40
+    m_BestFit: 1
+    m_MinSize: 2
+    m_MaxSize: 5
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -72558,18 +72558,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8422030411297375900, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
   m_PrefabInstance: {fileID: 3167044613572536590}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1896261517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896261515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 540ab4b9b45c52149b84ee43e23bd83f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1896261518
 MonoBehaviour:
   m_ObjectHideFlags: 0
