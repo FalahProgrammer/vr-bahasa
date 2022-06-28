@@ -8,6 +8,9 @@
 **/.idea/
 .idea/
 
+
+/[Aa]ssets/Crazy Minnow Studio
+/[Aa]ssets/Gizmos
 /[Aa]ssets/_TerrainAutoUpgrade
 /[Aa]ssets/AddressableAssetsData
 /[Aa]ssets/AssetStoreTools

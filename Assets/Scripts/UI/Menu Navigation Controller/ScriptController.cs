@@ -66,6 +66,8 @@ public class ScriptController : MonoBehaviour, iResetable
         for (int i = 0; i < _listInteractor.ListUIPosition.Count; i++)
         {
             _target.position = _listInteractor.ListUIPosition[index];
+            _target.rotation =  Quaternion.Euler(_listInteractor.listCharacterRotation[index]);
+            
             _uiMovement.SetTargetLocation(_target);
         }
         
@@ -87,15 +89,12 @@ public class ScriptController : MonoBehaviour, iResetable
             if (i == _integerVariable.IntegerValue - 1)
             {
                 _target.position = _listInteractor.listCharacterPosition[index];
-
+                // currently set in UI movement
+                //_target.rotation =  Quaternion.Euler(_listInteractor.listCharacterRotation[index]);
+                
                 /*if (!vr)
                     _target.position.y += 1;*/
-                
-                Quaternion rotation = Quaternion.Euler(_listInteractor.listCharacterRotation[index]);
-                Debug.Log("Vector 3 Rotation: " + _listInteractor.listCharacterRotation[index] + ", Quartenion Rotation: " + rotation);
-                
-                _target.rotation = rotation;
-                
+
                 _playerMove.SetTargetLocation(_target);
                 
                 //Debug.Log(_setTargetLocationPlayerMove[_integerVariable.IntegerValue - 1].name);   

@@ -10,6 +10,16 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="_www.unityassetcollection.com.txt" t="Include" />
+        <e p="Crazy Minnow Studio" t="Include">
+          <e p="Examples" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="SALSA_Template_CustomAudioAnalysisPlugin.cs" t="Include" />
+              <e p="SALSA_Template_EventControllerSubscriber.cs" t="Include" />
+              <e p="SALSA_Template_SalsaEventSubscriber.cs" t="Include" />
+              <e p="SALSA_Template_SalsaVisemeTriggerEventSubscriber.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="File Content" t="Include">
           <e p="Shaders" t="Include">
             <e p="Standard 2-Sided.shader" t="Include" />
@@ -82,6 +92,30 @@
                     <e p="CachedNumbers.cs" t="Include" />
                     <e p="UIUtils.cs" t="Include" />
                   </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Crazy Minnow Studio" t="Include">
+            <e p="SALSA LipSync" t="Include">
+              <e p="Editor" t="Include">
+                <e p="OneClicks" t="Include">
+                  <e p="OneClickBoxHeadEditor.cs" t="Include" />
+                  <e p="OneClickCC3Editor.cs" t="Include" />
+                </e>
+                <e p="readme.txt" t="Include" />
+                <e p="Version.txt" t="Include" />
+              </e>
+              <e p="Plugins" t="Include">
+                <e p="OneClickRuntimes" t="Include">
+                  <e p="OneClickBase.cs" t="Include" />
+                  <e p="OneClickBoxHead.cs" t="Include" />
+                  <e p="OneClickBoxHeadEyes.cs" t="Include" />
+                  <e p="OneClickCC3.cs" t="Include" />
+                  <e p="OneClickCC3Eyes.cs" t="Include" />
+                  <e p="OneClickComponent.cs" t="Include" />
+                  <e p="OneClickConfiguration.cs" t="Include" />
+                  <e p="OneClickExpression.cs" t="Include" />
                 </e>
               </e>
             </e>
@@ -738,6 +772,7 @@
             <e p="InitializeNpcInteraction.cs" t="Include" />
             <e p="NpcInteraction.cs" t="Include" />
             <e p="NpcInteractionManager.cs" t="Include" />
+            <e p="NpcSpeechSalsa.cs" t="Include" />
           </e>
           <e p="Outline Object" t="Include">
             <e p="iOutline.cs" t="Include" />

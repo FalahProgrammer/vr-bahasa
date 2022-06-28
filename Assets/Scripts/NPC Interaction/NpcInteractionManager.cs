@@ -33,6 +33,11 @@ public class NpcInteractionManager : MonoBehaviour
         }
     }*/
 
+    public void ClearData()
+    {
+        _npcInteractions.Clear();
+    }
+
     private void Awake()
     {
         /* 

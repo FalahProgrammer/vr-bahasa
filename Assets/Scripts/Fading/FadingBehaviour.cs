@@ -128,6 +128,7 @@ public class FadingBehaviour : MonoBehaviour, iResetable
                 
                 _myCanvasGroup.DOFade(1, _speed).SetId("Fade In Normal").OnComplete(OnCompleteFadeIn);
                 
+
                 break;
             
             case Type.Gradient:
@@ -225,6 +226,10 @@ public class FadingBehaviour : MonoBehaviour, iResetable
     private void OnCompleteFadeOut()
     {
         OnCompleteFadingOut.Invoke();
+        
+        _myCanvasGroup.interactable = false;
+            
+        _myCanvasGroup.blocksRaycasts = false;
     }
 
     public void OnCompleteFadeIn()
@@ -236,6 +241,10 @@ public class FadingBehaviour : MonoBehaviour, iResetable
         else
         {
             OnCompleteFadingIn.Invoke();
+            
+            _myCanvasGroup.interactable = true;
+            
+            _myCanvasGroup.blocksRaycasts = true;
         }
         
     }

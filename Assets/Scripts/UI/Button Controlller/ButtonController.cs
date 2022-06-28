@@ -62,7 +62,7 @@ public class ButtonController : DoScaleBehaviour, iResetable
     private void Start()
     {
         _myImage = GetComponent<Image>();
-        Debug.Log(_usePlaceHolderText);
+        //Debug.Log(_usePlaceHolderText);
         
         if (!_usePlaceHolderText)
         {

@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class LocationController : MonoBehaviour
 {
+    [SerializeField] private bool _debugMode;
+    
     public DataVariable DataVariable;
 
     [SerializeField] private TimerBehaviour _timerBehaviour;
@@ -93,7 +95,7 @@ public class LocationController : MonoBehaviour
             
             _scriptableGameObjectDataController.ChapterButton.GetComponentInChildren<Button>().onClick.AddListener(delegate
             {
-                Debug.Log(sID);
+                if (_debugMode) Debug.Log("Repository Chapter ID: " + sID);
                 
                 DataVariable.chapter_id = sID;
                 

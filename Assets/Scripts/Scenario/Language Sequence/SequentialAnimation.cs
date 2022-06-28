@@ -80,7 +80,7 @@ public class SequentialAnimation : MonoBehaviour
                 if (AudioSource != null)
                 {
                     AudioSource.clip = AnimationList[i].AudioClip;
-                    
+
                     //There's problem that PlayDelayed can't be stopped via AudioSource.Stop()
                     //Therefore we need to make do
                     if(IsPlaying)
@@ -91,6 +91,8 @@ public class SequentialAnimation : MonoBehaviour
                     {
                         AudioSource.Play();
                     }
+                    
+                    
                 }
             }
 
@@ -223,8 +225,14 @@ public class SequentialAnimation : MonoBehaviour
         for (int i = AnimationList.Count-1; i >=  0; i--)
         {
             var a = AnimationList[i].Animators;
+            
+            if (a==null) continue;
+            
             for (int j = a.Count-1; j >= 0; j--)
             {
+                if (a[j].gameObject.scene.name == null) continue;
+                if (a[j]==null) continue;
+
                 a[j].Play("IDLE",0,0.0f);
                 //a[j].speed = 0;
                 if (AudioSource != null)

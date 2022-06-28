@@ -96,9 +96,14 @@ public class GenerateScenarioBehaviour : MonoBehaviour
             _scriptableGameObjectDataController.ContentButton.GetComponent<ScenarioAnimatorController>(); */
         
         _scenarioEventBehaviour.SequentialAnimation = _scriptableGameObjectDataController.ContentButton.GetComponent<SequentialAnimation>();
+
+        //_commandSequenceManager._commandSequences.AudioSource = Camera.main.GetComponent<AudioSource>();
         
-        _scriptableGameObjectDataController.ContentButton.GetComponent<SequentialAnimation>().AudioSource =
-            Camera.main.GetComponent<AudioSource>();
+        Debug.Log("Audio Source Object: " + _commandSequenceManager._commandSequences.AnimationList[0].Animators[0].name);
+        
+        //AudioSource tempAudio = _commandSequenceManager._commandSequences.AnimationList[0].Animators[0].GetComponent<AudioSource>();
+        
+        //Debug.Log("Audio Source Origin: " + tempAudio.gameObject.name + ", Assigned Audio Source: " + _commandSequenceManager._commandSequences.AudioSource.gameObject.name);
             
         //_scriptableGameObjectDataController.ContentButton.transform.localScale = new Vector3(1, 1, 1);
             

@@ -11,6 +11,8 @@ public class PrefabButtonDataController : MonoBehaviour, IPointerEnterHandler
     [HideInInspector] public string Description;
     
     [HideInInspector] public string UrlImage;*/
+
+    [SerializeField] private bool _debugMode;
     
     [HideInInspector] public int Duration;
     [HideInInspector] public int ScenarioNumber;
@@ -45,7 +47,7 @@ public class PrefabButtonDataController : MonoBehaviour, IPointerEnterHandler
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        Debug.Log("The cursor entered the selectable UI element.");
+        if (_debugMode) Debug.Log("The cursor entered the selectable UI element.");
         
         _scriptableGameObjectDataController.ChapterButton = this.gameObject;
     }
