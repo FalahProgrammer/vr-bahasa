@@ -8,7 +8,7 @@
 **/.idea/
 .idea/
 
-
+/[Aa]ssets/ThirdParty
 /[Aa]ssets/Crazy Minnow Studio
 /[Aa]ssets/Gizmos
 /[Aa]ssets/_TerrainAutoUpgrade
