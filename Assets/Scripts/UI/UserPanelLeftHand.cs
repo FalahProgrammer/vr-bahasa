@@ -1,15 +1,19 @@
+using System;
 using UnityEngine;
 using TMPro;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 public class UserPanelLeftHand : MonoBehaviour
 {
     [SerializeField] private Transform _userPanel;
-    [SerializeField] private Transform _leftHand;
-
+    [SerializeField] private Transform _rotationPivot;
+    [SerializeField] private Transform _targetPivot;
+    [SerializeField] private Vector3 uiOffset = Vector3.zero;
+    
     public UnityEvent OnEnableEvent;
     public UnityEvent OnDisableEvent;
-    
+
     public bool _activeStatus;
     public bool _fadeStatus;
 
@@ -31,6 +35,11 @@ public class UserPanelLeftHand : MonoBehaviour
         _fadeStatus = false;
     }
 
+    public void ForceDisable()
+    {
+        
+    }
+
     private void Update()
     {
         if (!_activeStatus)
@@ -43,7 +52,7 @@ public class UserPanelLeftHand : MonoBehaviour
             return; 
         }
         
-        var angle = Mathf.RoundToInt(_leftHand.transform.rotation.eulerAngles.z);
+        var angle = Mathf.RoundToInt(_rotationPivot.transform.rotation.eulerAngles.z);
 
         if (angle <= 40 && !_fadeStatus || 
             angle >= 320 && !_fadeStatus)
@@ -57,11 +66,13 @@ public class UserPanelLeftHand : MonoBehaviour
             _fadeStatus = false;
         }
 
-        var temp = _leftHand.position;
-        temp.y += 0.25f;
+        var temp = _targetPivot.position;
+        temp.x += uiOffset.x;
+        temp.y += uiOffset.y;
+        temp.z += uiOffset.z;
         _userPanel.position = temp;
         
         //debug
-        tmpDebug.text = "Angle: " + angle.ToString() + "<br>Fade Status: " + _fadeStatus;
+        tmpDebug.text = "Angle: " + angle + "<br>Fade Status: " + _fadeStatus;
     }
 }
