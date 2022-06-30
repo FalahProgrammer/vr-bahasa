@@ -19,7 +19,7 @@ public class RegisterHand : MonoBehaviour
         
     }
 
-    public void RegisterRightHand()
+    /*public void RegisterRightHand()
     {
         _rightPinchDetector.HandModel = _righthand;
     }
@@ -38,5 +38,5 @@ public class RegisterHand : MonoBehaviour
     public void UnRegisterLeftHand()
     {
         _leftPinchDetector.HandModel = null;
-    }
+    }*/
 }
