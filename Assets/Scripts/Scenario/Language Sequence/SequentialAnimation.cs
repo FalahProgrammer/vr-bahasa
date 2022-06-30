@@ -26,6 +26,13 @@ public class SequentialAnimation : MonoBehaviour
     public bool IsPlaying;
 
 
+    private void OnValidate()
+    {
+        for (int i = 0; i < AnimationList.Count; i++)
+        {
+            //AnimationList[i].Length = 0.5f;
+        }
+    }
 
     public void PlayAnimation()
     {
@@ -100,9 +107,10 @@ public class SequentialAnimation : MonoBehaviour
             {
                 _currentIteration = AnimationList.IndexOf(AnimationList[i]);
                 
-                Debug.Log("Anim Lenght : " + AnimationList[i].Animators[i].runtimeAnimatorController.animationClips[0].length);
+                Debug.Log("Anim Lenght : " + AnimationList[i].AudioClip.length);
 
-                yield return new WaitForSeconds(AnimationList[i].Length);
+                //yield return new WaitForSeconds(AnimationList[i].Length);
+                yield return new WaitForSeconds(AnimationList[i].AudioClip.length + AnimationList[i].Length);
                 
                 if(AnimationList[i].OnPartialAnimationFinished!=null)
                     AnimationList[i].OnPartialAnimationFinished.Invoke();
@@ -111,9 +119,9 @@ public class SequentialAnimation : MonoBehaviour
             }
             else
             {
-                Debug.Log("Anim Lenght : " + AnimationList[i].Animators[i].runtimeAnimatorController.animationClips[0].length);
+                Debug.Log("Anim Lenght : " + AnimationList[i].AudioClip.length);
                 
-                yield return new WaitForSeconds(AnimationList[i].Length);
+                yield return new WaitForSeconds(AnimationList[i].AudioClip.length + AnimationList[i].Length);
                 
                 if(AnimationList[i].OnPartialAnimationFinished!=null)
                     AnimationList[i].OnPartialAnimationFinished.Invoke();
@@ -183,7 +191,11 @@ public class SequentialAnimation : MonoBehaviour
             {
                 _currentIteration = AnimationList.IndexOf(l[i]);
                 
-                yield return new WaitForSeconds(l[i].Length);
+                Debug.Log("Anim Lenght Continue : " + AnimationList[_currentIteration].AudioClip.length);
+                
+                Debug.Log("Anim Lenght Continue Name : " + AnimationList[_currentIteration].AudioClip.name);
+                
+                yield return new WaitForSeconds(AnimationList[_currentIteration].AudioClip.length + 0.5f);
                 
                 if(l[i].OnPartialAnimationFinished!=null)
                     l[i].OnPartialAnimationFinished.Invoke();
@@ -192,7 +204,7 @@ public class SequentialAnimation : MonoBehaviour
             }
             else
             {
-                yield return new WaitForSeconds(l[i].Length);
+                yield return new WaitForSeconds(0.5f);
                 
                 if(l[i].OnPartialAnimationFinished!=null)
                     l[i].OnPartialAnimationFinished.Invoke();
@@ -257,9 +269,9 @@ public class SequentialAnimation : MonoBehaviour
         AnimationList.RemoveAt(i);
     }
 
-    private void OnDestroy()
+    /*private void OnDestroy()
     {
         Reset();
         StopCoroutine();
-    }
+    }*/
 }

@@ -85,6 +85,8 @@ public class TeleportBehaviour : MonoBehaviour, iResetable
                     {
                         try
                         {
+                            Debug.Log(_savedTeleportObject);
+                            Debug.Log(_graspBehaviour._myTarget.GetComponent<InitializeTeleport>());
                             if (_graspBehaviour._myTarget.GetComponent<InitializeTeleport>())
                             {
                                 ShowTeleport();

@@ -445,6 +445,7 @@ MonoBehaviour:
   _isIgnoringAllHoverState: 0
   _ignorePrimaryHover: 0
   _ignoreContact: 0
+  _ignoreGraspingMode: 0
   _ignoreGrasping: 0
   _contactForceMode: 0
   _allowMultiGrasp: 1
@@ -509,6 +510,7 @@ MonoBehaviour:
   hoverColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
   primaryHoverColor: {r: 1, g: 1, b: 1, a: 1}
   pressedColor: {r: 1, g: 1, b: 1, a: 1}
+  rends: []
 --- !u!114 &6924375314235438561
 MonoBehaviour:
   m_ObjectHideFlags: 0
