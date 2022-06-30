@@ -25,6 +25,8 @@ public class GenerateScenarioBehaviour : MonoBehaviour
 
     [SerializeField] private ScenarioEventBehaviour _scenarioEventBehaviour;
 
+    [SerializeField] private GraspBehaviour _graspBehaviour;
+
     //public ScenarioAnimatorController _scenarioAnimatorController;
     
     //[SerializeField] private GraspBehaviour _graspBehaviour;
@@ -48,6 +50,8 @@ public class GenerateScenarioBehaviour : MonoBehaviour
         _commandSequenceManager = FindObjectOfType<CommandSequenceManager>();
 
         _scenarioEventBehaviour = FindObjectOfType<ScenarioEventBehaviour>();
+
+        _graspBehaviour = FindObjectOfType<GraspBehaviour>();
         
         _scriptableGameObjectDataController = Resources.Load<ScriptableGameObjectDataController>("ScriptableObjects/Game Object/Scriptable GameObject Data Controller");
     }
@@ -62,17 +66,26 @@ public class GenerateScenarioBehaviour : MonoBehaviour
     
     public void GetScenario()
     {
-        Init();
+        if (_graspBehaviour._myTarget)
+        {
+            if (_graspBehaviour._myTarget.GetComponent<InitializeNpcInteraction>()._canInteract == false) return;
+            
+            Init();
 
-        //var index = _contentAreaController.GetCurrentScenarioNumber();
+            //var index = _contentAreaController.GetCurrentScenarioNumber();
 
-        var index = _integerVariable.IntegerValue - 1;
+            var index = _integerVariable.IntegerValue - 1;
         
-        Debug.Log(index);
+            Debug.Log(index);
 
-        _durationFinal.text = _timerBehaviour.GetTime();
+            _durationFinal.text = _timerBehaviour.GetTime();
         
-        GenerateScenario(index, OnFinishedLoadAsset);
+            GenerateScenario(index, OnFinishedLoadAsset);
+        }
+        
+        
+        
+        
     }
 
     private void Update()

@@ -11,7 +11,7 @@ public class FillAmmountLoading : MonoBehaviour
     
     public void StartFill()
     {
-        StartCoroutine(Fill());
+        //StartCoroutine(Fill());
     }
     
     IEnumerator Fill()
