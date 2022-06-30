@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Personal\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Personal\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_vr-bahasa.1091179060.00" t="ExcludeRecursive" />
-    <e p="D:\Projects\Pusdiklat Bahasa\VTS Language 20220624 - 2020.3.30f1\vr-bahasa" t="IncludeRecursive">
+    <e p="C:\Users\Personal\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_vr-bahasa.-1134701379.00" t="ExcludeRecursive" />
+    <e p="D:\GitHub\VTS Language 20220317 - 2020.3.30f1\vr-bahasa" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -101,6 +101,7 @@
               <e p="Editor" t="Include">
                 <e p="OneClicks" t="Include">
                   <e p="OneClickBoxHeadEditor.cs" t="Include" />
+                  <e p="OneClickCC3Editor.cs" t="Include" />
                 </e>
                 <e p="readme.txt" t="Include" />
                 <e p="Version.txt" t="Include" />
@@ -110,6 +111,8 @@
                   <e p="OneClickBase.cs" t="Include" />
                   <e p="OneClickBoxHead.cs" t="Include" />
                   <e p="OneClickBoxHeadEyes.cs" t="Include" />
+                  <e p="OneClickCC3.cs" t="Include" />
+                  <e p="OneClickCC3Eyes.cs" t="Include" />
                   <e p="OneClickComponent.cs" t="Include" />
                   <e p="OneClickConfiguration.cs" t="Include" />
                   <e p="OneClickExpression.cs" t="Include" />
@@ -390,6 +393,7 @@
             <e p="PlaceHolder" t="Include">
               <e p="PlaceHolderController.cs" t="Include" />
             </e>
+            <e p="PointerStatesCheck.cs" t="Include" />
             <e p="TestRotation.cs" t="Include" />
             <e p="UserPanelLeftHand.cs" t="Include" />
           </e>
