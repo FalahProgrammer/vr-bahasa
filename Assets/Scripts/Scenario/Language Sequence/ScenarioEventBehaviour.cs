@@ -5,6 +5,7 @@ using System.Linq;
 using Leap.Unity;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class ScenarioEventBehaviour : MonoBehaviour
@@ -33,6 +34,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
 
     [SerializeField] private NpcInteractionManager _npcInteractionManager;
 
+    [SerializeField] private FadingBehaviour _requiredTextFadingBehaviour;
     [SerializeField] private TextMeshProUGUI _answerText;
 
     public int questionCounter;
@@ -59,52 +61,59 @@ public class ScenarioEventBehaviour : MonoBehaviour
 
     public void ScenarioSubmiter()
     {
+        SequentialAnimation.AudioSource = null;
         questionCounter = Int32.Parse(_dataVariable.qustion_id);
 
-        
         Debug.Log("scenario Submited");
         
         // dimaz
         counter = 0;
+        //SequentialAnimation.AnimationList
 
         for (int i = 0; i < SequentialAnimation.AnimationList.Count; i++)
         {
-            
-            
             //SequentialAnimation.AnimationList[i].Animators.Add(_npcInteractionManager._npcInteractions[i].);
             
             SequentialAnimation.AnimationList[i].Animators.Clear();
 
-            SequentialAnimation.AnimationList[i].AnimationState.Add("");
+            SequentialAnimation.AnimationList[i].AnimationState.Clear();
 
             for (int j = 0; j < _npcInteractionManager._npcInteractions.Count; j++)
             {
+                
                 if (SequentialAnimation._id == _npcInteractionManager._npcInteractions[j]._id)
                 {
                     SequentialAnimation.AnimationList[i].Animators.Add(_npcInteractionManager._npcInteractions[j].Animator);
                 }
             }
 
+            if (SequentialAnimation.AudioSource == null)
+            {
+                SequentialAnimation.AudioSource = SequentialAnimation.AnimationList[i].Animators[0].GetComponent<AudioSource>();
+            }
             
             // NPC
             if (i == 0)
             {
                 //Debug.Log((SequentialAnimation.AnimationList[i].AudioClip.name));
-                SequentialAnimation.AnimationList[i].OnPartialAnimationPlayed.AddListener(_typerTextBehaviour.BeginPlayText);
-                
+
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(Microphone.SetButtonOn);
-                
+                SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_requiredTextFadingBehaviour.BeginFadingIn);
   
                 counter += 1;
+                
+                SequentialAnimation.AnimationList[i].AnimationState.Add("S+" + counter);
 
-                for (int j = 0; j < SequentialAnimation.AnimationList[i].AnimationState.Count; j++)
+                /*for (int j = 0; j < SequentialAnimation.AnimationList[i].AnimationState.Count; j++)
                 {
                     //Debug.Log("Ini counter : S + " + counter);
 
-                    SequentialAnimation.AnimationList[i].AnimationState[j] = "S+" + counter;
+                    //SequentialAnimation.AnimationList[i].AnimationState.Add("");
+                    
+                    SequentialAnimation.AnimationList[i].AnimationState.Add("S+" + counter);
 
                     //Debug.Log("Index : " + i + " Name : " + SequentialAnimation.AnimationList[i].AnimationState[j]);
-                }
+                }*/
 
                 //clip = SequentialAnimation.AnimationList[i].AudioClip;
                 //Debug.Log("Clip ID: " + clip);
@@ -122,14 +131,16 @@ public class ScenarioEventBehaviour : MonoBehaviour
 
                 counter += 1;
 
-                for (int j = 0; j < SequentialAnimation.AnimationList[i].AnimationState.Count; j++)
+                SequentialAnimation.AnimationList[i].AnimationState.Add("S+" + counter);
+                
+                /*for (int j = 0; j < SequentialAnimation.AnimationList[i].AnimationState.Count; j++)
                 {
                     //Debug.Log("Ini counter : S + " + counter);
 
                     SequentialAnimation.AnimationList[i].AnimationState[j] = "S+" + counter;
 
                     //Debug.Log("Index : " + i + " Name : "+SequentialAnimation.AnimationList[i].AnimationState[j]);
-                }
+                }*/
 
                 
                 //clip = ;
@@ -141,7 +152,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
                     .AddListener(() => npcSpeech.PlaySpeech(SequentialAnimation.AnimationList[i].AudioClip));*/
 
                 SequentialAnimation.AnimationList[i].OnPartialAnimationPlayed.AddListener(_answerFading.BeginFadingOut);
-                SequentialAnimation.AnimationList[i].OnPartialAnimationPlayed.AddListener(_typerTextBehaviour.BeginPlayText);
+                //SequentialAnimation.AnimationList[i].OnPartialAnimationPlayed.AddListener(_typerTextBehaviour.BeginPlayText);
 
                 SequentialAnimation.AnimationList[i].QuestionID = questionCounter += 1;
 
@@ -166,17 +177,26 @@ public class ScenarioEventBehaviour : MonoBehaviour
                 });
 
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(Microphone.SetButtonOn);
+                SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_requiredTextFadingBehaviour.BeginFadingIn);
+                
             }
             
             // USER
             else if (i != 0 && i % 2 == 1 && i != SequentialAnimation.AnimationList.Count - 1)
             {
-                for (int j = 0; j < SequentialAnimation.AnimationList[i].AnimationState.Count; j++)
+                
+                SequentialAnimation.AnimationList[i].AnimationState.Add("IDLE");
+                SequentialAnimation.AnimationList[i].OnPartialAnimationPlayed.AddListener(_requiredTextFadingBehaviour.BeginFadingOut);
+                
+                
+                //SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_typerTextBehaviour.BeginPlayText);
+                
+                /*for (int j = 0; j < SequentialAnimation.AnimationList[i].AnimationState.Count; j++)
                 {
                     //Debug.Log("Index : " + i + " Name : "+SequentialAnimation.AnimationList[i].AnimationState[j]);
 
                     SequentialAnimation.AnimationList[i].AnimationState[j] = "IDLE";
-                }
+                }*/
             }
 
             // LAST ARRAY (USER)
@@ -189,6 +209,8 @@ public class ScenarioEventBehaviour : MonoBehaviour
                 {
                     //Debug.Log("Last Index is : " + i + " Name : "+ SequentialAnimation.AnimationList[i].AnimationState[j]);
                 }*/
+                
+                SequentialAnimation.AnimationList[i].OnPartialAnimationPlayed.AddListener(_requiredTextFadingBehaviour.BeginFadingOut);
 
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished
                     .AddListener(() => _menuScenario.ClickMyTargetMenu(_panelScore));
@@ -210,6 +232,6 @@ public class ScenarioEventBehaviour : MonoBehaviour
             }
         }
         
-        SequentialAnimation.AudioSource = SequentialAnimation.AnimationList[0].Animators[0].GetComponent<AudioSource>();
+        //SequentialAnimation.AudioSource = SequentialAnimation.AnimationList[0].Animators[0].GetComponent<AudioSource>();
     }
 }

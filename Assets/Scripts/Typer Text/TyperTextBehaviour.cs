@@ -24,6 +24,8 @@ public class TyperTextBehaviour : MonoBehaviour
 
     public void BeginPlayText()
     {
+        Debug.Log( "Playing text: " + _text.text);
+        
         _text.gameObject.SetActive(true);
         
         _textToType = _text.text;
@@ -35,14 +37,11 @@ public class TyperTextBehaviour : MonoBehaviour
 
     IEnumerator PlayTextCoroutine()
     {
-        yield return new WaitForSeconds(3);
         foreach (char c in _textToType) 
         {
             _text.text += c;
-            
+
             yield return new WaitForSeconds (_speed);
-            
-            
         }
     }
 

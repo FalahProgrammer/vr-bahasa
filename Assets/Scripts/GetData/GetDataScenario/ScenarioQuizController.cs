@@ -25,6 +25,8 @@ public class ScenarioQuizController : MonoBehaviour
 
     [SerializeField] private UnityEvent OnFinishedGetScenarioQuiz;
 
+    [SerializeField] private TyperTextBehaviour _typerTextBehaviour;
+
     
     private void Awake()
     {
@@ -134,10 +136,11 @@ public class ScenarioQuizController : MonoBehaviour
         prefabButtonAnswerController.Question_Id = sQuestion_id;
 
         prefabButtonAnswerController.Question.text = sQuestion;
+        //_typerTextBehaviour.BeginPlayText();
         
         prefabButtonAnswerController.AnswerA.text = sAnswerA;
         
-        prefabButtonAnswerController.AnswerB.text = sAnswerB;
+        //prefabButtonAnswerController.AnswerB.text = sAnswerB;
         
         //prefabButtonAnswerController.AnswerC.text = sAnswerC;
 
@@ -145,7 +148,5 @@ public class ScenarioQuizController : MonoBehaviour
         {
             
         });*/
-        
-        //OnFinishedGetScenarioQuiz.Invoke();
     }
 }

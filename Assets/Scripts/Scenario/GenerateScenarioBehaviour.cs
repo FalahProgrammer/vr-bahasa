@@ -76,19 +76,26 @@ public class GenerateScenarioBehaviour : MonoBehaviour
             if (_graspBehaviour._myTarget)
             {
                 // bug!! _graspBehaviour._myTarget is not assigned when pressing tab
-                if (_graspBehaviour._myTarget.GetComponent<InitializeNpcInteraction>()._canInteract == false) return;
+                if (_graspBehaviour._myTarget.GetComponent<InitializeNpcInteraction>()) 
+                {
+                    if (_graspBehaviour._myTarget.GetComponent<InitializeNpcInteraction>()._canInteract)
+                    {
+                        Init();
+
+                        //var index = _contentAreaController.GetCurrentScenarioNumber();
+
+                        var index = _integerVariable.IntegerValue - 1;
+        
+                        Debug.Log(index);
+
+                        _durationFinal.text = _timerBehaviour.GetTime();
+        
+                        GenerateScenario(index, OnFinishedLoadAsset);
+                    }
+                }
+                
             
-                Init();
-
-                //var index = _contentAreaController.GetCurrentScenarioNumber();
-
-                var index = _integerVariable.IntegerValue - 1;
-        
-                Debug.Log(index);
-
-                _durationFinal.text = _timerBehaviour.GetTime();
-        
-                GenerateScenario(index, OnFinishedLoadAsset);
+                
             
             }
         }
@@ -139,7 +146,7 @@ public class GenerateScenarioBehaviour : MonoBehaviour
 
         //_commandSequenceManager._commandSequences.AudioSource = Camera.main.GetComponent<AudioSource>();
         
-        Debug.Log("Audio Source Object: " + _commandSequenceManager._commandSequences.AnimationList[0].Animators[0].name);
+        // Debug.Log("Audio Source Object: " + _commandSequenceManager._commandSequences.AnimationList[0].Animators[0].name);
         
         //AudioSource tempAudio = _commandSequenceManager._commandSequences.AnimationList[0].Animators[0].GetComponent<AudioSource>();
         

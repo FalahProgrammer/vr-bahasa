@@ -16,25 +16,23 @@ public class NpcInteraction : MonoBehaviour
     [SerializeField] private ScriptController _scriptController;
 
     public SequentialAnimation SequentialAnimation;*/
-    
+
     /*[SerializeField] private RepositoryContentArea _repositoryContentArea;
     
     [SerializeField] private DataVariable _dataVariable;*/
 
     private GraspBehaviour _graspBehaviour;
-    
+
     public Animator Animator;
-    
+
     [SerializeField] private IntegerVariable _integerVariable;
-    
+
     private NpcInteractionManager _npcInteractionManager;
 
     private ScriptController _scriptController;
-    
+
     private GenerateScenarioBehaviour _generateScenarioBehaviour;
 
-    
-    
     /*[SerializeField] private Text[] _scenarioNameText;
     
     [SerializeField] private Text[] _scenarioDescText;*/
@@ -60,47 +58,52 @@ public class NpcInteraction : MonoBehaviour
         _graspBehaviour = FindObjectOfType<GraspBehaviour>();
 
         _npcInteractionManager = FindObjectOfType<NpcInteractionManager>();
-        
+
         _scriptController = FindObjectOfType<ScriptController>();
 
         _generateScenarioBehaviour = FindObjectOfType<GenerateScenarioBehaviour>();
-        
+
         _npcInteractionManager._npcInteractions.Add(this);
     }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Tab))
-         {
-            OnInteract.Invoke();
-            
-            /*for (int j = 0; j < _repositoryContentArea.Items.Count; j++)
+        {
+            if (_integerVariable.IntegerValue /*- 1*/ == _id)
             {
-                if (_repositoryContentArea.Items[j].chapter_id.Equals(_dataVariable.chapter_id) &&
-                    _repositoryContentArea.Items[j].materi_id.Equals(_dataVariable.materi_id) && 
-                    _repositoryContentArea.Items[j].id.Equals(_dataVariable.exam_id.ToString()))
+                OnInteract.Invoke();
+
+                /*for (int j = 0; j < _repositoryContentArea.Items.Count; j++)
                 {
-                    for (int i = 0; i < _scenarioNameText.Length; i++)
+                    if (_repositoryContentArea.Items[j].chapter_id.Equals(_dataVariable.chapter_id) &&
+                        _repositoryContentArea.Items[j].materi_id.Equals(_dataVariable.materi_id) && 
+                        _repositoryContentArea.Items[j].id.Equals(_dataVariable.exam_id.ToString()))
                     {
-                        _scenarioNameText[i].text = _repositoryContentArea.Items[j].conversation_topic;
+                        for (int i = 0; i < _scenarioNameText.Length; i++)
+                        {
+                            _scenarioNameText[i].text = _repositoryContentArea.Items[j].conversation_topic;
+                        }
+                        
+                        for (int k = 0; k < _scenarioDescText.Length; k++)
+                        {
+                            _scenarioDescText[k].text = _repositoryContentArea.Items[j].npc_name;
+                        }
                     }
-                    
-                    for (int k = 0; k < _scenarioDescText.Length; k++)
-                    {
-                        _scenarioDescText[k].text = _repositoryContentArea.Items[j].npc_name;
-                    }
-                }
-            }*/
+                }*/
 
-            /*int questid = Int32.Parse(_dataVariable.qustion_id);
+                /*int questid = Int32.Parse(_dataVariable.qustion_id);
+    
+                int tot = (SequentialAnimation.AnimationList.Count / 2) - 1;
+    
+                _dataVariable.qustion_id = (questid - tot).ToString();*/
 
-            int tot = (SequentialAnimation.AnimationList.Count / 2) - 1;
+                _generateScenarioBehaviour.GetScenario();
+                
+                _scriptController.Reset();
 
-            _dataVariable.qustion_id = (questid - tot).ToString();*/
-            
-            _scriptController.Reset();
-            
-            _generateScenarioBehaviour.GetScenario();
+                
+            }
         }
     }
 
@@ -113,11 +116,14 @@ public class NpcInteraction : MonoBehaviour
                 if (_integerVariable.IntegerValue /*- 1*/ == _id)
                 {
                     //npcInteractionManager.ListEventNpcInteractor[npcInteractionManager.IncreamentInteraction].Invoke();
-                    
 
                     OnInteract.Invoke();
+
+                    _generateScenarioBehaviour.GetScenario();
                     
                     _scriptController.Reset();
+                    
+                    
                     /*for (int j = 0; j < _repositoryContentArea.Items.Count; j++)
                     {
                         if (_repositoryContentArea.Items[j].chapter_id.Equals(_dataVariable.chapter_id) &&

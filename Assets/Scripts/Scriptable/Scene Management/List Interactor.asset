@@ -16,3 +16,5 @@ MonoBehaviour:
   ListUIPosition: []
   listCharacterPosition: []
   listCharacterRotation: []
+  homeTransform: {fileID: 0}
+  homeVector: {x: 0, y: 0, z: 0}

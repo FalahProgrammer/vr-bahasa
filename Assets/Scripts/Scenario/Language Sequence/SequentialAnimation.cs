@@ -32,6 +32,8 @@ public class SequentialAnimation : MonoBehaviour
         for (int i = 0; i < AnimationList.Count; i++)
         {
             //AnimationList[i].Length = 0.5f;
+            
+            //AnimationList[i].Animators.Clear();
         }
     }
 
@@ -113,7 +115,7 @@ public class SequentialAnimation : MonoBehaviour
                 Debug.Log("Anim Lenght : " + AnimationList[i].AudioClip.length);
 
                 //yield return new WaitForSeconds(AnimationList[i].Length);
-                yield return new WaitForSeconds(AnimationList[i].AudioClip.length + AnimationList[i].Length);
+                yield return new WaitForSeconds(AnimationList[i].AudioClip.length);
                 
                 if(AnimationList[i].OnPartialAnimationFinished!=null)
                     AnimationList[i].OnPartialAnimationFinished.Invoke();
@@ -124,7 +126,7 @@ public class SequentialAnimation : MonoBehaviour
             {
                 Debug.Log("Anim Lenght : " + AnimationList[i].AudioClip.length);
                 
-                yield return new WaitForSeconds(AnimationList[i].AudioClip.length + AnimationList[i].Length);
+                yield return new WaitForSeconds(AnimationList[i].AudioClip.length);
                 
                 if(AnimationList[i].OnPartialAnimationFinished!=null)
                     AnimationList[i].OnPartialAnimationFinished.Invoke();
