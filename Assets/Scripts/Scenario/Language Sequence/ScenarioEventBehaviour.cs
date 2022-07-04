@@ -25,6 +25,8 @@ public class ScenarioEventBehaviour : MonoBehaviour
 
     [SerializeField] private FadingBehaviour _panelQuestionFading;
 
+    [SerializeField] private TyperTextBehaviour _typerTextBehaviour;
+    
     [SerializeField] private LogControllerBehaviour _logControllerBehaviour;
 
     [SerializeField] private SendScoreBehaviour _sendScoreBehaviour;
@@ -61,9 +63,14 @@ public class ScenarioEventBehaviour : MonoBehaviour
 
         
         Debug.Log("scenario Submited");
+        
+        // dimaz
+        counter = 0;
 
         for (int i = 0; i < SequentialAnimation.AnimationList.Count; i++)
         {
+            
+            
             //SequentialAnimation.AnimationList[i].Animators.Add(_npcInteractionManager._npcInteractions[i].);
             
             SequentialAnimation.AnimationList[i].Animators.Clear();
@@ -74,16 +81,20 @@ public class ScenarioEventBehaviour : MonoBehaviour
             {
                 if (SequentialAnimation._id == _npcInteractionManager._npcInteractions[j]._id)
                 {
-                    SequentialAnimation.AnimationList[i].Animators
-                        .Add(_npcInteractionManager._npcInteractions[j].Animator);
+                    SequentialAnimation.AnimationList[i].Animators.Add(_npcInteractionManager._npcInteractions[j].Animator);
                 }
             }
 
+            
+            // NPC
             if (i == 0)
             {
                 //Debug.Log((SequentialAnimation.AnimationList[i].AudioClip.name));
+                SequentialAnimation.AnimationList[i].OnPartialAnimationPlayed.AddListener(_typerTextBehaviour.BeginPlayText);
+                
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(Microphone.SetButtonOn);
-
+                
+  
                 counter += 1;
 
                 for (int j = 0; j < SequentialAnimation.AnimationList[i].AnimationState.Count; j++)
@@ -104,6 +115,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
                     .AddListener(() => npcSpeech.PlaySpeech(SequentialAnimation.AnimationList[i].AudioClip));*/
             }
 
+            // NPC
             else if (i != 0 && i % 2 == 0 && i != SequentialAnimation.AnimationList.Count - 1)
             {
                 //Debug.Log("Even : "+i);
@@ -129,6 +141,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
                     .AddListener(() => npcSpeech.PlaySpeech(SequentialAnimation.AnimationList[i].AudioClip));*/
 
                 SequentialAnimation.AnimationList[i].OnPartialAnimationPlayed.AddListener(_answerFading.BeginFadingOut);
+                SequentialAnimation.AnimationList[i].OnPartialAnimationPlayed.AddListener(_typerTextBehaviour.BeginPlayText);
 
                 SequentialAnimation.AnimationList[i].QuestionID = questionCounter += 1;
 
@@ -154,6 +167,8 @@ public class ScenarioEventBehaviour : MonoBehaviour
 
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(Microphone.SetButtonOn);
             }
+            
+            // USER
             else if (i != 0 && i % 2 == 1 && i != SequentialAnimation.AnimationList.Count - 1)
             {
                 for (int j = 0; j < SequentialAnimation.AnimationList[i].AnimationState.Count; j++)
@@ -164,15 +179,16 @@ public class ScenarioEventBehaviour : MonoBehaviour
                 }
             }
 
+            // LAST ARRAY (USER)
             if (i == SequentialAnimation.AnimationList.Count - 1)
             {
                 //Debug.Log((SequentialAnimation.AnimationList[i].AnimationState));
                 //Debug.Log("Last Index : "+i);
 
-                for (int j = 0; j < SequentialAnimation.AnimationList[i].AnimationState.Count; j++)
+                /*for (int j = 0; j < SequentialAnimation.AnimationList[i].AnimationState.Count; j++)
                 {
                     //Debug.Log("Last Index is : " + i + " Name : "+ SequentialAnimation.AnimationList[i].AnimationState[j]);
-                }
+                }*/
 
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished
                     .AddListener(() => _menuScenario.ClickMyTargetMenu(_panelScore));

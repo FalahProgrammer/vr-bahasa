@@ -24,7 +24,7 @@ public class RecenterHTC5 : MonoBehaviour
         
         DebuggingMainCam.text = TransformMainCam.localPosition.ToString();*/
         
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             RecenterCamera();
         }
