@@ -26,6 +26,7 @@ public class SequentialAnimation : MonoBehaviour
     public bool IsPlaying;
 
 
+    
     private void OnValidate()
     {
         for (int i = 0; i < AnimationList.Count; i++)
@@ -64,10 +65,12 @@ public class SequentialAnimation : MonoBehaviour
                 a[j].speed = 1;
                 
                 Debug.Log("Jumlah Iterasi Play: " + AnimationList[i].Animators.Count);
+                Debug.Log("NPC: " + AnimationList[i].Animators[0].transform.parent.name);
                 
                 if(!IsPlaying)
                 {
-                    StopCoroutine(PlayAnimationCoroutine());
+                    yield break;
+                    //StopCoroutine(PlayAnimationCoroutine());
                 }
                 //if it is first time, we shouldn't use CrossFade as to prevent anim overlap
                 if (i == 0)
@@ -148,7 +151,7 @@ public class SequentialAnimation : MonoBehaviour
             _continueAnimation = StartCoroutine(ContinueAnimationCoroutine());
         }
     }
-
+    
     IEnumerator ContinueAnimationCoroutine()
     {
         //Filtering the list from finished sequences

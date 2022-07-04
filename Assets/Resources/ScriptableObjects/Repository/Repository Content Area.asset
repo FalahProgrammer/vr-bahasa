@@ -32,18 +32,18 @@ MonoBehaviour:
     duration: 120
     path_area_prefab: Language/Indonesia/Immigration Area/Airport Officer 1
     AreaPrefab: {fileID: 0}
-  - id: 3
-    materi_id: 1
-    chapter_id: 2
+  - id: 4
+    materi_id: 2
+    chapter_id: 4
     area_name: Barracks
     conversation_topic: Talk about basic combat training
     npc_name: Indonesian Airforce Staff 1
     duration: 120
     path_area_prefab: Language/Indonesia/Barracks/Indonesian Airforce Staff 1
-    AreaPrefab: {fileID: 0}
-  - id: 4
+    AreaPrefab: {fileID: 5843648213660027234, guid: c37eb1f8489688648bf2e2b867a2fa0c, type: 3}
+  - id: 5
     materi_id: 2
-    chapter_id: 3
+    chapter_id: 4
     area_name: Mobile Passport Control Place (Immigration Area)
     conversation_topic: Guidance to use the machine
     npc_name: Airport Security 1

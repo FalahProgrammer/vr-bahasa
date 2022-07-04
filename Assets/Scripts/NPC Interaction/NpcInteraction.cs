@@ -71,7 +71,7 @@ public class NpcInteraction : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Tab))
-        {
+         {
             OnInteract.Invoke();
             
             /*for (int j = 0; j < _repositoryContentArea.Items.Count; j++)

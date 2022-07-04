@@ -52,6 +52,8 @@ public class TeleportBehaviour : MonoBehaviour, iResetable
     public TeleportEvents teleportEvents;
     
     public delegate void TeleportEventHandler();
+
+    public GameObject assignedLineOfTeleported;
     
     private void Start()
     {
@@ -61,6 +63,7 @@ public class TeleportBehaviour : MonoBehaviour, iResetable
     void Init()
     {
         GameObject drawing = Instantiate(LinePrefabs);
+        assignedLineOfTeleported = drawing;
         
         _lineRenderer = drawing.GetComponent<LineRenderer>();
 
@@ -116,7 +119,7 @@ public class TeleportBehaviour : MonoBehaviour, iResetable
         _teleportPoint.gameObject.SetActive(true);
     }
 
-    public void HideTelepfort()
+    public void HideTeleport()
     {
         _lineRenderer.enabled = false;
         _teleportPoint.gameObject.SetActive(false);

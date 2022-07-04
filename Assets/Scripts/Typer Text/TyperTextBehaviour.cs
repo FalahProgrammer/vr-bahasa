@@ -35,6 +35,7 @@ public class TyperTextBehaviour : MonoBehaviour
 
     IEnumerator PlayTextCoroutine()
     {
+        yield return new WaitForSeconds(3);
         foreach (char c in _textToType) 
         {
             _text.text += c;

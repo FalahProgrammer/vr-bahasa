@@ -25,6 +25,29 @@
             <e p="Standard 2-Sided.shader" t="Include" />
           </e>
         </e>
+        <e p="Joystick Pack" t="Include">
+          <e p="Examples" t="Include">
+            <e p="JoystickPlayerExample.cs" t="Include" />
+            <e p="JoystickSetterExample.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Base" t="Include">
+              <e p="Joystick.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="DynamicJoystickEditor.cs" t="Include" />
+              <e p="FloatingJoystickEditor.cs" t="Include" />
+              <e p="JoystickEditor.cs" t="Include" />
+              <e p="VariableJoystickEditor.cs" t="Include" />
+            </e>
+            <e p="Joysticks" t="Include">
+              <e p="DynamicJoystick.cs" t="Include" />
+              <e p="FixedJoystick.cs" t="Include" />
+              <e p="FloatingJoystick.cs" t="Include" />
+              <e p="VariableJoystick.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Materials" t="Include">
           <e p="XingLightShader.shader" t="Include" />
         </e>
@@ -383,6 +406,7 @@
               <e p="PrefabButtonDataController.cs" t="Include" />
               <e p="RuntimeSet.cs" t="Include" />
             </e>
+            <e p="JoyStickUI.cs" t="Include" />
             <e p="Menu Navigation Controller" t="Include">
               <e p="InteractionCanvasGroupCommand.cs" t="Include" />
               <e p="MenuController.cs" t="Include" />
@@ -394,10 +418,10 @@
               <e p="PlaceHolderController.cs" t="Include" />
             </e>
             <e p="PointerStatesCheck.cs" t="Include" />
-            <e p="TestRotation.cs" t="Include" />
             <e p="UserPanelLeftHand.cs" t="Include" />
           </e>
           <e p="XR Changer" t="Include">
+            <e p="TeleportAndGrabCheck.cs" t="Include" />
             <e p="ToggleBehaviour.cs" t="Include" />
             <e p="ToggleController.cs" t="Include" />
             <e p="ToggleKey.cs" t="Include" />

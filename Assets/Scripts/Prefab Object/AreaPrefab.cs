@@ -60,15 +60,15 @@ public class AreaPrefab : MonoBehaviour
                var adjustmentPlayerPosition = charAdjustment.adjustmentPlayerPosition;
                
                _listInteractor.listCharacterPosition.Add(new Vector3(
-                  tempUI.x - 0.5f + adjustmentPlayerPosition.x, 
-                  tempUI.y + 1.4f + adjustmentPlayerPosition.y, 
+                  tempUI.x - 0.8f + adjustmentPlayerPosition.x, 
+                  tempUI.y + 1.5f + adjustmentPlayerPosition.y, 
                   tempUI.z + adjustmentPlayerPosition.z));
                break;
             
             case false:
                _listInteractor.listCharacterPosition.Add(new Vector3(
-                  tempUI.x - 0.5f, 
-                  tempUI.y + 1.4f, 
+                  tempUI.x - 0.8f, 
+                  tempUI.y + 1.5f, 
                   tempUI.z));
                break;
          }

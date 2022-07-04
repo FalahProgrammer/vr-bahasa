@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UIElements;
 
 public class ToggleBehaviour : MonoBehaviour,iResetable
 {
@@ -15,12 +16,12 @@ public class ToggleBehaviour : MonoBehaviour,iResetable
     public void SetToggle() {
         if (Toogle)
         {
-            Toogle = false;
+            Toogle =! Toogle;
             IsOn.Invoke();
 
         } else
         {
-            Toogle = true;
+            Toogle =! Toogle;
             IsOff.Invoke();
         }
     }

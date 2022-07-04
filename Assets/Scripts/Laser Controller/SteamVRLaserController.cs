@@ -94,6 +94,7 @@ public class SteamVRLaserController : MonoBehaviour
     private void Update()
     {
         ShowLaser();
+        
         if (_graspBehaviour.Active)
         {
             ActivateLaser();

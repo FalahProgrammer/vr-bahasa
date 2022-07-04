@@ -4,10 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using UnityEngine.XR.Management;
 
 public class GenerateScenarioBehaviour : MonoBehaviour
 {
     //[SerializeField] private ContentAreaController _contentAreaController;
+    [SerializeField] private bool _usingVR;
 
     [SerializeField] private IntegerVariable _integerVariable;
     
@@ -54,6 +56,8 @@ public class GenerateScenarioBehaviour : MonoBehaviour
         _graspBehaviour = FindObjectOfType<GraspBehaviour>();
         
         _scriptableGameObjectDataController = Resources.Load<ScriptableGameObjectDataController>("ScriptableObjects/Game Object/Scriptable GameObject Data Controller");
+
+        _usingVR = XRGeneralSettings.Instance.Manager.activeLoader != null;
     }
     
     public void Init()
@@ -66,10 +70,31 @@ public class GenerateScenarioBehaviour : MonoBehaviour
     
     public void GetScenario()
     {
-        if (_graspBehaviour._myTarget)
+
+        if (_usingVR)
         {
-            if (_graspBehaviour._myTarget.GetComponent<InitializeNpcInteraction>()._canInteract == false) return;
+            if (_graspBehaviour._myTarget)
+            {
+                // bug!! _graspBehaviour._myTarget is not assigned when pressing tab
+                if (_graspBehaviour._myTarget.GetComponent<InitializeNpcInteraction>()._canInteract == false) return;
             
+                Init();
+
+                //var index = _contentAreaController.GetCurrentScenarioNumber();
+
+                var index = _integerVariable.IntegerValue - 1;
+        
+                Debug.Log(index);
+
+                _durationFinal.text = _timerBehaviour.GetTime();
+        
+                GenerateScenario(index, OnFinishedLoadAsset);
+            
+            }
+        }
+
+        else
+        {
             Init();
 
             //var index = _contentAreaController.GetCurrentScenarioNumber();
@@ -82,6 +107,8 @@ public class GenerateScenarioBehaviour : MonoBehaviour
         
             GenerateScenario(index, OnFinishedLoadAsset);
         }
+        
+        
         
         
         
@@ -130,8 +157,13 @@ public class GenerateScenarioBehaviour : MonoBehaviour
             
         _scriptableGameObjectDataController.ContentButton.transform.localRotation = new Quaternion(0 , 0 , 0 , 0);
         
+        Debug.Log("Assigning NPC Data");
         for (int j = 0; j < _repositoryContentArea.Items.Count; j++)
         {
+            /*Debug.Log("Materi ID: " + _repositoryContentArea.Items[j].materi_id + ", Expected: " + _dataVariable.materi_id +
+                               ", Chapter ID: " + _repositoryContentArea.Items[j].chapter_id + ", Expected: " + _dataVariable.chapter_id + 
+                               ", ID: " + _repositoryContentArea.Items[j].id + ", Expected: " + _dataVariable.exam_id);*/
+            
             if (_repositoryContentArea.Items[j].chapter_id.Equals(_dataVariable.chapter_id) &&
                 _repositoryContentArea.Items[j].materi_id.Equals(_dataVariable.materi_id) && 
                 _repositoryContentArea.Items[j].id.Equals(_dataVariable.exam_id.ToString()))
@@ -144,6 +176,8 @@ public class GenerateScenarioBehaviour : MonoBehaviour
                 for (int k = 0; k < _scenarioDescText.Length; k++)
                 {
                     _scenarioDescText[k].text = _repositoryContentArea.Items[j].npc_name;
+                    
+                    Debug.Log("NPC Scenario Name is " + _repositoryContentArea.Items[j].npc_name);
                 }
             }
         }
