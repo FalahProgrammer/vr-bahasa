@@ -2,32 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99c69635-610c-4701-9b96-cb889ac100b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NPC Interactor/NPC Interactor 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NPC Interactor/NPC Interactor 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/English/Barracks/Indonesian Airforce Staff 1/Barracks.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/English/Barracks/Indonesian Airforce Staff 1/Barracks.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Content Area.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Content Area.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/English/Barracks/Indonesian Airforce Staff 1/Talk about basic combat training.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/English/Barracks/Indonesian Airforce Staff 1/Talk about basic combat training.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Laser Controller/SteamVRLaserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Laser Controller/SteamVRLaserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/ScenarioQuizController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/ScenarioQuizController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteraction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pinch Object/RegisterHand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pinch Object/RegisterHand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Prefab Object/AreaPrefab.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prefab Object/AreaPrefab.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Recenter HTC 5/RecenterHTC5.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Recenter HTC 5/RecenterHTC5.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Teleport/TeleportBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Teleport/TeleportBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/List Interactor.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/List Interactor.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/ListInteractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/ListInteractor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Typer Text/TyperTextBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Typer Text/TyperTextBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Menu Navigation Controller/ScriptController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Menu Navigation Controller/ScriptController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/TestRotation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/TestRotation.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UserPanelLeftHand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UserPanelLeftHand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/XR Changer/ToggleBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/XR Changer/ToggleBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,88 +41,95 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/XRManagerSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/ButtonControllerEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Laser Controller/SteamVRLaserController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Utils/Comment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/FadingEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fading/FadingBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene Management/SceneLoaderManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Leap Motion Event/LeapMotionEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boolean/Booleanbehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAt/LookAtBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Asset Bundle Loader/LoadAsyncLanguageAssetBundle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/DataSceneManagement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UBER/Editor/UBER_StandardShaderGUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Asset Bundle Loader/LoadAssetBundleAsync.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Utils/EnumEventTable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fill Ammount Loading/FillAmmountLoading.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9CEAB6B4-FDDA-43C3-B0D3-A2FD99A06AAC/fe/12e52250/SpeechRecognizer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Typer Text/TyperTextBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR Changer/XRChanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR Changer/ToggleController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR Changer/ToggleBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendGETMethod.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendScoreBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/ScenarioQuizController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast/GraspBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/LoginVerificationBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/PrefabAnswerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4928367-10F1-493C-A019-0FE9374A37DA/d0/103531c0/Animator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendPOSTMethod.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking OpenXR/Runtime/Scripts/HandTracker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Interaction Engine/Runtime/Scripts/Utility/SimpleFacingCameraCallbacks.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking OpenXR/Runtime/Scripts/HandTrackingFeature.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast/RayController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast/Ray2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scoring/AnswerCheckerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/ListInteractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3BE1A7FF-939C-43F1-81C0-A10B5A0189AC/19/43bdac30/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_TerrainAutoUpgrade.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/LoadPrefabContentBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateEnvirontmentBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Reset Object/ResetObjectBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3BE1A7FF-939C-43F1-81C0-A10B5A0189AC/25/b5bd9b90/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/CommandSequenceManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/AnimInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prefab Object/AreaPrefab.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Language/English/Barracks/Indonesian Airforce Staff 1/Barracks.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Teleport/TeleportBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Button Controlller/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9CEAB6B4-FDDA-43C3-B0D3-A2FD99A06AAC/7c/05b0d3cd/Result.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Hands/HandEnableDisable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Outline Object/OutlineSettingBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAt/AlwaysLookAtCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/DetectionUtilities/AbstractHoldDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/For Collab Purpose/CD-MD_CHARACTER_FR_002-FIT036-20210926 (1) Variant.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/DetectionUtilities/Detector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Object/Scriptable Transform/ScriptableListTransform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UserPanelLeftHand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PointerStatesCheck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/DetectionUtilities/PinchDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpeechRecognitionSystem/Scripts/SpeechRecognizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpeechRecognitionSystem/Scripts/AudioRecorder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/VRCheck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/String/DataVariable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Utils/Comment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/RepositoryQuizQuestion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/DataSceneManagement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Utils/EnumEventTable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Typer Text/TyperTextBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR Changer/XRChanger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR Changer/ToggleController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR Changer/ToggleBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendGETMethod.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendScoreBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/LoginVerificationBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendPOSTMethod.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking OpenXR/Runtime/Scripts/HandTracker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking OpenXR/Runtime/Scripts/HandTrackingFeature.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pinch Object/RegisterHand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_TerrainAutoUpgrade.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Reset Object/ResetObjectBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Language/English/Barracks/Indonesian Airforce Staff 1/Barracks.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Button Controlller/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Outline Object/OutlineSettingBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Recenter HTC 5/RecenterHTC5.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcSpeechSalsa.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/RuntimeSet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/PrefabButtonDataController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prefab Object/CharacterAdjustment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/JsonHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/DetectionUtilities/AbstractHoldDetector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Editor/JoystickEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3BE1A7FF-939C-43F1-81C0-A10B5A0189AC/3b/a9dae979/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/For Collab Purpose/CD-MD_CHARACTER_FR_002-FIT036-20210926 (1) Variant.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/DetectionUtilities/Detector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/JoyStickUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Object/Scriptable Transform/ScriptableListTransform.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UserPanelLeftHand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Time Countdown/TimerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/LocationController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PointerStatesCheck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/ContentAreaController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/testread.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/DetectionUtilities/PinchDetector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR Changer/TeleportAndGrabCheck.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SpeechRecognitionSystem/Scripts/SpeechRecognizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3BE1A7FF-939C-43F1-81C0-A10B5A0189AC/84/ecf44640/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SpeechRecognitionSystem/Scripts/AudioRecorder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Menu Navigation Controller/MenuControllerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grabable Object/AddObjectsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/VRCheck.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/String/DataVariable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grabable Object/AddObjects.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -151,7 +147,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Camera/VRCheck.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAt/AlwaysLookAtCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcSpeechSalsa.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteractionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Button Controlller/ButtonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Fading/FadingBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/PrefabButtonDataController.cs" />
@@ -166,15 +161,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Laser Controller/SteamVRLaserController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Raycast/GraspBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UserPanelLeftHand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Prefab Object/AreaPrefab.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Recenter HTC 5/RecenterHTC5.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Typer Text/TyperTextBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Teleport/TeleportBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteractionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteraction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Typer Text/TyperTextBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/ScenarioQuizController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Prefab Object/AreaPrefab.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/ListInteractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Menu Navigation Controller/ScriptController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pinch Object/RegisterHand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/AnimInteraction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -237,7 +237,7 @@
       <workItem from="1656639646623" duration="3177000" />
       <workItem from="1656648774589" duration="10212000" />
       <workItem from="1656668238942" duration="369000" />
-      <workItem from="1656904360097" duration="4905000" />
+      <workItem from="1656904360097" duration="20189000" />
     </task>
     <task id="LOCAL-00001" summary="perubahan pada konsep pembacaan animator, tatapi masih butuh review faizrizky 20/06/2022 17:23">
       <created>1655721023629</created>
@@ -279,19 +279,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs</url>
-          <line>73</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" initialLine="73">
-            <startOffsets>
-              <option value="2392" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2405" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

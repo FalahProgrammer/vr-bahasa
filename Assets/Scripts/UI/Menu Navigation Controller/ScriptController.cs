@@ -118,8 +118,13 @@ public class ScriptController : MonoBehaviour, iResetable
                 break;
             }
         }*/
-        
-        
+    }
+
+    public void PlayerReturnToInitialPosition()
+    {
+        _target.position = _listInteractor.homeVector;
+        _playerMove.SetTargetLocation(_target);
+        _playerFading.BeginFadingIn();
     }
 
     public void EnableNPCInteractor()

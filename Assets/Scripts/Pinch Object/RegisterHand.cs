@@ -6,9 +6,9 @@ using UnityEngine;
 
 public class RegisterHand : MonoBehaviour
 {
-    [SerializeField] private HandModelBase _lefthand;
+/*    [SerializeField] private HandModelBase _lefthand;
     
-    [SerializeField] private HandModelBase _righthand;
+    [SerializeField] private HandModelBase _righthand;*/
 
     [SerializeField] private PinchDetector _leftPinchDetector;
     
@@ -21,22 +21,22 @@ public class RegisterHand : MonoBehaviour
 
     public void RegisterRightHand()
     {
-        _rightPinchDetector.HandModel = _righthand;
+        _rightPinchDetector.enabled = true;
     }
-    
+
     public void UnRegisterRightHand()
     {
-        _rightPinchDetector.HandModel = null;
+        _rightPinchDetector.enabled = false;
     }
     
     
     public void RegisterLeftHand()
     {
-        _leftPinchDetector.HandModel = _lefthand;
+        _leftPinchDetector.enabled = true;
     }
     
     public void UnRegisterLeftHand()
     {
-        _leftPinchDetector.HandModel = null;
+        _leftPinchDetector.enabled = false;
     }
 }

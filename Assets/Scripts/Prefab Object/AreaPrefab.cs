@@ -97,10 +97,14 @@ public class AreaPrefab : MonoBehaviour
       
       //add player initial position to the bottom of the list
       var playerPos = _playerInitialPosition.position;
-      _listInteractor.ListUIPosition.Add(new Vector3(playerPos.x - 0.5f, playerPos.y + 1.5f, playerPos.z));
+      _listInteractor.homeVector = _playerInitialPosition.position;
+      
+      // _listInteractor.ListUIPosition.Add(new Vector3(playerPos.x - 0.5f, playerPos.y + 1.5f, playerPos.z));
       
       //add player initial position to the bottom of the list
-      _listInteractor.listCharacterPosition.Add(_playerInitialPosition.position);
+     //  _listInteractor.listCharacterPosition.Add(_playerInitialPosition.position);
+
+      _listInteractor.homeTransform = _playerInitialPosition;
       
       if (_debugMode) Debug.Log("Data Generated!");
    }

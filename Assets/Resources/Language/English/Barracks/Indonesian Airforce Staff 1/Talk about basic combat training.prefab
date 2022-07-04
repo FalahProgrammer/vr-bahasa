@@ -140,15 +140,16 @@ MonoBehaviour:
   _id: 1
   _integerVariable: {fileID: 11400000, guid: 05e3189e17a53fa44b625301249eeb94, type: 2}
   AnimationList:
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators:
+    - {fileID: 0}
     AnimationState:
     - S+1
     AudioClip: {fileID: 8300000, guid: 565b5e934e65745478a5e88fd4fdca7a, type: 3}
     AudioDelay: 0
-    AnimationDelay: 3
+    AnimationDelay: 0
     WaitForInteraction: 1
-    Length: 6
+    Length: 0
     OnPartialAnimationPlayed:
       m_PersistentCalls:
         m_Calls: []
@@ -167,8 +168,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 0
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
@@ -182,8 +183,8 @@ MonoBehaviour:
     OnPartialAnimationFinished:
       m_PersistentCalls:
         m_Calls: []
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators: []
     AnimationState:
     - S+2
     AudioClip: {fileID: 8300000, guid: 0488e46ab22e3254a832c8674697d774, type: 3}
@@ -209,8 +210,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 0
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
@@ -248,8 +249,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators: []
     AnimationState:
     - S+3
     AudioClip: {fileID: 8300000, guid: c43cc6319bf30b64995c1b27ed4fe59e, type: 3}
@@ -299,8 +300,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
@@ -338,8 +339,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators: []
     AnimationState:
     - S+4
     AudioClip: {fileID: 8300000, guid: 8f1b165cde836f3499328f453fbcc19c, type: 3}
@@ -389,8 +390,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
@@ -428,8 +429,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators: []
     AnimationState:
     - S+5
     AudioClip: {fileID: 8300000, guid: e1e9b4a21fd6fda47b60f31c32718aef, type: 3}
@@ -479,8 +480,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
@@ -518,8 +519,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators: []
     AnimationState:
     - S+6
     AudioClip: {fileID: 8300000, guid: 742025198dac20446a7c3e3d1aca61b5, type: 3}
@@ -569,8 +570,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
@@ -608,8 +609,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators: []
     AnimationState:
     - S+7
     AudioClip: {fileID: 8300000, guid: c755011a8599ad4468cf68ae1e096351, type: 3}
@@ -659,8 +660,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
@@ -698,8 +699,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators: []
     AnimationState:
     - S+8
     AudioClip: {fileID: 8300000, guid: 8a956da7450872746b053e9c6d3e4c6a, type: 3}
@@ -749,8 +750,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
@@ -788,8 +789,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators: []
     AnimationState:
     - S+9
     AudioClip: {fileID: 8300000, guid: 9d0396e1232122f4fb55bc8542ce6bef, type: 3}
@@ -839,8 +840,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - Animators:
-    - {fileID: 8656052454218027623, guid: ca23e1374af693049bc0f0c3facebe98, type: 3}
+  - QuestionID: 0
+    Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
