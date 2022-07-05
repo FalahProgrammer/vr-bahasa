@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class ResetScene : MonoBehaviour
 {
+    [SerializeField] private SceneLoaderManager _sceneLoaderManager;
+    
     public UnityEvent AfterClickSpace;
     
     private void Update()
@@ -14,17 +16,10 @@ public class ResetScene : MonoBehaviour
         if (Input.GetKey(KeyCode.R))
         {
             AfterClickSpace.Invoke();
+            
+            _sceneLoaderManager.SetScene(SceneManager.GetActiveScene().name);
+        
+            _sceneLoaderManager.ChangeScene();
         }
-    }
-
-    public void Changescene()
-    {
-       StartCoroutine("InvokeChangeScene",1f);
-    }
-
-    IEnumerator InvokeChangeScene()
-    {
-        SceneManager.LoadScene("Sequence Menu Test");
-        yield return null;
     }
 }

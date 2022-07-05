@@ -36,6 +36,7 @@ public class SceneLoaderManager : MonoBehaviour
         
         StartCoroutine(_sceneLoader.LoadScene(_sceneLoader.OnFinishedLoadScene));
     }
+    
 
     public void ResetLoading()
     {

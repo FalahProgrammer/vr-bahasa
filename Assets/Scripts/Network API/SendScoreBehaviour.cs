@@ -27,6 +27,8 @@ public class SendScoreBehaviour : MonoBehaviour
     private void Awake()
     {
 
+        url = "http://" + _repositoryLoginData.API_URL;
+        
         Header = _repositoryLoginData.Header;
         
         if(GetComponent<SendPOSTMethod>()==null)
@@ -110,14 +112,14 @@ public class SendScoreBehaviour : MonoBehaviour
     public void PostLogs()
     {
     
-        var URL = "http://192.168.100.78/vr-bahasa/public/api/v1/logs";
+        //var URL = "http://"+ _repositoryLoginData.API_URL + "/vr-bahasa/public/api/v1/logs";
         //Header.Add(_repositoryLoginData.Header[0]);
         string JSON = JsonUtility.ToJson(_repositoryLog);
             
         Debug.Log(JSON);
         
         if(_sendPost)
-            _sendPostMethod.SendPOST(url,JSON, (x) =>
+            _sendPostMethod.SendPOST(url + "/vr-bahasa/public/api/v1/logs",JSON, (x) =>
             {
                 Debug.Log("Callback : " + x);
                 
@@ -131,11 +133,11 @@ public class SendScoreBehaviour : MonoBehaviour
     }
     public IEnumerator CoroutinePostNilaiV2()
     {
-        yield return new WaitForSeconds(1);
+        //yield return new WaitForSeconds(1);
         if (UserId.ToString() == "")
             Debug.Log("No UserID Found");
 
-        var URL = "http://192.168.100.78/vr-bahasa/public/api/v1/report";
+        var URL = "http://192.168.101.32/vr-bahasa/public/api/v1/report";
         
         for (int i = 0; i < _contentAreaController.ListContent.Count; i++)
         {
@@ -155,7 +157,7 @@ public class SendScoreBehaviour : MonoBehaviour
                     //duration_taken = _contentAreaController.ListContent[i].duration - Int32.Parse(_repositoryLog.logs.Items.Last().duration),_logControllerBehaviour._timerBehaviour._currentDuration
                     duration_taken = _contentAreaController.ListContent[i].duration - (int)_logControllerBehaviour._timerBehaviour._currentDuration,
                     content_id = _repositoryLog.content_id,
-                    asnwer_status = _repositoryLog.logs.Items[i].answer_status,
+                    //asnwer_status = _repositoryLog.logs.Items[i].answer_status,
                     logs = _repositoryLog.logs
                 };
                 
@@ -164,7 +166,7 @@ public class SendScoreBehaviour : MonoBehaviour
                 Debug.Log(JSON);
 
                 if (_sendPost)
-                    _sendPostMethod.SendPOST(URL,JSON, (x) =>
+                    _sendPostMethod.SendPOST(url + "/vr-bahasa/public/api/v1/report",JSON, (x) =>
                     {
                         
                         Debug.Log("Callback : " + x);
@@ -173,6 +175,8 @@ public class SendScoreBehaviour : MonoBehaviour
                 
             }
         }
+        
+        yield return null;
     }
 }
 
@@ -200,7 +204,7 @@ public class DataPostScenario
     public int total_incorrect;
     public int duration_taken;
     public string content_id;
-    public bool asnwer_status;
+    //public bool asnwer_status;
     public Log logs;
 }
 

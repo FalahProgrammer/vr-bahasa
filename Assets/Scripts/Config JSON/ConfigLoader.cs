@@ -8,19 +8,23 @@ using UnityEngine.UI;
 public class ConfigLoader : MonoBehaviour
 {
     [SerializeField] private string configPath = Application.streamingAssetsPath + "/Config.json";
+    
     [SerializeField] private RepositoryLoginData _repositoryLoginData;
+    /*
     [SerializeField] private SendPOSTMethod _sendPostMethod;
     //public NetworkApiManager NetworkApiManager;
     
-    public DataPostScenario _configFile;
     
+    
+*/
     public string LastDate;
 
     public string Username;
-
+    public ConfigFile _configFile;
+    
     string[] args = System.Environment.GetCommandLineArgs ();
     
-    private DataPostScenario ReadConfig()
+    /*private DataPostScenario ReadConfig()
     {
         using (StreamReader stream = new StreamReader(configPath))
         {
@@ -43,6 +47,16 @@ public class ConfigLoader : MonoBehaviour
             
             
         }
+    }*/
+    
+    private ConfigFile ReadConfig()
+    {
+        using (StreamReader stream = new StreamReader(configPath))
+        {
+            string json = stream.ReadToEnd();
+            
+            return JsonUtility.FromJson<ConfigFile>(json);
+        }
     }
 
     private void WriteConfig(ConfigFile configFile)
@@ -61,10 +75,12 @@ public class ConfigLoader : MonoBehaviour
         
         _configFile = ReadConfig();
 
-        //LastDate = _configFile.Date;
+        LastDate = _configFile.Date;
         
-        //_configFile.Date = DateTime.Now.ToString();
+        _configFile.Date = DateTime.Now.ToString();
 
+        _repositoryLoginData.API_URL = _configFile.Url;
+        
         //_configFile.Username = System.Environment.GetCommandLineArgs()
         
         /*for (int i = 0; i < args.Length; i++) {
@@ -76,7 +92,7 @@ public class ConfigLoader : MonoBehaviour
 
         //Tambahkan write untuk username dari raftels
 
-        //WriteConfig(_configFile);
+        WriteConfig(_configFile);
     }
     
     private void Start()

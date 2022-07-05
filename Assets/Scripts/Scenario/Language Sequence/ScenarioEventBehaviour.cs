@@ -210,6 +210,8 @@ public class ScenarioEventBehaviour : MonoBehaviour
                     //Debug.Log("Last Index is : " + i + " Name : "+ SequentialAnimation.AnimationList[i].AnimationState[j]);
                 }*/
                 
+                SequentialAnimation.AnimationList[i].AnimationState.Add("IDLE");
+                
                 SequentialAnimation.AnimationList[i].OnPartialAnimationPlayed.AddListener(_requiredTextFadingBehaviour.BeginFadingOut);
 
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished

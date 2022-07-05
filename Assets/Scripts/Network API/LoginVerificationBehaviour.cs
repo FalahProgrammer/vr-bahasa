@@ -14,7 +14,7 @@ public class LoginVerificationBehaviour : MonoBehaviour
     public string url = "http://192.168.100.78/vr-bahasa/public/api/v1/login";
     
     public List<RequestHeader> Header = new List<RequestHeader>();
-    
+
     [SerializeField] private SendPOSTMethod _sendPostMethod;
 
     [SerializeField] private RepositoryLoginData _repositoryLoginData;
@@ -42,6 +42,8 @@ public class LoginVerificationBehaviour : MonoBehaviour
             _sendPostMethod = gameObject.GetComponent<SendPOSTMethod>();
         }*/
 
+        url = "http://"+_repositoryLoginData.API_URL + "/vr-bahasa/public/api/v1/login";
+        
         Login();
     }
     

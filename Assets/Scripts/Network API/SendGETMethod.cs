@@ -29,6 +29,7 @@ public class SendGETMethod : MonoBehaviour
     
     private void Start()
     {
+        URL = "http://"+_repositoryLoginData.API_URL;
         if (_isStart)
         {
             Invoke("asd",0.1f);
@@ -55,15 +56,15 @@ public class SendGETMethod : MonoBehaviour
     {
         GetToken();
         
-        GetRepositoryMateri("http://192.168.100.78/vr-bahasa/public/api/v1/materis");
+        GetRepositoryMateri(URL+"/vr-bahasa/public/api/v1/materis");
 
-        GetRepositoryLocation("http://192.168.100.78/vr-bahasa/public/api/v1/chapters");
+        GetRepositoryLocation(URL+"/vr-bahasa/public/api/v1/chapters");
         
-        GetRepositoryContentArea("http://192.168.100.78/vr-bahasa/public/api/v1/contents");
+        GetRepositoryContentArea(URL+"/vr-bahasa/public/api/v1/contents");
         
-        GetRepositoryDataQuiz("http://192.168.100.78/vr-bahasa/public/api/v1/quiz-questions");
+        GetRepositoryDataQuiz(URL+"/vr-bahasa/public/api/v1/quiz-questions");
 
-        GetRepositoryPassingGrade("http://192.168.100.78/vr-bahasa/public/api/v1/passgrade");
+        GetRepositoryPassingGrade(URL+"/vr-bahasa/public/api/v1/passgrade");
     }
     
     public void GetRepositoryMateri(string url)
@@ -99,7 +100,7 @@ public class SendGETMethod : MonoBehaviour
     {
         //_repositoryLoginData.token = currentToken;
         Header = new List<RequestHeader>(){new RequestHeader(){key="Authorization",value = $"Bearer {_repositoryLoginData.token}"}};
-        SendGET(URL,(x)=>
+        SendGET(URL + "/vr-bahasa/public/api/v1/tokens",(x)=>
         {
             DeserializeLoginResult(x);
         },Header.ToDictionary(x=>x.key));

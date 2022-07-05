@@ -10124,6 +10124,7 @@ Transform:
   - {fileID: 1658749009}
   - {fileID: 58444766}
   - {fileID: 121178217}
+  - {fileID: 1033349090}
   m_Father: {fileID: 764540856}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23535,7 +23536,7 @@ MonoBehaviour:
   _myCanvasGroup: {fileID: 539163742}
   _myClockPanel: {fileID: 0}
   EyeController: {fileID: 0}
-  _speed: 0.5
+  _speed: 0.01
   Mode: 0
   _targetValue: 0
   _selectEase: 0
@@ -23581,6 +23582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1c782e93a2f2b147afca6747c674af0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _sceneLoaderManager: {fileID: 1860994186}
   AfterClickSpace:
     m_PersistentCalls:
       m_Calls:
@@ -35761,6 +35763,61 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!1 &1033349089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1033349090}
+  - component: {fileID: 1033349091}
+  m_Layer: 0
+  m_Name: Config Loader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1033349090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033349089}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 343976487}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1033349091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033349089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 145b44b6868b65742b997892d516686a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configPath: D:/GitHub/VTS Language 20220317 - 2020.3.30f1/vr-bahasa/Assets/StreamingAssets/Config.json
+  _repositoryLoginData: {fileID: 11400000, guid: 5963289fb74bab24a9a73d8ef01b5920, type: 2}
+  LastDate: 
+  Username: 
+  _configFile:
+    Url: 
+    DatabaseName: 
+    GlobalPath: 
+    StreamingAssetPath: 
+    Mode: 
+    Date: 
+    Username: 
 --- !u!1 &1035691952
 GameObject:
   m_ObjectHideFlags: 0
@@ -61565,7 +61622,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681134233}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd4d2e2b1c7694f4aa2e3383e95d0b68, type: 3}
   m_Name: 
@@ -61953,7 +62010,31 @@ MonoBehaviour:
       m_Calls: []
   OnCompleteFadingOut:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2140440654355053399}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2140440654355053399}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   Logo: {fileID: 2800000, guid: d01ed61e1ee2efe4c9ca846183b26938, type: 3}
 --- !u!1 &1694548871
 GameObject:
@@ -71109,6 +71190,42 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1888405524}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 5861020044517674211}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 651532144}
+        m_TargetAssemblyTypeName: MenuControllerBehaviour, Assembly-CSharp
+        m_MethodName: ClickMyTargetMenu
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2140440654355053396}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1950868308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79049,7 +79166,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1872271941033453645}
   m_OnClick:
     m_PersistentCalls:

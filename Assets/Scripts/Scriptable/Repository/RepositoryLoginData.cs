@@ -5,6 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Repository Login Data", menuName = "Repository/Repository Login Data")]
 public class RepositoryLoginData : ScriptableObject
 {
+    public string API_URL;
+        
     public int status_code;
 
     public string token;
