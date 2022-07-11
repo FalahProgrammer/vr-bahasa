@@ -13,6 +13,8 @@ public class LoginVerificationBehaviour : MonoBehaviour
 {
     public string url = "http://192.168.100.78/vr-bahasa/public/api/v1/login";
     
+    [SerializeField] private SendGETMethod _sendGetMethod;
+    
     public List<RequestHeader> Header = new List<RequestHeader>();
 
     [SerializeField] private SendPOSTMethod _sendPostMethod;
@@ -31,6 +33,8 @@ public class LoginVerificationBehaviour : MonoBehaviour
     
     [SerializeField] private UnityEvent _onError;
 
+    [SerializeField] private UnityEvent _onEnable;
+
     private void Awake()
     {
         /*if(GetComponent<SendPOSTMethod>()==null)
@@ -44,9 +48,14 @@ public class LoginVerificationBehaviour : MonoBehaviour
 
         url = "http://"+_repositoryLoginData.API_URL + "/vr-bahasa/public/api/v1/login";
         
-        Login();
+        //Login();
     }
-    
+
+    private void OnEnable()
+    {
+        _onEnable?.Invoke();
+    }
+
 
     public void Login()
     {
@@ -55,7 +64,8 @@ public class LoginVerificationBehaviour : MonoBehaviour
         if (url == null)
             return;
         
-        var datatosend = new LoginData(){username = /*_inputFieldEmail.text*/"falah", password = /*_inputFieldPass.text*/"admin123"};
+        var datatosend = new LoginData(){username = _inputFieldEmail.text, password = _inputFieldPass.text};
+        //{username = /*_inputFieldEmail.text*/"falah", password = /*_inputFieldPass.text*/"admin123"};
         
         string JSON = JsonUtility.ToJson(datatosend);
         
@@ -63,6 +73,7 @@ public class LoginVerificationBehaviour : MonoBehaviour
 
         _sendPostMethod.SendPOST(url,JSON,(x)=> { DeserializeLoginResult(x); },Header.ToDictionary(x => x.key, x => x.value));
         
+        //_onFinished.AddListener(() =>_sendGetMethod.Invoke("GetDataFromServer",0.1f));
     }
 
    

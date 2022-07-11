@@ -11,7 +11,7 @@ public class PrefabButtonDataController : MonoBehaviour, IPointerEnterHandler
     [HideInInspector] public string Description;
     
     [HideInInspector] public string UrlImage;*/
-
+    [Space(40)]
     [SerializeField] private bool _debugMode;
     
     [HideInInspector] public int Duration;

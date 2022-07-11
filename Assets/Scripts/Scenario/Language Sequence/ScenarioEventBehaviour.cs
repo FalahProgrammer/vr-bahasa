@@ -26,7 +26,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
 
     [SerializeField] private FadingBehaviour _panelQuestionFading;
 
-    [SerializeField] private TyperTextBehaviour _typerTextBehaviour;
+    //[SerializeField] private TyperTextBehaviour _typerTextBehaviour;
     
     [SerializeField] private LogControllerBehaviour _logControllerBehaviour;
 
@@ -39,7 +39,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
 
     public int questionCounter;
 
-    int counter = 0;
+    int counter;
     
     AudioClip clip;
         
@@ -64,10 +64,10 @@ public class ScenarioEventBehaviour : MonoBehaviour
         SequentialAnimation.AudioSource = null;
         questionCounter = Int32.Parse(_dataVariable.qustion_id);
 
-        Debug.Log("scenario Submited");
+        Debug.Log("Scenario Submited");
         
         // dimaz
-        counter = 0;
+        //counter = 0;
         //SequentialAnimation.AnimationList
 
         for (int i = 0; i < SequentialAnimation.AnimationList.Count; i++)
@@ -75,15 +75,17 @@ public class ScenarioEventBehaviour : MonoBehaviour
             //SequentialAnimation.AnimationList[i].Animators.Add(_npcInteractionManager._npcInteractions[i].);
             
             SequentialAnimation.AnimationList[i].Animators.Clear();
+            //Debug.Log("Animator Cleared! Current Animation List Index: " + i + ", Animator Count: " + SequentialAnimation.AnimationList[i].Animators.Count);
 
             SequentialAnimation.AnimationList[i].AnimationState.Clear();
 
             for (int j = 0; j < _npcInteractionManager._npcInteractions.Count; j++)
             {
-                
                 if (SequentialAnimation._id == _npcInteractionManager._npcInteractions[j]._id)
                 {
                     SequentialAnimation.AnimationList[i].Animators.Add(_npcInteractionManager._npcInteractions[j].Animator);
+                    
+                    //Debug.Log("Animator Added! " + _npcInteractionManager._npcInteractions[j].Animator.name + ", Current Animation List Index: " + i + ", Animator Count: " + SequentialAnimation.AnimationList[i].Animators.Count);
                 }
             }
 
@@ -101,6 +103,8 @@ public class ScenarioEventBehaviour : MonoBehaviour
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_requiredTextFadingBehaviour.BeginFadingIn);
   
                 counter += 1;
+                
+                SequentialAnimation.AnimationList[i].QuestionID = questionCounter += 1;
                 
                 SequentialAnimation.AnimationList[i].AnimationState.Add("S+" + counter);
 
@@ -167,8 +171,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
                         if (j == SequentialAnimation._currentIteration)
                         {
                             _dataVariable.qustion_id = SequentialAnimation.AnimationList[j].QuestionID.ToString();
-
-                            Debug.Log(_dataVariable.qustion_id);
+                            Debug.Log("_currentIteration : "+ SequentialAnimation._currentIteration + ", Question ID: " + _dataVariable.qustion_id);
                         }
                     }
 
@@ -223,9 +226,10 @@ public class ScenarioEventBehaviour : MonoBehaviour
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished
                     .AddListener(_logControllerBehaviour.CalculateLogScore);
 
-                SequentialAnimation.AnimationList[i].OnPartialAnimationFinished
-                    .AddListener(_sendScoreBehaviour.PostLogs);
-
+                // Logs is included in PostNilaiV2
+                /*SequentialAnimation.AnimationList[i].OnPartialAnimationFinished
+                    .AddListener(_sendScoreBehaviour.PostLogs);*/
+                
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished
                     .AddListener(_sendScoreBehaviour.PostNilaiV2);
 

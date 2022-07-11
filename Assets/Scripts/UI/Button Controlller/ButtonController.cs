@@ -123,7 +123,8 @@ public class ButtonController : DoScaleBehaviour, iResetable
 
         _pointerHandlerBehaviour.OnPointerEnterEvent.AddListener(OnHover);
 
-        _pointerHandlerBehaviour.OnPointerClickEvent.AddListener(OnClick);
+        // bug ? //dimaz
+         _pointerHandlerBehaviour.OnPointerClickEvent.AddListener(OnClick);
 
         _pointerHandlerBehaviour.OnPointerExitEvent.AddListener(OnExit);
 
@@ -167,6 +168,7 @@ public class ButtonController : DoScaleBehaviour, iResetable
     public void ClickSound()
     {
         _audioSource.PlayOneShot(_onClickSound);
+        Debug.LogWarning("Audio Played! Clip: " + _onClickSound.name);
     }
 
     public void HoverSound()

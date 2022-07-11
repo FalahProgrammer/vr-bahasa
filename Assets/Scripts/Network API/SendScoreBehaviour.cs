@@ -70,7 +70,7 @@ public class SendScoreBehaviour : MonoBehaviour
         }*/
     }
     
-    public void PostNilai()
+    /*public void PostNilai()
     {
         if (UserId.ToString() == "")
             Debug.Log("No UserID Found");
@@ -105,30 +105,32 @@ public class SendScoreBehaviour : MonoBehaviour
                 
             }
         }
-    }
+    }*/
 
     
-
-    public void PostLogs()
+    // dimaz, obsolete, Logs data is included in PostNilaiV2
+    /*public void PostLogs()
     {
-    
         //var URL = "http://"+ _repositoryLoginData.API_URL + "/vr-bahasa/public/api/v1/logs";
         //Header.Add(_repositoryLoginData.Header[0]);
         string JSON = JsonUtility.ToJson(_repositoryLog);
             
-        Debug.Log(JSON);
+        Debug.LogWarning(JSON);
         
         if(_sendPost)
             _sendPostMethod.SendPOST(url + "/vr-bahasa/public/api/v1/logs",JSON, (x) =>
             {
+                
                 Debug.Log("Callback : " + x);
                 
             },_repositoryLoginData.Header.ToDictionary(x=>x.key, x => x.value));
-        
-    }
+
+    }*/
 
     public void PostNilaiV2()
     {
+        Debug.LogWarning("SENDING NILAI");
+        
         StartCoroutine(CoroutinePostNilaiV2());
     }
     public IEnumerator CoroutinePostNilaiV2()
@@ -143,6 +145,8 @@ public class SendScoreBehaviour : MonoBehaviour
         {
             if (_contentAreaController.ListContent[i].materi_id == _dataVariable.materi_id)
             {
+                Debug.Log("_contentAreaController.ListContent Index: " + i);
+                
                 var dt = _contentAreaController.ListContent[i].duration -
                          (int) _logControllerBehaviour._timerBehaviour._currentDuration;
                 Debug.Log(dt);

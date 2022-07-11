@@ -1903,7 +1903,7 @@ MonoBehaviour:
   Chapter_Id: 
   Question_Id: 
   Question: {fileID: 0}
-  AnswerA: {fileID: 1377482519646987608}
+  Answer: {fileID: 1377482519646987608}
   AnswerB: {fileID: 1377482519583115846}
 --- !u!1 &1377482520055185650
 GameObject:
@@ -3225,6 +3225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 0.025
   _text: {fileID: 1377482520802044262}
+  _textToType: 
 --- !u!1 &1377482520822516002
 GameObject:
   m_ObjectHideFlags: 0

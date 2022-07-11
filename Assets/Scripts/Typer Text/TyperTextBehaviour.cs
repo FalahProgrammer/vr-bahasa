@@ -5,11 +5,13 @@ using UnityEngine.UI;
 
 public class TyperTextBehaviour : MonoBehaviour
 {
+    // OBSOLETE
+    
     [SerializeField] [Range(0,1)] private float _speed; 
     
     [SerializeField] private Text _text;
     
-    string _textToType;
+    [SerializeField] string _textToType;
 
     void Awake () 
     {
@@ -27,17 +29,17 @@ public class TyperTextBehaviour : MonoBehaviour
         Debug.Log( "Playing text: " + _text.text);
         
         _text.gameObject.SetActive(true);
-        
+
         _textToType = _text.text;
         
         _text.text = "";
-        
+
         StartCoroutine ("PlayTextCoroutine");
     }
 
     IEnumerator PlayTextCoroutine()
     {
-        foreach (char c in _textToType) 
+        foreach (char c in _textToType)
         {
             _text.text += c;
 

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce36a26fce8b4724eb157f4780164d58, type: 3}
   m_Name: Repository Login Data
   m_EditorClassIdentifier: 
+  API_URL: localhost
   status_code: 200
-  token: 382|KEolQpqNFuUshIKp4QQbEeP6VVvYe8PB9bHsGop8
-  Header:
-  - key: Content-Type
-    value: application/json
+  token: 
+  Header: []
   data: []

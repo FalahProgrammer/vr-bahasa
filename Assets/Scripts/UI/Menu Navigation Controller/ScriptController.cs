@@ -135,7 +135,6 @@ public class ScriptController : MonoBehaviour, iResetable
         }
     }
     
-    
     public void Reset()
     {
         for (int i = 0; i < _graspBehaviours.Count; i++)

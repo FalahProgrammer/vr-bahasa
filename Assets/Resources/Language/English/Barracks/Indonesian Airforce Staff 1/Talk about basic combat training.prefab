@@ -60,6 +60,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 0.025
   _text: {fileID: 0}
+  _textToType: 
 --- !u!1 &8234571543350179397
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,3 +943,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 0.025
   _text: {fileID: 0}
+  _textToType: 

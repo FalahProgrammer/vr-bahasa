@@ -107,8 +107,6 @@ public class GenerateScenarioBehaviour : MonoBehaviour
             //var index = _contentAreaController.GetCurrentScenarioNumber();
 
             var index = _integerVariable.IntegerValue - 1;
-        
-            Debug.Log(index);
 
             _durationFinal.text = _timerBehaviour.GetTime();
         
@@ -183,8 +181,6 @@ public class GenerateScenarioBehaviour : MonoBehaviour
                 for (int k = 0; k < _scenarioDescText.Length; k++)
                 {
                     _scenarioDescText[k].text = _repositoryContentArea.Items[j].npc_name;
-                    
-                    Debug.Log("NPC Scenario Name is " + _repositoryContentArea.Items[j].npc_name);
                 }
             }
         }

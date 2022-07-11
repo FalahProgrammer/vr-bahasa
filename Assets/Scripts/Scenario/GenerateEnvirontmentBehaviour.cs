@@ -55,7 +55,7 @@ public class GenerateEnvirontmentBehaviour : MonoBehaviour
 
             yield return _scriptableTransform.MyTransform.gameObject;
             
-            Debug.Log("Prefab ''"+ _scriptableTransform.MyTransform.gameObject.name + "'' successfully loaded !!!");
+            Debug.Log("--------------------- Prefab ''"+ _scriptableTransform.MyTransform.gameObject.name + "'' Successfully loaded ---------------------");
             
             onFinishedLoadAsset?.Invoke();
         }

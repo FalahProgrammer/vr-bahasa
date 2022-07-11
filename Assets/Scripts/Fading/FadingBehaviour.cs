@@ -180,6 +180,9 @@ public class FadingBehaviour : MonoBehaviour, iResetable
     
     public void BeginFadingOut()
     {
+        _myCanvasGroup.interactable = false;
+            
+        _myCanvasGroup.blocksRaycasts = false;
         
         switch (FadingType)
         {

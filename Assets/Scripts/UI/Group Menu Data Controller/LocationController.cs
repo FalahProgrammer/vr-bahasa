@@ -65,6 +65,7 @@ public class LocationController : MonoBehaviour
         for (int i = 0; i < repositoryChapter.Count; i++)
         {
             //GenerateButtonChapter(_repositoryItems.ListChapter[i].no, _repositoryItems.ListChapter[i].judul);
+            
             GenerateButtonLocation(repositoryChapter[i].id,repositoryChapter[i].materi_id, repositoryChapter[i].judul);
         }
     }

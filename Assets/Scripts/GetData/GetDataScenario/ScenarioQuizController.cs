@@ -24,9 +24,8 @@ public class ScenarioQuizController : MonoBehaviour
     public string Question;
 
     [SerializeField] private UnityEvent OnFinishedGetScenarioQuiz;
-
-    [SerializeField] private TyperTextBehaviour _typerTextBehaviour;
-
+    
+    [SerializeField] private NewTyperText _newTyperText;
     
     private void Awake()
     {
@@ -118,7 +117,7 @@ public class ScenarioQuizController : MonoBehaviour
     public string GetCurrentQuestion() => Question;
 
     public string GetCurrentAnswer() => CorrectAnswer;
-    
+
     public void GenerateButtonChapter(string sMateri_id, string sChapter_id, string sQuestion_id, string sAnswerA, string sAnswerB, string sQuestion)
     {
         //InitThis();
@@ -136,9 +135,9 @@ public class ScenarioQuizController : MonoBehaviour
         prefabButtonAnswerController.Question_Id = sQuestion_id;
 
         prefabButtonAnswerController.Question.text = sQuestion;
-        //_typerTextBehaviour.BeginPlayText();
+        _newTyperText.PlayText();
         
-        prefabButtonAnswerController.AnswerA.text = sAnswerA;
+        prefabButtonAnswerController.Answer.text = sAnswerA;
         
         //prefabButtonAnswerController.AnswerB.text = sAnswerB;
         

@@ -27,19 +27,19 @@ public class DataVariable : ScriptableObject
     public void Chapter_Id(string chapter_ID)
     {
         chapter_id = chapter_ID;
-        Debug.Log("chapter id kepannggil ");
+        Debug.Log("Chapter ID kepannggil ");
     }
     
     public void Question_Id(string question_ID)
     {
         qustion_id = question_ID;
-        Debug.Log("chapter id kepannggil ");
+        Debug.Log("Question ID kepannggil ");
     }
     
     public void Exam_Id(int exam_ID)
     {
         exam_id = exam_ID;
-        Debug.Log("chapter id kepannggil ");
+        Debug.Log("Exam ID kepannggil ");
     }
 
     public void IncreamentQuestionID(int startFrom)

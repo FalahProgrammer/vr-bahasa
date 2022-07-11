@@ -210,16 +210,17 @@ public class SequentialAnimation : MonoBehaviour
             else
             {
                 yield return new WaitForSeconds(0.5f);
-                
-                if(l[i].OnPartialAnimationFinished!=null)
+
+                if (l[i].OnPartialAnimationFinished != null)
+                {
                     l[i].OnPartialAnimationFinished.Invoke();
+                }
                 
             }
  
         }
 
         IsPlaying = false;
-        
 
         if(AnimationFinished!=null)
             AnimationFinished.Invoke();

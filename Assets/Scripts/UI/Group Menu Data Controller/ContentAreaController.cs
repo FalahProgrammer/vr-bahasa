@@ -40,7 +40,6 @@ public class ContentAreaController : MonoBehaviour
     public List<DataContentArea> ListContent = new List<DataContentArea>();
     
     public UnityEvent OnClickContent;
-    
 
     DateTime thisTime = DateTime.Now;
     
@@ -87,10 +86,9 @@ public class ContentAreaController : MonoBehaviour
         {
             GenerateButtonContentArea(ListContent[i].duration * 60,ListContent[i].id/*,ListContent[i].scenario_number*/,
                 ListContent[i].conversation_topic, ListContent[i].area_name,ListContent[i].chapter_id, ListContent[i].AreaPrefab/*, _locationController.repositoryChapter[i].judul*/);
+            
+            Debug.Log("Content Area: " + ListContent[i].area_name);
         }
-        
-
-        
     }
     
     public int GetCurrentScenarioNumber() => CurrentScenarioNumber;
@@ -127,10 +125,10 @@ public class ContentAreaController : MonoBehaviour
             prefabButtonDataController.AreaPrefab = sAreaPrefab;
 
             prefabButtonDataController.TextButtonName.text = sContentAreaName;
-            
-            prefabButtonDataController.GetComponent<PointerHandlerBehaviour>().OnPointerEnterEvent.AddListener(_timerButton.StartCounting);
 
-            prefabButtonDataController.GetComponent<PointerHandlerBehaviour>().OnPointerExitEvent.AddListener(_timerButton.Reset);
+            PointerHandlerBehaviour pointerHandlerBehaviour = prefabButtonDataController.GetComponent<PointerHandlerBehaviour>();
+            pointerHandlerBehaviour.OnPointerEnterEvent.AddListener(_timerButton.StartCounting);
+            pointerHandlerBehaviour.OnPointerExitEvent.AddListener(_timerButton.Reset);
 
             _scriptableGameObjectDataController.ContentButton.transform.localScale = new Vector3(1, 1, 1);
             
@@ -143,9 +141,11 @@ public class ContentAreaController : MonoBehaviour
             _scriptableGameObjectDataController.ContentButton.transform.localRotation = new Quaternion(0 , 0 , 0 , 0);
             
             sConversationTopic.Trim();
-            
-            _scriptableGameObjectDataController.ContentButton.GetComponentInChildren<Button>().onClick.AddListener(delegate
+
+            Button btn = _scriptableGameObjectDataController.ContentButton.GetComponentInChildren<Button>();
+            btn.onClick.AddListener(delegate
             {
+                btn.interactable = false;
                 //CurrentScenarioNumber = sScenarioNumber;
                 
                 _timerBehaviour._currentDuration = sDuration;
