@@ -11,7 +11,7 @@ public class FillAmmountLoading : MonoBehaviour
     
     public void StartFill()
     {
-        //StartCoroutine(Fill());
+        StartCoroutine(Fill());
     }
     
     IEnumerator Fill()
@@ -19,7 +19,7 @@ public class FillAmmountLoading : MonoBehaviour
         while (true)
         {
             _cooldown[0].fillAmount = (_timeBehaviour[0]._initialDuration - _timeBehaviour[0]._currentDuration) / _timeBehaviour[0]._initialDuration;
-            _cooldown[1].fillAmount = (_timeBehaviour[1]._initialDuration - _timeBehaviour[1]._currentDuration) / _timeBehaviour[1]._initialDuration;
+            //_cooldown[1].fillAmount = (_timeBehaviour[1]._initialDuration - _timeBehaviour[1]._currentDuration) / _timeBehaviour[1]._initialDuration;
             yield return null;
         }
     }

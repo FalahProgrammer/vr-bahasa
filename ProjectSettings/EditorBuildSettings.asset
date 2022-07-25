@@ -17,9 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/RND Scene/Home RND.unity
     guid: 8d51d316e67bb734c9f976be7134ac14
+  - enabled: 0
+    path: Assets/Scenes/Production Scene/English Original.unity
+    guid: 6efdaa2d380c54f49be698e019da8736
   - enabled: 1
     path: Assets/Scenes/Production Scene/English.unity
-    guid: 6efdaa2d380c54f49be698e019da8736
+    guid: 2c8a5da8a0ade004faa64358fec937cf
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 14dffa8fe66c95b4cb288da4b6766ba0, type: 2}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 275e3b94b7090ef45a8d2cb53b6fdbdf, type: 2}

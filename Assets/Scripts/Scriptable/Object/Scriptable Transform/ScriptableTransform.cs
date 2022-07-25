@@ -5,4 +5,5 @@ using UnityEngine;
 public class ScriptableTransform : ScriptableObject
 {
     public Transform MyTransform;
+    public Transform LanguageHomeArea;
 }

@@ -22,6 +22,7 @@ public class CommandSequenceManager : MonoBehaviour, iResetable
     
     [SerializeField] private TextMeshProUGUI _answerText;
 
+    [Space(10)]
     [SerializeField] private UnityEvent OnBeginSkipToEnd;
     
     private int _counterOdd = 0;
@@ -66,6 +67,8 @@ public class CommandSequenceManager : MonoBehaviour, iResetable
     public void SkipToEndCommand()
     {
         //OnBeginSkipToEnd.Invoke();
+        
+        Debug.Log("Skip To End!");
             
         CallContinueCommand();
         

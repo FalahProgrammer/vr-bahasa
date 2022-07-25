@@ -68,4 +68,20 @@ public class NpcInteractionManager : MonoBehaviour
             }
         }
     }
+
+    public void EnableInteractors()
+    {
+        foreach (var v in _npcInteractions)
+        {
+            v.MeshRenderer.enabled = true;
+        }
+    }
+
+    public void DisableInteractors()
+    {
+        foreach (var v in _npcInteractions)
+        {
+            v.MeshRenderer.enabled = false;
+        }
+    }
 }

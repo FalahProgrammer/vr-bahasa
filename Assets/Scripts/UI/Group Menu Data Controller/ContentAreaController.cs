@@ -8,6 +8,8 @@ using UnityEngine.UI;
 public class ContentAreaController : MonoBehaviour
 {
     public DataVariable DataVariable;
+
+    [SerializeField] private IntegerVariable _integerVariable;
     
     [SerializeField] private LocationController _locationController;
     
@@ -84,8 +86,21 @@ public class ContentAreaController : MonoBehaviour
         
         for (int i = 0; i < ListContent.Count; i++)
         {
-            GenerateButtonContentArea(ListContent[i].duration * 60,ListContent[i].id/*,ListContent[i].scenario_number*/,
-                ListContent[i].conversation_topic, ListContent[i].area_name,ListContent[i].chapter_id, ListContent[i].AreaPrefab/*, _locationController.repositoryChapter[i].judul*/);
+            /*List<string> tempChecker = new List<string>();
+            for (int p = 0; p < ListContent[i].npc.Length; p++)
+            {
+                if (tempChecker.Contains(ListContent[i].AreaPrefab.name))
+                {
+                    
+                }
+
+                
+            }*/
+            
+            GenerateButtonContentArea(ListContent[i].duration * 60,ListContent[i].id/*,ListContent[i].scenario_number*/, ListContent[i].npc[0].conversation_topic, ListContent[i].area_name,ListContent[i].chapter_id, ListContent[i].AreaPrefab/*, _locationController.repositoryChapter[i].judul*/);
+
+            //GenerateButtonContentArea(ListContent[i].duration * 60,ListContent[i].id/*,ListContent[i].scenario_number*/,
+                 // ListContent[i].npc[_integerVariable.IntegerValue - 1].conversation_topic, ListContent[i].area_name,ListContent[i].chapter_id, ListContent[i].AreaPrefab/*, _locationController.repositoryChapter[i].judul*/);
             
             Debug.Log("Content Area: " + ListContent[i].area_name);
         }
@@ -97,7 +112,9 @@ public class ContentAreaController : MonoBehaviour
     {
         if (!sConversationTopic.Equals("Bibliography"))
         {
-            //InitThis();
+            if (sAreaPrefab)
+            {
+                //InitThis();
             _scriptableGameObjectDataController.ContentButton = Instantiate(_prefabButtonContentArea, _groupButtonContentArea, true);
             
             PrefabButtonDataController prefabButtonDataController = _scriptableGameObjectDataController.ContentButton.GetComponentInChildren<PrefabButtonDataController>();
@@ -164,7 +181,7 @@ public class ContentAreaController : MonoBehaviour
 
                 _dateTime.text = thisTime.ToString("f");
 
-                DataVariable.exam_id = Int32.Parse(sID);
+                DataVariable.area_id = Int32.Parse(sID);
 
                 if (_scriptableTransform != null)
                 {
@@ -177,6 +194,8 @@ public class ContentAreaController : MonoBehaviour
                 OnClickContent.Invoke();
                 
             });
+            }
+            
 
         }
     }

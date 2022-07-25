@@ -7,208 +7,167 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1169675435893038677, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1169675435893038677, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: LanguageModelDirPath
-      value: SpeechRecognitionSystem/model/model_Indonesia
+      value: SpeechRecognitionSystem/model/model_bahasa
       objectReference: {fileID: 0}
-    - target: {fileID: 1169675435893038677, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1169675435893038677, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 1169675435893038677, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1169675435893038677, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: LogMessageReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 1169675435893038677, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1169675435893038677, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: PartialResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 1169675436838485854, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1169675436838485854, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: m_Name
       value: SpeechRecognitionSystem Bahasa Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 1169675436838485854, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1169675436838485854, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1268791464815082293, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1268791464815082293, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: m_Name
       value: SpeechRecognitionSystem Bahasa Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 1268791464815082293, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1268791464815082293, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: LanguageModelDirPath
       value: SpeechRecognitionSystem/model/model_indonesia
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: LogMessageReceived.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: PartialResultReceived.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: LogMessageReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: set_text
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: LogMessageReceived.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: PartialResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: LogMessageReceived.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: set_text
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: PartialResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: PartialResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: set_text
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.UI.Text, UnityEngine.UI
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: UnityEngine.UI.Text, UnityEngine.UI
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: LogMessageReceived.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.UI.Text, UnityEngine.UI
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: PartialResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.UI.Text, UnityEngine.UI
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: LogMessageReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: PartialResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350,
-        type: 3}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -218,14 +177,12 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
 --- !u!1 &8659238722515096280 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1169675435893038680, guid: 0327194e15aa74a42ab9994b6dbb2350,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 1169675435893038680, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
   m_PrefabInstance: {fileID: 7498579286605319296}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &8659238722515096277 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1169675435893038677, guid: 0327194e15aa74a42ab9994b6dbb2350,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 1169675435893038677, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
   m_PrefabInstance: {fileID: 7498579286605319296}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}

@@ -5,6 +5,8 @@ using TMPro;
 public class NewTyperText : MonoBehaviour
 {
     [SerializeField] [Range(0,1)] private float _speed = 0.025f;
+
+    [SerializeField] private LogControllerBehaviour _logControllerBehaviour;
     
     [Space(10)]
     [SerializeField] private TextMeshProUGUI tmpText;
@@ -20,20 +22,34 @@ public class NewTyperText : MonoBehaviour
 
     public void PlayText()
     {
-        string text = tmpText.text;
-        tmpText.maxVisibleCharacters = 0;
-
-        if (textAnimation == null)
+        Debug.Log(_logControllerBehaviour.Mode);
+        
+        switch (_logControllerBehaviour.Mode)
         {
-            textAnimation = TextAnimation();
-        }
-        else
-        {
-            StopCoroutine(textAnimation);
-            textAnimation = TextAnimation();
-        }
+            case LogControllerBehaviour.Type.Exercise:
+                tmpText.maxVisibleCharacters = 0;
 
-        StartCoroutine(textAnimation);
+                if (textAnimation == null)
+                {
+                    textAnimation = TextAnimation();
+                }
+                else
+                {
+                    StopCoroutine(textAnimation);
+                    textAnimation = TextAnimation();
+                }
+
+                StartCoroutine(textAnimation);
+                
+                break;
+            case LogControllerBehaviour.Type.Exam:
+                tmpText.text = "";
+                break;
+            case LogControllerBehaviour.Type.None:
+                tmpText.text = "";
+                break;
+        }
+        
     }
 
     private void OnDisable()

@@ -178,6 +178,8 @@ public class TeleportBehaviour : MonoBehaviour, iResetable
                 {
                     Debug.Log("Please Select The Teleport Point !!!");
             
+                    _teleportPoint.gameObject.SetActive(false);
+                        
                     _lineRenderer.gameObject.SetActive(false);
                     
                     teleportEvents.OnTeleportDeactivated.Invoke();
@@ -188,6 +190,8 @@ public class TeleportBehaviour : MonoBehaviour, iResetable
         else
         {
             _lineRenderer.gameObject.SetActive(false);
+            
+            _teleportPoint.gameObject.SetActive(false);
             
             teleportEvents.OnTeleportDeactivated.Invoke();
         }

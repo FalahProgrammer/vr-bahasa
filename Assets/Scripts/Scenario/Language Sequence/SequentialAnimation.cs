@@ -108,7 +108,8 @@ public class SequentialAnimation : MonoBehaviour
                 }
             }
 
-            if (AnimationList[i].WaitForInteraction)
+            //if (AnimationList[i].WaitForInteraction)
+            if (AnimationList[i].AudioClip != null)
             {
                 _currentIteration = AnimationList.IndexOf(AnimationList[i]);
                 
@@ -192,7 +193,8 @@ public class SequentialAnimation : MonoBehaviour
                 }
             }
 
-            if (l[i].WaitForInteraction)
+            //if (l[i].WaitForInteraction)
+            if (l[i].AudioClip != null)
             {
                 _currentIteration = AnimationList.IndexOf(l[i]);
                 

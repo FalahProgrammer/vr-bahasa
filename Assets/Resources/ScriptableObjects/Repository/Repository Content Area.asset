@@ -12,4 +12,910 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 652219bdacab3904d8dc4db2153c7f26, type: 3}
   m_Name: Repository Content Area
   m_EditorClassIdentifier: 
-  Items: []
+  Items:
+  - id: 1
+    materi_id: 1
+    chapter_id: 1
+    area_name: Mobile Passport Control Place (Immigration Area)
+    npc:
+    - npc_name: Airport Security 1
+      conversation_topic: Guidance to use the machine
+    duration: 120
+    path_area_prefab: Language/Indonesian/Airport/Mobile Passport Control Place Immigration
+      Area
+    AreaPrefab: {fileID: 0}
+  - id: 2
+    materi_id: 1
+    chapter_id: 1
+    area_name: Immigration Area
+    npc:
+    - npc_name: Airport Officer 1
+      conversation_topic: Direction to immigration interview
+    duration: 120
+    path_area_prefab: Language/Indonesian/Airport/Immigration Area
+    AreaPrefab: {fileID: 0}
+  - id: 3
+    materi_id: 1
+    chapter_id: 2
+    area_name: Barracks
+    npc:
+    - npc_name: Indonesian Airforce Staff 1
+      conversation_topic: Talk about basic combat training
+    duration: 120
+    path_area_prefab: Language/Indonesian/Airforce Base/Barracks
+    AreaPrefab: {fileID: 0}
+  - id: 4
+    materi_id: 2
+    chapter_id: 3
+    area_name: Mobile Passport Control Place (Immigration Area)
+    npc:
+    - npc_name: Airport Security 1
+      conversation_topic: Guidance to use the machine
+    duration: 60
+    path_area_prefab: Language/English/Airport/Mobile Passport Control Place Immigration
+      Area
+    AreaPrefab: {fileID: 0}
+  - id: 5
+    materi_id: 2
+    chapter_id: 3
+    area_name: Immigration Area
+    npc:
+    - npc_name: Airport Officer 1
+      conversation_topic: Direction to immigration interview
+    duration: 60
+    path_area_prefab: Language/English/Airport/Immigration Area
+    AreaPrefab: {fileID: 0}
+  - id: 6
+    materi_id: 2
+    chapter_id: 4
+    area_name: Barracks
+    npc:
+    - npc_name: Indonesian Airforce Staff 1
+      conversation_topic: Talk about basic combat training
+    duration: 60
+    path_area_prefab: Language/English/Airforce Base/Barracks
+    AreaPrefab: {fileID: 2105589744316099241, guid: 473975f0c84b2e745a12fb45e566cd62, type: 3}
+  - id: 7
+    materi_id: 3
+    chapter_id: 5
+    area_name: Mobile Passport Control Place (Immigration Area)
+    npc:
+    - npc_name: Airport Security 1
+      conversation_topic: Guidance to use the machine
+    duration: 120
+    path_area_prefab: Language/Arabic/Airport/Mobile Passport Control Place Immigration
+      Area
+    AreaPrefab: {fileID: 0}
+  - id: 8
+    materi_id: 3
+    chapter_id: 5
+    area_name: Immigration Area
+    npc:
+    - npc_name: Airport Officer 1
+      conversation_topic: Direction to immigration interview
+    duration: 120
+    path_area_prefab: Language/Arabic/Airport/Immigration Area
+    AreaPrefab: {fileID: 0}
+  - id: 9
+    materi_id: 3
+    chapter_id: 6
+    area_name: Barracks
+    npc:
+    - npc_name: Indonesian Airforce Staff 1
+      conversation_topic: Talk about basic combat training
+    duration: 120
+    path_area_prefab: Language/Arabic/Airforce Base/Barracks
+    AreaPrefab: {fileID: 0}
+  - id: 10
+    materi_id: 4
+    chapter_id: 7
+    area_name: Mobile Passport Control Place (Immigration Area)
+    npc:
+    - npc_name: Airport Security 1
+      conversation_topic: Guidance to use the machine
+    duration: 60
+    path_area_prefab: Language/German/Airport/Mobile Passport Control Place Immigration
+      Area
+    AreaPrefab: {fileID: 0}
+  - id: 11
+    materi_id: 4
+    chapter_id: 7
+    area_name: Immigration Area
+    npc:
+    - npc_name: Airport Officer 2
+      conversation_topic: Recommendation Airport Restaurant
+    duration: 60
+    path_area_prefab: Language/German/Airport/Immigration Area
+    AreaPrefab: {fileID: 0}
+  - id: 12
+    materi_id: 4
+    chapter_id: 8
+    area_name: Barracks
+    npc:
+    - npc_name: German Airforce Staff 1
+      conversation_topic: Talk about basic combat training
+    - npc_name: German Airforce Staff 2
+      conversation_topic: Tell the rules in this place
+    duration: 60
+    path_area_prefab: Language/German/Airforce Base/Barracks
+    AreaPrefab: {fileID: 0}
+  - id: 13
+    materi_id: 5
+    chapter_id: 9
+    area_name: Mobile Passport Control Place (Immigration Area)
+    npc:
+    - npc_name: Airport Security 1
+      conversation_topic: Guidance to use the machine
+    duration: 120
+    path_area_prefab: Language/Russian/Airport/Mobile Passport Control Place Immigration
+      Area
+    AreaPrefab: {fileID: 0}
+  - id: 14
+    materi_id: 5
+    chapter_id: 9
+    area_name: Immigration Area
+    npc:
+    - npc_name: Airport Officer 1
+      conversation_topic: Direction to immigration interview
+    duration: 120
+    path_area_prefab: Language/Russian/Airport/Immigration Area
+    AreaPrefab: {fileID: 0}
+  - id: 15
+    materi_id: 5
+    chapter_id: 10
+    area_name: Barracks
+    npc:
+    - npc_name: Indonesian Airforce Staff 1
+      conversation_topic: Talk about basic combat training
+    duration: 120
+    path_area_prefab: Language/Russian/Airforce Base/Barracks
+    AreaPrefab: {fileID: 0}
+  - id: 16
+    materi_id: 6
+    chapter_id: 11
+    area_name: Mobile Passport Control Place (Immigration Area)
+    npc:
+    - npc_name: Airport Security 1
+      conversation_topic: Guidance to use the machine
+    duration: 60
+    path_area_prefab: Language/Mandarin/Airport/Mobile Passport Control Place Immigration
+      Area
+    AreaPrefab: {fileID: 0}
+  - id: 17
+    materi_id: 6
+    chapter_id: 11
+    area_name: Immigration Area
+    npc:
+    - npc_name: Airport Officer 1
+      conversation_topic: Direction to immigration interview
+    duration: 60
+    path_area_prefab: Language/Mandarin/Airport/Immigration Area
+    AreaPrefab: {fileID: 0}
+  - id: 18
+    materi_id: 6
+    chapter_id: 12
+    area_name: Barracks
+    npc:
+    - npc_name: Indonesian Airforce Staff 1
+      conversation_topic: Talk about basic combat training
+    duration: 60
+    path_area_prefab: Language/Mandarin/Airforce Base/Barracks
+    AreaPrefab: {fileID: 0}
+  - id: 19
+    materi_id: 7
+    chapter_id: 13
+    area_name: Mobile Passport Control Place (Immigration Area)
+    npc:
+    - npc_name: Airport Security 1
+      conversation_topic: Guidance to use the machine
+    duration: 120
+    path_area_prefab: Language/Japanese/Airport/Mobile Passport Control Place Immigration
+      Area
+    AreaPrefab: {fileID: 0}
+  - id: 20
+    materi_id: 7
+    chapter_id: 13
+    area_name: Immigration Area
+    npc:
+    - npc_name: Airport Officer 1
+      conversation_topic: Direction to immigration interview
+    duration: 120
+    path_area_prefab: Language/Japanese/Airport/Immigration Area
+    AreaPrefab: {fileID: 0}
+  - id: 21
+    materi_id: 7
+    chapter_id: 14
+    area_name: Barracks
+    npc:
+    - npc_name: Indonesian Airforce Staff 1
+      conversation_topic: Talk about basic combat training
+    duration: 120
+    path_area_prefab: Language/Japanese/Airforce Base/Barracks
+    AreaPrefab: {fileID: 0}
+  - id: 22
+    materi_id: 8
+    chapter_id: 15
+    area_name: Mobile Passport Control Place (Immigration Area)
+    npc:
+    - npc_name: Airport Security 1
+      conversation_topic: Guidance to use the machine
+    duration: 60
+    path_area_prefab: Language/French/Airport/Mobile Passport Control Place Immigration
+      Area
+    AreaPrefab: {fileID: 0}
+  - id: 23
+    materi_id: 8
+    chapter_id: 15
+    area_name: Immigration Area
+    npc:
+    - npc_name: Airport Officer 1
+      conversation_topic: Direction to immigration interview
+    duration: 60
+    path_area_prefab: Language/French/Airport/Immigration Area
+    AreaPrefab: {fileID: 0}
+  - id: 24
+    materi_id: 8
+    chapter_id: 16
+    area_name: Barracks
+    npc:
+    - npc_name: Indonesian Airforce Staff 1
+      conversation_topic: Talk about basic combat training
+    duration: 60
+    path_area_prefab: Language/French/Airforce Base/Barracks
+    AreaPrefab: {fileID: 0}
+  - id: 25
+    materi_id: 9
+    chapter_id: 17
+    area_name: Mobile Passport Control Place (Immigration Area)
+    npc:
+    - npc_name: Airport Security 1
+      conversation_topic: Guidance to use the machine
+    duration: 120
+    path_area_prefab: Language/Korean/Airport/Mobile Passport Control Place Immigration
+      Area
+    AreaPrefab: {fileID: 0}
+  - id: 26
+    materi_id: 9
+    chapter_id: 17
+    area_name: Immigration Area
+    npc:
+    - npc_name: Airport Officer 1
+      conversation_topic: Direction to immigration interview
+    duration: 120
+    path_area_prefab: Language/Korean/Airport/Immigration Area
+    AreaPrefab: {fileID: 0}
+  - id: 27
+    materi_id: 9
+    chapter_id: 18
+    area_name: Barracks
+    npc:
+    - npc_name: Indonesian Airforce Staff 1
+      conversation_topic: Talk about basic combat training
+    duration: 120
+    path_area_prefab: Language/Korean/Airforce Base/Barracks
+    AreaPrefab: {fileID: 0}
+  - id: 28
+    materi_id: 4
+    chapter_id: 7
+    area_name: Immigration Interview (Immigration Area)
+    npc:
+    - npc_name: Immigration Officer 1
+      conversation_topic: Immigration Interview
+    duration: 60
+    path_area_prefab: Language/German/Airport/Immigration Interview Immigration Area
+    AreaPrefab: {fileID: 0}
+  - id: 29
+    materi_id: 4
+    chapter_id: 7
+    area_name: Immigration Area
+    npc:
+    - npc_name: Airport Officer 2
+      conversation_topic: Direction to immigration interview
+    - npc_name: Airport Officer 3
+      conversation_topic: Procedure buy SIM card mobile phone
+    duration: 60
+    path_area_prefab: Language/German/Airport/Immigration Area
+    AreaPrefab: {fileID: 0}
+  - id: 30
+    materi_id: 4
+    chapter_id: 7
+    area_name: Restaurant
+    npc:
+    - npc_name: Airport Restaurant Waitress 1
+      conversation_topic: Recommendation Food, and Order Food
+    - npc_name: Airport Restaurant Waitress 2
+      conversation_topic: Payment Method Options
+    - npc_name: Airport Restaurant Customer 1
+      conversation_topic: Compliments for food
+    - npc_name: Airport Restaurant Waitress 3
+      conversation_topic: Direction to the toilet
+    duration: 60
+    path_area_prefab: Language/German/Airport/Restaurant
+    AreaPrefab: {fileID: 0}
+  - id: 31
+    materi_id: 4
+    chapter_id: 7
+    area_name: Toilet
+    npc:
+    - npc_name: Airport Janitor 1
+      conversation_topic: Warning about wet floor
+    - npc_name: Airport Visitor 1
+      conversation_topic: Different toilet habit
+    duration: 60
+    path_area_prefab: Language/German/Airport/Toilet
+    AreaPrefab: {fileID: 0}
+  - id: 32
+    materi_id: 4
+    chapter_id: 7
+    area_name: Welcome Center
+    npc:
+    - npc_name: Airport Officer 4
+      conversation_topic: How to get to the hotel
+    - npc_name: Tourist 1
+      conversation_topic: airport transportation scam history
+    - npc_name: Tourist 2
+      conversation_topic: Guidance to use transportation online application
+    - npc_name: Airport Officer 5
+      conversation_topic: Ask money changer location
+    duration: 60
+    path_area_prefab: Language/German/Airport/Welcome Center
+    AreaPrefab: {fileID: 0}
+  - id: 33
+    materi_id: 4
+    chapter_id: 7
+    area_name: Money Changer
+    npc:
+    - npc_name: Money Changer Security 1
+      conversation_topic: Ask available counter
+    - npc_name: Money Changer Visitor 1
+      conversation_topic: Ask about vacation trip
+    - npc_name: Money Changer Visitor 2
+      conversation_topic: Ask about recommendation trip
+    - npc_name: Money Changer Employee 1
+      conversation_topic: Change money
+    duration: 60
+    path_area_prefab: Language/German/Airport/Money Changer
+    AreaPrefab: {fileID: 0}
+  - id: 40
+    materi_id: 4
+    chapter_id: 19
+    area_name: Inside The Car
+    npc:
+    - npc_name: Driver 1
+      conversation_topic: Trip validation, How long the driver worked, Driver jobs
+        besides drive
+    duration: 60
+    path_area_prefab: Language/German/Transportation Online/Inside The Car
+    AreaPrefab: {fileID: 0}
+  - id: 41
+    materi_id: 4
+    chapter_id: 20
+    area_name: Head Office
+    npc:
+    - npc_name: Office Staff 1
+      conversation_topic: Duty in this city
+    duration: 60
+    path_area_prefab: Language/German/Office/Head Office
+    AreaPrefab: {fileID: 0}
+  - id: 42
+    materi_id: 4
+    chapter_id: 20
+    area_name: Meeting Room
+    npc:
+    - npc_name: General 1
+      conversation_topic: Peace Operation Program
+    duration: 60
+    path_area_prefab: Language/German/Office/Meeting Room
+    AreaPrefab: {fileID: 0}
+  - id: 43
+    materi_id: 4
+    chapter_id: 20
+    area_name: Lounge
+    npc:
+    - npc_name: Office Staff 2
+      conversation_topic: Talk About Sports
+    - npc_name: UN Consultant 1
+      conversation_topic: Iconic places in this city
+    - npc_name: UN Consultant 2
+      conversation_topic: Hobbies
+    - npc_name: UN Consultant 3
+      conversation_topic: Families
+    - npc_name: Major 2
+      conversation_topic: Talk about Military Technology
+    - npc_name: Major 3
+      conversation_topic: Talk About Aircraft
+    duration: 60
+    path_area_prefab: Language/German/Office/Lounge
+    AreaPrefab: {fileID: 5986104002798027942, guid: 0d98bd02e64899d41affc73060baf975, type: 3}
+  - id: 44
+    materi_id: 4
+    chapter_id: 20
+    area_name: Lobby
+    npc:
+    - npc_name: UN Consultant 4
+      conversation_topic: offer to driving to the hotel
+    - npc_name: UN Consultant 5
+      conversation_topic: Introducing friend (Major Wahyu)
+    duration: 60
+    path_area_prefab: Language/German/Office/Lobby
+    AreaPrefab: {fileID: 6873783710739169795, guid: c24ab57a9762f7a40a33da8e4b3d3cf9, type: 3}
+  - id: 45
+    materi_id: 4
+    chapter_id: 21
+    area_name: Lobby
+    npc:
+    - npc_name: Clinic Receptionist 1
+      conversation_topic: Register to check
+    - npc_name: Clinic Visitor 1
+      conversation_topic: Ask him what Illness
+    - npc_name: Clinic Visitor 2
+      conversation_topic: Ask The Doctor's Experience
+    duration: 60
+    path_area_prefab: Language/German/Clinic/Lobby
+    AreaPrefab: {fileID: 0}
+  - id: 46
+    materi_id: 4
+    chapter_id: 21
+    area_name: Doctor's Room
+    npc:
+    - npc_name: Nurse 1
+      conversation_topic: State a History of Illness
+    - npc_name: Doctor 1
+      conversation_topic: Express the Illness You Feel
+    duration: 60
+    path_area_prefab: Language/German/Clinic/Doctor's Room
+    AreaPrefab: {fileID: 0}
+  - id: 47
+    materi_id: 4
+    chapter_id: 22
+    area_name: Card Machine Area
+    npc:
+    - npc_name: Local Stranger 1
+      conversation_topic: How to Get Access by Train
+    - npc_name: Subway Employee 1
+      conversation_topic: Ask for directions to get a card
+    - npc_name: Subway Employee 2
+      conversation_topic: how to use the card and its regulations
+    duration: 60
+    path_area_prefab: Language/German/Subway/Card Machine Area
+    AreaPrefab: {fileID: 0}
+  - id: 48
+    materi_id: 4
+    chapter_id: 22
+    area_name: Subway Waiting Area
+    npc:
+    - npc_name: Local Stranger 2
+      conversation_topic: Ask the Destination
+    - npc_name: Tourist 3
+      conversation_topic: Asking Where it Came From
+    duration: 60
+    path_area_prefab: Language/German/Subway/Subway Waiting Area
+    AreaPrefab: {fileID: 0}
+  - id: 49
+    materi_id: 4
+    chapter_id: 23
+    area_name: Lobby
+    npc:
+    - npc_name: Museum Classic Art Staff 1
+      conversation_topic: Talk about the history of this place
+    - npc_name: Museum Classic Art Staff 2
+      conversation_topic: Tell interesting spot to visit (in the museum)
+    - npc_name: Museum Classic Art Visitor 1
+      conversation_topic: Share experience during the trip
+    duration: 60
+    path_area_prefab: Language/German/Museum Classic Art  ICONIC /Lobby
+    AreaPrefab: {fileID: 0}
+  - id: 50
+    materi_id: 4
+    chapter_id: 23
+    area_name: Inside The Museum
+    npc:
+    - npc_name: Museum Classic Art Visitor 2
+      conversation_topic: Ask recommendation art to see
+    - npc_name: Museum Classic Art Visitor 3
+      conversation_topic: Recommend the angle to take picture
+    - npc_name: Museum Classic Art Staff 3
+      conversation_topic: Ask recommendation food of this country
+    duration: 60
+    path_area_prefab: Language/German/Museum Classic Art  ICONIC /Inside The Museum
+    AreaPrefab: {fileID: 0}
+  - id: 51
+    materi_id: 4
+    chapter_id: 8
+    area_name: Classroom 1
+    npc:
+    - npc_name: German Airforce Staff 3
+      conversation_topic: The Military Alphabet
+    - npc_name: German Airforce Staff 4
+      conversation_topic: Weapons and Equipment
+    - npc_name: German Airforce Staff 5
+      conversation_topic: Military uniform
+    - npc_name: German Airforce Staff 6
+      conversation_topic: Army Banks
+    - npc_name: German Airforce Staff 7
+      conversation_topic: Organising next class
+    - npc_name: German Airforce Staff 8
+      conversation_topic: First Aid
+    - npc_name: German Airforce Staff 9
+      conversation_topic: Terrain Analysis
+    - npc_name: German Airforce Staff 10
+      conversation_topic: United Nations peace keeping operations
+    - npc_name: German Airforce Staff 11
+      conversation_topic: The Route Sign
+    - npc_name: German Airforce Staff 12
+      conversation_topic: The Army Units Sign
+    duration: 60
+    path_area_prefab: Language/German/Airforce Base/Classroom 1
+    AreaPrefab: {fileID: 7941704018978330146, guid: 586e4def2bc6a914cbdb3e0d87d04008, type: 3}
+  - id: 52
+    materi_id: 4
+    chapter_id: 8
+    area_name: Classroom 2
+    npc:
+    - npc_name: German Airforce Staff 13
+      conversation_topic: Parts of a rifle
+    - npc_name: German Airforce Staff 14
+      conversation_topic: Patrol Kit
+    - npc_name: German Airforce Staff 15
+      conversation_topic: UNTAG
+    - npc_name: German Airforce Staff 16
+      conversation_topic: UNPROFOR
+    - npc_name: German Airforce Staff 17
+      conversation_topic: UNDOF
+    duration: 60
+    path_area_prefab: Language/German/Airforce Base/Classroom 2
+    AreaPrefab: {fileID: 0}
+  - id: 53
+    materi_id: 4
+    chapter_id: 8
+    area_name: Classroom 3
+    npc:
+    - npc_name: German Airforce Staff 18
+      conversation_topic: Ask about military intervention
+    - npc_name: German Airforce Staff 19
+      conversation_topic: Ask about armoured vehicle
+    - npc_name: German Airforce Staff 20
+      conversation_topic: Ask about George Washington
+    - npc_name: German Airforce Staff 21
+      conversation_topic: Ask about the battle of Cambrain
+    - npc_name: German Airforce Staff 22
+      conversation_topic: Ask about the history of NATO
+    - npc_name: German Airforce Staff 23
+      conversation_topic: Ask about united nations peacekeeping mission
+    - npc_name: German Airforce Staff 24
+      conversation_topic: Ask an information about sector headquarters west
+    - npc_name: German Airforce Staff 25
+      conversation_topic: Ask about rules of engagement
+    - npc_name: German Airforce Staff 26
+      conversation_topic: Ask about vietnam war
+    - npc_name: German Airforce Staff 27
+      conversation_topic: Ask about world war II
+    duration: 60
+    path_area_prefab: Language/German/Airforce Base/Classroom 3
+    AreaPrefab: {fileID: 0}
+  - id: 54
+    materi_id: 4
+    chapter_id: 24
+    area_name: Inside The Workshop
+    npc:
+    - npc_name: German Airforce Staff 28
+      conversation_topic: Vehicle maintenance tools
+    - npc_name: German Airforce Staff 29
+      conversation_topic: decide what tools you need to fix specific problem
+    - npc_name: German Airforce Staff 30
+      conversation_topic: things you have to do before you start a journey
+    duration: 60
+    path_area_prefab: Language/German/Workshop/Inside The Workshop
+    AreaPrefab: {fileID: 0}
+  - id: 55
+    materi_id: 4
+    chapter_id: 25
+    area_name: Inside The Area
+    npc:
+    - npc_name: Tourist 4
+      conversation_topic: Ask The Taste of Food in This Area
+    - npc_name: Street View Officer 1
+      conversation_topic: Report Found Items
+    - npc_name: Photographer 1
+      conversation_topic: Ask About Street Photo Art
+    - npc_name: Local Stranger 3
+      conversation_topic: Ask The Way to the Hotel
+    duration: 60
+    path_area_prefab: Language/German/Street View/Inside The Area
+    AreaPrefab: {fileID: 0}
+  - id: 56
+    materi_id: 4
+    chapter_id: 26
+    area_name: On Observation Deck
+    npc:
+    - npc_name: Building Staff 1
+      conversation_topic: Tell the regulation
+    - npc_name: Building Visitor 1
+      conversation_topic: Talk about the height of the building
+    - npc_name: Building Visitor 2
+      conversation_topic: Telling about photos that have been taken
+    - npc_name: Building Visitor 3
+      conversation_topic: Talk about job and hobby
+    - npc_name: Building Visitor 4
+      conversation_topic: Talk about the architect
+    duration: 60
+    path_area_prefab: Language/German/Building  ICONIC /On Observation Deck
+    AreaPrefab: {fileID: 0}
+  - id: 57
+    materi_id: 4
+    chapter_id: 27
+    area_name: In This Area
+    npc:
+    - npc_name: Landmark Employee 1
+      conversation_topic: Ask about the height of the gate
+    - npc_name: Landmark Visitor 1
+      conversation_topic: Talk about history of the gate
+    - npc_name: Landmark Visitor 2
+      conversation_topic: Talk about geographic location
+    - npc_name: Landmark Visitor 3
+      conversation_topic: Tell of interest in monuments
+    - npc_name: Landmark Employee 2
+      conversation_topic: Talk about the crowds
+    duration: 60
+    path_area_prefab: Language/German/Landmark   ICONIC /In This Area
+    AreaPrefab: {fileID: 0}
+  - id: 58
+    materi_id: 4
+    chapter_id: 28
+    area_name: Inside The Meeting Room
+    npc:
+    - npc_name: German Major Army 1
+      conversation_topic: Discussion of The Army Defense System Used
+    - npc_name: German Army Staff 1
+      conversation_topic: Ask About Military History
+    - npc_name: German Army Staff 2
+      conversation_topic: Ask About The Standard for Entering The Army
+    - npc_name: German Army Staff 3
+      conversation_topic: Ask About The Toughest Task Experienced
+    - npc_name: Indonesian Army Staff 1
+      conversation_topic: Ask About The Assigned Task
+    duration: 60
+    path_area_prefab: Language/German/Army Office/Inside The Meeting Room
+    AreaPrefab: {fileID: 0}
+  - id: 59
+    materi_id: 4
+    chapter_id: 28
+    area_name: Inside The Auditorium
+    npc:
+    - npc_name: German Major Army 2
+      conversation_topic: Ask about his experience in the army
+    - npc_name: German Army Staff 4
+      conversation_topic: Asking for opinions about the cooperation of the two militaries
+    - npc_name: Indonesian Army Staff 2
+      conversation_topic: Ask about the point of view of the event activities
+    - npc_name: Indonesian Army Staff 3
+      conversation_topic: Ask about cultural opinion in this area
+    - npc_name: Indonesian Army Staff 4
+      conversation_topic: Invite the army for have dinner at the nearest restaurant
+    duration: 60
+    path_area_prefab: Language/German/Army Office/Inside The Auditorium
+    AreaPrefab: {fileID: 0}
+  - id: 60
+    materi_id: 4
+    chapter_id: 29
+    area_name: Inside The Lobby
+    npc:
+    - npc_name: Navy Office Security 1
+      conversation_topic: Ask about lounge location
+    - npc_name: Navy Office Receptionist 1
+      conversation_topic: Attendance and ask about event activities
+    - npc_name: German Navy Staff 1
+      conversation_topic: Ask About Navy Military History
+    - npc_name: German Navy Staff 2
+      conversation_topic: Ask About The Standard for Entering The Navy
+    - npc_name: Indonesian Navy Staff 1
+      conversation_topic: Ask About The Assigned Task in Navy
+    duration: 60
+    path_area_prefab: Language/German/Navy Office/Inside The Lobby
+    AreaPrefab: {fileID: 0}
+  - id: 61
+    materi_id: 4
+    chapter_id: 29
+    area_name: Inside The Lounge
+    npc:
+    - npc_name: German Navy Staff 3
+      conversation_topic: Ask about Navy land Transportation
+    - npc_name: German Navy Staff 4
+      conversation_topic: Ask about the point of view of the event activities
+    - npc_name: Indonesian Navy Staff 2
+      conversation_topic: Ask about cultural opinion in this area
+    - npc_name: Indonesian Navy Staff 3
+      conversation_topic: Ask about Navy air Transportation
+    - npc_name: Indonesian Navy Staff 4
+      conversation_topic: Ask about Navy water Transportation
+    duration: 60
+    path_area_prefab: Language/German/Navy Office/Inside The Lounge
+    AreaPrefab: {fileID: 0}
+  - id: 62
+    materi_id: 4
+    chapter_id: 30
+    area_name: Inside The Museum
+    npc:
+    - npc_name: Museum Historical Security 1
+      conversation_topic: Ask the direction of a certain art
+    - npc_name: Museum Historical Employee 1
+      conversation_topic: Tell the purpose of a certain art
+    - npc_name: Museum Historical Visitor 1
+      conversation_topic: Discuss about art
+    - npc_name: Museum Historical Employee 2
+      conversation_topic: Ask the meaning of a certain art
+    - npc_name: Museum Historical Visitor 2
+      conversation_topic: Tell his country
+    - npc_name: Museum Historical Visitor 3
+      conversation_topic: Tell the picture he takes
+    - npc_name: Museum Historical Visitor 4
+      conversation_topic: Recommending public transportation
+    - npc_name: Museum Historical Visitor 5
+      conversation_topic: Tell habit when visiting museum
+    - npc_name: Museum Historical Employee 3
+      conversation_topic: Recommending a certain spot to see
+    - npc_name: Photographer 2
+      conversation_topic: Tell the reason to come here
+    - npc_name: Museum Historical Visitor 6
+      conversation_topic: Ask recommendation food to try
+    duration: 60
+    path_area_prefab: Language/German/Museum Historical  ICONIC /Inside The Museum
+    AreaPrefab: {fileID: 0}
+  - id: 63
+    materi_id: 8
+    chapter_id: 15
+    area_name: Immigration Interview (Immigration Area)
+    npc:
+    - npc_name: Immigration Officer 1
+      conversation_topic: Immigration Interview
+    duration: 60
+    path_area_prefab: Language/French/Airport/Immigration Interview Immigration Area
+    AreaPrefab: {fileID: 0}
+  - id: 64
+    materi_id: 8
+    chapter_id: 15
+    area_name: Immigration Area
+    npc:
+    - npc_name: Airport Officer 2
+      conversation_topic: Recommendation Airport Restaurant
+    - npc_name: Airport Officer 3
+      conversation_topic: Procedure buy SIM card mobile phone
+    duration: 60
+    path_area_prefab: Language/French/Airport/Immigration Area
+    AreaPrefab: {fileID: 0}
+  - id: 65
+    materi_id: 8
+    chapter_id: 15
+    area_name: Restaurant
+    npc:
+    - npc_name: Airport Restaurant Waitress 1
+      conversation_topic: Recommendation Food, and Order Food
+    - npc_name: Airport Restaurant Waitress 2
+      conversation_topic: Payment Method Options
+    - npc_name: Airport Restaurant Customer 1
+      conversation_topic: Compliments for food
+    - npc_name: Airport Restaurant Waitress 3
+      conversation_topic: Direction to the toilet
+    duration: 60
+    path_area_prefab: Language/French/Airport/Restaurant
+    AreaPrefab: {fileID: 8994622228667178968, guid: 069aa135266561e409bcecf4b92cf63f, type: 3}
+  - id: 66
+    materi_id: 8
+    chapter_id: 15
+    area_name: Toilet
+    npc:
+    - npc_name: Airport Janitor 1
+      conversation_topic: Warning about wet floor
+    - npc_name: Airport Visitor 1
+      conversation_topic: Different toilet habit
+    duration: 60
+    path_area_prefab: Language/French/Airport/Toilet
+    AreaPrefab: {fileID: 0}
+  - id: 67
+    materi_id: 8
+    chapter_id: 15
+    area_name: Welcome Center
+    npc:
+    - npc_name: Airport Officer 4
+      conversation_topic: How to get to the hotel
+    - npc_name: Tourist 1
+      conversation_topic: airport transportation scam history
+    - npc_name: Tourist 2
+      conversation_topic: Guidance to use transportation online application
+    - npc_name: Airport Officer 5
+      conversation_topic: Ask money changer location
+    duration: 60
+    path_area_prefab: Language/French/Airport/Welcome Center
+    AreaPrefab: {fileID: 0}
+  - id: 68
+    materi_id: 8
+    chapter_id: 15
+    area_name: Money Changer
+    npc:
+    - npc_name: Money Changer Security 1
+      conversation_topic: Ask available counter
+    - npc_name: Money Changer Visitor 1
+      conversation_topic: Ask about vacation trip
+    - npc_name: Money Changer Visitor 2
+      conversation_topic: Ask about recommendation trip
+    - npc_name: Money Changer Employee 1
+      conversation_topic: Change money
+    duration: 60
+    path_area_prefab: Language/French/Airport/Money Changer
+    AreaPrefab: {fileID: 0}
+  - id: 69
+    materi_id: 8
+    chapter_id: 16
+    area_name: Classroom 1
+    npc:
+    - npc_name: German Airforce Staff 2
+      conversation_topic: Tell the rules in this place
+    - npc_name: German Airforce Staff 3
+      conversation_topic: The Military Alphabet
+    - npc_name: German Airforce Staff 4
+      conversation_topic: Weapons and Equipment
+    - npc_name: German Airforce Staff 5
+      conversation_topic: Military uniform
+    - npc_name: German Airforce Staff 6
+      conversation_topic: Army Banks
+    - npc_name: German Airforce Staff 7
+      conversation_topic: Organising next class
+    - npc_name: German Airforce Staff 8
+      conversation_topic: First Aid
+    - npc_name: German Airforce Staff 9
+      conversation_topic: Terrain Analysis
+    - npc_name: German Airforce Staff 10
+      conversation_topic: United Nations peace keeping operations
+    - npc_name: German Airforce Staff 11
+      conversation_topic: The Route Sign
+    - npc_name: German Airforce Staff 12
+      conversation_topic: The Army Units Sign
+    duration: 60
+    path_area_prefab: Language/French/Airforce Base/Classroom 1
+    AreaPrefab: {fileID: 0}
+  - id: 70
+    materi_id: 8
+    chapter_id: 16
+    area_name: Classroom 2
+    npc:
+    - npc_name: German Airforce Staff 13
+      conversation_topic: Parts of a rifle
+    - npc_name: German Airforce Staff 14
+      conversation_topic: Patrol Kit
+    - npc_name: German Airforce Staff 15
+      conversation_topic: UNTAG
+    - npc_name: German Airforce Staff 16
+      conversation_topic: UNPROFOR
+    - npc_name: German Airforce Staff 17
+      conversation_topic: UNDOF
+    duration: 60
+    path_area_prefab: Language/French/Airforce Base/Classroom 2
+    AreaPrefab: {fileID: 9178681863678816254, guid: b2ce372278f67b041a1798a3197b696c, type: 3}
+  - id: 71
+    materi_id: 8
+    chapter_id: 16
+    area_name: Classroom 3
+    npc:
+    - npc_name: German Airforce Staff 18
+      conversation_topic: Ask about military intervention
+    - npc_name: German Airforce Staff 19
+      conversation_topic: Ask about armoured vehicle
+    - npc_name: German Airforce Staff 20
+      conversation_topic: Ask about George Washington
+    - npc_name: German Airforce Staff 21
+      conversation_topic: Ask about the battle of Cambrain
+    - npc_name: German Airforce Staff 22
+      conversation_topic: Ask about the history of NATO
+    - npc_name: German Airforce Staff 23
+      conversation_topic: Ask about united nations peacekeeping mission
+    - npc_name: German Airforce Staff 24
+      conversation_topic: Ask an information about sector headquarters west
+    - npc_name: German Airforce Staff 25
+      conversation_topic: Ask about rules of engagement
+    - npc_name: German Airforce Staff 26
+      conversation_topic: Ask about vietnam war
+    - npc_name: German Airforce Staff 27
+      conversation_topic: Ask about world war II
+    duration: 60
+    path_area_prefab: Language/French/Airforce Base/Classroom 3
+    AreaPrefab: {fileID: 0}

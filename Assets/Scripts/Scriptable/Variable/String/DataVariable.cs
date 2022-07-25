@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 [CreateAssetMenu(fileName = "String Variable", menuName = "Variable/String Data Variable")]
 public class DataVariable : ScriptableObject
@@ -10,7 +11,7 @@ public class DataVariable : ScriptableObject
     public string menu_id;
     public string chapter_id;
     public string qustion_id;
-    public int exam_id;
+    [FormerlySerializedAs("exam_id")] public int area_id;
 
     public void Materi_Id(string materi_ID)
     {
@@ -38,8 +39,8 @@ public class DataVariable : ScriptableObject
     
     public void Exam_Id(int exam_ID)
     {
-        exam_id = exam_ID;
-        Debug.Log("Exam ID kepannggil ");
+        area_id = exam_ID;
+        Debug.Log("Area ID kepannggil ");
     }
 
     public void IncreamentQuestionID(int startFrom)

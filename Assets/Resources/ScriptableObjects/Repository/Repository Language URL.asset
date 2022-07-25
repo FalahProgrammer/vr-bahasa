@@ -16,9 +16,9 @@ MonoBehaviour:
   - model_bahasa
   - english_large
   - arabic
-  - germany
+  - german_large
   - mandarin
   - russion
   - japan
-  - french
+  - french_large
   - korean

@@ -11,7 +11,7 @@ using UnityEngine.Networking;
 
 public class LoginVerificationBehaviour : MonoBehaviour
 {
-    public string url = "http://192.168.100.78/vr-bahasa/public/api/v1/login";
+    public string url /*= "http://192.168.100.78/vr-bahasa/public/api/v1/login"*/;
     
     [SerializeField] private SendGETMethod _sendGetMethod;
     

@@ -62,6 +62,8 @@ public class SteamVRLaserController : MonoBehaviour
                     HitPoint = _graspBehaviour._myRaycastHit.point;
         
                     _dotCursorTransform.position = _graspBehaviour._myRaycastHit.point;
+                    
+                    //_laserTransform.position = _graspBehaviour._myRaycastHit.point;
             
                     _dotCursorTransform.gameObject.SetActive(true);
             

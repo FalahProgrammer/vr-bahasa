@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7498579286605319296
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1169675435893038677, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: LanguageModelDirPath
+      value: SpeechRecognitionSystem/model/german_large
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169675435893038677, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169675435893038677, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: LogMessageReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169675435893038677, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: PartialResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169675436838485854, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: m_Name
+      value: SpeechRecognitionSystem Germany Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169675436838485854, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268791464815082293, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: m_Name
+      value: SpeechRecognitionSystem Bahasa Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268791464815082293, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: LanguageModelDirPath
+      value: SpeechRecognitionSystem/model/model_indonesia
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: LogMessageReceived.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: PartialResultReceived.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: LogMessageReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_text
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: LogMessageReceived.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: PartialResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: LogMessageReceived.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_text
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: PartialResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: PartialResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_text
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.UI.Text, UnityEngine.UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.UI.Text, UnityEngine.UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: LogMessageReceived.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.UI.Text, UnityEngine.UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: PartialResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.UI.Text, UnityEngine.UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: ResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: LogMessageReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486735170797008896, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: PartialResultReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781275267976778140, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1169675435893038682, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+    - {fileID: 1169675435893038683, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+--- !u!1 &8659238722515096280 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1169675435893038680, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+  m_PrefabInstance: {fileID: 7498579286605319296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8659238722515096277 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1169675435893038677, guid: 0327194e15aa74a42ab9994b6dbb2350, type: 3}
+  m_PrefabInstance: {fileID: 7498579286605319296}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32fc83730a2a9d748ae030c0b64cc844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5414976384737399542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8659238722515096280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5540422846fe9074eb1e8d7d76888407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MicrophoneIndex: 0
+  MicReady:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8659238722515096277}
+        m_TargetAssemblyTypeName: SpeechRecognizer, Assembly-CSharp
+        m_MethodName: OnDataProviderReady
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

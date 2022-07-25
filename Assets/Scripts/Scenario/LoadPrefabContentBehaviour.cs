@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+
 using System.IO;
 using System.Linq;
 using Leap.Unity.Infix;
@@ -14,6 +15,7 @@ public class LoadPrefabContentBehaviour : MonoBehaviour
     [SerializeField] private bool _loadAtStart;
     
     [SerializeField] private RepositoryContentArea _repositoryContentArea;
+    [SerializeField] private IntegerVariable _integerVariable;
 
     [SerializeField] private UnityEvent OnFinishedLoadPrefabs;
 
@@ -58,11 +60,18 @@ public class LoadPrefabContentBehaviour : MonoBehaviour
 
         for (int i = 0; i < _repositoryContentArea.Items.Count; i++)
         {
-            if (debugMode)
+            #if UNITY_EDITOR
+            for (int p = 0; p < _repositoryContentArea.Items[i].npc.Length; p++)
             {
-                Debug.Log("Trying to load prefab: " + _repositoryContentArea.Items[i].path_area_prefab + "/" + _repositoryContentArea.Items[i].area_name);
+                if(!Directory.Exists("Assets/Resources/" + _repositoryContentArea.Items[i].path_area_prefab + "/" + _repositoryContentArea.Items[i].npc[p].npc_name))
+                {
+                    //Debug.Log("Directory doesn't exist!!, creating folder..... \n Directory Location : " + "Assets/Resources/" + _repositoryContentArea.Items[i].path_area_prefab + "/" + _repositoryContentArea.Items[i].npc_name.GetDirectoryName());
+                    Directory.CreateDirectory("Assets/Resources/" + _repositoryContentArea.Items[i].path_area_prefab + "/" + _repositoryContentArea.Items[i].npc[p].npc_name);
+                }
             }
-
+            #endif
+            
+            
             tempPrefab = Resources.Load<GameObject>(_repositoryContentArea.Items[i].path_area_prefab + "/" + _repositoryContentArea.Items[i].area_name);
             
             _repositoryContentArea.Items[i].AreaPrefab = tempPrefab;
@@ -77,12 +86,6 @@ public class LoadPrefabContentBehaviour : MonoBehaviour
                 
                 dataLoaded = true;
                 yield return new WaitForSeconds(0.1f);
-            }
-
-            if (debugMode && _repositoryContentArea.Items[i].path_area_prefab + "/" + _repositoryContentArea.Items[i].area_name ==
-                "Language/English/Barracks/Indonesian Airforce Staff 1/Barracks")
-            {
-                Debug.LogWarning("Prefab English Barrack!");
             }
         }
 

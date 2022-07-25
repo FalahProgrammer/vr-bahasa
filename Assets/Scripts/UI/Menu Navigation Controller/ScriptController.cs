@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 public class ScriptController : MonoBehaviour, iResetable
 {
@@ -51,6 +52,14 @@ public class ScriptController : MonoBehaviour, iResetable
     [SerializeField] private List<GraspBehaviour> _graspBehaviours = new List<GraspBehaviour>();
 
     [SerializeField] private Transform _target;
+    [SerializeField] private Transform _cameraRig;
+    [SerializeField] private Transform _targetMainUI;
+
+    [Space(10)]
+    [SerializeField] private Transform _panelLocationMateri;
+    [SerializeField] private Transform _panelArea;
+
+    [Space(10)] [SerializeField] private NpcInteractionManager _npcInteractionManager;
     
     private void UITransition()
     {
@@ -122,9 +131,28 @@ public class ScriptController : MonoBehaviour, iResetable
 
     public void PlayerReturnToInitialPosition()
     {
-        _target.position = _listInteractor.homeVector;
-        _playerMove.SetTargetLocation(_target);
+        _target.position = _listInteractor.homeTransform.position;
+        _target.rotation = _listInteractor.homeTransform.rotation;
+        
+        //_playerMove.SetTargetLocation(_target);
         _playerFading.BeginFadingIn();
+        
+        //_cameraRig.position = _target.position;
+        //_cameraRig.rotation = _target.rotation;
+
+        // obsolete
+        ResetMainUIPositionAndRotation();
+    }
+
+    public void PlayerStandingUp()
+    {
+        var pos = _target.position;
+        pos.y = _listInteractor.homeTransform.position.y;
+        _target.position = pos;
+        
+        _playerFading.BeginFadingIn();
+        
+        //_target.rotation = _listInteractor.homeTransform.rotation;
     }
 
     public void EnableNPCInteractor()
@@ -147,10 +175,12 @@ public class ScriptController : MonoBehaviour, iResetable
             _laserToggleController[i].SetToggle();
         }*/
 
-        for (int i = 0; i < _npcInteractor.Count; i++)
+        /*for (int i = 0; i < _npcInteractor.Count; i++)
         {
             _npcInteractor[i].SetActive(false);
-        }
+        }*/
+        
+        _npcInteractionManager.DisableInteractors();
         
         UIMovement();
         
@@ -165,5 +195,16 @@ public class ScriptController : MonoBehaviour, iResetable
         _answerCheckerBehaviour.Reset();
         
         
+    }
+
+    public void ResetMainUIPositionAndRotation()
+    {
+        var position = _targetMainUI.position;
+        var rotation = _targetMainUI.rotation;
+        
+        _panelLocationMateri.position = position;
+        _panelLocationMateri.rotation = rotation;
+        _panelArea.position = position;
+        _panelArea.rotation = rotation;
     }
 }

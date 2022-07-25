@@ -5,6 +5,7 @@ using System.Linq;
 using Leap.Unity;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
@@ -13,6 +14,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
     public SequentialAnimation SequentialAnimation;
 
     [SerializeField] private DataVariable _dataVariable;
+    [SerializeField] private ScenarioManager _scenarioManager;
 
     //public List<ScenarioEvent> ScenarioEvents = new List<ScenarioEvent>();
 
@@ -21,14 +23,15 @@ public class ScenarioEventBehaviour : MonoBehaviour
     [SerializeField] private FadingBehaviour _answerFading;
 
     [SerializeField] private MenuControllerBehaviour _menuScenario;
+    [SerializeField] private MenuControllerBehaviour _logScenario;
 
     [SerializeField] private CanvasGroup _panelScore;
 
     [SerializeField] private FadingBehaviour _panelQuestionFading;
 
     //[SerializeField] private TyperTextBehaviour _typerTextBehaviour;
-    
-    [SerializeField] private LogControllerBehaviour _logControllerBehaviour;
+
+    [SerializeField] private VoskSpeechToText _voskSpeechToText;
 
     [SerializeField] private SendScoreBehaviour _sendScoreBehaviour;
 
@@ -37,6 +40,9 @@ public class ScenarioEventBehaviour : MonoBehaviour
     [SerializeField] private FadingBehaviour _requiredTextFadingBehaviour;
     [SerializeField] private TextMeshProUGUI _answerText;
 
+    [SerializeField] private LogControllerBehaviour _logControllerBehaviour;
+    [SerializeField] private ConversationPanelController _conversationPanelController;
+
     public int questionCounter;
 
     int counter;
@@ -44,6 +50,9 @@ public class ScenarioEventBehaviour : MonoBehaviour
     AudioClip clip;
         
     NpcSpeechSalsa npcSpeech;
+
+    
+    
 
     private void Start()
     {
@@ -67,8 +76,8 @@ public class ScenarioEventBehaviour : MonoBehaviour
         Debug.Log("Scenario Submited");
         
         // dimaz
-        //counter = 0;
-        //SequentialAnimation.AnimationList
+        counter = 0;
+        // SequentialAnimation.AnimationList
 
         for (int i = 0; i < SequentialAnimation.AnimationList.Count; i++)
         {
@@ -101,12 +110,15 @@ public class ScenarioEventBehaviour : MonoBehaviour
 
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(Microphone.SetButtonOn);
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_requiredTextFadingBehaviour.BeginFadingIn);
-  
+
+                // new vosk test
+                SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_voskSpeechToText.StartRecording);
+
                 counter += 1;
                 
                 SequentialAnimation.AnimationList[i].QuestionID = questionCounter += 1;
                 
-                SequentialAnimation.AnimationList[i].AnimationState.Add("S+" + counter);
+                SequentialAnimation.AnimationList[i].AnimationState.Add("S" + counter);
 
                 /*for (int j = 0; j < SequentialAnimation.AnimationList[i].AnimationState.Count; j++)
                 {
@@ -134,8 +146,10 @@ public class ScenarioEventBehaviour : MonoBehaviour
                 //Debug.Log("Even : "+i);
 
                 counter += 1;
+                
+               
 
-                SequentialAnimation.AnimationList[i].AnimationState.Add("S+" + counter);
+                SequentialAnimation.AnimationList[i].AnimationState.Add("S" + counter);
                 
                 /*for (int j = 0; j < SequentialAnimation.AnimationList[i].AnimationState.Count; j++)
                 {
@@ -181,6 +195,9 @@ public class ScenarioEventBehaviour : MonoBehaviour
 
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(Microphone.SetButtonOn);
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_requiredTextFadingBehaviour.BeginFadingIn);
+                
+                // new vosk test
+                SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_voskSpeechToText.StartRecording);
                 
             }
             
@@ -235,9 +252,20 @@ public class ScenarioEventBehaviour : MonoBehaviour
 
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished
                     .AddListener(_logControllerBehaviour.Reset);
+
+                SequentialAnimation.AnimationList[i].OnPartialAnimationFinished
+                    .AddListener(_conversationPanelController.FinishedConverstation);
+                
+                SequentialAnimation.AnimationList[i].OnPartialAnimationFinished
+                    .AddListener(() => _logScenario.ClickMyTargetMenu(_panelScore));
+                
+                SequentialAnimation.AnimationList[i].OnPartialAnimationFinished
+                    .AddListener(() => _scenarioManager.ScenarioIsFinished());
             }
         }
         
         //SequentialAnimation.AudioSource = SequentialAnimation.AnimationList[0].Animators[0].GetComponent<AudioSource>();
     }
+    
+    
 }

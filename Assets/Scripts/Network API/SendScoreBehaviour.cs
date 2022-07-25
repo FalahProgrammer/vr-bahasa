@@ -18,6 +18,8 @@ public class SendScoreBehaviour : MonoBehaviour
     [SerializeField] private RepositoryLogAnswer _RepositoryLogAnswer;
     [SerializeField] private LogRepository _repositoryLog;
     [SerializeField] private RepositoryLoginData _repositoryLoginData;
+    [SerializeField] private IntegerVariable _integerVariable;
+    [Space(10)]
     public List<RequestHeader> Header = new List<RequestHeader>();
     /*public string Token;
     public List<InputField> Input = new List<InputField>(3);*/
@@ -153,7 +155,7 @@ public class SendScoreBehaviour : MonoBehaviour
                 var datatosend = new DataPostScenario 
                 {
                     user_id = UserId, 
-                    conversation_topic = _contentAreaController.ListContent[i].conversation_topic, 
+                    conversation_topic = _contentAreaController.ListContent[i].npc[_integerVariable.IntegerValue - 1].conversation_topic, 
                     waktu_pengerjaan = _contentAreaController.ListContent[i].duration, 
                     total_score = _RepositoryLogAnswer.TotalScore, 
                     total_correct = _RepositoryLogAnswer.CorrectAnswer, 
