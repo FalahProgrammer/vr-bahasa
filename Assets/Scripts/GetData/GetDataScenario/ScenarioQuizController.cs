@@ -8,6 +8,9 @@ using UnityEngine.UI;
 
 public class ScenarioQuizController : MonoBehaviour
 {
+    [SerializeField] private NewTyperText _newTyperText;
+    [SerializeField] private LogControllerBehaviour _logControllerBehaviour;
+    
     [SerializeField] private  DataVariable DataVariable;
 
     [SerializeField] private RepositoryQuizQuestion _repositoryQuizQuestion;
@@ -25,14 +28,14 @@ public class ScenarioQuizController : MonoBehaviour
 
     [SerializeField] private UnityEvent OnFinishedGetScenarioQuiz;
     
-    [SerializeField] private NewTyperText _newTyperText;
     
-    private void Awake()
+    
+    private void OnValidate()
     {
         DataVariable = Resources.Load<DataVariable>("ScriptableObjects/Variable/String Variable");
 
         _repositoryQuizQuestion =
-            Resources.Load<RepositoryQuizQuestion>("ScriptableObjects/Repository/Repository Quiz Question");
+            Resources.Load<RepositoryQuizQuestion>("ScriptableObjects/Repository/Repository Exam Question");
 
         //_scriptableGameObjectDataController = Resources.Load<ScriptableGameObjectDataController>("ScriptableObjects/Game Object/Scriptable GameObject Data Controller");
     }
@@ -83,18 +86,23 @@ public class ScenarioQuizController : MonoBehaviour
                 
                 GenerateButtonChapter(
                     sMateri_id: _repositoryQuizQuestion.Items[i].materi_id,
-                    sChapter_id: _repositoryQuizQuestion.Items[i].chapter_id,
+                    /*sChapter_id: _repositoryQuizQuestion.Items[i].chapter_id,*/
                     _repositoryQuizQuestion.Items[i].question_id,
                     _repositoryQuizQuestion.Items[i].answers[0].text,
-                    _repositoryQuizQuestion.Items[i].answers[1].text,
+                    /*_repositoryQuizQuestion.Items[i].answers[1].text,*/
                     _repositoryQuizQuestion.Items[i].questions);
                 
-                for (int j = 0; j < _repositoryQuizQuestion.Items[i].answers.Count; j++)
+                
+                CorrectAnswer = _repositoryQuizQuestion.Items[i].answers[0].text;
+                Question = _repositoryQuizQuestion.Items[i].questions;
+                answerCheckerBehaviour.Input1 = CorrectAnswer;
+                
+                /*for (int j = 0; j < _repositoryQuizQuestion.Items[i].answers.Count; j++)
                 {
                     /*var iconassets = from asset in _repositoryQuizQuestion.Items[i].answers
                         where asset.id == _repositoryQuizQuestion.Items[i].right_answer_id
                         select asset;
-                    var iconlist = iconassets.ToList();*/
+                    var iconlist = iconassets.ToList();#1#
                     
                     if (_repositoryQuizQuestion.Items[i].right_answer_id == _repositoryQuizQuestion.Items[i].answers[j].id)
                     {
@@ -108,7 +116,7 @@ public class ScenarioQuizController : MonoBehaviour
                         
                         //answerCheckerBehaviour.GetDataQuiz(_repositoryQuizQuestion.Items[i].questions, CorrectAnswer, null);
                     }
-                }
+                }*/
             }
             
         }
@@ -118,7 +126,7 @@ public class ScenarioQuizController : MonoBehaviour
 
     public string GetCurrentAnswer() => CorrectAnswer;
 
-    public void GenerateButtonChapter(string sMateri_id, string sChapter_id, string sQuestion_id, string sAnswerA, string sAnswerB, string sQuestion)
+    public void GenerateButtonChapter(string sMateri_id/*, string sChapter_id*/, string sQuestion_id, string sAnswerA/*, string sAnswerB*/, string sQuestion)
     {
         //InitThis();
 
@@ -126,14 +134,14 @@ public class ScenarioQuizController : MonoBehaviour
         
         PrefabAnswerController prefabButtonAnswerController = _prefabButtonChapter.GetComponentInChildren<PrefabAnswerController>();
 
-        DataVariable.chapter_id = sChapter_id;
+        //DataVariable.chapter_id = sChapter_id;
 
         prefabButtonAnswerController.Materi_Id = sMateri_id;
 
         prefabButtonAnswerController.Chapter_Id = DataVariable.chapter_id;
         
         prefabButtonAnswerController.Question_Id = sQuestion_id;
-
+        
         prefabButtonAnswerController.Question.text = sQuestion;
         _newTyperText.PlayText();
         

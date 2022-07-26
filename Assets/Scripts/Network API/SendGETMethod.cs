@@ -51,7 +51,7 @@ public class SendGETMethod : MonoBehaviour
     {
         _repositoryLoginData = Resources.Load<RepositoryLoginData>("ScriptableObjects/Repository/Repository Login Data");
         _repositoryMateri = Resources.Load<RepositoryMateri>("ScriptableObjects/Repository/Repository Materi");
-        _repositoryQuizQuestion = Resources.Load<RepositoryQuizQuestion>("ScriptableObjects/Repository/Repository Quiz Question");
+        _repositoryQuizQuestion = Resources.Load<RepositoryQuizQuestion>("ScriptableObjects/Repository/Repository Exam Question");
         _repositoryLocation = Resources.Load<RepositoryLocation>("ScriptableObjects/Repository/Repository Location");
         _repositoryContentArea = Resources.Load<RepositoryContentArea>("ScriptableObjects/Repository/Repository Content Area");
         _repositoryPassingGrade = Resources.Load<RepositoryPassingGrade>("ScriptableObjects/Repository/Repository Passing Grade");
@@ -68,7 +68,7 @@ public class SendGETMethod : MonoBehaviour
         GetRepositoryMateri(URL+"/vr-bahasa/public/api/v1/materis");
         GetRepositoryLocation(URL+"/vr-bahasa/public/api/v1/chapters");
         GetRepositoryContentArea(URL+"/vr-bahasa/public/api/v1/contents");
-        GetRepositoryDataQuiz(URL+"/vr-bahasa/public/api/v1/quiz-questions");
+        GetRepositoryDataQuiz(URL+"/vr-bahasa/public/api/v1/exam-questions");
         GetRepositoryPassingGrade(URL+"/vr-bahasa/public/api/v1/passgrade");
     }
     

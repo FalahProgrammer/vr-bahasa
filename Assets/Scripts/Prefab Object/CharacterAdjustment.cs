@@ -5,14 +5,21 @@ using UnityEngine.Serialization;
 
 public class CharacterAdjustment : MonoBehaviour
 {
-    public bool adjustUIPosition;
-    public Vector3 adjustmentUIPosition = new Vector3(); 
+    public bool playerIsSitting;
     
     [Space(10)]
-    public bool adjustPlayerPosition;
+    //public bool adjustUIPosition;
+    public Vector3 adjustmentUIPosition = new Vector3();
+
+    [Space(5)]
+    //public bool adjustPlayerPosition;
     public Vector3 adjustmentPlayerPosition = new Vector3();
     
-    [Space(10)]
-    public bool adjustPlayerRotation;
+    [Space(5)]
+    //public bool adjustPlayerRotation;
     public Vector3 adjustmentPlayerRotation = new Vector3();
+    
+    [Space(10)]
+    public Transform characterPivot;
+    public Transform uiPivot;
 }

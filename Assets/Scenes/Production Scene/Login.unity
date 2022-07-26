@@ -665,7 +665,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: falah
+  m_Text: developer
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -1379,7 +1379,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "falah\u200B"
+  m_text: "developer\u200B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2258,7 +2258,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172346775}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b2125bc2ef3865e40bf60a152aa3e538, type: 3}
   m_Name: 
@@ -2833,9 +2833,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c6c7f845c42f6b46b3c339b7714b548, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debugMode: 0
+  debugMode: 1
   _loadAtStart: 1
   _repositoryContentArea: {fileID: 11400000, guid: a089e9a1dd29ef24996b4dcf855e6d17, type: 2}
+  _integerVariable: {fileID: 11400000, guid: 05e3189e17a53fa44b625301249eeb94, type: 2}
   OnFinishedLoadPrefabs:
     m_PersistentCalls:
       m_Calls:
@@ -3126,7 +3127,7 @@ MonoBehaviour:
   Header: []
   _repositoryMateri: {fileID: 11400000, guid: 1a51ad2dc34bf144ea0eb370b86f9191, type: 2}
   _repositoryLoginData: {fileID: 11400000, guid: 5963289fb74bab24a9a73d8ef01b5920, type: 2}
-  _repositoryQuizQuestion: {fileID: 11400000, guid: 0ee8559a6b6b981468c7bc963db874b5, type: 2}
+  _repositoryQuizQuestion: {fileID: 11400000, guid: 492da8ace0261104dad0c5d2c0b04af6, type: 2}
   _repositoryLocation: {fileID: 11400000, guid: bb701890c6eb1f14cac2050720f9dfbc, type: 2}
   _repositoryContentArea: {fileID: 11400000, guid: a089e9a1dd29ef24996b4dcf855e6d17, type: 2}
   _repositoryPassingGrade: {fileID: 11400000, guid: d819dbe6976fc8f4cafd8799bc36ae1d, type: 2}
@@ -4206,7 +4207,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
       - m_Target: {fileID: 1871922418}
         m_TargetAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
         m_MethodName: set_blocksRaycasts
@@ -4218,7 +4219,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
 --- !u!114 &1871922414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4546,6 +4547,30 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: FadingBehaviour, Assembly-CSharp
         m_MethodName: BeginFadingIn
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1871922418}
+        m_TargetAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+        m_MethodName: set_interactable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1871922418}
+        m_TargetAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
+        m_MethodName: set_blocksRaycasts
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

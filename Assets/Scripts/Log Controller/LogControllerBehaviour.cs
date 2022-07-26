@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Leap.Unity;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class LogControllerBehaviour : MonoBehaviour, iResetable
@@ -57,7 +58,8 @@ public class LogControllerBehaviour : MonoBehaviour, iResetable
     
     /*[HideInInspector]
     [Tooltip("Select your move direction")]*/
-    private Type Mode;
+    [HideInInspector] 
+    public Type Mode;
     
     public enum Type
     {

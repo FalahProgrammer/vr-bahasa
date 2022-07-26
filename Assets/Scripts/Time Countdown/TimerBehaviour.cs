@@ -100,7 +100,7 @@ public class TimerBehaviour : MonoBehaviour, iResetable
                     _currentDuration = 0;
             
                     //   
-                    //onTimerEnd.Invoke();
+                    onTimerEnd.Invoke();
                     
                     IsPlaying = false;
                     

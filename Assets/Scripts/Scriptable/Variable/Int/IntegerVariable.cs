@@ -9,6 +9,7 @@ public class IntegerVariable : ScriptableObject
 
     public void IntValue(int intvalue)
     {
+        Debug.Log("Int Value: " + intvalue);
         IntegerValue = intvalue;
     }
 }

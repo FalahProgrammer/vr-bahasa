@@ -23,7 +23,7 @@ public class lololo : MonoBehaviour
 
         for (int i = 0; i < _repositoryPassingGrade.Items.Count; i++)
         {
-            if (_repositoryPassingGrade.Items[i].content_id==_dataVariable.exam_id)
+            if (_repositoryPassingGrade.Items[i].content_id==_dataVariable.area_id)
             {
                 Debug.Log(_repositoryPassingGrade.Items[i].pass_grade);
             }

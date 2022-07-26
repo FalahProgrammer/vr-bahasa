@@ -19,6 +19,8 @@ public class GenerateEnvirontmentBehaviour : MonoBehaviour
         _scriptableTransform = Resources.Load<ScriptableTransform>("ScriptableObjects/Transform/Prefab Area");
         
         _scriptableGameObjectDataController = Resources.Load<ScriptableGameObjectDataController>("ScriptableObjects/Game Object/Scriptable GameObject Data Controller");
+
+        GenerateLanguageHomeArea();
     }
     
     private void Init()
@@ -32,7 +34,6 @@ public class GenerateEnvirontmentBehaviour : MonoBehaviour
     public void GenerateAreaPrefab()
     {
         StartCoroutine(CoroutineGeneratePrefab(OnFinishedLoadAsset));
-
     }
 
     IEnumerator CoroutineGeneratePrefab(Action onFinishedLoadAsset)
@@ -72,4 +73,29 @@ public class GenerateEnvirontmentBehaviour : MonoBehaviour
         
         OnFinishLoadAsset.Invoke();
     }
+
+    public void GenerateLanguageHomeArea()
+    {
+        StartCoroutine(CoroutineGenerateHomeLanguagePrefab(OnFinishedLoadAsset));
+    }
+    
+    IEnumerator CoroutineGenerateHomeLanguagePrefab(Action onFinishedLoadAsset)
+    {
+        if (_scriptableTransform.LanguageHomeArea != null)
+        {
+            Init();
+            
+            _scriptableGameObjectDataController.ContentButton = Instantiate(_scriptableTransform.LanguageHomeArea.gameObject, _groupButtonEnvi, true);
+            
+            yield return _scriptableTransform.LanguageHomeArea.gameObject;
+            
+            Debug.Log("--------------------- Prefab ''"+ _scriptableTransform.LanguageHomeArea.gameObject.name + "'' Successfully loaded ---------------------");
+        }
+        else
+        {
+            Debug.Log("Prefab is failed to load !!!");
+        }
+    }
+
+    
 }

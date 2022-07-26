@@ -24,7 +24,10 @@ public class LoadAssetBundleAsync
 
     public IEnumerator LoadBundleAsync(int index, Action<GameObject> onFinishedLoadAsset)
     {
-        AssetBundleCreateRequest assetBundleCreateRequest = AssetBundle.LoadFromFileAsync(Path.Combine(Application.streamingAssetsPath, UrlPath[index]));
+        string path = Path.Combine(Application.streamingAssetsPath, UrlPath[index]);
+        Debug.Log("Trying to load: " + path);
+        AssetBundleCreateRequest assetBundleCreateRequest = AssetBundle.LoadFromFileAsync(path);
+            //AssetBundle.LoadFromFileAsync(Path.Combine(Application.streamingAssetsPath, UrlPath[index]));
         
         AssetBundle = assetBundleCreateRequest.assetBundle;
 
@@ -45,7 +48,7 @@ public class LoadAssetBundleAsync
         
             GameObject obj = assetBundleRequest.asset as GameObject;
 
-            Debug.Log("Asset Bundle Name : " + obj.name);
+            //Debug.Log("Asset Bundle Name : " + obj.name);
             
             onFinishedLoadAsset?.Invoke(obj);
         }

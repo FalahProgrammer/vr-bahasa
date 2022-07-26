@@ -1,11 +1,18 @@
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class AreaPrefab : MonoBehaviour
 {
+   public Transform characterContainer;
+   
    [SerializeField] private bool _debugMode;
    [SerializeField] private ListInteractor _listInteractor;
-   [SerializeField] private Transform _characterContainer;
    [SerializeField] private Transform _playerInitialPosition;
+
+   [SerializeField] private float prefabScale = 1;
+
+   [SerializeField] private Vector3 playerInitialPositionAdjustment;
 
    public void ClearData()
    {
@@ -24,88 +31,95 @@ public class AreaPrefab : MonoBehaviour
    public void GetNewData()
    {
       ClearData();
+      
+      _listInteractor.homeTransform = _playerInitialPosition;
 
-      foreach (Transform c in _characterContainer)
+      if (playerInitialPositionAdjustment != Vector3.zero)
       {
-         var tempUI = c.GetChild(0).position;
+         Vector3 originPos = _listInteractor.homeTransform.position;
+         _listInteractor.homeTransform.position = new Vector3(originPos.x + playerInitialPositionAdjustment.x, originPos.y + playerInitialPositionAdjustment.y, originPos.z + playerInitialPositionAdjustment.z);
+      }
+
+      
+
+      foreach (Transform c in characterContainer)
+      {
+         if (!c.gameObject.activeSelf) continue;
+         if (c.name.Remove(3, c.name.Length - 3) != "NPC") continue;
+         
+         var pos = c.position;
+         //c.GetChild(1).GetChild(0).position;
          var charAdjustment = c.GetComponent<CharacterAdjustment>();
          
          // Interactor's transform position
          _listInteractor.listInteractors.Add(c);
          
          // UI position
-         switch (charAdjustment.adjustUIPosition)
+         var uiPosition = charAdjustment.uiPivot.position;
+         var adjustmentUIPosition = charAdjustment.adjustmentUIPosition;
+         switch (charAdjustment.playerIsSitting)
          {
             case true:
-               var adjustmentUIPosition = charAdjustment.adjustmentUIPosition;
-               
                _listInteractor.ListUIPosition.Add(new Vector3(
-                  tempUI.x + 0.5f + adjustmentUIPosition.x,
-                  tempUI.y + 2.5f + adjustmentUIPosition.y, 
-                  tempUI.z + adjustmentUIPosition.z));
-               
+                  uiPosition.x + adjustmentUIPosition.x,
+                  uiPosition.y + adjustmentUIPosition.y, 
+                  uiPosition.z + adjustmentUIPosition.z));
                break;
+            
             case false:
                _listInteractor.ListUIPosition.Add(new Vector3(
-                  tempUI.x + 0.5f,
-                  tempUI.y + 2.5f, 
-                  tempUI.z));
+                  uiPosition.x + adjustmentUIPosition.x,
+                  uiPosition.y + 0.7f + adjustmentUIPosition.y, 
+                  uiPosition.z + adjustmentUIPosition.z));
                break;
          }
+         
+         
+         
          
          // Character warp position
-         switch (charAdjustment.adjustPlayerPosition)
+         var adjustmentPlayerPosition = charAdjustment.adjustmentPlayerPosition;
+         var position = charAdjustment.characterPivot.position;
+         switch (charAdjustment.playerIsSitting)
          {
             case true:
-               var adjustmentPlayerPosition = charAdjustment.adjustmentPlayerPosition;
-               
                _listInteractor.listCharacterPosition.Add(new Vector3(
-                  tempUI.x - 0.8f + adjustmentPlayerPosition.x, 
-                  tempUI.y + 1.5f + adjustmentPlayerPosition.y, 
-                  tempUI.z + adjustmentPlayerPosition.z));
+                  position.x + adjustmentPlayerPosition.x, 
+                  pos.y + 0.2f + adjustmentPlayerPosition.y, 
+                  position.z + adjustmentPlayerPosition.z));
                break;
-            
+                  
             case false:
+              
                _listInteractor.listCharacterPosition.Add(new Vector3(
-                  tempUI.x - 0.8f, 
-                  tempUI.y + 1.5f, 
-                  tempUI.z));
+                  position.x + adjustmentPlayerPosition.x, 
+                  pos.y + 0.65f + adjustmentPlayerPosition.y, 
+                  position.z + adjustmentPlayerPosition.z));
                break;
          }
+
+         Debug.Log("Char Y: " + pos.y);
          
          // character warp rotation
-         switch (charAdjustment.adjustPlayerRotation)
-         {
-            case true:
-               var adjustmentRotation = charAdjustment.adjustmentPlayerRotation;
+         var adjustmentRotation = charAdjustment.adjustmentPlayerRotation;
                
-               _listInteractor.listCharacterRotation.Add(new Vector3(
-                  0 + adjustmentRotation.x, 
-                  90  + adjustmentRotation.y, 
-                  0 + adjustmentRotation.z));
-               break;
-            
-            case false:
-               _listInteractor.listCharacterRotation.Add(new Vector3(
-                  0, 
-                  90, 
-                  0));
-               break;
-         }
+         _listInteractor.listCharacterRotation.Add(new Vector3(
+            0 + adjustmentRotation.x, 
+            180 + c.localRotation.eulerAngles.y  + adjustmentRotation.y, 
+            0 + adjustmentRotation.z));
          
       }
       
       //add player initial position to the bottom of the list
       var playerPos = _playerInitialPosition.position;
-      _listInteractor.homeVector = _playerInitialPosition.position;
+      _listInteractor.homeVector = new Vector3(playerPos.x, 0.46f, playerPos.z);
+      
       
       // _listInteractor.ListUIPosition.Add(new Vector3(playerPos.x - 0.5f, playerPos.y + 1.5f, playerPos.z));
       
-      //add player initial position to the bottom of the list
-     //  _listInteractor.listCharacterPosition.Add(_playerInitialPosition.position);
-
-      _listInteractor.homeTransform = _playerInitialPosition;
-      
+      // add player initial position to the bottom of the list
+      // _listInteractor.listCharacterPosition.Add(_playerInitialPosition.position);
+     
       if (_debugMode) Debug.Log("Data Generated!");
    }
 }

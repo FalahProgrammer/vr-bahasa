@@ -22,7 +22,7 @@ public class SentenceChecker : MonoBehaviour
 
     List<string> CombinedList = new List<string>();
 
-    private List<string> _escapedChars = new List<string>() {",", ".", "!", "?", "'"};
+    private List<string> _escapedChars = new List<string>() {",", ".", "!", "?"};
 
     [SerializeField] public string ResultText;
 

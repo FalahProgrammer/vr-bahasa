@@ -39,6 +39,13 @@ public class NpcInteraction : MonoBehaviour
 
     [SerializeField] private UnityEvent OnInteract;
 
+    public MeshRenderer MeshRenderer;
+
+    private void Awake()
+    {
+        MeshRenderer = GetComponent<MeshRenderer>();
+    }
+
     private void Start()
     {
         /*_scriptController = FindObjectOfType<ScriptController>();
@@ -102,7 +109,7 @@ public class NpcInteraction : MonoBehaviour
                 
                 _scriptController.Reset();
 
-                
+                _npcInteractionManager.DisableInteractors();
             }
         }
     }
@@ -138,6 +145,11 @@ public class NpcInteraction : MonoBehaviour
                     }*/
 
                     //npcInteractionManager.IncreamentInteraction++;
+
+                    /*foreach (var v in _npcInteractionManager._npcInteractions)
+                    {
+                        v.gameObject.SetActive(false);
+                    }*/
                 }
             }
         }

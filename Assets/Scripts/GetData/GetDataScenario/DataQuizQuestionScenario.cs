@@ -9,6 +9,8 @@ public class DataQuizQuestionScenario
     public string materi_id;
     
     public string chapter_id;
+
+    public int npc_id;
     
     public string question_id;
     

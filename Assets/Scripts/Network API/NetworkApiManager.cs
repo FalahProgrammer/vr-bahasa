@@ -43,13 +43,16 @@ public class NetworkApiManager : MonoBehaviour
 
     private void Start()
     {
+        // masih di local server !
+        
+        
         //GetRepositoryDataItems("http://" + "localhost" + "/unhan/public/raftels/quiz_question");
         
         //GetRepositoryDataContent("http://" + "localhost" + "/penembak/public/modul");
         
         GetRepositoryMateri("http://vr-bahasa.test/api/v1/materis");
 
-        GetRepositoryLocation("http://vr-bahasa.test/api/v1/chapters");
+        GetRepositoryLocation("http://192.168.100.78/vr-bahasa/public/api/v1/chapters");
         
         GetRepositoryContentArea("http://vr-bahasa.test/api/v1/contents");
         

@@ -9,6 +9,8 @@ using UnityEngine.XR.Management;
 public class GenerateScenarioBehaviour : MonoBehaviour
 {
     //[SerializeField] private ContentAreaController _contentAreaController;
+    [SerializeField] private ScenarioManager _scenarioManager;
+    
     [SerializeField] private bool _usingVR;
 
     [SerializeField] private IntegerVariable _integerVariable;
@@ -18,6 +20,8 @@ public class GenerateScenarioBehaviour : MonoBehaviour
     [SerializeField] private DataVariable _dataVariable;
     
     [SerializeField] private ScriptableGameObjectDataController _scriptableGameObjectDataController;
+
+    [SerializeField] private ScriptableTransform _prefabArea;
     
     [SerializeField] private Transform _groupButtonContentArea;
     
@@ -42,6 +46,7 @@ public class GenerateScenarioBehaviour : MonoBehaviour
     [SerializeField] private Text[] _scenarioNameText;
     
     [SerializeField] private Text[] _scenarioDescText;
+    
     private void Awake()
     {
 
@@ -128,6 +133,8 @@ public class GenerateScenarioBehaviour : MonoBehaviour
 
     private void GenerateScenario(int index, Action<GameObject> onFinishedLoadAsset)
     {
+        _scenarioManager.ScenarioIsActive = true;
+        
         _scriptableGameObjectDataController.ContentButton = Instantiate(_listScenario[index], _groupButtonContentArea, true);
         
         //_commandSequenceManager._commandSequences.Clear();
@@ -171,25 +178,41 @@ public class GenerateScenarioBehaviour : MonoBehaviour
             
             if (_repositoryContentArea.Items[j].chapter_id.Equals(_dataVariable.chapter_id) &&
                 _repositoryContentArea.Items[j].materi_id.Equals(_dataVariable.materi_id) && 
-                _repositoryContentArea.Items[j].id.Equals(_dataVariable.exam_id.ToString()))
+                _repositoryContentArea.Items[j].id.Equals(_dataVariable.area_id.ToString()))
             {
                 for (int i = 0; i < _scenarioNameText.Length; i++)
                 {
-                    _scenarioNameText[i].text = _repositoryContentArea.Items[j].conversation_topic;
+                    _scenarioNameText[i].text = _repositoryContentArea.Items[j].npc[_integerVariable.IntegerValue - 1].conversation_topic;
+                    //_repositoryContentArea.Items[j].conversation_topic;
                 }
                     
                 for (int k = 0; k < _scenarioDescText.Length; k++)
                 {
-                    _scenarioDescText[k].text = _repositoryContentArea.Items[j].npc_name;
+                    _scenarioDescText[k].text = _repositoryContentArea.Items[j].npc[_integerVariable.IntegerValue - 1].npc_name;
                 }
             }
         }
+        
         onFinishedLoadAsset?.Invoke(_scriptableGameObjectDataController.ContentButton);
     }
+    
+    public UnityEvent OnScenarioGenerated;
     
     private void OnFinishedLoadAsset(GameObject obj)
     {
         //_commandSequenceManager.CallContinueCommand();
         _scenarioEventBehaviour.ScenarioSubmiter();
+        OnScenarioGenerated?.Invoke();
+    }
+
+    // called when an area is instantiated
+    public void AssignAreaScenario()
+    {
+        _listScenario.Clear();
+        Transform container = _prefabArea.MyTransform.GetComponent<AreaPrefab>().characterContainer;
+        foreach (Transform t in container)
+        {
+            _listScenario.Add(t.GetComponent<Interactor>().npcScenario);
+        }
     }
 }

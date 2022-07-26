@@ -14,6 +14,7 @@ public class LocationController : MonoBehaviour
     [SerializeField] private TimerBehaviour _timerBehaviour;
     
     [SerializeField] private RepositoryLocation repositoryLocation;
+    [SerializeField] private RepositoryContentArea _repositoryContentArea;
 
     [SerializeField] private ScriptableGameObjectDataController _scriptableGameObjectDataController;
 
@@ -65,8 +66,18 @@ public class LocationController : MonoBehaviour
         for (int i = 0; i < repositoryChapter.Count; i++)
         {
             //GenerateButtonChapter(_repositoryItems.ListChapter[i].no, _repositoryItems.ListChapter[i].judul);
-            
-            GenerateButtonLocation(repositoryChapter[i].id,repositoryChapter[i].materi_id, repositoryChapter[i].judul);
+
+            for (int v = 0; v < _repositoryContentArea.Items.Count; v++)
+            {
+                if (_repositoryContentArea.Items[v].chapter_id != repositoryChapter[i].id) continue;
+                if (_repositoryContentArea.Items[v].AreaPrefab == null) continue;
+                
+                Debug.Log("Location: " + repositoryChapter[i].judul);
+                GenerateButtonLocation(repositoryChapter[i].id,repositoryChapter[i].materi_id, repositoryChapter[i].judul);
+                break;
+            }
+
+            //GenerateButtonLocation(repositoryChapter[i].id,repositoryChapter[i].materi_id, repositoryChapter[i].judul);
         }
     }
     
