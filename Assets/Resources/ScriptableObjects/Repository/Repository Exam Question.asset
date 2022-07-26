@@ -14,109 +14,4086 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Items:
   - materi_id: 2
-    chapter_id: 4
-    question_id: 10
+    chapter_id: 
+    npc_id: 6
+    question_id: 1
     questions: hello, how are you?
-    right_answer_id: 19
+    right_answer_id: 1
     answers:
-    - id: 19
+    - id: 1
       text: "I\u2019m great, how about you?"
-    - id: 20
+    - id: 2
       text: Goodbye
     status: Active
   - materi_id: 2
-    chapter_id: 4
-    question_id: 11
+    chapter_id: 
+    npc_id: 6
+    question_id: 2
     questions: "I\u2019m great too, where do you came from?"
-    right_answer_id: 21
+    right_answer_id: 3
     answers:
-    - id: 21
+    - id: 3
       text: "I\u2019m from Indonesia"
-    - id: 22
+    - id: 4
       text: Goodbye
     status: Active
   - materi_id: 2
-    chapter_id: 4
-    question_id: 12
+    chapter_id: 
+    npc_id: 6
+    question_id: 3
     questions: oh I see, welcome to the boot camp
-    right_answer_id: 23
+    right_answer_id: 5
     answers:
-    - id: 23
+    - id: 5
       text: thank you, this barracks is so clean and comfortable
-    - id: 24
+    - id: 6
       text: Goodbye
     status: Active
   - materi_id: 2
-    chapter_id: 4
-    question_id: 13
+    chapter_id: 
+    npc_id: 6
+    question_id: 4
     questions: do you think so? anyway do you know who are the soldiers in United
       States Army?
-    right_answer_id: 25
+    right_answer_id: 7
     answers:
-    - id: 25
+    - id: 7
       text: of course, they are volunteers
-    - id: 26
+    - id: 8
       text: Goodbye
     status: Active
   - materi_id: 2
-    chapter_id: 4
-    question_id: 14
+    chapter_id: 
+    npc_id: 6
+    question_id: 5
     questions: you are correct, do you know which units the army trains recruits?
-    right_answer_id: 27
+    right_answer_id: 9
     answers:
-    - id: 27
+    - id: 9
       text: the army trains recruit at basic training unit
-    - id: 28
+    - id: 10
       text: Goodbye
     status: Active
   - materi_id: 2
-    chapter_id: 4
-    question_id: 15
+    chapter_id: 
+    npc_id: 6
+    question_id: 6
     questions: great, the main basic unit is Fort Jackson in South Carolina. do you
       know how long does the basic training take?
-    right_answer_id: 29
+    right_answer_id: 11
     answers:
-    - id: 29
+    - id: 11
       text: basic training takes nine weeks until graduation
-    - id: 30
+    - id: 12
       text: Goodbye
     status: Active
   - materi_id: 2
-    chapter_id: 4
-    question_id: 16
+    chapter_id: 
+    npc_id: 6
+    question_id: 7
     questions: you are right, for your information, the instructors are non-commissioned
       officers. Do you know what skills will be taught by instructors in boot camp?
-    right_answer_id: 31
+    right_answer_id: 13
     answers:
-    - id: 31
+    - id: 13
       text: instructors will teach about basic military skills, including drill and
         weapons training.
-    - id: 32
+    - id: 14
       text: Goodbye
     status: Active
   - materi_id: 2
-    chapter_id: 4
-    question_id: 17
-    questions: wow, tell me more about basic combat training information that you
-      know!
-    right_answer_id: 33
+    chapter_id: 
+    npc_id: 6
+    question_id: 8
+    questions: ' wow, tell me more about basic combat training information that you
+      know!'
+    right_answer_id: 15
     answers:
-    - id: 33
+    - id: 15
       text: "recruits in basic training live and sleep in barracks. They wear a military
         uniform, and the don\u2019t go home during basic training and they don\u2019t
         see their family before graduation. "
-    - id: 34
+    - id: 16
       text: Goodbye
     status: Active
   - materi_id: 2
-    chapter_id: 4
-    question_id: 18
-    questions: "wow, I\u2019m impressed. I\u2019m sorry I have to leave this barracks
+    chapter_id: 
+    npc_id: 6
+    question_id: 9
+    questions: " wow, I\u2019m impressed. I\u2019m sorry I have to leave this barracks
       immediately, it\u2019s really nice to see you."
-    right_answer_id: 35
+    right_answer_id: 17
     answers:
-    - id: 35
+    - id: 17
       text: Nice to see you too
-    - id: 36
+    - id: 18
       text: Goodbye
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 10
+    question_id: 22
+    questions: Guten Tag, kann ich Ihnen helfen?
+    right_answer_id: 
+    answers:
+    - id: 39
+      text: "K\xF6nnen Sie mir zeigen, wie man diese Maschine benutzt?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 10
+    question_id: 23
+    questions: Sicher. Haben Sie Ihren Pass mitgebracht?
+    right_answer_id: 
+    answers:
+    - id: 40
+      text: Das ist mein Pass. Muss ich meinen Reisepass am Automaten scannen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 10
+    question_id: 24
+    questions: Ja, das ist richtig.
+    right_answer_id: 
+    answers:
+    - id: 41
+      text: Was soll ich danach tun?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 10
+    question_id: 25
+    questions: Das System fordert Sie auf, direkt ein Foto von sich zu machen.
+    right_answer_id: 
+    answers:
+    - id: 42
+      text: "Okay, gut. Soll ich noch andere Formulare ausf\xFCllen?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 10
+    question_id: 26
+    questions: "Nein, bei dieser Kontrolle m\xFCssen Sie nur Ihren Pass, Ihr Gesicht
+      und zuletzt Ihren Fingerabdruck verifizieren."
+    right_answer_id: 
+    answers:
+    - id: 43
+      text: "Sch\xF6n. Muss ich noch was tun?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 10
+    question_id: 27
+    questions: "Nein. Die Daten\xFCberpr\xFCfung ist abgeschlossen. Sie d\xFCrfen
+      schon durch dieses Tor gehen."
+    right_answer_id: 
+    answers:
+    - id: 44
+      text: "Vielen Dank f\xFCr Ihre Hilfe."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 10
+    question_id: 28
+    questions: "Gern geschehen. Ich w\xFCnsche Ihnen eine gute Reise."
+    right_answer_id: 
+    answers:
+    - id: 45
+      text: Danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 29
+    question_id: 29
+    questions: Hallo, kann ich Ihnen helfen?
+    right_answer_id: 
+    answers:
+    - id: 46
+      text: "Hallo, ich habe gerade meinen Pass gescannt, k\xF6nnen Sie mir sagen,
+        was ich dann machen sollte?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 29
+    question_id: 30
+    questions: "Bitte gehen Sie zum Einwanderunggespr\xE4ch!"
+    right_answer_id: 
+    answers:
+    - id: 47
+      text: Entschuldigung. wo ist das?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 29
+    question_id: 31
+    questions: Gehen Sie zu einem leeren Schalter!
+    right_answer_id: 
+    answers:
+    - id: 48
+      text: "K\xF6nnen Sie mir einen \xDCberblick \xFCber das Interview geben"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 29
+    question_id: 32
+    questions: "Sie m\xFCssen nur die Fragen zu personenbezogenen Daten und einigen
+      Zusatzfragen beantworten."
+    right_answer_id: 
+    answers:
+    - id: 49
+      text: Gut, Danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 29
+    question_id: 33
+    questions: Haben Sie noch Fragen?
+    right_answer_id: 
+    answers:
+    - id: 50
+      text: Nein, vielen Dank.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 28
+    question_id: 34
+    questions: Guten Tag, wie geht es Ihnen?
+    right_answer_id: 
+    answers:
+    - id: 51
+      text: Danke, gut, und Ihnen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 28
+    question_id: 35
+    questions: Gut, danke. Kann ich Ihren Pass sehen?
+    right_answer_id: 
+    answers:
+    - id: 52
+      text: Hier, bitte
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 28
+    question_id: 36
+    questions: Wie lange dauert Ihr Besuch?
+    right_answer_id: 
+    answers:
+    - id: 53
+      text: Etwa zwei Wochen.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 28
+    question_id: 37
+    questions: Sind Sie alleine?
+    right_answer_id: 
+    answers:
+    - id: 54
+      text: Ja.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 28
+    question_id: 38
+    questions: Haben Sie Freunde oder Verwandte hier?
+    right_answer_id: 
+    answers:
+    - id: 55
+      text: Nein.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 28
+    question_id: 39
+    questions: Waren Sie schon mal im Ausland?
+    right_answer_id: 
+    answers:
+    - id: 56
+      text: Noch nicht, es ist mein erstes Mal.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 28
+    question_id: 40
+    questions: Ok, das war alles, danke.
+    right_answer_id: 
+    answers:
+    - id: 57
+      text: Ist dieses Interview vorbei?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 28
+    question_id: 41
+    questions: "Ja, Sie k\xF6nnen Ihre Reise fortsetzen. Ich w\xFCnsche Ihnen eine
+      gute Fahrt."
+    right_answer_id: 
+    answers:
+    - id: 58
+      text: Danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 11
+    question_id: 42
+    questions: Hallo, Willkommen in unserem Land.
+    right_answer_id: 
+    answers:
+    - id: 59
+      text: "Hallo, k\xF6nnen Sie mir helfen?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 11
+    question_id: 43
+    questions: "Bitte, was kann ich f\xFCr Sie tun?"
+    right_answer_id: 
+    answers:
+    - id: 60
+      text: Ich bin zum ersten Mal hier, wo kann man hier essen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 11
+    question_id: 44
+    questions: "Gehen Sie nach drau\xDFen, dann finden Sie einen zentralen Willkommensbereich.
+      Dort gibt es ein Restaurant und Kleinigkeiten."
+    right_answer_id: 
+    answers:
+    - id: 61
+      text: Welches Restaurant ist am besten?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 11
+    question_id: 45
+    questions: "Das Essen dort schmeckt alles gut. Aber normalerweise kommen die
+      neuen G\xE4ste immer ins Restaurant Meier."
+    right_answer_id: 
+    answers:
+    - id: 62
+      text: Was ist da interessant?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 11
+    question_id: 46
+    questions: "Dort schmeckt das Essen gut und es ist bequem. Au\xDFerdem gibt es
+      oft Sonderangebote."
+    right_answer_id: 
+    answers:
+    - id: 63
+      text: Wow, sehr interessant, ich glaube, ich werde dort essen.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 11
+    question_id: 47
+    questions: Haben Sie bereits Bargeld?
+    right_answer_id: 
+    answers:
+    - id: 64
+      text: Ich habe noch kein Geld gewechselt.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 11
+    question_id: 48
+    questions: "Es ist besser, wenn Sie zuerst das Geld wechseln, f\xFCr den Fall
+      ist, dass der Visa-Kartenautomat dort au\xDFer Betrieb ist."
+    right_answer_id: 
+    answers:
+    - id: 65
+      text: "Vielen Dank f\xFCr die Ratschl\xE4ge."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 11
+    question_id: 49
+    questions: "Gern geschehen, viel Spa\xDF und einen sch\xF6nen Tag."
+    right_answer_id: 
+    answers:
+    - id: 66
+      text: "Danke f\xFCr die Informationen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 30
+    question_id: 50
+    questions: Hallo, brauchen Sie Hilfe?
+    right_answer_id: 
+    answers:
+    - id: 67
+      text: "Hallo, entschuldigen Sie, ich suche ein \xF6ffentliches Telefon, wo
+        gibt eins?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 30
+    question_id: 51
+    questions: "Die \xF6ffentlichen Telefone am Flughafen sind leider nicht mehr
+      verf\xFCgbar. Braucht jemand einen Notruf?"
+    right_answer_id: 
+    answers:
+    - id: 68
+      text: Oh, nein, ich wollte nur meinen Kollegen anrufen.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 30
+    question_id: 52
+    questions: Haben Sie schin eine SIM-Karte in diesem Land?
+    right_answer_id: 
+    answers:
+    - id: 69
+      text: Noch nicht, ich hatte keine Zeit, sie zu kaufen.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 30
+    question_id: 53
+    questions: Man sollte sich eine SIM-Karte kaufen, so kann man sich miteinander
+      kommunizieren. Im Welcome-Center-Bereich gibt es mehrere SIM-Karten-Betreiber.
+    right_answer_id: 
+    answers:
+    - id: 70
+      text: "Braucht man einen Ausweis f\xFCr den Kauf einer SIM-Karte?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 30
+    question_id: 54
+    questions: "Nat\xFCrlich sind Ausweise erforderlich. So kann man einen Datenmissbrauch
+      vermeiden."
+    right_answer_id: 
+    answers:
+    - id: 71
+      text: "Welche Belege werden ben\xF6tigt?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 30
+    question_id: 55
+    questions: "Sie m\xFCssen Ihren Reisepass, Ihren Einreisenachweis oder die Adresse
+      Ihres Zwischenstopps vorbereiten und schlie\xDFlich m\xFCssen Sie eine Kreditkarte
+      oder Bargeld vorbereiten."
+    right_answer_id: 
+    answers:
+    - id: 72
+      text: Ok danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 30
+    question_id: 56
+    questions: Gibt es sonst noch etwas?
+    right_answer_id: 
+    answers:
+    - id: 73
+      text: "Nein. das reicht erstmal, danke f\xFCr die Info."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 31
+    question_id: 57
+    questions: Hallo, Willkommen. Kann ich Ihnen helfen?
+    right_answer_id: 
+    answers:
+    - id: 74
+      text: "Hallo, k\xF6nnten Sie uns das Essen hier empfehlen?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 31
+    question_id: 58
+    questions: Sicher. Ich empfehle Paket eins, das beinhaltet das Vorspeise, das
+      Hauptspeise und das Nachspeise.
+    right_answer_id: 
+    answers:
+    - id: 75
+      text: "Ich h\xE4tte gern kein scharfes Essen, geht das?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 31
+    question_id: 59
+    questions: Ja, kein Problem.
+    right_answer_id: 
+    answers:
+    - id: 76
+      text: Okay, danke. Dann nehme ich das Paket 1.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 31
+    question_id: 60
+    questions: "OK, Was m\xF6chten Sie trinken?"
+    right_answer_id: 
+    answers:
+    - id: 77
+      text: "Ich m\xF6chte einen Saft und eine Flasche Mineralwasser bestellen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 31
+    question_id: 61
+    questions: Sonst noch etwas?
+    right_answer_id: 
+    answers:
+    - id: 78
+      text: Nein.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 31
+    question_id: 62
+    questions: "Nun, wenn Sie weitere Hilfe ben\xF6tigen, k\xF6nnen Sie uns zur\xFCckrufen."
+    right_answer_id: 
+    answers:
+    - id: 79
+      text: Okay, danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 32
+    question_id: 63
+    questions: Hallo, wie geht es Ihnen?
+    right_answer_id: 
+    answers:
+    - id: 80
+      text: Hallo, danke gut. Und Ihnen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 32
+    question_id: 64
+    questions: Danke, auch gut. Welches Gericht haben Sie gerade bestellt? Es sieht
+      so lecker aus.
+    right_answer_id: 
+    answers:
+    - id: 81
+      text: "Dies ist ein One-Pack-Men\xFC. Ich denke auch, dass alle Speisen sehr
+        lecker sind."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 32
+    question_id: 65
+    questions: "Wirklich? Vielleicht bestelle ich das n\xE4chste Mal das Men\xFC,
+      das Sie gerade bestellt haben."
+    right_answer_id: 
+    answers:
+    - id: 82
+      text: Ja, Wie ist es mit Ihnen? Hat Ihnen das Essen auch gut geschmeckt?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 32
+    question_id: 66
+    questions: "Ja, es hat mir gut gescmeckt. Aber ich h\xE4tte gern noch sch\xE4rferes."
+    right_answer_id: 
+    answers:
+    - id: 83
+      text: Ach so, Sie essen sehr gern scharf?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 32
+    question_id: 67
+    questions: Ja, scharfes Essen steigert meinen Appetit.
+    right_answer_id: 
+    answers:
+    - id: 84
+      text: "Vielleicht sollten Sie dem Kellner beim n\xE4chsten Mal im Voraus sagen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 32
+    question_id: 68
+    questions: "Ja, das ist richtig. Danke f\xFCr den Hinweis."
+    right_answer_id: 
+    answers:
+    - id: 85
+      text: Gern geschehen.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 33
+    question_id: 69
+    questions: Hallo, Willkommen. Kann ich Ihnen helfen?
+    right_answer_id: 
+    answers:
+    - id: 86
+      text: "Hallo, k\xF6nnten Sie uns das Essen hier empfehlen?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 33
+    question_id: 70
+    questions: Sicher. Ich empfehle Paket eins, das beinhaltet das Vorspeise, das
+      Hauptspeise und das Nachspeise.
+    right_answer_id: 
+    answers:
+    - id: 87
+      text: "Ich h\xE4tte gern kein scharfes Essen, geht das?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 33
+    question_id: 71
+    questions: Ja, kein Problem.
+    right_answer_id: 
+    answers:
+    - id: 88
+      text: Okay, danke. Dann nehme ich das Paket 1.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 33
+    question_id: 72
+    questions: "OK, Was m\xF6chten Sie trinken?"
+    right_answer_id: 
+    answers:
+    - id: 89
+      text: "Ich m\xF6chte einen Saft und eine Flasche Mineralwasser bestellen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 33
+    question_id: 73
+    questions: Sonst noch etwas?
+    right_answer_id: 
+    answers:
+    - id: 90
+      text: Nein.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 33
+    question_id: 74
+    questions: "Nun, wenn Sie weitere Hilfe ben\xF6tigen, k\xF6nnen Sie uns zur\xFCckrufen."
+    right_answer_id: 
+    answers:
+    - id: 91
+      text: Okay, danke.
+    status: Active
+  - materi_id: 1
+    chapter_id: 
+    npc_id: 34
+    question_id: 76
+    questions: Hallo, kann ich Ihnen helfen?
+    right_answer_id: 
+    answers:
+    - id: 92
+      text: Hallo, gibt es hier eine Toilette?
+    status: Active
+  - materi_id: 1
+    chapter_id: 
+    npc_id: 34
+    question_id: 77
+    questions: "Entschuldigung, dieses Restaurant bietet keine Toiletten, Sie k\xF6nnen
+      die \xF6ffentlichen Toiletten am Flughafen benutzen."
+    right_answer_id: 
+    answers:
+    - id: 93
+      text: Ist es weit von hier?
+    status: Active
+  - materi_id: 1
+    chapter_id: 
+    npc_id: 34
+    question_id: 78
+    questions: Ja, es ist ein bisschen weit von hier.
+    right_answer_id: 
+    answers:
+    - id: 94
+      text: "K\xF6nnen Sie mir den Weg zur Toilette zeigen?"
+    status: Active
+  - materi_id: 1
+    chapter_id: 
+    npc_id: 34
+    question_id: 79
+    questions: Sicher. Von diesem Restaurant aus biegen Sie rechts ab, gehen Sie
+      einfach geradeaus bis zum Ende der Halle und gehen Sie dann rechts, dort sind
+      die Toiletten.
+    right_answer_id: 
+    answers:
+    - id: 95
+      text: "Gibt es keine andere Toilette und es ist n\xE4her von hier?"
+    status: Active
+  - materi_id: 1
+    chapter_id: 
+    npc_id: 34
+    question_id: 80
+    questions: "Soweit ich wei\xDF, ist das die n\xE4chste Toilette von hier."
+    right_answer_id: 
+    answers:
+    - id: 96
+      text: "Okay, danke f\xFCr die Informationen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 35
+    question_id: 81
+    questions: Hallo, guten Morgen.
+    right_answer_id: 
+    answers:
+    - id: 97
+      text: Guten Morgen.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 35
+    question_id: 82
+    questions: "Entschuldigung, dieser Bereich wurde k\xFCrzlich geputzt. Bitte seien
+      Sie vorsichtig."
+    right_answer_id: 
+    answers:
+    - id: 98
+      text: "Danke f\xFCr die Warnung. Wird diese Toilette oft gereinigt?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 35
+    question_id: 83
+    questions: Ja, diese Toilette wird immer sauber gehalten. Denn diese Stadt hat
+      eine gute Bewertung.
+    right_answer_id: 
+    answers:
+    - id: 99
+      text: "Wow, gro\xDFartig. Warum kann diese Toilette so sein?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 35
+    question_id: 84
+    questions: Am 1. Tag kontrollieren wir die Toilette dreimal am Tag.
+    right_answer_id: 
+    answers:
+    - id: 100
+      text: Wie kommt es auf das 3-fache?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 35
+    question_id: 85
+    questions: "Neben der Reinigung der Toiletten k\xFCmmern wir uns auch immer um
+      den Inhalt von Seife, Taschent\xFCchern und den Duft der Toilette."
+    right_answer_id: 
+    answers:
+    - id: 101
+      text: "Toll, dass dieser Flughafen die Toiletten sauber h\xE4lt."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 35
+    question_id: 86
+    questions: Bitte nutzen Sie die leere Kabine.
+    right_answer_id: 
+    answers:
+    - id: 102
+      text: "Ja. Danke sch\xF6n."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 36
+    question_id: 87
+    questions: Hallo, Sie sehen verwirrt aus.
+    right_answer_id: 
+    answers:
+    - id: 103
+      text: Ja, ich bin verwirrt, hier die Toilette zu benutzen.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 36
+    question_id: 88
+    questions: Ist das Ihr erstes Mal hier?
+    right_answer_id: 
+    answers:
+    - id: 104
+      text: "Ja, v\xF6llig richtig. K\xF6nnen Sie mir helfen?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 36
+    question_id: 89
+    questions: "Nat\xFCrlich. Benutzen Sie die Toilette normalerweise im Sitzen oder
+      in der Hocke?"
+    right_answer_id: 
+    answers:
+    - id: 105
+      text: Ich benutze normalerweise den Toilettensitz.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 36
+    question_id: 90
+    questions: Dann haben Sie den Schrankknopf schon verstanden.
+    right_answer_id: 
+    answers:
+    - id: 106
+      text: Es ist nur so, dass es in diesem Schrank kein Spray gibt.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 36
+    question_id: 91
+    questions: "Das ist richtig, f\xFCr einen Ersatz gegebene Tasten wie diese."
+    right_answer_id: 
+    answers:
+    - id: 107
+      text: "K\xF6nnen alle diese Tasten funktionieren?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 36
+    question_id: 92
+    questions: "Nat\xFCrlich, wenn Sie die Taste dr\xFCcken, kommt das Wasser heraus,
+      Sie k\xF6nnen auch die Leistung des Wassers einstellen und um es zu stoppen,
+      m\xFCssen Sie nur die Stopptaste dr\xFCcken."
+    right_answer_id: 
+    answers:
+    - id: 108
+      text: Klingt einfach, aber ich habe noch Zweifel.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 36
+    question_id: 93
+    questions: "Man sollte es erstmal ausprobieren, um sich an so eine Toilette zu
+      gew\xF6hnen."
+    right_answer_id: 
+    answers:
+    - id: 109
+      text: "In Ordnung, danke f\xFCr die Informationen. Ich hoffe, das Wasser macht
+        meine Kleidung nicht nass."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 37
+    question_id: 94
+    questions: Hallo, wie geht es Ihnen? Kann ich Ihnen helfen?
+    right_answer_id: 
+    answers:
+    - id: 110
+      text: Hi. Mir geht es gut. Ja, ich brauche Hilfe.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 37
+    question_id: 95
+    questions: Wie kann ich helfen?
+    right_answer_id: 
+    answers:
+    - id: 111
+      text: Ich brauche ein Ladekabel, weil die Batterie von meinem Handy leer ist.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 37
+    question_id: 96
+    questions: "Schade, dass ich es nicht mitgebracht habe, weil ich im Dienst war.
+      Was m\xF6chten Sie tun?"
+    right_answer_id: 
+    answers:
+    - id: 112
+      text: "Ich m\xF6chte die Adresse des Hotels auf meinem Handy finden."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 37
+    question_id: 97
+    questions: "In welchem Hotel m\xF6chten Sie \xFCbernachten?"
+    right_answer_id: 
+    answers:
+    - id: 113
+      text: "Ich m\xF6chte im Hotel A \xFCbernachten, wissen Sie das?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 37
+    question_id: 98
+    questions: "Nat\xFCrlich ist das Hotel nicht zu weit vom Flughafen entfernt."
+    right_answer_id: 
+    answers:
+    - id: 114
+      text: "Wirklich? K\xF6nnen Sie mir die Richtung vom Hotel A zeigen?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 37
+    question_id: 99
+    questions: Ja, wie sind Sie zum Hotel A gekommen?
+    right_answer_id: 
+    answers:
+    - id: 115
+      text: Ich bin mit dem Taxi dorthin gekommen.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 37
+    question_id: 100
+    questions: "Okay, nachdem Sie das Flughafengel\xE4nde verlassen haben, fahren
+      Sie nach Westen, dann fahren Sie geradeaus, bis Sie die Stra\xDFe F erreichen,
+      dann biegen Sie um und 200 Meter sp\xE4ter werden Sie ankommen."
+    right_answer_id: 
+    answers:
+    - id: 116
+      text: "Okay, gut. So muss ich nicht auf mein Handy schauen, um auf die Stra\xDFe
+        zu achten."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 37
+    question_id: 101
+    questions: "Ja, das stimmt, denn Hotel A ist von hier aus sehr \xFCbersichtlich
+      und gut zu erreichen. Sie haben sich nicht die falsche Unterkunft ausgesucht."
+    right_answer_id: 
+    answers:
+    - id: 117
+      text: "Ja, danke f\xFCr die Informationen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 38
+    question_id: 102
+    questions: Hallo, es ist Ihr erstes Mal hier, richtig?
+    right_answer_id: 
+    answers:
+    - id: 118
+      text: Ja, ich bin gerade angekommen.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 38
+    question_id: 103
+    questions: "Ist Ihr Gep\xE4ck schon bei Ihnen?"
+    right_answer_id: 
+    answers:
+    - id: 119
+      text: "Nachdem ich aus dem Flugzeug gestiegen war, war mein Gep\xE4ck nat\xFCrlich
+        schon da."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 38
+    question_id: 104
+    questions: Ich bin dankbar.
+    right_answer_id: 
+    answers:
+    - id: 120
+      text: Was ist los?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 38
+    question_id: 105
+    questions: Mein Freund hat seinen Laptop verloren, als er Sachen aus dem Kofferraum
+      geholt hat.
+    right_answer_id: 
+    answers:
+    - id: 121
+      text: Wirklich? Wurde der Verbrecher gefasst?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 38
+    question_id: 106
+    questions: "Ich glaube nicht, weil mein Freund, der verloren hat, immer noch
+      nicht zur\xFCckgekommen ist, ich warte hier seit 1 Stunde."
+    right_answer_id: 
+    answers:
+    - id: 122
+      text: Es tut mir leid, was mit Ihrem Freund passiert ist. Mag dieser Flughafen
+        solchen Diebstahl?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 38
+    question_id: 107
+    questions: "Was ich aus den verf\xFCgbaren Informationen wei\xDF, ist dieser
+      Flughafen sehr streng und wird f\xFCr seine Dienstleistungen gewartet. Ich
+      war auch \xFCberrascht, dass es Diebstahl geben k\xF6nnte."
+    right_answer_id: 
+    answers:
+    - id: 123
+      text: Ein solcher Krimineller ist sehr schlecht, weil er nicht nur anderen
+        Menschen schadet, sondern auch den Ort und das Unternehmen, in dem er arbeitet,
+        verschmutzt.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 38
+    question_id: 108
+    questions: "Ja, ich stimme zu, Gep\xE4ckdiebstahl kommt an Flugh\xE4fen h\xE4ufig
+      vor, aber das ist das erste Mal, dass ich das erlebe, obwohl ich nicht derjenige
+      war, der den Gegenstand verloren hat."
+    right_answer_id: 
+    answers:
+    - id: 124
+      text: "Es tut mir leid, was Sie und Ihr Freund durchgemacht haben. Wo ist Ihr
+        n\xE4chstes Ziel?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 38
+    question_id: 109
+    questions: "Ja Danke sch\xF6n. Danach gehen wir zum Gasthof in der Stra\xDFe
+      F. Dort warten bereits unsere anderen Freunde."
+    right_answer_id: 
+    answers:
+    - id: 125
+      text: "Zuf\xE4lligerweise wohne ich auch in der N\xE4he. Dann gehe ich erstmal
+        hoffentlich bis wir uns dort wieder sehen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 39
+    question_id: 110
+    questions: Hallo!
+    right_answer_id: 
+    answers:
+    - id: 126
+      text: Hallo, darf ich Ihnen eine Frage stellen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 39
+    question_id: 111
+    questions: "Klar, was m\xF6chten Sie fragen?"
+    right_answer_id: 
+    answers:
+    - id: 127
+      text: Wo kann man auf ein Taxi warten?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 39
+    question_id: 112
+    questions: Der Taxidienst am Flughafen scheint in Schwierigkeiten zu sein.
+    right_answer_id: 
+    answers:
+    - id: 128
+      text: Wirklich?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 39
+    question_id: 113
+    questions: "Ja, ich warte seit einer halben Stunde auf ein Taxi, aber niemand
+      ist aufgetaucht, und als ich den Angestellten fragte, stellte sich heraus,
+      dass der Taxidienst hier einige Tage nicht verf\xFCgbar war."
+    right_answer_id: 
+    answers:
+    - id: 129
+      text: "Es ist sehr schade, obwohl ich ein Taxi nehmen m\xF6chte, um zum Hotel
+        zu gelangen. Kennen Sie hier andere \xF6ffentliche Verkehrsmittel als Taxis?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 39
+    question_id: 114
+    questions: "Es scheint einen Bus zu geben, aber w\xE4hrend ich hier war, h\xF6rte
+      ich keine Ansagen, dass der Bus ankam."
+    right_answer_id: 
+    answers:
+    - id: 130
+      text: "Wenn ja, warten Sie auf eine Abholung oder \xF6ffentliche Verkehrsmittel?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 39
+    question_id: 115
+    questions: "Ich warte auf den Online-Transport, weil ich seit meiner Ankunft
+      hier sehr besch\xE4ftigt war."
+    right_answer_id: 
+    answers:
+    - id: 131
+      text: Wo haben Sie es bestellt?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 39
+    question_id: 116
+    questions: Ich habe es mit meinem Handy bestellt.
+    right_answer_id: 
+    answers:
+    - id: 132
+      text: Der Akku meines Telefons ist leer.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 39
+    question_id: 117
+    questions: "In diesem Bereich soll es ein Handy-Ladestations-Schlie\xDFfach geben."
+    right_answer_id: 
+    answers:
+    - id: 133
+      text: "Okay, ich suche sp\xE4ter danach. K\xF6nnen Sie mir helfen, den Online-Transport
+        zu buchen?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 39
+    question_id: 118
+    questions: "Die Verwendung ist sehr einfach, sp\xE4ter m\xFCssen Sie nur die
+      Anwendung herunterladen und sich dann mit Ihrem E-Mail-Konto anmelden. Dann
+      geben Sie einfach Ihr Ziel ein und geben Sie Ihren aktuellen Standort an."
+    right_answer_id: 
+    answers:
+    - id: 134
+      text: "Einfach wie in meinem Land. K\xF6nnen Sie mit Bargeld bezahlen?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 39
+    question_id: 119
+    questions: "Kann sicherlich. Wenn Sie jedoch bar bezahlen m\xF6chten, sollten
+      Sie einen Pass vorbereiten, weil viele Fahrer kein Kleingeld bereithalten."
+    right_answer_id: 
+    answers:
+    - id: 135
+      text: "Ok, danke f\xFCr die Information. Ich versuche es sp\xE4ter zu bestellen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 40
+    question_id: 120
+    questions: Guten Morgen! Was kann ich Ihnen helfen?
+    right_answer_id: 
+    answers:
+    - id: 136
+      text: Guten Morgen!. Ich suche ein Wechselstube
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 40
+    question_id: 121
+    questions: "Um Geld umzutauschen, k\xF6nnen Sie in das S\xFCdgeb\xE4ude gehen,
+      dort gibt es 3 Kioske, an denen Sie Ihr Geld umtauschen k\xF6nnen."
+    right_answer_id: 
+    answers:
+    - id: 137
+      text: Ist es weit von hier?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 40
+    question_id: 122
+    questions: Nicht so weit, von hier aus gehen Sie einfach geradeaus.
+    right_answer_id: 
+    answers:
+    - id: 138
+      text: Okay, gibt es auch einen Geldautomaten, um Geld von Bank C abzuheben.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 40
+    question_id: 123
+    questions: "Es gibt auch einen Geldautomaten, aber ich wei\xDF nicht, wie man
+      Geld abhebt. Bitte erkundigen Sie sich sp\xE4ter beim Personal dort."
+    right_answer_id: 
+    answers:
+    - id: 139
+      text: "Ok, danke f\xFCr die Information."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 40
+    question_id: 124
+    questions: Was kann ich Ihnen noch helfen?
+    right_answer_id: 
+    answers:
+    - id: 140
+      text: Das ist genug. Ich gehe jetzt dorthin.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 41
+    question_id: 125
+    questions: Hallo, kann ich Ihnen helfen?
+    right_answer_id: 
+    answers:
+    - id: 141
+      text: "Hallo, ich m\xF6chte das Geld wechseln."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 41
+    question_id: 126
+    questions: "Wie viel m\xF6chten Sie gerne wechseln?"
+    right_answer_id: 
+    answers:
+    - id: 142
+      text: Ja, ziemlich viel.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 41
+    question_id: 127
+    questions: "Okay, Sie k\xF6nnen sich sp\xE4ter am Schalter in der Mitte anstellen."
+    right_answer_id: 
+    answers:
+    - id: 143
+      text: Kann ich jetzt zum Schalter gehen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 41
+    question_id: 128
+    questions: Bitte warten Sie einen Moment.
+    right_answer_id: 
+    answers:
+    - id: 144
+      text: "Wie lange mu\xDF ich noch warten?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 41
+    question_id: 129
+    questions: "Etwa f\xFCnf Minuten."
+    right_answer_id: 
+    answers:
+    - id: 145
+      text: Ok, danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 42
+    question_id: 130
+    questions: Hallo. Wie geht es Ihnen?
+    right_answer_id: 
+    answers:
+    - id: 146
+      text: Hallo, mir geht es gut. Und Ihnen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 42
+    question_id: 131
+    questions: Es geht mir auch gut. Sind Sie hier im Urlaub?
+    right_answer_id: 
+    answers:
+    - id: 147
+      text: Ja, das ist richtig. Darauf habe ich lange gewartet. Und Sie?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 42
+    question_id: 132
+    questions: Ich mache auch hier Urlaub. Mit wem sind Sie hier hergekommen?
+    right_answer_id: 
+    answers:
+    - id: 148
+      text: Ich bin alleine, aber ich bin schon verabredet mit meinem Freund. Er
+        ist hier geboren.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 42
+    question_id: 133
+    questions: "Wow, es w\xE4re toll, mit Freunden spazieren gehen zu k\xF6nnen."
+    right_answer_id: 
+    answers:
+    - id: 149
+      text: Stimmt, ich habe mich nicht getraut, alleine herumzugehen. Wo werden
+        Sie hier Urlaub machen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 42
+    question_id: 134
+    questions: "Ich habe geplant, einige historische und traditionelle Sehensw\xFCrdigkeiten
+      zu besuchen."
+    right_answer_id: 
+    answers:
+    - id: 150
+      text: "Es wird sehr spannend und auch unser Wissen erweitern. Wie w\xE4re es
+        mit Naturtourismus?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 42
+    question_id: 135
+    questions: "Hier werde ich hier einige Str\xE4nde, Berge und Wasserf\xE4lle besuchen."
+    right_answer_id: 
+    answers:
+    - id: 151
+      text: Sie haben alles sehr gut vorbereitet, oder?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 42
+    question_id: 136
+    questions: "Ja, das ist richtig. Ich m\xF6chte wirklich diese Gelegenheit nutzen.
+      Und Sie?"
+    right_answer_id: 
+    answers:
+    - id: 152
+      text: "Ich m\xF6chte mehrere St\xE4dte des Landes besuchen und einige der Spezialit\xE4ten
+        dieser St\xE4dte probieren. Ich mag kulinarischen Tourismus."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 42
+    question_id: 137
+    questions: Es ist sehr interessant. Gute Reise.
+    right_answer_id: 
+    answers:
+    - id: 153
+      text: Danke, Ihnen auch.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 43
+    question_id: 138
+    questions: Hallo, Sind Sie gerade angekommen?
+    right_answer_id: 
+    answers:
+    - id: 154
+      text: Hallo. Ja, ich bin gerade angekommen. Sind Sie auch?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 43
+    question_id: 139
+    questions: Ja, ich bin auch gerade angekommen. Machen Sie hier Urlaub?
+    right_answer_id: 
+    answers:
+    - id: 155
+      text: Richtig, ich fahre hier in den Urlaub.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 43
+    question_id: 140
+    questions: "Wie sehen Ihre Urlaubspl\xE4ne aus?"
+    right_answer_id: 
+    answers:
+    - id: 156
+      text: "Ich werde meine Zeit damit verbringen, mehrere St\xE4dte in diesem Land
+        zu bereisen. Und Sie?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 43
+    question_id: 141
+    questions: "Ich w\xFCrde diese Stadt erkunden. Haben Sie Empfehlungen f\xFCr
+      interessante Sehensw\xFCrdigkeiten?"
+    right_answer_id: 
+    answers:
+    - id: 157
+      text: "Nat\xFCrlich, ich w\xFCrde Ihnen empfehlen, die Natur in dieser Stadt
+        zu genie\xDFen. Besonders die Str\xE4nde und die Berge sind sehr sch\xF6n
+        und auch sehr bekannt."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 43
+    question_id: 142
+    questions: Wow, darauf freue ich mich sehr.
+    right_answer_id: 
+    answers:
+    - id: 158
+      text: "Ja, Sie m\xFCssen unbedingt diese besuchen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 43
+    question_id: 143
+    questions: "Okay, danke f\xFCr Ihre Empfehlung."
+    right_answer_id: 
+    answers:
+    - id: 159
+      text: "Gern geschehen. Ich w\xFCnsche Ihnen viel Spa\xDF"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 44
+    question_id: 144
+    questions: Hallo, kann ich Ihnen helfen?
+    right_answer_id: 
+    answers:
+    - id: 160
+      text: "Hallo, ich m\xF6chte mein Geld wechseln."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 44
+    question_id: 145
+    questions: "Wie viel m\xF6chten Sie wechseln?"
+    right_answer_id: 
+    answers:
+    - id: 161
+      text: Diese Summe.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 44
+    question_id: 146
+    questions: "M\xF6chten Sie das Geld in gro\xDFe Scheine oder kleine Scheine wechseln?"
+    right_answer_id: 
+    answers:
+    - id: 162
+      text: "Ich h\xE4tte es gern teils in gro\xDFen und teils in kleinen St\xFCckelungen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 44
+    question_id: 147
+    questions: Ok, das werde ich zuerst vorbereiten.
+    right_answer_id: 
+    answers:
+    - id: 163
+      text: Super. Wie lange dauert es?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 44
+    question_id: 148
+    questions: "Nicht lange, danach k\xF6nnen Sie sofort das Geld erhalten"
+    right_answer_id: 
+    answers:
+    - id: 164
+      text: Okay, gut.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 44
+    question_id: 149
+    questions: "Hier ist Ihr Geld, manches in gro\xDFen Scheinen und manches in kleinen
+      Scheinen. Bitte unterschreiben Sie zuerst hier."
+    right_answer_id: 
+    answers:
+    - id: 165
+      text: "Danke f\xFCr Ihre Hilfe."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 62
+    question_id: 150
+    questions: Hallo.
+    right_answer_id: 
+    answers:
+    - id: 166
+      text: Hallo, geht das zu einem Hotel?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 62
+    question_id: 151
+    questions: Ja, Sie haben recht.
+    right_answer_id: 
+    answers:
+    - id: 167
+      text: Danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 62
+    question_id: 152
+    questions: Ist dies Ihr erster Besuch hier?
+    right_answer_id: 
+    answers:
+    - id: 168
+      text: Ja, es ist wahr. Arbeiten Sie schon lange als Fahrer?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 62
+    question_id: 153
+    questions: Ja, es ist schon eine ganze Weile her.
+    right_answer_id: 
+    answers:
+    - id: 169
+      text: Wie lange arbeiten Sie schon als Fahrer?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 62
+    question_id: 154
+    questions: "Ungef\xE4hr 5 Jahre. Ich habe hier angefangen, Fahrer zu sein, als
+      viele Leute mit diesem Online-Transport noch nicht vertraut waren."
+    right_answer_id: 
+    answers:
+    - id: 170
+      text: Wow, es ist schon eine ganze Weile her. Haben Sie neben dem Autofahren
+        noch einen anderen Job?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 62
+    question_id: 155
+    questions: Nein, ich nicht. Ich konzentriere mich nur auf das Fahren auf dieser
+      Online-Transportplattform.
+    right_answer_id: 
+    answers:
+    - id: 171
+      text: Ach, ich verstehe.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 62
+    question_id: 156
+    questions: "Ich bin sehr dankbar, denn selbst wenn ich auf dieser Plattform fahre,
+      kann ich f\xFCr die Bed\xFCrfnisse meiner Familie sorgen. Wir sollten sehr
+      dankbar sein f\xFCr das, was wir hatten, nicht wahr?"
+    right_answer_id: 
+    answers:
+    - id: 172
+      text: Sie haben recht.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 71
+    question_id: 157
+    questions: "Hallo. Herzlich willkommen. Sch\xF6n, dich kennenzulernen."
+    right_answer_id: 
+    answers:
+    - id: 173
+      text: "Hallo. Danke sch\xF6n dich auch zu treffen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 71
+    question_id: 158
+    questions: Kann ich Ihnen helfen?
+    right_answer_id: 
+    answers:
+    - id: 174
+      text: "Ich m\xF6chte einen Online-Transport bestellen, bin aber verwirrt, welchen
+        Abholpunkt soll ich nutzen? Kannst du mir bitte helfen?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 71
+    question_id: 159
+    questions: "Wo ist das Hotel, in dem Sie \xFCbernachten?"
+    right_answer_id: 
+    answers:
+    - id: 175
+      text: "Ich \xFCbernachte in einem Hotel."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 71
+    question_id: 160
+    questions: "Mein Haus liegt in der N\xE4he von v. Ich gehe immer an einem Hotel
+      vorbei, wenn ich nach Hause gehe. Wie w\xE4re es, wenn du einfach mitkommst?"
+    right_answer_id: 
+    answers:
+    - id: 176
+      text: Wirklich? Ist das in Ordnung?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 71
+    question_id: 161
+    questions: "Nat\xFCrlich ist es das. Mein Haus ist nur 1 km von Ihrem Wohnort
+      entfernt."
+    right_answer_id: 
+    answers:
+    - id: 177
+      text: "Wow, was f\xFCr ein Zufall."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 71
+    question_id: 162
+    questions: Dann lass uns dorthin gehen, wo ich das Auto parke. Du kannst mit
+      mir kommen. Diesen Weg.
+    right_answer_id: 
+    answers:
+    - id: 178
+      text: "Okay. Vielen Dank f\xFCr Ihre Freundlichkeit."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 72
+    question_id: 163
+    questions: Hallo. Wohin gehen Sie?
+    right_answer_id: 
+    answers:
+    - id: 179
+      text: "Hallo, ich w\xFCrde gerne zur\xFCck ins Hotel."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 72
+    question_id: 164
+    questions: Oh, okay. Haben Sie Major Wahyu schon einmal getroffen?
+    right_answer_id: 
+    answers:
+    - id: 180
+      text: Nein, noch nicht. Ich habe ihn noch nicht getroffen.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 72
+    question_id: 165
+    questions: "Ich m\xF6chte Ihnen Major Wahyu vorstellen."
+    right_answer_id: 
+    answers:
+    - id: 181
+      text: "Sch\xF6n. Wo ist er?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 72
+    question_id: 166
+    questions: "Er wird morgen hier sein. Sie k\xF6nnen ihn sp\xE4ter treffen. Er
+      ist jetzt im Dienst."
+    right_answer_id: 
+    answers:
+    - id: 182
+      text: "Oh, schade, dass wir uns jetzt nicht treffen k\xF6nnen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 72
+    question_id: 167
+    questions: "Ja. Er war in letzter Zeit sehr besch\xE4ftigt. Er hat die Ausbildung
+      f\xFCr die neuen Rekruten vorbereitet."
+    right_answer_id: 
+    answers:
+    - id: 183
+      text: Wie ist Major Wahyu?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 72
+    question_id: 168
+    questions: "Er ist wirklich bescheiden und freundlich. Au\xDFerdem ist er sehr
+      klug. Sie k\xF6nnen ihm alle Fragen stellen. Er beantwortet sie gerne."
+    right_answer_id: 
+    answers:
+    - id: 184
+      text: "Er scheint ein sehr gro\xDFartiger Mensch zu sein. Es w\xE4re sch\xF6n,
+        wenn er alle meine Fragen beantworten k\xF6nnte."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 72
+    question_id: 169
+    questions: Ja, in der Tat. Ich rufe Sie morgen wieder an, um Sie ihm vorzustellen.
+      Dann bis morgen.
+    right_answer_id: 
+    answers:
+    - id: 185
+      text: Okay, Danke. Bis morgen.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 65
+    question_id: 170
+    questions: Hallo. Wie geht es Ihnen?
+    right_answer_id: 
+    answers:
+    - id: 186
+      text: Hallo. Mir geht es sehr gut. Und Ihnen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 65
+    question_id: 171
+    questions: "Mir geht es gut. Ich f\xFChle mich besser, weil ich heute morgen
+      mit dem Training fertig bin."
+    right_answer_id: 
+    answers:
+    - id: 187
+      text: Welche Sportarten sind zu Ihrer Routine geworden?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 65
+    question_id: 172
+    questions: "Normalerweise laufe ich 30 Minuten und fahre 30 Minuten Rad, bevor
+      ich mit meiner Aktivit\xE4t beginne. Und Sie? Was ist Ihr Lieblingssport?"
+    right_answer_id: 
+    answers:
+    - id: 188
+      text: Ich laufe auch gerne. Normalerweise laufe ich morgens eine Stunde. Eine
+        weitere Sportart, die ich betreibe, ist Gewichtheben, mindestens zwei- bis
+        dreimal pro Woche.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 65
+    question_id: 173
+    questions: Sich fit zu halten ist ein sehr wichtiger Teil des menschlichen Lebens,
+      oder? Leider macht nicht jeder Sport zu einem Teil seines Lebensstils.
+    right_answer_id: 
+    answers:
+    - id: 189
+      text: Ja, das stimmt.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 65
+    question_id: 174
+    questions: Schauen Sie sichr auch gerne Sportveranstaltungen an?
+    right_answer_id: 
+    answers:
+    - id: 190
+      text: "Ja, nat\xFCrlich. Vor allem Fu\xDFball. Ich mag diese Sportart sehr.
+        Und Sie?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 65
+    question_id: 175
+    questions: "Ich schaue mir auch gerne Fu\xDFballspiele an. Ich beobachte es einfach.
+      Ich mag den Sport nicht wirklich, wenn ich ihn spielen muss."
+    right_answer_id: 
+    answers:
+    - id: 191
+      text: "Haben Sie einen Lieblings-Fu\xDFballverein?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 65
+    question_id: 176
+    questions: "Nat\xFCrlich. Ich mag einen Fu\xDFballverein. Ich bin wirklich ein
+      treuer Fan des Clubs."
+    right_answer_id: 
+    answers:
+    - id: 192
+      text: "Wow, was f\xFCr ein Zufall. Ich mag auch einen Fu\xDFballverein."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 65
+    question_id: 177
+    questions: "Vielleicht schauen wir uns das n\xE4chste Mal zusammen das Fu\xDFballspiel
+      von Verein A an."
+    right_answer_id: 
+    answers:
+    - id: 193
+      text: Das ist eine gute Idee.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 66
+    question_id: 178
+    questions: Hallo. Kann ich Ihnen helfen?
+    right_answer_id: 
+    answers:
+    - id: 194
+      text: "Hallo. Ich m\xF6chte einige beliebte Orte in dieser Stadt fragen. Dies
+        ist das erste Mal, dass ich diese Stadt besuche, also m\xF6chte ich diese
+        beliebten Orte sp\xE4ter besuchen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 66
+    question_id: 179
+    questions: "In dieser Stadt gibt es mehrere ber\xFChmte Orte, die Sie vielleicht
+      sp\xE4ter besuchen k\xF6nnen, von historischen Orten bis hin zu modernen Orten."
+    right_answer_id: 
+    answers:
+    - id: 195
+      text: "Sehr interessant. Was f\xFCr ein Ort ist das?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 66
+    question_id: 180
+    questions: "Im Stadtzentrum gibt es ein Museum A, das Sie besuchen k\xF6nnen.
+      Im Museum sind viele Pl\xE4tze zu finden, darunter die Geschichte dieser Stadt,
+      Repliken von Reliquien, die Ergebnisse arch\xE4ologischer Ausgrabungen und
+      antike M\xF6bel aus dem 17. bis 19. Jahrhundert."
+    right_answer_id: 
+    answers:
+    - id: 196
+      text: "Das h\xF6rt sich sehr interessant an. Wie kaufe ich Eintrittskarten
+        f\xFCr das Museum?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 66
+    question_id: 181
+    questions: "Sie k\xF6nnen es online auf der Website eines Museums oder vor Ort
+      kaufen, wenn Sie es besuchen m\xF6chten."
+    right_answer_id: 
+    answers:
+    - id: 197
+      text: Ich denke, ich werde die Tickets online kaufen, um es effizienter zu
+        machen.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 66
+    question_id: 182
+    questions: Das ist eine gute Idee.
+    right_answer_id: 
+    answers:
+    - id: 198
+      text: Gibt es neben dem A Museum noch andere beliebte Orte?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 66
+    question_id: 183
+    questions: "Nat\xFCrlich. Wenn Sie es etwas Moderneres m\xF6gen, k\xF6nnen Sie
+      vielleicht im Dachrestaurant essen."
+    right_answer_id: 
+    answers:
+    - id: 199
+      text: Dachrestaurant? Gibt es einen solchen Ort in dieser Stadt?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 66
+    question_id: 184
+    questions: "Ja, da gibt es. Sie k\xF6nnen die Aussicht auf diese Stadt genie\xDFen,
+      w\xE4hrend Sie Ihr Abendessen im Restaurant genie\xDFen."
+    right_answer_id: 
+    answers:
+    - id: 200
+      text: Es ist so ein einzigartiges Restaurant. Wo befindet sich das Dachrestaurant?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 66
+    question_id: 185
+    questions: "Es ist nicht weit von dem A-Museum entfernt, das ich zuvor beschrieben
+      habe, etwa 2 Kilometer. Sie k\xF6nnen den Online-Transport nutzen, wenn Sie
+      dorthin gelangen m\xF6chten."
+    right_answer_id: 
+    answers:
+    - id: 201
+      text: "Okay. Vielen Dank f\xFCr die Erkl\xE4rung."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 67
+    question_id: 186
+    questions: Hallo. Herzlich willkommen.
+    right_answer_id: 
+    answers:
+    - id: 202
+      text: Hallo. Danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 67
+    question_id: 187
+    questions: Wie war Ihr Tag bisher?
+    right_answer_id: 
+    answers:
+    - id: 203
+      text: Es war toll.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 67
+    question_id: 188
+    questions: Das ist gut. Was machen Sie normalerweise in Ihrer Freizeit?
+    right_answer_id: 
+    answers:
+    - id: 204
+      text: "Da ich sportbegeistert bin, laufe ich gern und hebe Gewicht. Au\xDFerdem
+        schaue ich gerne Filme und h\xF6re Musik. Was ist mit Ihnen?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 67
+    question_id: 189
+    questions: Wow. Ich kann sagen, dass Sie sehr gern Sport treiben. Normalerweise
+      schaue ich mir in meiner Freizeit Filme an. Ich schaue gerne Action-Filme.
+      Welches Filmgenre ist Ihr Liebling?
+    right_answer_id: 
+    answers:
+    - id: 205
+      text: "Ich liebe Kom\xF6die. Es ist so entspannend, lustige Filme zu sehen.
+        H\xF6ren Sie auch Musik?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 67
+    question_id: 190
+    questions: "Ja, das tue ich. Ich liebe es! Ich liebe Pop und Klassik. Ich spiele
+      auch Klavier, also sp\xFCre ich, wie Musik durch meine Adern flie\xDFt. K\xF6nnen
+      Sie irgendwelche Musikinstrumente spielen?"
+    right_answer_id: 
+    answers:
+    - id: 206
+      text: Cool. Ich kann Gitarre spielen, aber ich bin nur ein Amateur.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 67
+    question_id: 191
+    questions: "Welche Art von Musik m\xF6gen Sie?"
+    right_answer_id: 
+    answers:
+    - id: 207
+      text: "Ich mag Rock und Pop. Mein Lieblingss\xE4nger ist A-S\xE4ngerin."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 67
+    question_id: 192
+    questions: "Ow A-S\xE4ngerin. Ich mag sie. Sie ist so eine tolle S\xE4ngerin
+      und Musikerin."
+    right_answer_id: 
+    answers:
+    - id: 208
+      text: Ja. Jeder kennt sie, wenn wir ihren Namen nennen.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 68
+    question_id: 193
+    questions: Hallo. Herzlich Willkommen.
+    right_answer_id: 
+    answers:
+    - id: 209
+      text: Hallo. Danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 68
+    question_id: 194
+    questions: Wie war Ihre Reise?
+    right_answer_id: 
+    answers:
+    - id: 210
+      text: Es war so eine angenehme Reise.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 68
+    question_id: 195
+    questions: Das ist gut. Sind Sie allein oder mit Ihrer Familie in dieses Land
+      gekommen?
+    right_answer_id: 
+    answers:
+    - id: 211
+      text: Ich bin alleine hierher gekommen und bin noch nicht verheiratet. Sind
+        Sie verheiratet?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 68
+    question_id: 196
+    questions: Ja, bin ich. Ich habe derzeit 2 Kinder. Eine Tochter und einen Sohn.
+    right_answer_id: 
+    answers:
+    - id: 212
+      text: Wie alt sind Ihre Kinder?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 68
+    question_id: 197
+    questions: "Mein Sohn ist zwei Jahre alt und meine Tochter ist f\xFCnf Jahre
+      alt. Haben Sie einen Bruder oder eine Schwester?"
+    right_answer_id: 
+    answers:
+    - id: 213
+      text: Ja. Ich habe zwei Schwestern. Ich bin das erstgeborene Kind von drei
+        Geschwistern.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 68
+    question_id: 198
+    questions: Wie alt ist Ihre Schwester?
+    right_answer_id: 
+    answers:
+    - id: 214
+      text: Meine erste Schwester ist 8 Jahre alt und die zweite ist 14 Jahre alt.
+        Und Sie? Wie viele Geschwistern gibt es in Ihrer Familie?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 68
+    question_id: 199
+    questions: "Ich habe nur einen \xE4lteren Bruder."
+    right_answer_id: 
+    answers:
+    - id: 215
+      text: "Wie alt ist Ihr \xE4lterer Bruder?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 68
+    question_id: 200
+    questions: Er ist etwa 45 Jahre alt.
+    right_answer_id: 
+    answers:
+    - id: 216
+      text: Ach, ich verstehe.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 69
+    question_id: 201
+    questions: Hallo. Herzlich willkommen.
+    right_answer_id: 
+    answers:
+    - id: 217
+      text: Hallo. Danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 69
+    question_id: 202
+    questions: War Ihre Reise angenehm?
+    right_answer_id: 
+    answers:
+    - id: 218
+      text: "So weit so viel Spa\xDF. Die Menschen in dieser Stadt und in diesem
+        B\xFCro sind sehr freundlich und hilfsbereit."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 69
+    question_id: 203
+    questions: Das ist gut. Kann ich Ihnen irgendwie helfen oder haben Sie vielleicht
+      eine Frage?
+    right_answer_id: 
+    answers:
+    - id: 219
+      text: "Ja, ich m\xF6chte etwas fragen. K\xF6nnen Sie etwas \xFCber Milit\xE4rtechnologie
+        erkl\xE4ren?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 69
+    question_id: 204
+    questions: "Milit\xE4rtechnologie ist die Anwendung von Technologie zur Verwendung
+      in der Kriegsf\xFChrung. Milit\xE4rtechnologie wird h\xE4ufig von Wissenschaftlern
+      und Ingenieuren speziell f\xFCr den Einsatz im Kampf durch Streitkr\xE4fte
+      erforscht und entwickelt."
+    right_answer_id: 
+    answers:
+    - id: 220
+      text: "K\xF6nnen Sie ein Beispiel f\xFCr die bedeutendste milit\xE4rische Technologieanwendung
+        geben?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 69
+    question_id: 205
+    questions: "Im Zweiten Weltkrieg k\xF6nnen wir den Feind nachts nicht sehen.
+      Aber jetzt k\xF6nnen wir den Feind mit einem Nachtsichtger\xE4t sehen."
+    right_answer_id: 
+    answers:
+    - id: 221
+      text: "Das ist wahr. Es hilft uns sehr, wenn wir nachts arbeiten m\xFCssen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 69
+    question_id: 206
+    questions: "Ein weiteres Beispiel k\xF6nnen wir an der Geschwindigkeitsentwicklung
+      eines U-Bootes erkennen. 1901 konnten U-Boote nur bis zu einer Tiefe von 100
+      feet tauchen. Derzeit k\xF6nnen U-Boote der Seawolf-Klasse mit einer Geschwindigkeit
+      von 35 Knoten fahren."
+    right_answer_id: 
+    answers:
+    - id: 222
+      text: "Die Technologie hat es der Milit\xE4rwelt mit ihren Fortschritten wirklich
+        leichter gemacht."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 69
+    question_id: 207
+    questions: Ja, das stimmt. Das ist nur ein kleiner Teil davon.
+    right_answer_id: 
+    answers:
+    - id: 223
+      text: "Vielen Dank f\xFCr die Erkl\xE4rung."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 70
+    question_id: 208
+    questions: Hallo. Herzlich willkommen.
+    right_answer_id: 
+    answers:
+    - id: 224
+      text: Hallo. Danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 70
+    question_id: 209
+    questions: "Gab es Probleme w\xE4hrend der Fahrt?"
+    right_answer_id: 
+    answers:
+    - id: 225
+      text: "Zum Gl\xFCck gab es das nicht. Ich m\xF6chte jedoch \xFCber die Flugzeuge
+        sprechen, die f\xFCr milit\xE4rische Zwecke eingesetzt werden."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 70
+    question_id: 210
+    questions: "Was m\xF6chten Sie wissen?"
+    right_answer_id: 
+    answers:
+    - id: 226
+      text: "Wie viele Kategorien von Milit\xE4rflugzeugen gibt es?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 70
+    question_id: 211
+    questions: "Es gibt zwei Arten von Flugzeugen in der Milit\xE4rwelt, n\xE4mlich
+      Fl\xE4chenflugzeuge und Drehfl\xFCgelflugzeuge."
+    right_answer_id: 
+    answers:
+    - id: 227
+      text: "K\xF6nnen Sie erkl\xE4ren, was ein Fl\xE4chenflugzeug ist?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 70
+    question_id: 212
+    questions: "Starrfl\xFCgelflugzeuge sind Flugzeuge, deren Fl\xFCgel nicht bewegt
+      werden k\xF6nnen."
+    right_answer_id: 
+    answers:
+    - id: 228
+      text: "Oh, ich verstehe. Was ist dann mit Drehfl\xFCgelflugzeugen?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 70
+    question_id: 213
+    questions: "Drehfl\xFCgler sind Flugzeuge, deren Bl\xE4tter oder Fl\xFCgel sich
+      drehen, um das Flugzeug in die Luft zu heben."
+    right_answer_id: 
+    answers:
+    - id: 229
+      text: "K\xF6nnen Sie ein Beispiel f\xFCr ein Fl\xE4chenflugzeug nennen?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 70
+    question_id: 214
+    questions: "Flugzeuge, die Sie in diese Stadt bringen, und D\xFCsenflugzeuge
+      sind Beispiele f\xFCr Fl\xE4chenflugzeuge."
+    right_answer_id: 
+    answers:
+    - id: 230
+      text: "Ach, ich verstehe. Was ist mit dem Beispiel eines Drehfl\xFCglers?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 70
+    question_id: 215
+    questions: "Ein Beispiel f\xFCr ein Drehfl\xFCgelflugzeug ist ein Hubschrauber.
+      Nat\xFCrlich sind Sie mit diesem Flugzeugtyp bestens vertraut, oder?"
+    right_answer_id: 
+    answers:
+    - id: 231
+      text: "Oh, okay. Vielen Dank f\xFCr die Erkl\xE4rung."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 12
+    question_id: 216
+    questions: Hallo. Wie geht es Ihnen?
+    right_answer_id: 
+    answers:
+    - id: 232
+      text: Hallo. Sehr gut. Und Ihnen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 12
+    question_id: 217
+    questions: Gut. Danke. Kann ich irgendwie helfen?
+    right_answer_id: 
+    answers:
+    - id: 233
+      text: "Ja. Ich habe ein paar Fragen zur Grundausbildung im Kampf. D\xFCrfen
+        neue Rekruten w\xE4hrend der Kampfgrundausbildung nach Hause gehen?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 12
+    question_id: 218
+    questions: "Nein. Neue Rekruten erhalten w\xE4hrend des Trainings keine Erlaubnis.
+      Sie bleiben w\xE4hrend des Trainings in der Kaserne."
+    right_answer_id: 
+    answers:
+    - id: 234
+      text: Wie lange dauert die Kampfgrundausbildung?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 12
+    question_id: 219
+    questions: Es dauert normalerweise etwa 5 bis 6 Monate.
+    right_answer_id: 
+    answers:
+    - id: 235
+      text: "K\xF6nnen Familien neue Rekruten w\xE4hrend des Trainings besuchen?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 12
+    question_id: 220
+    questions: "Ich f\xFCrchte, das k\xF6nnen sie. W\xE4hrend der Ausbildungszeit
+      d\xFCrfen keine Familienmitglieder zu Besuch kommen"
+    right_answer_id: 
+    answers:
+    - id: 236
+      text: "Ach so. Was wird sp\xE4ter in der Ausbildung vermittelt?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 12
+    question_id: 221
+    questions: "Sie lehren grundlegende milit\xE4rische F\xE4higkeiten, wie Waffen
+      und Ausr\xFCstung."
+    right_answer_id: 
+    answers:
+    - id: 237
+      text: "M\xFCssen neue Rekruten w\xE4hrend der Ausbildung Uniformen tragen?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 12
+    question_id: 222
+    questions: "Ja, das stimmt. Das Tragen einer Uniform ist beim sp\xE4teren Besuch
+      des Trainings Pflicht."
+    right_answer_id: 
+    answers:
+    - id: 238
+      text: "K\xF6nnen Sie uns bitte ein wenig \xFCber Ihre Erfahrungen w\xE4hrend
+        des Trainings erz\xE4hlen?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 12
+    question_id: 223
+    questions: "Eine der Erfahrungen meines Freundes ist mehr oder weniger die gleiche
+      wie die, die ich zuvor beschrieben habe. F\xFCr ihn war die schwerste Erfahrung,
+      als er meine Familienmitglieder vor dem Abschluss nicht treffen konnte. Er
+      vermisste meine Eltern wirklich."
+    right_answer_id: 
+    answers:
+    - id: 239
+      text: "Es muss f\xFCr diejenigen von ihnen sehr hart sein, die darauf verzichten
+        m\xFCssen, die Eltern zu treffen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 12
+    question_id: 224
+    questions: Ja, das stimmt.
+    right_answer_id: 
+    answers:
+    - id: 240
+      text: "Danke f\xFCr die Erkl\xE4rung und das Teilen der Erfahrungen deines
+        Freundes."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 89
+    question_id: 225
+    questions: Hallo. Herzlich willkommen.
+    right_answer_id: 
+    answers:
+    - id: 241
+      text: Hallo. Danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 89
+    question_id: 226
+    questions: Ich werde euch hier einige Regeln mitteilen.
+    right_answer_id: 
+    answers:
+    - id: 242
+      text: Was sind sie?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 89
+    question_id: 227
+    questions: "Alle Medikamente au\xDFer derzeit g\xFCltigen verschreibungspflichtigen
+      Arzneimitteln sind strengstens verboten."
+    right_answer_id: 
+    answers:
+    - id: 243
+      text: Was ist, wenn jemand Drogen nimmt?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 89
+    question_id: 228
+    questions: "Die Verwendung oder der Besitz solcher Schmuggelware wird gem\xE4\xDF
+      den geltenden Regeln behandelt."
+    right_answer_id: 
+    answers:
+    - id: 244
+      text: "Okay, ich habe es verstanden. Was ist die n\xE4chste Regel?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 89
+    question_id: 229
+    questions: "Schusswaffen, Munition, Messer mit Klingen \xFCber drei Zoll, Pfeil
+      und Bogen sowie Waffen jeglicher Art sind verboten."
+    right_answer_id: 
+    answers:
+    - id: 245
+      text: "Bedeutet das, dass jede Art von Waffen zuerst \xFCberpr\xFCft werden
+        muss?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 89
+    question_id: 230
+    questions: Ja, Sie haben Recht.
+    right_answer_id: 
+    answers:
+    - id: 246
+      text: Gibt es hier Vorschriften zum Rauchen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 89
+    question_id: 231
+    questions: "Ja, nat\xFCrlich. Rauchen in keiner staatlichen Einrichtung. Raucherbereiche
+      befinden sich au\xDFerhalb der Kaserne. Das Rauchen ist in allen Dienstr\xE4umen
+      zu keiner Zeit gestattet."
+    right_answer_id: 
+    answers:
+    - id: 247
+      text: Wie ist es, wenn jemand auf frischer Tat ertappt wird?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 89
+    question_id: 232
+    questions: "Mitarbeiter, bei denen festgestellt wird, dass sie die Vorschriften
+      nicht einhalten, werden mit Disziplinarma\xDFnahmen geahndet."
+    right_answer_id: 
+    answers:
+    - id: 248
+      text: Oh, in Ordnung. Ich muss vorsichtiger sein und alle Regeln hier befolgen.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 90
+    question_id: 233
+    questions: Hallo. Wie geht es Ihnen?
+    right_answer_id: 
+    answers:
+    - id: 249
+      text: Hallo. Mir geht es gut. Und Ihnen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 90
+    question_id: 234
+    questions: Gut. Heute ist das Wetter sehr sonnig.
+    right_answer_id: 
+    answers:
+    - id: 250
+      text: Ja, das ist richtig. Das Wetter ist perfekt zum Entspannen bei Kaffee
+        oder Tee.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 90
+    question_id: 236
+    questions: "Wow, tolle Idee. Nun werde ich nach dem Milit\xE4ralphabet fragen.
+      Ich w\xFCrde gerne wissen, wie weit Sie es gelernt haben. Sind Sie bereit?"
+    right_answer_id: 
+    answers:
+    - id: 251
+      text: Ja, ich bin bereit!
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 90
+    question_id: 235
+    questions: Hallo. Wie geht es Ihnen?
+    right_answer_id: 
+    answers:
+    - id: 252
+      text: Hallo. Mir geht es gut. Und Ihnen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 90
+    question_id: 237
+    questions: "Ich werde die Namen der Forts nennen. Bitte buchstabieren Sie die
+      Namen der Festungen mit dem Milit\xE4ralphabet."
+    right_answer_id: 
+    answers:
+    - id: 253
+      text: Okay, gut.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 90
+    question_id: 238
+    questions: Gut. Heute ist das Wetter sehr sonnig.
+    right_answer_id: 
+    answers:
+    - id: 254
+      text: Ja, das ist richtig. Das Wetter ist perfekt zum Entspannen bei Kaffee
+        oder Tee.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 90
+    question_id: 239
+    questions: Fangen wir an. Das erste, Fort Max.
+    right_answer_id: 
+    answers:
+    - id: 255
+      text: Fort Max wird mike-alpha-x-ray geschrieben.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 90
+    question_id: 240
+    questions: "Wow, tolle Idee. Nun werde ich nach dem Milit\xE4ralphabet fragen.
+      Ich w\xFCrde gerne wissen, wie weit Sie es gelernt haben. Sind Sie bereit?"
+    right_answer_id: 
+    answers:
+    - id: 256
+      text: Ja, ich bin bereit!
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 90
+    question_id: 241
+    questions: "Richtig. Als n\xE4chstes Fort Jack."
+    right_answer_id: 
+    answers:
+    - id: 257
+      text: Fort Jack wird Julia-Alpha-Charlie-Kilo geschrieben.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 90
+    question_id: 242
+    questions: "Ich werde die Namen der Forts nennen. Bitte buchstabieren Sie die
+      Namen der Festungen mit dem Milit\xE4ralphabet."
+    right_answer_id: 
+    answers:
+    - id: 258
+      text: Okay, gut.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 90
+    question_id: 243
+    questions: "Genau. Als n\xE4chstes Fort King."
+    right_answer_id: 
+    answers:
+    - id: 259
+      text: Fort King wird Kilo-Indien-Lima-Oscar geschrieben.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 90
+    question_id: 244
+    questions: Fangen wir an. Das erste, Fort Max.
+    right_answer_id: 
+    answers:
+    - id: 260
+      text: Fort Max wird mike-alpha-x-ray geschrieben.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 90
+    question_id: 245
+    questions: "Wow, es sieht so aus, als ob Sie bereits das milit\xE4rische Alphabet
+      beherrschen."
+    right_answer_id: 
+    answers:
+    - id: 261
+      text: "Nicht wirklich. Ich danke Ihnen f\xFCr das Kompliment."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 90
+    question_id: 246
+    questions: "Richtig. Als n\xE4chstes Fort Jack."
+    right_answer_id: 
+    answers:
+    - id: 262
+      text: Fort Jack wird Julia-Alpha-Charlie-Kilo geschrieben.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 90
+    question_id: 247
+    questions: "Genau. Als n\xE4chstes Fort King."
+    right_answer_id: 
+    answers:
+    - id: 263
+      text: Fort King wird Kilo-Indien-Lima-Oscar geschrieben.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 90
+    question_id: 248
+    questions: "Wow, es sieht so aus, als ob Sie bereits das milit\xE4rische Alphabet
+      beherrschen."
+    right_answer_id: 
+    answers:
+    - id: 264
+      text: "Nicht wirklich. Ich danke Ihnen f\xFCr das Kompliment."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 91
+    question_id: 249
+    questions: Hallo. Herzlich willkommen.
+    right_answer_id: 
+    answers:
+    - id: 265
+      text: Hallo. Danke
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 91
+    question_id: 250
+    questions: "Heute werde ich Ihnen einige der Milit\xE4rwaffen und -ausr\xFCstungen
+      zeigen, die hier sind. Sie k\xF6nnen sehr gerne fragen, wenn Sie Fragen haben."
+    right_answer_id: 
+    answers:
+    - id: 266
+      text: Ok, gut.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 91
+    question_id: 251
+    questions: Kennen Sie diese Waffen?
+    right_answer_id: 
+    answers:
+    - id: 267
+      text: Das linke ist eine Waffe und das rechte ein Gewehr. Darf ich diese Waffe
+        haben?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 91
+    question_id: 252
+    questions: "Nat\xFCrlich, aber nicht jetzt. Sie werden diese Waffe sp\xE4ter
+      verwenden."
+    right_answer_id: 
+    answers:
+    - id: 268
+      text: Das rechts neben dem Gewehr ist ein Kompass und eine Karte, richtig?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 91
+    question_id: 253
+    questions: Ja, es ist wahr.
+    right_answer_id: 
+    answers:
+    - id: 269
+      text: Wann sollte ich Kompass und Karte verwenden?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 91
+    question_id: 254
+    questions: Sie werden dies brauchen, wenn Sie trainiert werden.
+    right_answer_id: 
+    answers:
+    - id: 270
+      text: Ach ich verstehe.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 92
+    question_id: 255
+    questions: Hallo. Herzlich willkommen.
+    right_answer_id: 
+    answers:
+    - id: 271
+      text: Hallo. Danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 92
+    question_id: 256
+    questions: "Heute m\xF6chte ich die grundlegende Milit\xE4runiform erkl\xE4ren,
+      die Sie tragen werden, und die Regeln dazu. Sind Sie bereit?"
+    right_answer_id: 
+    answers:
+    - id: 272
+      text: Ja. Ich bin bereit.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 92
+    question_id: 257
+    questions: "Sie m\xFCssen ein Hemd, eine Hose, eine Jacke, eine M\xFCtze und
+      Stiefel tragen."
+    right_answer_id: 
+    answers:
+    - id: 273
+      text: Wann bekomme ich sie?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 92
+    question_id: 258
+    questions: Es wird bald gegeben, sobald Sie den Dienst beginnen.
+    right_answer_id: 
+    answers:
+    - id: 274
+      text: Ok, ich habe es verstanden.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 92
+    question_id: 259
+    questions: "Sie m\xFCssen Ihre Uniform reinigen und b\xFCgeln. Es ist sehr wichtig,
+      dass Sie Ihre Uniform sauber halten, bevor Sie Ihren Dienst antreten."
+    right_answer_id: 
+    answers:
+    - id: 275
+      text: Wie viele Uniformen bekomme ich?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 92
+    question_id: 260
+    questions: Sie erhalten 3 bis 4 Uniformen.
+    right_answer_id: 
+    answers:
+    - id: 276
+      text: Ach, ich verstehe. Ich denke, das ist genug.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 92
+    question_id: 261
+    questions: "Sie m\xFCssen auch Ihre Stiefel richtig polieren."
+    right_answer_id: 
+    answers:
+    - id: 277
+      text: Welche Farbe haben die Stiefel?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 93
+    question_id: 262
+    questions: Hallo, wie geht es Ihnen?
+    right_answer_id: 
+    answers:
+    - id: 278
+      text: Es geht mir ganz gut. Und Ihnen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 93
+    question_id: 263
+    questions: Mir geht es gut. Danke. Wo sparen Sie normalerweise Ihr Geld?
+    right_answer_id: 
+    answers:
+    - id: 279
+      text: Normalerweise spare ich bei einer Bank.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 93
+    question_id: 264
+    questions: Kennen Sie Banken des Heeres?
+    right_answer_id: 
+    answers:
+    - id: 280
+      text: "Ich habe noch nie davon geh\xF6rt. K\xF6nnen Sie es erkl\xE4ren?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 93
+    question_id: 265
+    questions: "Es ist ein Finanzinstitut, das Dienstleistungen anbietet, die auf
+      Angeh\xF6rige der Streitkr\xE4fte zugeschnitten sind."
+    right_answer_id: 
+    answers:
+    - id: 281
+      text: "Das h\xF6rt sich interessant an. Was bekomme ich sp\xE4ter?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 93
+    question_id: 266
+    questions: "Sie sind bei Milit\xE4rangeh\xF6rigen beliebt, weil sie verschiedene
+      Arten von spezialisierten Konten, Verg\xFCnstigungen und Vorteilen sowie Dienstleistungen
+      und Optionen anbieten, die dem milit\xE4rischen Lebensstil entgegenkommen."
+    right_answer_id: 
+    answers:
+    - id: 282
+      text: "K\xF6nnten Sie bitte ein Beispiel f\xFCr die Vorteile der Banken des
+        Heeres geben?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 93
+    question_id: 267
+    questions: "Die Vorteile der Banken des Heeres sind monatliche Servicegeb\xFChren
+      und landesweit kostenlose Geldautomaten. Sie m\xF6chten sich selbst anmelden?"
+    right_answer_id: 
+    answers:
+    - id: 283
+      text: "Ich glaube schon. Die Vorteile der Banken sind gro\xDF."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 93
+    question_id: 268
+    questions: "Genau. Es ist eine gro\xDFartige Gelegenheit f\xFCr Sie, mehr zu
+      sparen und den Vorteil zu nutzen."
+    right_answer_id: 
+    answers:
+    - id: 284
+      text: "Ich k\xF6nnte nicht mehr zustimmen. Danke f\xFCr die Information."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 94
+    question_id: 269
+    questions: Guten Morgen, wie geht es Ihnen?
+    right_answer_id: 
+    answers:
+    - id: 285
+      text: Danke, gut und alles ist in Ordnung. Und wie geht es Ihnen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 94
+    question_id: 270
+    questions: Mir geht es auch gut, Danke.
+    right_answer_id: 
+    answers:
+    - id: 286
+      text: "Gut, dann werde ich beim n\xE4chsten Kurs wieder hier sein?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 94
+    question_id: 271
+    questions: "F\xFCr die n\xE4chste Klasse werden Sie hier sein."
+    right_answer_id: 
+    answers:
+    - id: 287
+      text: Wie viele Lektionen muss ich in dieser Klasse lernen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 94
+    question_id: 272
+    questions: "In dieser Klasse m\xFCssen Sie f\xFCnf weitere Lektionen lernen."
+    right_answer_id: 
+    answers:
+    - id: 288
+      text: "Werde ich nach f\xFCnf weiteren Lektionen die Klasse wechseln?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 94
+    question_id: 274
+    questions: Ja, Sie gehen in eine andere Klasse.
+    right_answer_id: 
+    answers:
+    - id: 289
+      text: Wie viele Klassen gibt es?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 94
+    question_id: 273
+    questions: Guten Morgen, wie geht es Ihnen?
+    right_answer_id: 
+    answers:
+    - id: 290
+      text: Danke, gut und alles ist in Ordnung. Und wie geht es Ihnen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 94
+    question_id: 275
+    questions: "Es gibt 3 Klassen f\xFCr Sie. Es wird Spa\xDF machen, weil Sie mehr
+      \xFCber die Luftwaffen erfahren werden."
+    right_answer_id: 
+    answers:
+    - id: 291
+      text: "Ja. Eigentlich bin ich sehr aufgeregt. Gibt es irgendetwas, das ich
+        tun muss, nachdem ich in jeder Klasse etwas \xFCber bestimmte Themen gelernt
+        habe?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 94
+    question_id: 276
+    questions: Mir geht es auch gut, Danke.
+    right_answer_id: 
+    answers:
+    - id: 292
+      text: "Gut, dann werde ich beim n\xE4chsten Kurs wieder hier sein?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 94
+    question_id: 277
+    questions: Nein. Sie haben nur bestimmte Themen in drei verschiedenen Klassen
+      gelernt.
+    right_answer_id: 
+    answers:
+    - id: 293
+      text: "Ach, ich verstehe. Vielen Dank. Ich freue mich sehr auf meine n\xE4chste
+        Lektion."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 94
+    question_id: 278
+    questions: "F\xFCr die n\xE4chste Klasse werden Sie hier sein."
+    right_answer_id: 
+    answers:
+    - id: 294
+      text: Wie viele Lektionen muss ich in dieser Klasse lernen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 94
+    question_id: 279
+    questions: "In dieser Klasse m\xFCssen Sie f\xFCnf weitere Lektionen lernen."
+    right_answer_id: 
+    answers:
+    - id: 295
+      text: "Werde ich nach f\xFCnf weiteren Lektionen die Klasse wechseln?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 94
+    question_id: 280
+    questions: Ja, Sie gehen in eine andere Klasse.
+    right_answer_id: 
+    answers:
+    - id: 296
+      text: Wie viele Klassen gibt es?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 94
+    question_id: 281
+    questions: "Es gibt 3 Klassen f\xFCr Sie. Es wird Spa\xDF machen, weil Sie mehr
+      \xFCber die Luftwaffen erfahren werden."
+    right_answer_id: 
+    answers:
+    - id: 297
+      text: "Ja. Eigentlich bin ich sehr aufgeregt. Gibt es irgendetwas, das ich
+        tun muss, nachdem ich in jeder Klasse etwas \xFCber bestimmte Themen gelernt
+        habe?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 94
+    question_id: 282
+    questions: Nein. Sie haben nur bestimmte Themen in drei verschiedenen Klassen
+      gelernt.
+    right_answer_id: 
+    answers:
+    - id: 298
+      text: "Ach, ich verstehe. Vielen Dank. Ich freue mich sehr auf meine n\xE4chste
+        Lektion."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 95
+    question_id: 283
+    questions: Guten Morgen!
+    right_answer_id: 
+    answers:
+    - id: 299
+      text: Guten Morgen.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 95
+    question_id: 284
+    questions: "Heute zeige ich Ihnen einige Erste-Hilfe-Artikel und -Verfahren.
+      Wenn Sie Fragen haben, k\xF6nnen Sie diese gerne stellen."
+    right_answer_id: 
+    answers:
+    - id: 300
+      text: Okay, ich habe es verstanden.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 95
+    question_id: 285
+    questions: "Ich habe die Nummern auf jeden Gegenstand gesetzt. Nummer eins ist
+      ein Verband, Nummer zwei sind Pflaster, Nummer drei sind Schmerzmittel, Nummer
+      vier ist eine Schiene und Nummer f\xFCnf ist ein Verband."
+    right_answer_id: 
+    answers:
+    - id: 301
+      text: Wozu dient die Schiene?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 95
+    question_id: 286
+    questions: "Es ist f\xFCr einen gebrochenen Arm oder ein gebrochenes Bein. Sie
+      m\xFCssen die Bewegung des Arms/Beins mit einer Schiene stoppen und die Evakuierung
+      des Opfers (CASEVAC) anfordern. Wissen Sie, wof\xFCr der Verband ist."
+    right_answer_id: 
+    answers:
+    - id: 302
+      text: "Es ist f\xFCr einen Schnitt."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 95
+    question_id: 287
+    questions: "Ja, Sie haben Recht. Was ist die Erste-Hilfe-Ma\xDFnahme bei einem
+      Schnitt?"
+    right_answer_id: 
+    answers:
+    - id: 303
+      text: "Wenn ich mich nicht irre, m\xFCssen Sie den Bereich mit Seife reinigen
+        und die Blutung mit Pflastern oder einem Verband stoppen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 95
+    question_id: 288
+    questions: Gut gemacht!
+    right_answer_id: 
+    answers:
+    - id: 304
+      text: "Was ist mit dem Anziehen? Wof\xFCr ist das?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 95
+    question_id: 289
+    questions: "Es ist f\xFCr eine Verbrennung. Die Erste-Hilfe-Ma\xDFnahme, die
+      Sie durchf\xFChren m\xFCssen, besteht darin, die Verbrennung mit Wasser zu
+      k\xFChlen und einen Feldverband aufzutragen."
+    right_answer_id: 
+    answers:
+    - id: 305
+      text: "Ach, ich verstehe. Was ist, wenn es eine Person mit einer R\xFCckenverletzung
+        gibt? Welche Gegenst\xE4nde muss ich verwenden?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 95
+    question_id: 290
+    questions: Bewegen Sie in diesem Fall den Patienten nicht. Rufen Sie sofort CASEVAC
+      an.
+    right_answer_id: 
+    answers:
+    - id: 306
+      text: In Ordnung. Ich verstehe es jetzt.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 96
+    question_id: 291
+    questions: Hallo, Wie geht es Ihnen?
+    right_answer_id: 
+    answers:
+    - id: 307
+      text: Gut. Danke. Und Ihnen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 96
+    question_id: 292
+    questions: "Mir geht es auch gut. Danke. Heute werden wir also \xFCber die Gel\xE4ndeanalyse
+      sprechen."
+    right_answer_id: 
+    answers:
+    - id: 308
+      text: "Okay. Ich bin so bereit dar\xFCber zu diskutieren."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 96
+    question_id: 293
+    questions: "K\xF6nnten Sie mir bitte sagen, was diese Kartensymbole einzeln bedeuten?"
+    right_answer_id: 
+    answers:
+    - id: 309
+      text: "Nummer eins ist Sumpf, Nummer zwei ist W\xFCste, Nummer drei ist Stadt
+        und Nummer vier sind Berge"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 96
+    question_id: 294
+    questions: Bravo! Sie haben richtig gut gemacht.
+    right_answer_id: 
+    answers:
+    - id: 310
+      text: Danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 96
+    question_id: 295
+    questions: "K\xF6nnen Sie zwei W\xF6rter f\xFCr Landformen aus der Karte nennen?"
+    right_answer_id: 
+    answers:
+    - id: 311
+      text: "Berge und H\xFCgel."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 96
+    question_id: 296
+    questions: Nennen Sie mir bitte drei Orte, an denen Menschen leben.
+    right_answer_id: 
+    answers:
+    - id: 312
+      text: Stadt, Stadt und Dorf.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 96
+    question_id: 297
+    questions: "Gut! Ich teste Ihr Allgemeinwissen. Was ist der h\xF6chste Berg der
+      Welt?"
+    right_answer_id: 
+    answers:
+    - id: 313
+      text: Es ist der Mount Everest.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 96
+    question_id: 298
+    questions: Sie haben heute gut gemacht.
+    right_answer_id: 
+    answers:
+    - id: 314
+      text: Danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 97
+    question_id: 299
+    questions: Hallo. Herzlich Willkommen.
+    right_answer_id: 
+    answers:
+    - id: 315
+      text: Hallo. Danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 97
+    question_id: 300
+    questions: "Wie war das vorherige Thema? War es okay f\xFCr Sie?"
+    right_answer_id: 
+    answers:
+    - id: 316
+      text: "Das ist gut. Wir haben gerade \xFCber das Gel\xE4nde gesprochen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 97
+    question_id: 301
+    questions: "Das klingt interessant. Nun m\xF6chte ich Sie etwas zu den Friedenssicherungseins\xE4tzen
+      der Vereinten Nationen fragen. Was wissen Sie davon?"
+    right_answer_id: 
+    answers:
+    - id: 317
+      text: "Ich denke, die UN-Friedenssicherung bedeutete den Einsatz von Milit\xE4rpersonal."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 97
+    question_id: 302
+    questions: Genau. Von 1948 bis 1989 gab es zwei Haupttypen von UN-Missionen.
+    right_answer_id: 
+    answers:
+    - id: 318
+      text: Was ist die erste Art davon?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 97
+    question_id: 303
+    questions: "Der erste Typ sind Beobachtermissionen mit unbewaffneten Milit\xE4rbeobachtern."
+    right_answer_id: 
+    answers:
+    - id: 319
+      text: Ach, ich verstehe. Was ist mit dem zweiten Typ?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 97
+    question_id: 304
+    questions: Friedenstruppen, die in einem Sperrgebiet oder einer Pufferzone stationiert
+      sind.
+    right_answer_id: 
+    answers:
+    - id: 320
+      text: "Ach, ich wei\xDF, was Sie meinen. Sie sagten jedoch, es sei von 1948
+        bis 1989 gewesen. Und jetzt? Was ist die Mission der Friedenssicherung heute?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 97
+    question_id: 305
+    questions: "Gute Frage. In den heutigen Friedensmissionen gibt es viel mehr zivile
+      Friedenstruppen, darunter Polizisten, Ingenieure, medizinisches Personal und
+      Fahrer. Diese Zivilisten bauen Stra\xDFen, Schulen und Krankenh\xE4user und
+      \xFCberwachen Wahlen."
+    right_answer_id: 
+    answers:
+    - id: 321
+      text: "Oh, in Ordnung. Ist es eine der friedenserhaltenden Missionen, Fl\xFCchtlingen
+        zur\xFCck in ihr Land zu helfen?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 97
+    question_id: 306
+    questions: Ja, das stimmt.
+    right_answer_id: 
+    answers:
+    - id: 322
+      text: Okay, jetzt verstehe ich es. Danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 98
+    question_id: 307
+    questions: Hallo. Willkommen
+    right_answer_id: 
+    answers:
+    - id: 323
+      text: Hallo. Danke.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 98
+    question_id: 308
+    questions: "Wie l\xE4uft alles?"
+    right_answer_id: 
+    answers:
+    - id: 324
+      text: "Alles l\xE4uft super. Ich habe heute viel gelernt und bin bereit, mehr
+        \xFCber unser heutiges Thema zu erfahren."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 98
+    question_id: 309
+    questions: "Sch\xF6n! Was bedeutet dieses Zeichen?"
+    right_answer_id: 
+    answers:
+    - id: 325
+      text: "Das bedeutet, dass die H\xF6chstgeschwindigkeit 60 km/h betragen muss."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 98
+    question_id: 310
+    questions: "Richtig! Wenn Sie fahren oder reiten k\xF6nnen, m\xFCssen Sie mit
+      diesem Zeichen vertraut sein."
+    right_answer_id: 
+    answers:
+    - id: 326
+      text: Sie haben recht. Diese Zeichen sind leicht zu erkennen.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 98
+    question_id: 311
+    questions: "Wie w\xE4re es mit dem zweiten Schild hier dr\xFCben? Was bedeutet
+      das?"
+    right_answer_id: 
+    answers:
+    - id: 327
+      text: "Es ist ein gef\xE4hrliches Kurvenzeichen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 98
+    question_id: 312
+    questions: Genau! 100% richtig!
+    right_answer_id: 
+    answers:
+    - id: 328
+      text: "K\xF6nnten Sie bitte das Zeichen Nummer drei nennen? Ich habe dieses
+        Zeichen vergessen."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 98
+    question_id: 313
+    questions: "Oh, das Zeichen f\xFCr Kreuzung."
+    right_answer_id: 
+    answers:
+    - id: 329
+      text: Ach, ich verstehe. Ich erinnere mich jetzt daran. Vielen Dank.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 99
+    question_id: 314
+    questions: Hallo. Wie geht es Ihnen?
+    right_answer_id: 
+    answers:
+    - id: 330
+      text: Hallo. Mir geht's gut. Und Ihnen?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 99
+    question_id: 315
+    questions: Mir geht es gut, danke. Wollen Sie heute mehr lernen?
+    right_answer_id: 
+    answers:
+    - id: 331
+      text: Ja. Ich bin begeistert.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 99
+    question_id: 316
+    questions: "Okay. Ich m\xF6chte modifizierte Einheitensymbole anzeigen. Ich hoffe,
+      dass Sie mit ihnen vertraut waren. Das erste Bild, was bedeutet es?"
+    right_answer_id: 
+    answers:
+    - id: 332
+      text: Ist es Gebirgsinfanterie?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 99
+    question_id: 317
+    questions: "Genau! Wie w\xE4re es mit dem zweiten Bild hier?"
+    right_answer_id: 
+    answers:
+    - id: 333
+      text: "Wenn ich mich nicht irre, steht das Symbol f\xFCr mechanisierte Infanterie,
+        die mit Ausr\xFCstung f\xFCr Infanterie-Kampffahrzeuge ausgestattet ist."
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 99
+    question_id: 318
+    questions: Richtig! Das haben Sie gut gemacht. Schauen Sie sich das dritte Bild
+      an.
+    right_answer_id: 
+    answers:
+    - id: 334
+      text: Was bedeutet das dritte Symbol?
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 99
+    question_id: 319
+    questions: "Es bedeutet mechanisierte Infanterieausr\xFCstung (mit R\xE4dern
+      - \"mittel\")."
+    right_answer_id: 
+    answers:
+    - id: 335
+      text: Oh ich verstehe. Es ist fast das gleiche wie das zweite Bild. Nur die
+        Fahrzeuge sind anders.
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 99
+    question_id: 320
+    questions: "Sie haben recht. Kommen wir zum n\xE4chsten Bild. Was bedeutet das?"
+    right_answer_id: 
+    answers:
+    - id: 336
+      text: "Ich habe keine Ahnung davon. K\xF6nnen Sie es mir erkl\xE4ren?"
+    status: Active
+  - materi_id: 4
+    chapter_id: 
+    npc_id: 99
+    question_id: 321
+    questions: "Es bedeutet mehrere Raketenwerfer-Ausr\xFCstung."
+    right_answer_id: 
+    answers:
+    - id: 337
+      text: "Ach, ich verstehe. Ich verstehe jetzt modifizierte Einheitensymbole.
+        Diese Lektion wird mir sp\xE4ter helfen, die Symbole in einem Gel\xE4nde
+        zu erkennen. Vielen Dank."
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 167
+    question_id: 322
+    questions: Bonjour bienvenue. Puis-je vous aider?
+    right_answer_id: 
+    answers:
+    - id: 338
+      text: Bonjour, pouvez-vous recommander la nourriture ici ?
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 167
+    question_id: 323
+    questions: "Certain. Je recommande le premier paquet, qui comprend le menu de
+      d\xE9marrage, le menu principal et le menu de fermeture."
+    right_answer_id: 
+    answers:
+    - id: 339
+      text: "Puis-je demander que la nourriture ne soit pas \xE9pic\xE9e ?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 167
+    question_id: 324
+    questions: Oui, je vais faire une note pour le chef qui cuisine votre plat.
+    right_answer_id: 
+    answers:
+    - id: 340
+      text: D'accord, merci. Alors je veux ce paquet.
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 167
+    question_id: 325
+    questions: OK, y a-t-il autre chose au menu que vous aimeriez commander ?
+    right_answer_id: 
+    answers:
+    - id: 341
+      text: "Je souhaite commander un verre de jus et une bouteille d'eau min\xE9rale."
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 167
+    question_id: 326
+    questions: OK, y a-t-il autre chose ?
+    right_answer_id: 
+    answers:
+    - id: 342
+      text: Non, en attendant.
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 167
+    question_id: 327
+    questions: "Eh bien, si vous avez besoin d'aide suppl\xE9mentaire, vous pouvez
+      nous rappeler."
+    right_answer_id: 
+    answers:
+    - id: 343
+      text: D'accord, merci.
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 168
+    question_id: 328
+    questions: Excusez-moi, puis-je vous aider ?
+    right_answer_id: 
+    answers:
+    - id: 344
+      text: J'ai fini de manger et je veux payer. Pouvez-vous fournir la facture
+        ?
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 168
+    question_id: 329
+    questions: Certain. Ceci est votre facture.
+    right_answer_id: 
+    answers:
+    - id: 345
+      text: "OK, je vais v\xE9rifier d'abord."
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 168
+    question_id: 330
+    questions: "Bien. Souhaitez-vous payer en esp\xE8ces ou non ?"
+    right_answer_id: 
+    answers:
+    - id: 346
+      text: "Je veux le payer avec ma carte de d\xE9bit. Peut-il?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 168
+    question_id: 331
+    questions: Peut certainement.
+    right_answer_id: 
+    answers:
+    - id: 347
+      text: "OK, voici ma carte de d\xE9bit."
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 168
+    question_id: 332
+    questions: "OK, votre paiement est termin\xE9. Merci! Bonne journ\xE9e!"
+    right_answer_id: 
+    answers:
+    - id: 348
+      text: Vous aussi! A plus tard!
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 169
+    question_id: 333
+    questions: Bonjour comment allez-vous?
+    right_answer_id: 
+    answers:
+    - id: 349
+      text: Bonjour, je vais bien merci?
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 169
+    question_id: 334
+    questions: "Bien. Quel plat venez-vous de commander ? \xC7a a l'air si d\xE9licieux."
+    right_answer_id: 
+    answers:
+    - id: 350
+      text: "Il s'agit d'un menu complet. J'avoue que tous les plats de la carte
+        des entr\xE9es \xE0 la carte des desserts sont tr\xE8s d\xE9licieux et selon
+        mon go\xFBt."
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 169
+    question_id: 335
+    questions: "vraiment? Peut-\xEAtre que la prochaine fois je commanderai le menu
+      que vous venez de commander."
+    right_answer_id: 
+    answers:
+    - id: 351
+      text: Oui. Alors le menu que vous venez de commander est-il bon ?
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 169
+    question_id: 336
+    questions: "C'\xE9tait d\xE9licieux mais j'ai oubli\xE9 de dire si je voulais
+      que ce soit plus \xE9pic\xE9."
+    right_answer_id: 
+    answers:
+    - id: 352
+      text: "Wow, il s'av\xE8re que vous aimez la nourriture \xE9pic\xE9e, hein ?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 169
+    question_id: 337
+    questions: "Oui, la nourriture \xE9pic\xE9e augmente mon app\xE9tit."
+    right_answer_id: 
+    answers:
+    - id: 353
+      text: "Peut-\xEAtre que la prochaine fois, vous devriez le dire au serveur
+        \xE0 l'avance."
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 169
+    question_id: 338
+    questions: Oui c'est vrai. Merci pour le conseil.
+    right_answer_id: 
+    answers:
+    - id: 354
+      text: Je vous en prie.
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 170
+    question_id: 339
+    questions: Bonjour, puis-je vous aider en quoi que ce soit ?
+    right_answer_id: 
+    answers:
+    - id: 355
+      text: Bonjour, y a-t-il des toilettes ici ?
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 170
+    question_id: 340
+    questions: "D\xE9sol\xE9, ce restaurant ne fournit pas de toilettes, vous pouvez
+      utiliser les toilettes publiques fournies par cet a\xE9roport."
+    right_answer_id: 
+    answers:
+    - id: 356
+      text: Est-ce loin d'ici?
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 170
+    question_id: 341
+    questions: Oui, l'emplacement est un peu loin d'ici.
+    right_answer_id: 
+    answers:
+    - id: 357
+      text: Pouvez-vous me montrer l'emplacement des toilettes ?
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 170
+    question_id: 342
+    questions: "Certain. De ce restaurant vous tournez \xE0 droite, continuez tout
+      droit jusqu'au bout du couloir puis tournez \xE0 droite, c'est l\xE0 que se
+      trouvent les toilettes."
+    right_answer_id: 
+    answers:
+    - id: 358
+      text: N'y a-t-il pas d'autres toilettes plus proches ?
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 170
+    question_id: 343
+    questions: Autant que je sache, ce sont les toilettes les plus proches d'ici.
+    right_answer_id: 
+    answers:
+    - id: 359
+      text: Ok, merci pour les infos fournies.
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 171
+    question_id: 344
+    questions: Bonjour bienvenue.
+    right_answer_id: 360
+    answers:
+    - id: 360
+      text: Oui
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 171
+    question_id: 345
+    questions: "D\xE9sol\xE9, cette zone a \xE9t\xE9 r\xE9cemment nettoy\xE9e. S'il
+      vous pla\xEEt soyez prudente."
+    right_answer_id: 
+    answers:
+    - id: 361
+      text: "Merci pour l'avertissement. Ces toilettes sont-elles souvent nettoy\xE9es
+        ?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 171
+    question_id: 346
+    questions: Oui, ces toilettes sont toujours propres. Parce que cette ville a
+      une bonne cote.
+    right_answer_id: 
+    answers:
+    - id: 362
+      text: "Waouh incroyable. qu'est-ce qui fait que ces toilettes peuvent \xEAtre
+        comme \xE7a ?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 171
+    question_id: 347
+    questions: "En 1 jour nous contr\xF4lons les toilettes 3 fois par jour."
+    right_answer_id: 
+    answers:
+    - id: 363
+      text: "Comment se fait-il jusqu'\xE0 3 fois ?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 171
+    question_id: 348
+    questions: "Outre le nettoyage des toilettes, nous prenons \xE9galement toujours
+      soin du contenu du savon, des mouchoirs et du parfum des toilettes."
+    right_answer_id: 
+    answers:
+    - id: 364
+      text: "C'est formidable que cet a\xE9roport garde les toilettes propres."
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 171
+    question_id: 349
+    questions: Veuillez utiliser la cabine vide.
+    right_answer_id: 
+    answers:
+    - id: 365
+      text: Oui merci.
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 172
+    question_id: 350
+    questions: Bonjour, on dirait que vous avez l'air confus.
+    right_answer_id: 
+    answers:
+    - id: 366
+      text: "Oui, je suis confus quant \xE0 l'utilisation des toilettes ici."
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 172
+    question_id: 351
+    questions: "Est-ce la premi\xE8re fois ici?"
+    right_answer_id: 
+    answers:
+    - id: 367
+      text: "Oui, tout \xE0 fait exact. Pouvez-vous m'aider?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 172
+    question_id: 352
+    questions: "Bien s\xFBr, je pouvais. Utilisez-vous habituellement les toilettes
+      en vous asseyant ou en vous accroupissant ?"
+    right_answer_id: 
+    answers:
+    - id: 368
+      text: "J'utilise g\xE9n\xE9ralement celui assis."
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 172
+    question_id: 353
+    questions: "Eh bien, si c'est le cas, vous comprenez d\xE9j\xE0 le bouton du
+      placard, oui."
+    right_answer_id: 
+    answers:
+    - id: 369
+      text: C'est juste que dans ce placard il n'y a pas de spray.
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 172
+    question_id: 354
+    questions: "C'est vrai, pour un remplacement donn\xE9 des boutons comme celui-ci."
+    right_answer_id: 
+    answers:
+    - id: 370
+      text: Tous ces boutons peuvent-ils fonctionner ?
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 172
+    question_id: 355
+    questions: "Bien s\xFBr cela fonctionne, lorsque vous appuyez sur le bouton l'eau
+      va sortir, vous pouvez \xE9galement r\xE9gler la puissance hors de l'eau et
+      pour l'arr\xEAter, il vous suffit d'appuyer sur le bouton d'arr\xEAt."
+    right_answer_id: 
+    answers:
+    - id: 371
+      text: Cela semble facile mais j'ai encore des doutes.
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 172
+    question_id: 356
+    questions: "Vous devriez d'abord l'essayer car pour vous habituer \xE0 des toilettes
+      comme celle-ci."
+    right_answer_id: 
+    answers:
+    - id: 372
+      text: "D'accord, merci pour l'information. J'esp\xE8re que l'eau ne mouille
+        pas mes v\xEAtements."
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 192
+    question_id: 357
+    questions: Bonjour. Comment ca va?
+    right_answer_id: 
+    answers:
+    - id: 373
+      text: Je vais bien. Merci. Qu'en pensez-vous?
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 192
+    question_id: 358
+    questions: "Je vais bien. Merci. Avez-vous d\xE9j\xE0 vu un fusil ?"
+    right_answer_id: 
+    answers:
+    - id: 374
+      text: Oui j'ai. Je le vois surtout dans un film.
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 192
+    question_id: 359
+    questions: "Pourriez-vous s'il vous pla\xEEt mentionner des parties d'un fusil
+      que vous connaissez ?"
+    right_answer_id: 
+    answers:
+    - id: 375
+      text: "Si je ne me trompe pas, il y a le canon et la g\xE2chette."
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 192
+    question_id: 360
+    questions: Vous avez raison. Vous venez de mentionner deux des six parties d'un
+      fusil.
+    right_answer_id: 
+    answers:
+    - id: 376
+      text: "Quelles sont les quatre parties du fusil que je n'ai pas encore mentionn\xE9es
+        ?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 192
+    question_id: 361
+    questions: Il y a des verrous, des viseurs, des cartouches et un chargeur.
+    right_answer_id: 
+    answers:
+    - id: 377
+      text: "La vue est-elle un dispositif \xE0 utiliser pour viser ?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 192
+    question_id: 362
+    questions: "Oui tu as raison. Les mires avant et mires arri\xE8re sont align\xE9es
+      pour viser correctement."
+    right_answer_id: 
+    answers:
+    - id: 378
+      text: "Qu'en est-il des magazines ? Quelle est la fonction de cette pi\xE8ce
+        ?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 192
+    question_id: 363
+    questions: "Oui vous avez raison. Les mires avant et mires arri\xE8re sont align\xE9es
+      pour viser correctement."
+    right_answer_id: 
+    answers:
+    - id: 379
+      text: "Qu'en est-il des magazines ? Quelle est la fonction de cette pi\xE8ce
+        ?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 192
+    question_id: 364
+    questions: "Un verrou est responsable de toute l'action de base d'une arme \xE0
+      feu. Un boulon a un percuteur qui tire la balle. Pendant ce temps, une cartouche
+      est une unit\xE9 de munition, compos\xE9e d'un \xE9tui de cartouche, d'une
+      amorce, d'une poudre et d'une balle."
+    right_answer_id: 
+    answers:
+    - id: 380
+      text: Je comprends maintenant. Merci pour l'explication. Cela m'aide beaucoup.
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 193
+    question_id: 365
+    questions: Bonjour. Bienvenue.
+    right_answer_id: 
+    answers:
+    - id: 381
+      text: Bonjour. Merci.
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 193
+    question_id: 366
+    questions: "Comment \xE9tait ta journ\xE9e?"
+    right_answer_id: 
+    answers:
+    - id: 382
+      text: "C'\xE9tait un peu fatigant mais excitant. J'ai beaucoup appris aujourd'hui."
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 193
+    question_id: 367
+    questions: "C'est bon. D'accord, alors aujourd'hui, je voudrais montrer un kit
+      de patrouille que vous devez conna\xEEtre. Tout d'abord, que savez-vous du
+      kit de patrouille ?"
+    right_answer_id: 
+    answers:
+    - id: 383
+      text: C'est un kit que nous devons apporter lorsque nous sommes en service.
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 193
+    question_id: 368
+    questions: "Exactement. Pourriez-vous mentionner tout uniforme et \xE9quipement
+      que vous devez porter et transporter ?"
+    right_answer_id: 
+    answers:
+    - id: 384
+      text: "Nous devons porter un gilet pare-balles et un casque en kevlar. Nous
+        devons \xE9galement emporter une trousse de premiers soins, une ba\xEFonnette,
+        un porte-pistolet et une bouteille d'eau. Quel type de casque en kevlar devons-nous
+        porter ?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 193
+    question_id: 369
+    questions: "Nous devons porter un casque de camouflage en kevlar. N'oubliez pas
+      de ne pas emporter trop d'\xE9quipement pour une courte patrouille."
+    right_answer_id: 
+    answers:
+    - id: 385
+      text: D'accord, j'ai compris. Avec quel kit emportez-vous toujours ?
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 193
+    question_id: 370
+    questions: Un morceau de kit que je prends toujours avec moi est mon briquet
+      Firesteel. C'est un excellent outil pour allumer des feux.
+    right_answer_id: 
+    answers:
+    - id: 386
+      text: "Oh je vois. C'est tr\xE8s utile car il doit \xEAtre difficile d'allumer
+        le feu dans certaines situations."
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 194
+    question_id: 371
+    questions: Bonjour. Bienvenue.
+    right_answer_id: 
+    answers:
+    - id: 387
+      text: Bonjour. Merci.
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 194
+    question_id: 372
+    questions: Connaissez-vous le maintien de la paix des Nations Unies ? Ou connaissez-vous
+      UNTAG?
+    right_answer_id: 
+    answers:
+    - id: 388
+      text: Oui. Je connais un peu l'UNTAG. Est-ce le Groupe d'assistance transitoire
+        des Nations Unies ?
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 194
+    question_id: 373
+    questions: Oui c'est vrai.
+    right_answer_id: 
+    answers:
+    - id: 389
+      text: "Pourquoi a-t-il \xE9t\xE9 cr\xE9\xE9 ?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 194
+    question_id: 374
+    questions: "Le GANUPT a \xE9t\xE9 cr\xE9\xE9 pour aider le Repr\xE9sentant sp\xE9cial
+      du Secr\xE9taire g\xE9n\xE9ral \xE0 assurer l'ind\xE9pendance rapide de la
+      Namibie gr\xE2ce \xE0 des \xE9lections libres et \xE9quitables sous la supervision
+      et le contr\xF4le des Nations Unies, et pour s'acquitter d'un certain nombre
+      d'autres t\xE2ches."
+    right_answer_id: 
+    answers:
+    - id: 390
+      text: "C'\xE9tait quand les \xE9lections l\xE0-bas ?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 194
+    question_id: 375
+    questions: "C'\xE9tait d'avril 1989 \xE0 mars 1990."
+    right_answer_id: 
+    answers:
+    - id: 391
+      text: "Quel \xE9tait le but ultime de l'UNTAG ?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 194
+    question_id: 376
+    questions: "Le but ultime de la mission \xE9tait d'organiser des \xE9lections
+      libres et \xE9quitables pour une Assembl\xE9e constituante qui r\xE9digerait
+      une constitution pour la nation."
+    right_answer_id: 
+    answers:
+    - id: 392
+      text: Oh, je comprends maintenant. Merci pour l'explication.
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 195
+    question_id: 377
+    questions: Salut. Tout va bien?
+    right_answer_id: 
+    answers:
+    - id: 393
+      text: Tout va bien! merci. Qu'en pensez-vous?
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 195
+    question_id: 378
+    questions: "Je vais bien, merci. Que savez-vous des op\xE9rations de maintien
+      de la paix des Nations Unies ?"
+    right_answer_id: 
+    answers:
+    - id: 394
+      text: J'en ai appris plus. J'en connais certaines missions telles que UNTAG
+        et UNDOF. Y a-t-il d'autres missions ?
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 195
+    question_id: 379
+    questions: "Bien s\xFBr, il y en a. \xCAtes-vous FORPRONU?"
+    right_answer_id: 
+    answers:
+    - id: 395
+      text: "Je n'ai aucune id\xE9e. Pourriez-vous s'il vous pla\xEEt l'expliquer?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 195
+    question_id: 380
+    questions: "La Force de protection des Nations Unies a \xE9t\xE9 la premi\xE8re
+      force de maintien de la paix des Nations Unies en Croatie et en Bosnie-Herz\xE9govine
+      pendant les guerres yougoslaves."
+    right_answer_id: 
+    answers:
+    - id: 396
+      text: "Quand la force a-t-elle \xE9t\xE9 form\xE9e ?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 195
+    question_id: 381
+    questions: "La force a \xE9t\xE9 form\xE9e en f\xE9vrier 1992. Connaissez-vous
+      les guerres yougoslaves ?"
+    right_answer_id: 
+    answers:
+    - id: 397
+      text: "Si je ne me trompe pas, les guerres yougoslaves \xE9taient une s\xE9rie
+        de conflits ethniques distincts mais li\xE9s, de guerres d'ind\xE9pendance
+        et d'insurrections men\xE9es dans l'ex-Yougoslavie de 1991 \xE0 2001."
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 195
+    question_id: 382
+    questions: "C'est vrai. Vous \xEAtes assez bien inform\xE9."
+    right_answer_id: 
+    answers:
+    - id: 398
+      text: "Pas vraiment. Je sais juste un peu. O\xF9 se trouvait la FORPRONU ?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 195
+    question_id: 383
+    questions: "Les sites se trouvaient en Bosnie-Herz\xE9govine, en Croatie, en
+      R\xE9publique f\xE9d\xE9rale de Yougoslavie et en R\xE9publique yougoslave
+      de Mac\xE9doine."
+    right_answer_id: 
+    answers:
+    - id: 399
+      text: Oh je comprends. Merci pour les nouvelles connaissances. J'en sais plus
+        sur les missions de maintien de la paix des Nations Unies maintenant.
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 196
+    question_id: 384
+    questions: Salut. Comment ca va?
+    right_answer_id: 
+    answers:
+    - id: 400
+      text: "Salut, je vais tr\xE8s bien. Merci. Qu'en pensez-vous?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 196
+    question_id: 385
+    questions: Je vais bien. Merci. Que savez-vous des missions de maintien de la
+      paix des Nations Unies ?
+    right_answer_id: 
+    answers:
+    - id: 401
+      text: "Je ne connais qu'une seule des missions de maintien de la paix des Nations
+        Unies. C'est l'UNTAG, le Groupe d'assistance \xE0 la transition des Nations
+        Unies."
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 196
+    question_id: 386
+    questions: Oui, vous avez raison.
+    right_answer_id: 
+    answers:
+    - id: 402
+      text: Pourriez-vous m'en dire plus sur l'une des missions de maintien de la
+        paix des Nations Unies en plus de l'UNTAG.
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 196
+    question_id: 387
+    questions: "La FNUOD est l'une des missions de maintien de la paix des Nations
+      Unies. La Force des Nations Unies charg\xE9e d'observer le d\xE9gagement (FNUOD)
+      est une mission de maintien de la paix des Nations Unies charg\xE9e de maintenir
+      le cessez-le-feu."
+    right_answer_id: 
+    answers:
+    - id: 403
+      text: "Quand la mission a-t-elle \xE9t\xE9 cr\xE9\xE9e ?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 196
+    question_id: 388
+    questions: "La mission a \xE9t\xE9 cr\xE9\xE9e par la r\xE9solution 350 du Conseil
+      de s\xE9curit\xE9 des Nations Unies le 31 mai 1974, pour mettre en \u0153uvre
+      la r\xE9solution 338 (1973)"
+    right_answer_id: 
+    answers:
+    - id: 404
+      text: Dans quel pays la FNUOD maintient-elle le cessez-le-feu ?
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 196
+    question_id: 389
+    questions: "Il a maintenu le cessez-le-feu entre Isra\xEBl et la Syrie au lendemain
+      de la guerre du Yom Kippour en 1973."
+    right_answer_id: 
+    answers:
+    - id: 405
+      text: "O\xF9 l'accord de d\xE9sengagement a-t-il \xE9t\xE9 sign\xE9 ?"
+    status: Active
+  - materi_id: 8
+    chapter_id: 
+    npc_id: 196
+    question_id: 390
+    questions: "Un accord sur le d\xE9sengagement a \xE9t\xE9 sign\xE9 par les forces
+      isra\xE9liennes et syriennes sur les hauteurs du Golan."
+    right_answer_id: 
+    answers:
+    - id: 406
+      text: D'accord, j'ai compris. Maintenant, j'ai de nouvelles connaissances sur
+        les missions de maintien de la paix des Nations Unies. Merci beaucoup.
     status: Active

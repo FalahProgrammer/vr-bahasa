@@ -92,12 +92,17 @@ public class ScenarioQuizController : MonoBehaviour
                     /*_repositoryQuizQuestion.Items[i].answers[1].text,*/
                     _repositoryQuizQuestion.Items[i].questions);
                 
-                for (int j = 0; j < _repositoryQuizQuestion.Items[i].answers.Count; j++)
+                
+                CorrectAnswer = _repositoryQuizQuestion.Items[i].answers[0].text;
+                Question = _repositoryQuizQuestion.Items[i].questions;
+                answerCheckerBehaviour.Input1 = CorrectAnswer;
+                
+                /*for (int j = 0; j < _repositoryQuizQuestion.Items[i].answers.Count; j++)
                 {
                     /*var iconassets = from asset in _repositoryQuizQuestion.Items[i].answers
                         where asset.id == _repositoryQuizQuestion.Items[i].right_answer_id
                         select asset;
-                    var iconlist = iconassets.ToList();*/
+                    var iconlist = iconassets.ToList();#1#
                     
                     if (_repositoryQuizQuestion.Items[i].right_answer_id == _repositoryQuizQuestion.Items[i].answers[j].id)
                     {
@@ -111,7 +116,7 @@ public class ScenarioQuizController : MonoBehaviour
                         
                         //answerCheckerBehaviour.GetDataQuiz(_repositoryQuizQuestion.Items[i].questions, CorrectAnswer, null);
                     }
-                }
+                }*/
             }
             
         }
