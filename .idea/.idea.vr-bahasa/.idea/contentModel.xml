@@ -21,6 +21,64 @@
           </e>
         </e>
         <e p="File Content" t="Include">
+          <e p="PREFABS" t="Include">
+            <e p="FRANCE" t="Include">
+              <e p="Airport - Restaurant" t="Include">
+                <e p="VOICEOVER" t="Include">
+                  <e p="6. FN-ARW01" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                  <e p="7. FN-ARW02" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                  <e p="8. FN-ARC01" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                  <e p="9. FN-ARW03" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Airport - Toilet" t="Include">
+                <e p="VOICEOVER" t="Include">
+                  <e p="FN-VO-AJ01" t="Include">
+                    <e p="txt.txt" t="Include" />
+                  </e>
+                  <e p="FN-VO-AV01" t="Include">
+                    <e p="FN-VO-AV01 TXT.txt" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Museum Classic Art - Lobby" t="Include">
+                <e p="VOICE OVER" t="Include">
+                  <e p="FN-VO-MCAS02" t="Include">
+                    <e p="FN-VO-MCAS02.txt" t="Include" />
+                  </e>
+                  <e p="FN-VO-MCAV01" t="Include">
+                    <e p="FN-VO-MCAV01 TXT.txt" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="GERMANY" t="Include">
+              <e p="Airport - Restaurant" t="Include">
+                <e p="VOICEOVER" t="Include">
+                  <e p="6. GR-ARW01" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                  <e p="7. GR-ARW02" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                  <e p="8. GR-ARC01" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                  <e p="9. GR-ARW03" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
           <e p="Shaders" t="Include">
             <e p="Standard 2-Sided.shader" t="Include" />
           </e>
@@ -159,6 +217,32 @@
             </e>
           </e>
         </e>
+        <e p="Samples" t="Include">
+          <e p="Vosk STT Unity" t="Include">
+            <e p="1.0.0" t="Include">
+              <e p="Offline Speech to Text Sample" t="Include">
+                <e p="3rdparty" t="Include">
+                  <e p="Plugin" t="Include">
+                    <e p="License.txt" t="Include" />
+                  </e>
+                  <e p="SimpleJson" t="Include">
+                    <e p="Bunny83.simpleJson.asmdef" t="Include" />
+                    <e p="License.txt" t="Include" />
+                    <e p="SimpleJSON.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Scripts" t="Include">
+                  <e p="babilinski.vosk.samples.asmdef" t="Include" />
+                  <e p="RecognitionResult.cs" t="Include" />
+                  <e p="VoiceProcessor.cs" t="Include" />
+                  <e p="VoskResultText.cs" t="Include" />
+                  <e p="VoskSpeechToText.cs" t="Include" />
+                  <e p="VoskStatusText.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Asset Bundle Loader" t="Include">
             <e p="LoadAssetBundleAsync.cs" t="Include" />
@@ -187,6 +271,7 @@
             <e p="DoMoveEditor.cs" t="Include" />
             <e p="DoScaleEditor.cs" t="Include" />
             <e p="FadingEditor.cs" t="Include" />
+            <e p="FixJawBoneKeyframes.cs" t="Include" />
             <e p="PrefabButtonEditor.cs" t="Include" />
             <e p="TimerEditor.cs" t="Include" />
           </e>
@@ -223,8 +308,15 @@
           <e p="Grasp Event Handler" t="Include">
             <e p="GraspEventHandler.cs" t="Include" />
           </e>
+          <e p="Hand Interaction" t="Include">
+            <e p="ColliderTrigger.cs" t="Include" />
+            <e p="HandTextureController.cs" t="Include" />
+          </e>
           <e p="IPointer Button Handler" t="Include">
             <e p="PointerHandlerBehaviour.cs" t="Include" />
+          </e>
+          <e p="Label Controller" t="Include">
+            <e p="LabelController.cs" t="Include" />
           </e>
           <e p="Laser Controller" t="Include">
             <e p="SteamVRLaserController.cs" t="Include" />
@@ -232,6 +324,10 @@
           <e p="Leap Motion Event" t="Include">
             <e p="LeapMotionEvent.cs" t="Include" />
             <e p="LeapMotionEventBehaviour.cs" t="Include" />
+          </e>
+          <e p="Lightmap" t="Include">
+            <e p="LightProbeRuntime.cs" t="Include" />
+            <e p="PrefabLightmapData.cs" t="Include" />
           </e>
           <e p="Log Controller" t="Include">
             <e p="CheckWrongWordsRND.cs" t="Include" />
@@ -245,7 +341,11 @@
             <e p="AlwaysLookAtCamera.cs" t="Include" />
             <e p="LookAtBehaviour.cs" t="Include" />
           </e>
+          <e p="Misc" t="Include">
+            <e p="DontDestroy.cs" t="Include" />
+          </e>
           <e p="Move Control" t="Include">
+            <e p="InstantPlayerMovement.cs" t="Include" />
             <e p="MoveControlBehaviour.cs" t="Include" />
             <e p="MovePlayer.cs" t="Include" />
           </e>
@@ -262,6 +362,9 @@
             <e p="NpcInteractionManager.cs" t="Include" />
             <e p="NpcSpeechSalsa.cs" t="Include" />
           </e>
+          <e p="Object Name" t="Include">
+            <e p="LabelNameBehaviour.cs" t="Include" />
+          </e>
           <e p="Outline Object" t="Include">
             <e p="iOutline.cs" t="Include" />
             <e p="OutlineSetting.cs" t="Include" />
@@ -277,6 +380,7 @@
           <e p="Prefab Object" t="Include">
             <e p="AreaPrefab.cs" t="Include" />
             <e p="CharacterAdjustment.cs" t="Include" />
+            <e p="Interactor.cs" t="Include" />
           </e>
           <e p="Raycast" t="Include">
             <e p="ExampleClass.cs" t="Include" />
@@ -309,6 +413,7 @@
               <e p="SequentialAnimation.cs" t="Include" />
             </e>
             <e p="LoadPrefabContentBehaviour.cs" t="Include" />
+            <e p="PinchScenarioChecker.cs" t="Include" />
             <e p="SpeechStep.cs" t="Include" />
           </e>
           <e p="Scene Management" t="Include">
@@ -338,6 +443,7 @@
               <e p="LogRepository.cs" t="Include" />
               <e p="RepositoryContentArea.cs" t="Include" />
               <e p="RepositoryExamQuestion.cs" t="Include" />
+              <e p="RepositoryLanguageHomePrefabs.cs" t="Include" />
               <e p="RepositoryLanguageURL.cs" t="Include" />
               <e p="RepositoryLocation.cs" t="Include" />
               <e p="RepositoryLogAnswer.cs" t="Include" />
@@ -348,8 +454,10 @@
               <e p="RepositoryQuizQuestion.cs" t="Include" />
             </e>
             <e p="Scene Management" t="Include">
+              <e p="ClearRepoOnAppQuit.cs" t="Include" />
               <e p="DataSceneManagement.cs" t="Include" />
               <e p="ListInteractor.cs" t="Include" />
+              <e p="ScenarioManager.cs" t="Include" />
             </e>
             <e p="Variable" t="Include">
               <e p="Int" t="Include">
@@ -359,6 +467,11 @@
                 <e p="DataVariable.cs" t="Include" />
               </e>
             </e>
+          </e>
+          <e p="Speech Controller" t="Include">
+            <e p="SpeechController.cs" t="Include" />
+            <e p="SpeechResultToText.cs" t="Include" />
+            <e p="TestSpeechController.cs" t="Include" />
           </e>
           <e p="SpeechToText" t="Include">
             <e p="SpeechMicController.cs" t="Include" />
@@ -386,13 +499,16 @@
             <e p="TimerBehaviour.cs" t="Include" />
           </e>
           <e p="Typer Text" t="Include">
+            <e p="NewTyperText.cs" t="Include" />
             <e p="TextSubmitBehaviour.cs" t="Include" />
             <e p="TyperTextBehaviour.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
+            <e p="ActiveScenarioCheck.cs" t="Include" />
             <e p="Button Controlller" t="Include">
               <e p="ButtonController.cs" t="Include" />
             </e>
+            <e p="ConversationPanelController.cs" t="Include" />
             <e p="Group Menu Data Controller" t="Include">
               <e p="ContentAreaController.cs" t="Include" />
               <e p="DataContentArea.cs" t="Include" />
@@ -414,6 +530,7 @@
               <e p="ScriptController.cs" t="Include" />
               <e p="ToggleButton.cs" t="Include" />
             </e>
+            <e p="OnSceneChangeBlackPanel.cs" t="Include" />
             <e p="PlaceHolder" t="Include">
               <e p="PlaceHolderController.cs" t="Include" />
             </e>
@@ -784,6 +901,12 @@
           <e p="SteamVR_Input_Initialization.cs" t="Include" />
         </e>
         <e p="StreamingAssets" t="Include">
+          <e p="english_large_backup" t="Include">
+            <e p="graph" t="Include">
+              <e p="phones.txt" t="Include" />
+              <e p="words.txt" t="Include" />
+            </e>
+          </e>
           <e p="SpeechRecognitionSystem" t="Include">
             <e p="model" t="Include">
               <e p="arabic" t="Include">
@@ -1686,13 +1809,29 @@
           </e>
         </e>
       </e>
+      <e p="babilinski.vosk.samples.csproj" t="IncludeRecursive" />
+      <e p="babilinski.vosk.unity.csproj" t="IncludeRecursive" />
+      <e p="Bunny83.simpleJson.csproj" t="IncludeRecursive" />
       <e p="CodeStage.AFPSCounter.Editor.csproj" t="IncludeRecursive" />
       <e p="CodeStage.AFPSCounter.Examples.csproj" t="IncludeRecursive" />
       <e p="CodeStage.AFPSCounter.Runtime.csproj" t="IncludeRecursive" />
       <e p="LeapMotion.LeapCSharp.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="OEBIF.csproj" t="IncludeRecursive" />
-      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive">
+        <e p="Vosk" t="Include">
+          <e p="Runtime" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="babilinski.vosk.unity.asmdef" t="Include" />
+              <e p="Model.cs" t="Include" />
+              <e p="SpkModel.cs" t="Include" />
+              <e p="Vosk.cs" t="Include" />
+              <e p="VoskPINVOKE.cs" t="Include" />
+              <e p="VoskRecognizer.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="SteamVR.csproj" t="IncludeRecursive" />
       <e p="SteamVR_Actions.csproj" t="IncludeRecursive" />
       <e p="SteamVR_Editor.csproj" t="IncludeRecursive" />
