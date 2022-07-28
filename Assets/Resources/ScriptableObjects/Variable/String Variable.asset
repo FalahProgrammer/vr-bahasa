@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd31144aa0adadb4795703a9d5747765, type: 3}
   m_Name: String Variable
   m_EditorClassIdentifier: 
-  materi_id: 8
+  materi_id: 4
   menu_id: 1
-  chapter_id: 8
-  qustion_id: 4
-  area_id: 12
+  chapter_id: 7
+  qustion_id: 64
+  area_id: 30

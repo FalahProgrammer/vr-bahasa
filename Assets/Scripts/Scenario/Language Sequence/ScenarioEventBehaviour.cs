@@ -112,7 +112,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_requiredTextFadingBehaviour.BeginFadingIn);
 
                 // new vosk test
-                SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_voskSpeechToText.StartRecording);
+                // SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_voskSpeechToText.StartRecording);
 
                 counter += 1;
                 
@@ -197,7 +197,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_requiredTextFadingBehaviour.BeginFadingIn);
                 
                 // new vosk test
-                SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_voskSpeechToText.StartRecording);
+                // SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_voskSpeechToText.StartRecording);
                 
             }
             
