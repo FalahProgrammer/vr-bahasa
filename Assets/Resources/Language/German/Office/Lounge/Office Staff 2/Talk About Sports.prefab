@@ -146,7 +146,7 @@ MonoBehaviour:
     - {fileID: 0}
     AnimationState:
     - S+1
-    AudioClip: {fileID: 8300000, guid: 82bbbc264d3855c4f8c09c3e96489127, type: 3}
+    AudioClip: {fileID: 8300000, guid: 6d20f10e40eb77e45a867f35c820605b, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
     WaitForInteraction: 1
@@ -188,7 +188,7 @@ MonoBehaviour:
     Animators: []
     AnimationState:
     - S+2
-    AudioClip: {fileID: 8300000, guid: 6d20f10e40eb77e45a867f35c820605b, type: 3}
+    AudioClip: {fileID: 8300000, guid: e5fbd27d4c06add478cfc4458f807dfc, type: 3}
     AudioDelay: 0
     AnimationDelay: 2
     WaitForInteraction: 1
@@ -254,7 +254,7 @@ MonoBehaviour:
     Animators: []
     AnimationState:
     - S+3
-    AudioClip: {fileID: 8300000, guid: e5fbd27d4c06add478cfc4458f807dfc, type: 3}
+    AudioClip: {fileID: 8300000, guid: d578c917fa7c26b4fbac84c9146b553b, type: 3}
     AudioDelay: 0
     AnimationDelay: 2
     WaitForInteraction: 1
@@ -344,7 +344,7 @@ MonoBehaviour:
     Animators: []
     AnimationState:
     - S+4
-    AudioClip: {fileID: 8300000, guid: d578c917fa7c26b4fbac84c9146b553b, type: 3}
+    AudioClip: {fileID: 8300000, guid: b33af058b5c941b4cb150488b3003ecb, type: 3}
     AudioDelay: 0
     AnimationDelay: 2
     WaitForInteraction: 1
@@ -434,7 +434,7 @@ MonoBehaviour:
     Animators: []
     AnimationState:
     - S+5
-    AudioClip: {fileID: 8300000, guid: b33af058b5c941b4cb150488b3003ecb, type: 3}
+    AudioClip: {fileID: 8300000, guid: 376427774a4361c42916a9a585ad74a3, type: 3}
     AudioDelay: 0
     AnimationDelay: 2
     WaitForInteraction: 1
@@ -524,7 +524,7 @@ MonoBehaviour:
     Animators: []
     AnimationState:
     - S+6
-    AudioClip: {fileID: 8300000, guid: 376427774a4361c42916a9a585ad74a3, type: 3}
+    AudioClip: {fileID: 8300000, guid: e863de7b5880f3c4899aecffadca8911, type: 3}
     AudioDelay: 0
     AnimationDelay: 2
     WaitForInteraction: 1
@@ -614,7 +614,7 @@ MonoBehaviour:
     Animators: []
     AnimationState:
     - 
-    AudioClip: {fileID: 8300000, guid: e863de7b5880f3c4899aecffadca8911, type: 3}
+    AudioClip: {fileID: 8300000, guid: 61f9d505389d3034fb44c83d9db5a2d2, type: 3}
     AudioDelay: 0
     AnimationDelay: 2
     WaitForInteraction: 0
@@ -658,84 +658,6 @@ MonoBehaviour:
     AnimationDelay: 0
     WaitForInteraction: 0
     Length: 0
-    OnPartialAnimationPlayed:
-      m_PersistentCalls:
-        m_Calls: []
-    OnPartialAnimationFinished:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: ClickMyTargetMenu
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: BeginFadingOut
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-  - QuestionID: 0
-    Animators: []
-    AnimationState:
-    - 
-    AudioClip: {fileID: 8300000, guid: 61f9d505389d3034fb44c83d9db5a2d2, type: 3}
-    AudioDelay: 0
-    AnimationDelay: 0
-    WaitForInteraction: 1
-    Length: 6
-    OnPartialAnimationPlayed:
-      m_PersistentCalls:
-        m_Calls: []
-    OnPartialAnimationFinished:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: ClickMyTargetMenu
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: BeginFadingOut
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-  - QuestionID: 0
-    Animators: []
-    AnimationState:
-    - IDLE
-    AudioClip: {fileID: 0}
-    AudioDelay: 0
-    AnimationDelay: 0
-    WaitForInteraction: 0
-    Length: 6
     OnPartialAnimationPlayed:
       m_PersistentCalls:
         m_Calls: []
