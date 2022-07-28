@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78fa66f6010fa3d48b3ca336798263c2, type: 3}
   m_Name: Integer Variable
   m_EditorClassIdentifier: 
-  IntegerValue: 1
+  IntegerValue: 3
