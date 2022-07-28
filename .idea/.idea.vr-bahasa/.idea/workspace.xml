@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99c69635-610c-4701-9b96-cb889ac100b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Restaurant/Lightmap_Restaurant.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Restaurant/Lightmap_Restaurant.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Restaurant/Restaurant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Restaurant/Restaurant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Toilet/Mirror.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Toilet/Mirror.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Toilet/Toilet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Toilet/Toilet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Airport Restaurant Waitress 1/Recommendation Food, and Order Food 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Airport Restaurant Waitress 1/Recommendation Food, and Order Food 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Restaurant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Restaurant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Variable/Integer Variable.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Variable/Integer Variable.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Variable/String Variable.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Variable/String Variable.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/ReflectionProbe-0.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
