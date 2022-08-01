@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99c69635-610c-4701-9b96-cb889ac100b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Toilet/Mirror.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Toilet/Mirror.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Toilet/Toilet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Toilet/Toilet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Scene Management/Scenario Manager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Scene Management/Scenario Manager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Variable/String Variable.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Variable/String Variable.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/PinchScenarioChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/PinchScenarioChecker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +32,7 @@
     <setting file="file://$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Utils/EnumEventTable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/ScenarioQuizController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Toilet/Mirror.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/PrefabAnswerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking OpenXR/Runtime/Scripts/HandTracker.cs" root0="FORCE_HIGHLIGHTING" />
@@ -123,6 +129,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/LoginVerificationBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAt/LookAtBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boolean/Booleanbehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/PinchScenarioChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Asset Bundle Loader/LoadAsyncLanguageAssetBundle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/XRManagerSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pinch Object/RegisterHand.cs" root0="FORCE_HIGHLIGHTING" />
@@ -134,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/ScenarioAnimatorController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ButtonControllerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" />
@@ -185,6 +191,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Speech Controller/SpeechResultToText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Asset Bundle Loader/LoadAsyncLanguageAssetBundle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/PinchScenarioChecker.cs" />
       </list>
     </option>
   </component>
@@ -251,6 +258,7 @@
       <workItem from="1658892320832" duration="255000" />
       <workItem from="1658892980321" duration="6155000" />
       <workItem from="1658990698555" duration="271000" />
+      <workItem from="1659062469349" duration="1258000" />
     </task>
     <task id="LOCAL-00001" summary="perubahan pada konsep pembacaan animator, tatapi masih butuh review faizrizky 20/06/2022 17:23">
       <created>1655721023629</created>

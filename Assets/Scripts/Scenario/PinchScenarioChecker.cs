@@ -8,6 +8,7 @@ public class PinchScenarioChecker : MonoBehaviour
     [SerializeField] private ScenarioManager _scenarioManager;
 
     public UnityEvent OnActiveScenario;
+    
     public UnityEvent OnInactiveScenario;
 
     public void CheckForActiveScenario()
