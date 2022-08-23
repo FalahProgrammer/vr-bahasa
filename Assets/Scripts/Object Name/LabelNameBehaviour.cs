@@ -7,11 +7,14 @@ using UnityEngine.UI;
 public class LabelNameBehaviour : MonoBehaviour
 {
     [SerializeField] private GraspBehaviour graspBehaviour;
-
+    
+    [SerializeField] private RectTransform _label;
     [SerializeField] private RectTransform _panel;
     [SerializeField] private Vector2 _padding = new Vector2(20,20);
+    [SerializeField] private float sizePerLetter = 2;
     
     [SerializeField] private Text _myTextName;
+    [SerializeField] private InitialPosRotBehaviour _initialPosRotBehaviour;
 
     public void SetName()
     {
@@ -33,7 +36,11 @@ public class LabelNameBehaviour : MonoBehaviour
 
             if (_panel != null)
             {
-                _panel.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, _myTextName.preferredHeight + _padding.x);
+                float x1 = _myTextName.text.Length * sizePerLetter + _padding.x;
+                _panel.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, x1);
+                _label.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, x1);
+                _initialPosRotBehaviour.GetLocalPos.x = -x1;
+                
                 _panel.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, _myTextName.preferredHeight + _padding.y);
 
                 _panel.anchoredPosition = new Vector2(- _panel.sizeDelta.x, _panel.anchoredPosition.y);

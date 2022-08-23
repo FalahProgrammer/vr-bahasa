@@ -6,7 +6,9 @@ using UnityEngine.Events;
 
 [Serializable]
 public class AnimInteraction
-{
+{ 
+    public string name;
+    
     [SerializeField] public int QuestionID;
     
     [SerializeField] public List<Animator> Animators = new List<Animator>();
@@ -15,16 +17,17 @@ public class AnimInteraction
     
     [SerializeField] public AudioClip AudioClip;
     
-    public float AudioDelay;
+    [HideInInspector] public float AudioDelay;
     
     public float AnimationDelay;
     
-    [SerializeField] public bool WaitForInteraction;
+    // [SerializeField] public bool WaitForInteraction;
+    // no longer used as the script now check if there is an audio clip in the file or not to set for wait for interaction
     
-    [SerializeField] public float Length;
+    [HideInInspector] public float Length;
     
-    [SerializeField] public UnityEvent OnPartialAnimationPlayed;
+    [HideInInspector] public UnityEvent OnPartialAnimationPlayed;
     
-    [SerializeField] public UnityEvent OnPartialAnimationFinished;
+    [HideInInspector] public UnityEvent OnPartialAnimationFinished;
 }
 

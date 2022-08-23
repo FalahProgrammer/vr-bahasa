@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LanguageURLList:
   - model_bahasa
-  - english_large
+  - english_small
   - arabic
   - german_large
   - mandarin

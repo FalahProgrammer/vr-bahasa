@@ -14,28 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Items:
   - id: 1
-    title: Indonesia
+    title: Indonesian
     type: Bahasa
   - id: 2
     title: English
     type: Bahasa
   - id: 3
-    title: Arab
+    title: Arabic
     type: Bahasa
   - id: 4
-    title: Germany
+    title: German
     type: Bahasa
   - id: 5
-    title: Russia
+    title: Russian
     type: Bahasa
   - id: 6
     title: Mandarin
     type: Bahasa
   - id: 7
-    title: Japan
+    title: Japanese
     type: Bahasa
   - id: 8
-    title: France
+    title: French
     type: Bahasa
   - id: 9
     title: Korean

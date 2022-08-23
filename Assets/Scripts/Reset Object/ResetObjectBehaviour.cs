@@ -54,11 +54,12 @@ public class ResetObjectBehaviour : MonoBehaviour, iResetable
         }
     }
 
-
     public void DoLocalMove()
     {
-        _scriptableListTransform.MyTransforms[i].DOLocalMove(_myTarget, _speed).SetEase(_currentEase)
-            .OnComplete(OnResetComplete);
+        _scriptableListTransform.MyTransforms[i].DOMove(_myTarget, _speed).SetEase(_currentEase).OnComplete(OnResetComplete);
+        
+        // dimaz's revision, if do local move, object will not reset correctly
+        // _scriptableListTransform.MyTransforms[i].DOLocalMove(_myTarget, _speed).SetEase(_currentEase).OnComplete(OnResetComplete);
     }
 
     public void DoLocalRotateQuaternion()

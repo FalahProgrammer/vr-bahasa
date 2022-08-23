@@ -9,11 +9,11 @@ using UnityEngine.Networking;
 
 public class NetworkApiManager : MonoBehaviour
 {
-    /*public RepositoryUser repositoryUser;
+    /*/*public RepositoryUser repositoryUser;
     public RepositoryChapter repositoryChapter;
     public RepositoryContent repositoryContent;
     public RepositoryQuizLevel repositoryQuizLevel;
-    public RepositoryQuizQuestion repositoryQuizQestion;*/
+    public RepositoryQuizQuestion repositoryQuizQestion;#1#
     
 
     
@@ -78,7 +78,12 @@ public class NetworkApiManager : MonoBehaviour
     {
         StartCoroutine(GetRepositoryData(url, _repositoryContentArea.SetItems));
     }
-    
+
+    void Callback()
+    {
+        
+    }
+
     public void GetRepositoryDataContent(string url)
     {
         //StartCoroutine(GetRepositoryData(url, _repositoryContent.SetItems));
@@ -107,10 +112,10 @@ public class NetworkApiManager : MonoBehaviour
     public void GetRepositoryDataQuizQuestion(string url)
     {
         StartCoroutine(GetRepositoryData(url, repositoryQuizQestion.SetItems));
-    }*/
+    }#1#
     
     
-    IEnumerator GetRepositoryData(string url, Action<string> SetListData)
+    IEnumerator GetRepositoryData(string url, Action<string> SetListData, Action callback)
     {
         UnityWebRequest www = UnityWebRequest.Get(url);
         yield return www.SendWebRequest();
@@ -120,7 +125,7 @@ public class NetworkApiManager : MonoBehaviour
             Debug.LogWarning("=Error GetRepositoryData www.isNetworkError = " + www.isNetworkError);
             Debug.LogWarning("=Error GetRepositoryData www.isHttpError = " + www.isHttpError);
             
-            StartCoroutine(GetRepositoryData(url, SetListData));
+            StartCoroutine(GetRepositoryData(url, SetListData, callback));
         }
         else {
             Debug.LogWarning("GetRepositoryData www.downloadHandler.text = " + www.downloadHandler.text);
@@ -145,7 +150,7 @@ public class NetworkApiManager : MonoBehaviour
             ObservableWWW.Get("http://" + serverAdress + "/penembak/public/bagian"),
             ObservableWWW.Get("http://" + serverAdress + "/penembak/public/modul"),
             ObservableWWW.Get("http://" + serverAdress + "/penembak/public/quizlevel"),
-            ObservableWWW.Get("http://" + serverAdress + "/penembak/public/quiz"));#1#
+            ObservableWWW.Get("http://" + serverAdress + "/penembak/public/quiz"));#2#
         
         parallel.Subscribe(rawJsonData =>
         {
@@ -159,17 +164,18 @@ public class NetworkApiManager : MonoBehaviour
             /*repositoryChapter.SetItems(rawJsonData[1]);
             repositoryContent.SetItems(rawJsonData[2]);
             repositoryQuizLevel.SetItems(rawJsonData[3]);
-            repositoryQuizQestion.SetItems(rawJsonData[4]);#1#
+            repositoryQuizQestion.SetItems(rawJsonData[4]);#2#
 
             
         }, (e) => Debug.LogWarning("Error e = " + e), Response);
         
         
         
-        Debug.Log("GetAllRepositoryData Done");*/
+        Debug.Log("GetAllRepositoryData Done");#1#
     }
     
     
     
-        
+        */
+
 }

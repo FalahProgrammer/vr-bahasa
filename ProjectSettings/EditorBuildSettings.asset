@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Production Scene/Home.unity
     guid: 1b25546e05a5a084cb44d8efd7cb2090
+  - enabled: 1
+    path: Assets/Scenes/Production Scene/English.unity
+    guid: 5cd03be23f8595f479f85b389beba67c
   - enabled: 0
     path: Assets/Scenes/RND Scene/Sequence Menu Test.unity
     guid: 67c813a178b0e4d44b40b1fcffa11504
@@ -20,9 +23,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Production Scene/English Original.unity
     guid: 6efdaa2d380c54f49be698e019da8736
-  - enabled: 1
-    path: Assets/Scenes/Production Scene/English.unity
+  - enabled: 0
+    path: Assets/Scenes/Production Scene/English (Experimental Hand UI).unity
     guid: 2c8a5da8a0ade004faa64358fec937cf
+  - enabled: 0
+    path: Assets/Scenes/Vosk ASR Sample.unity
+    guid: ebf5fd7f293b987429813e464d231f1f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 14dffa8fe66c95b4cb288da4b6766ba0, type: 2}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 275e3b94b7090ef45a8d2cb53b6fdbdf, type: 2}

@@ -46,7 +46,7 @@ public class DoMoveObject
     public void BeginDoSelectLocalMove()
     {
         _doMoveBehaviour.StopAllCoroutines();
-        
+
         DoSelectLocalMove(_targetValue);
     }
 

@@ -83,10 +83,12 @@ public class PinchObjectBehaviour : MonoBehaviour
     {
         _graspBehaviour._myTarget.GetComponent<Collider>().enabled = false;
 
-        _graspBehaviour._myTarget.DOLocalMove(new Vector3(
-                _pinchPivot.position.x, 
-                _pinchPivot.position.y,
-                _pinchPivot.position.z),
+        var position = _pinchPivot.position;
+        
+        _graspBehaviour._myTarget.DOMove(new Vector3(
+                position.x, 
+                position.y,
+                position.z),
             _speed).SetEase(_currentEase).OnComplete(() => OnCompletePinch());
     }
 

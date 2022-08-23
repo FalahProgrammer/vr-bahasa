@@ -8,18 +8,18 @@ public class DataQuizQuestionScenario
 {
     public string materi_id;
     
-    public string chapter_id;
+    //public string chapter_id;
 
-    public int npc_id;
+    //public int npc_id;
     
     public string question_id;
     
     public string questions;
     
-    public string right_answer_id;
+    //public string right_answer_id;
     
-    public List<DataAnswerScenario> answers;
+    public string answer;
     
-    public string status;
+    //public string status;
     
 }

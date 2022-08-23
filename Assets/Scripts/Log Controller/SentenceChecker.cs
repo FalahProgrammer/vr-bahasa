@@ -13,6 +13,8 @@ public class SentenceChecker : MonoBehaviour
     public string Input2;
     public TextMeshProUGUI Result;
     */
+
+    [SerializeField] private bool debugMode;
     
     [SerializeField] private List<string> RightAnswerList = new List<string>();
 
@@ -40,10 +42,10 @@ public class SentenceChecker : MonoBehaviour
         var prevanswer = supposedAnswer;
         var supposedAnsWords = supposedAnswer.Split(' ');
         var userAnsWords = userAnswer.Split(' ');
-        Debug.Log(supposedAnsWords.Length);
+        if (debugMode) Debug.Log(supposedAnsWords.Length);
         if (supposedAnsWords.Length == 1)
         {
-            Debug.Log("We need to use character-spaced method");
+            if (debugMode) Debug.Log("We need to use character-spaced method");
             var shorterSentence = supposedAnswer.Length < userAnswer.Length ? supposedAnswer : userAnswer;
             bool isEqualLength = supposedAnswer.Length == userAnswer.Length;
 
@@ -96,7 +98,7 @@ public class SentenceChecker : MonoBehaviour
             addedIndex += 8;
         }
 
-        Debug.Log(richtext);
+        if (debugMode) Debug.Log(richtext);
         ResultText = richtext;
         return richtext;
     }
@@ -158,7 +160,7 @@ public class SentenceChecker : MonoBehaviour
         {
             if (RightAnswerList.Count < UserAnswerList.Count)
             {
-                Debug.Log("Kurang");
+                if (debugMode) Debug.Log("Kurang");
 
                 for (int i = 0; i < RightAnswerList.Count; i++)
                 {
@@ -184,7 +186,7 @@ public class SentenceChecker : MonoBehaviour
             }
             else
             {
-                Debug.Log("Lebih");
+                if (debugMode) Debug.Log("Lebih");
 
                 //sisa string dari list di tambah terus di merahin
 
@@ -217,7 +219,7 @@ public class SentenceChecker : MonoBehaviour
 
             string joinedWrong = CombinedList.Aggregate((i, j) => i + j);
 
-            Debug.Log(joinedWrong);
+            if (debugMode) Debug.Log(joinedWrong);
 
             ResultText = joinedWrong;
 
@@ -239,7 +241,7 @@ public class SentenceChecker : MonoBehaviour
     {
         if (RightAnswerList.Count < UserAnswerList.Count)
         {
-            Debug.Log("Kurang");
+            if (debugMode) Debug.Log("Kurang");
 
             for (int i = 0; i < RightAnswerList.Count; i++)
             {
@@ -265,7 +267,7 @@ public class SentenceChecker : MonoBehaviour
         }
         else
         {
-            Debug.Log("Lebih");
+            if (debugMode) Debug.Log("Lebih");
 
 
             //sisa string dari list di tambah terus di merahin
@@ -344,7 +346,7 @@ public class SentenceChecker : MonoBehaviour
 
         string joinedWrong = CombinedList.Aggregate((i, j) => i + j);
 
-        Debug.Log(joinedWrong);
+        if (debugMode) Debug.Log(joinedWrong);
 
         ResultText = joinedWrong;
 
@@ -360,7 +362,7 @@ public class SentenceChecker : MonoBehaviour
     {
         if (RightAnswerList.Count < UserAnswerList.Count)
         {
-            Debug.Log("Kurang");
+            if (debugMode) Debug.Log("Kurang");
 
             for (int i = 0; i < RightAnswerList.Count; i++)
             {
@@ -386,11 +388,11 @@ public class SentenceChecker : MonoBehaviour
         }
         else
         {
-            Debug.Log("Lebih");
+            if (debugMode) Debug.Log("Lebih");
 
             //sisa string dari list di tambah terus di merahin
-            Debug.Log(UserAnswerList.Count);
-            Debug.Log(RightAnswerList.Count);
+            if (debugMode) Debug.Log(UserAnswerList.Count);
+            if (debugMode) Debug.Log(RightAnswerList.Count);
 
             for (int i = 0; i < RightAnswerList.Count - UserAnswerList.Count; i++)
             {
@@ -439,7 +441,7 @@ public class SentenceChecker : MonoBehaviour
 
         string joinedWrong = CombinedList.Aggregate((i, j) => i + j);
 
-        Debug.Log(joinedWrong);
+        if (debugMode) Debug.Log(joinedWrong);
 
         ResultText = joinedWrong;
 
@@ -464,7 +466,7 @@ public class SentenceChecker : MonoBehaviour
         {
             if (rightAnswerInfo[i] != userAnswerInfo[i])
             {
-                Debug.Log(rightAnswerInfo[i]);
+                if (debugMode) Debug.Log(rightAnswerInfo[i]);
             }
         }
 

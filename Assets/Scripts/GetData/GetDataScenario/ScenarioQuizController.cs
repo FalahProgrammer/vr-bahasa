@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class ScenarioQuizController : MonoBehaviour
@@ -16,6 +17,7 @@ public class ScenarioQuizController : MonoBehaviour
     [SerializeField] private RepositoryQuizQuestion _repositoryQuizQuestion;
 
     [SerializeField] private AnswerCheckerBehaviour answerCheckerBehaviour;
+    [SerializeField] private SpeechCheckerBehaviour speechCheckerBehaviour ;
     //[SerializeField] private ScriptableGameObjectDataController _scriptableGameObjectDataController;
 
     [SerializeField] private Transform _groupButtonChapter;
@@ -88,15 +90,17 @@ public class ScenarioQuizController : MonoBehaviour
                     sMateri_id: _repositoryQuizQuestion.Items[i].materi_id,
                     /*sChapter_id: _repositoryQuizQuestion.Items[i].chapter_id,*/
                     _repositoryQuizQuestion.Items[i].question_id,
-                    _repositoryQuizQuestion.Items[i].answers[0].text,
+                    _repositoryQuizQuestion.Items[i].answer,
+                    //_repositoryQuizQuestion.Items[i].answers[0].text,
                     /*_repositoryQuizQuestion.Items[i].answers[1].text,*/
                     _repositoryQuizQuestion.Items[i].questions);
-                
-                
-                CorrectAnswer = _repositoryQuizQuestion.Items[i].answers[0].text;
+
+
+                CorrectAnswer = _repositoryQuizQuestion.Items[i].answer; //_repositoryQuizQuestion.Items[i].answers[0].text;
                 Question = _repositoryQuizQuestion.Items[i].questions;
                 answerCheckerBehaviour.Input1 = CorrectAnswer;
-                
+                speechCheckerBehaviour.RequiredAnswer = CorrectAnswer;
+
                 /*for (int j = 0; j < _repositoryQuizQuestion.Items[i].answers.Count; j++)
                 {
                     /*var iconassets = from asset in _repositoryQuizQuestion.Items[i].answers

@@ -10,10 +10,9 @@ public class SendGETMethod : MonoBehaviour
 {
     [SerializeField] private bool debugMod;
     [Space(10)] 
-    [SerializeField] private bool _isStart;
     
-    // hardcoded ?
-    private string URL = "http://localhost/vr-bahasa/public/api/v1/tokens";
+    // default url
+    [SerializeField] private string URL = "http://localhost/vr-bahasa/public/api/v1/tokens";
     
     [Space(10)] 
     public List<RequestHeader> Header = new List<RequestHeader>();
@@ -32,7 +31,6 @@ public class SendGETMethod : MonoBehaviour
     
     [Space(10)]
     [SerializeField] private UnityEvent _onAllDataReceived;
-    
     [SerializeField] private UnityEvent _onContentsDataReceived;
 
     private int _dataRequired;
@@ -41,10 +39,6 @@ public class SendGETMethod : MonoBehaviour
     private void Start()
     {
         URL = "http://"+_repositoryLoginData.API_URL;
-        if (_isStart)
-        {
-            //Invoke("asd",0.1f);
-        }
     }
 
     private void OnValidate()
@@ -59,48 +53,75 @@ public class SendGETMethod : MonoBehaviour
 
     public void GetDataFromServer()
     {
+        GetToken();
+        
         _dataReceived = 0;
-        _dataRequired = 6;
+        _dataRequired = 2;
+        
+        // get data
+        
+        GetRepositoryMateri(URL+"/vr-bahasa/public/api/v1/materis");
+        GetRepositoryLocation(URL+"/vr-bahasa/public/api/v1/chapters");
+        //GetRepositoryPassingGrade(URL+"/vr-bahasa/public/api/v1/passgrade");     -> obsolete
+        //GetRepositoryDataQuiz(URL+"/vr-bahasa/public/api/v1/exam-questions");    -> move to get per NPC
+    }
+
+    // user can validate content area data from home -> settings
+    public void ValidateData()
+    {
+        GetToken();
+        
+        _dataReceived = 0;
+        _dataRequired = 1;
+        GetRepositoryContentArea(URL+"/vr-bahasa/public/api/v1/contents");
+    }
+
+    public void GetQuizData(string area_ID, string location_ID, string language_ID)
+    {
+        // format: http://localhost/vr_bahasa_v2/public/api/v2/area/15/location/1/language/5
         
         GetToken();
         
-        // get data
-        GetRepositoryMateri(URL+"/vr-bahasa/public/api/v1/materis");
-        GetRepositoryLocation(URL+"/vr-bahasa/public/api/v1/chapters");
-        GetRepositoryContentArea(URL+"/vr-bahasa/public/api/v1/contents");
+        _dataReceived = 0;
+        _dataRequired = 1;
         GetRepositoryDataQuiz(URL+"/vr-bahasa/public/api/v1/exam-questions");
-        GetRepositoryPassingGrade(URL+"/vr-bahasa/public/api/v1/passgrade");
     }
-    
+
     public void GetRepositoryMateri(string url)
     {
         //GetToken();
-        SendGET(url,x=>_repositoryMateri.SetItems(x),Header.ToDictionary(x=>x.key));
+        SendGET(url,x=>_repositoryMateri.SetItems(x, DataReceived),Header.ToDictionary(x=>x.key));
     }
     
     public void GetRepositoryDataQuiz(string url)
     {
         //GetToken();
-        SendGET(url,x=>_repositoryQuizQuestion.SetItems(x),Header.ToDictionary(x=>x.key));
+        SendGET(url,x=>_repositoryQuizQuestion.SetItems(x, DataReceived),Header.ToDictionary(x=>x.key));
     }
     
     public void GetRepositoryLocation(string url)
     {
         //GetToken();
-        SendGET(url,x=>_repositoryLocation.SetItems(x),Header.ToDictionary(x=>x.key));
+        SendGET(url,x=>_repositoryLocation.SetItems(x, DataReceived),Header.ToDictionary(x=>x.key));
     }
     
     public void GetRepositoryContentArea(string url)
     {
         //GetToken();
-        SendGET(url,x=>_repositoryContentArea.SetItems(x),Header.ToDictionary(x=>x.key));
+        SendGET(url,x=>_repositoryContentArea.SetItems(x, DataReceived),Header.ToDictionary(x=>x.key));
     }
     
     public void GetRepositoryPassingGrade(string url)
     {
         //GetToken();
-        SendGET(url,x=>_repositoryPassingGrade.SetItems(x),Header.ToDictionary(x=>x.key));
+        SendGET(url,x=>_repositoryPassingGrade.SetItems(x, DataReceived),Header.ToDictionary(x=>x.key));
     }
+
+    void DataReceived()
+    {
+        _dataReceived += 1;
+    }
+
     public void GetToken()
     {
         //_repositoryLoginData.token = currentToken;
@@ -166,7 +187,7 @@ public class SendGETMethod : MonoBehaviour
             else
             {
                 callback.Invoke(www.downloadHandler.text);
-                _dataReceived += 1;
+                //_dataReceived += 1;
 
                 if (debugMod)
                 {
@@ -182,7 +203,6 @@ public class SendGETMethod : MonoBehaviour
 
                     _onContentsDataReceived?.Invoke();
                 }
-
                 if (_dataReceived == _dataRequired)
                 {
                     if (debugMod)

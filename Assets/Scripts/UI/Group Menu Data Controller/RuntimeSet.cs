@@ -30,10 +30,11 @@ namespace RuntimeSets
                 Items.Remove(thing);
         }
 
-        public void SetItems(string stringdata)
+        public void SetItems(string stringdata, Action callback)
         {
             T[] arrData = JsonHelper.getJsonArray<T>(stringdata);
             Items = arrData.ToList();
+            callback.Invoke();
         }
         
     }

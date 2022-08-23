@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852237c19e6038e4b9f99a516d9bfd95, type: 3}
   m_Name: Data Scene
   m_EditorClassIdentifier: 
-  RepositoryLocation: {fileID: 0}
+  RepositoryLocation: {fileID: 11400000, guid: bb701890c6eb1f14cac2050720f9dfbc, type: 2}
+  voskIsActive: 0

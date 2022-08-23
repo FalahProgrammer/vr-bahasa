@@ -51,9 +51,6 @@ public class ScenarioEventBehaviour : MonoBehaviour
         
     NpcSpeechSalsa npcSpeech;
 
-    
-    
-
     private void Start()
     {
         _npcInteractionManager = FindObjectOfType<NpcInteractionManager>();
@@ -113,6 +110,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
 
                 // new vosk test
                 // SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_voskSpeechToText.StartRecording);
+                SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_voskSpeechToText.VoskStartRecording);
 
                 counter += 1;
                 
@@ -198,6 +196,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
                 
                 // new vosk test
                 // SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_voskSpeechToText.StartRecording);
+                SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_voskSpeechToText.VoskStartRecording);
                 
             }
             
@@ -217,6 +216,9 @@ public class ScenarioEventBehaviour : MonoBehaviour
 
                     SequentialAnimation.AnimationList[i].AnimationState[j] = "IDLE";
                 }*/
+                
+                
+                SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_voskSpeechToText.VoskStopRecording);
             }
 
             // LAST ARRAY (USER)
@@ -261,6 +263,9 @@ public class ScenarioEventBehaviour : MonoBehaviour
                 
                 SequentialAnimation.AnimationList[i].OnPartialAnimationFinished
                     .AddListener(() => _scenarioManager.ScenarioIsFinished());
+                
+                // new vosk test
+                SequentialAnimation.AnimationList[i].OnPartialAnimationFinished.AddListener(_voskSpeechToText.VoskStopRecording);
             }
         }
         

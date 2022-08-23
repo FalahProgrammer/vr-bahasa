@@ -1,5 +1,7 @@
 using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
@@ -113,7 +115,7 @@ public class PrefabLightmapData : MonoBehaviour
     // called second
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        Init();
+        //Init();
     }
 
     // called when the game is terminated
@@ -151,10 +153,7 @@ public class PrefabLightmapData : MonoBehaviour
             bakingOutput.mixedLightingMode = (MixedLightingMode)lightsInfo[i].mixedLightingMode;
 
             lightsInfo[i].light.bakingOutput = bakingOutput;
-
         }
-
-
     }
 
 #if UNITY_EDITOR
@@ -186,7 +185,8 @@ public class PrefabLightmapData : MonoBehaviour
             instance.m_LightmapsDir = lightmapsDir.ToArray();
             instance.m_LightInfo = lightsInfos.ToArray();
             instance.m_ShadowMasks = shadowMasks.ToArray();
-#if UNITY_2018_3_OR_NEWER
+            
+    #if UNITY_2018_3_OR_NEWER
             var targetPrefab = PrefabUtility.GetCorrespondingObjectFromOriginalSource(instance.gameObject) as GameObject;
             if (targetPrefab != null)
             {
@@ -215,14 +215,14 @@ public class PrefabLightmapData : MonoBehaviour
                     PrefabUtility.ApplyPrefabInstance(instance.gameObject, InteractionMode.AutomatedAction);
                 }
             }
-#else
+    #else
             var targetPrefab = UnityEditor.PrefabUtility.GetPrefabParent(gameObject) as GameObject;
             if (targetPrefab != null)
             {
                 //UnityEditor.Prefab
                 UnityEditor.PrefabUtility.ReplacePrefab(gameObject, targetPrefab);
             }
-#endif
+    #endif
         }
 
 

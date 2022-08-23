@@ -82,12 +82,12 @@ public class LoadPrefabContentBehaviour : MonoBehaviour
                 {
                     Debug.LogWarning("Data Loaded: " + _repositoryContentArea.Items[i].path_area_prefab + "/" + _repositoryContentArea.Items[i].area_name);
                 }
-
-                
                 dataLoaded = true;
-                yield return new WaitForSeconds(0.1f);
+                yield return new WaitForSeconds(0);
             }
         }
+        
+        //yield return new WaitForSeconds(0);
 
         if (debugMode && !dataLoaded)
         {
@@ -102,7 +102,8 @@ public class LoadPrefabContentBehaviour : MonoBehaviour
         }
 
         FinishedLoadPrefabs.Invoke();
-        
+
+        #region Obsolete
         /*for (int i = 0; i < _repositoryContentArea.Items.Count; i++)
         {
             // if directory doesn't exist
@@ -164,6 +165,8 @@ public class LoadPrefabContentBehaviour : MonoBehaviour
         Debug.Log("Finished Loading File");
         
         FinishedLoadPrefabs.Invoke();*/
+        
+        #endregion
     }
 
     void FinishedLoadPrefabs()

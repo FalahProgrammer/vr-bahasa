@@ -282,4 +282,10 @@ public class SequentialAnimation : MonoBehaviour
         Reset();
         StopCoroutine();
     }*/
+
+    public IntegerVariable AssignIntegerVariable
+    {
+        get { return _integerVariable; }
+        set { _integerVariable = value; }
+    }
 }

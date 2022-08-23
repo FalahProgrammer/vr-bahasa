@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Personal\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Personal\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_vr-bahasa.1091179060.00" t="ExcludeRecursive" />
-    <e p="D:\Projects\Pusdiklat Bahasa\VTS Language 20220624 - 2020.3.30f1\vr-bahasa" t="IncludeRecursive">
+    <e p="C:\Users\Personal\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_vr-bahasa.-1134701379.00" t="ExcludeRecursive" />
+    <e p="D:\GitHub\VTS Language 20220317 - 2020.3.30f1\vr-bahasa" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -23,6 +23,19 @@
         <e p="File Content" t="Include">
           <e p="PREFABS" t="Include">
             <e p="FRANCE" t="Include">
+              <e p="Airport - Money Changer" t="Include">
+                <e p="VOICEOVER" t="Include">
+                  <e p="16. FN-MCS01" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                  <e p="17. FN-MCV01" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                  <e p="18. FN-MCV02" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                </e>
+              </e>
               <e p="Airport - Restaurant" t="Include">
                 <e p="VOICEOVER" t="Include">
                   <e p="6. FN-ARW01" t="Include">
@@ -46,6 +59,16 @@
                   </e>
                   <e p="FN-VO-AV01" t="Include">
                     <e p="FN-VO-AV01 TXT.txt" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Airport - Welcome Center" t="Include">
+                <e p="VOICEOVER" t="Include">
+                  <e p="FN-VO-AO04" t="Include">
+                    <e p="FN-VO-AO04 TXT.txt" t="Include" />
+                  </e>
+                  <e p="FN-VO-AO05" t="Include">
+                    <e p="FN-VO-AO05 TXT.txt" t="Include" />
                   </e>
                 </e>
               </e>
@@ -81,6 +104,144 @@
           </e>
           <e p="Shaders" t="Include">
             <e p="Standard 2-Sided.shader" t="Include" />
+          </e>
+        </e>
+        <e p="FImpossible Creations" t="Include">
+          <e p="Directories Description.txt" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="Editor Tools" t="Include">
+              <e p="Files and Components Support" t="Include">
+                <e p="FEditor_ScriptMenuAddOptions.Components.cs" t="Include" />
+                <e p="FEditor_ScriptMenuAddOptions.cs" t="Include" />
+                <e p="FEditor_ScriptMenuAddOptions.Files.cs" t="Include" />
+                <e p="FEditor_ScriptMenuAddOptions.Prefabs.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Plugins - Editor - Animating" t="Include">
+              <e p="Look Animator" t="Include">
+                <e p="LookAnimator.Editor.cs" t="Include" />
+                <e p="LookAnimator.Editor.Elements.cs" t="Include" />
+                <e p="LookAnimator.Editor.Foldouts.cs" t="Include" />
+                <e p="LookAnimator.Editor.Helpers.cs" t="Include" />
+                <e p="LookAnimator.Editor.Lang.cs" t="Include" />
+                <e p="LookAnimator.Editor.OldGUI.cs" t="Include" />
+                <e p="LookAnimator.Editor.SceneGUI.cs" t="Include" />
+                <e p="LookAnimator.Editor.Tabs.cs" t="Include" />
+                <e p="LookAnimator.Editor.Variables.cs" t="Include" />
+                <e p="Resources" t="Include">
+                  <e p="Look Animator" t="Include">
+                    <e p="LookAnimator_Langs.xml" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Plugins - Animating" t="Include">
+            <e p="Look Animator" t="Include">
+              <e p="Code" t="Include">
+                <e p="LookAnimator.Class.CompensationBone.cs" t="Include" />
+                <e p="LookAnimator.Class.LookBone.cs" t="Include" />
+                <e p="LookAnimator.Custom.Actions.cs" t="Include" />
+                <e p="LookAnimator.Custom.MomentTargets.cs" t="Include" />
+                <e p="LookAnimator.Extensions.BirdMode.cs" t="Include" />
+                <e p="LookAnimator.Extensions.BoneWeights.cs" t="Include" />
+                <e p="LookAnimator.Extensions.Eyes.cs" t="Include" />
+                <e p="LookAnimator.Extensions.Nodding.cs" t="Include" />
+                <e p="LookAnimator.Extensions.Smoothing.cs" t="Include" />
+                <e p="LookAnimator.Logic.AnimateBones.cs" t="Include" />
+                <e p="LookAnimator.Logic.Core.cs" t="Include" />
+                <e p="LookAnimator.Logic.Coroutines.cs" t="Include" />
+                <e p="LookAnimator.Logic.LookAngles.cs" t="Include" />
+                <e p="LookAnimator.Logic.Measuring.cs" t="Include" />
+                <e p="LookAnimator.Logic.States.cs" t="Include" />
+                <e p="LookAnimator.Logic.Targeting.cs" t="Include" />
+                <e p="LookAnimator.Logic.Update.cs" t="Include" />
+                <e p="LookAnimator.Logic.UpdateBones.cs" t="Include" />
+                <e p="LookAnimator.Logic.UpdateReferencePose.cs" t="Include" />
+                <e p="LookAnimator.Logic.Variables.cs" t="Include" />
+                <e p="LookAnimator.Misc.BoneFinder.cs" t="Include" />
+                <e p="LookAnimator.Misc.cs" t="Include" />
+                <e p="LookAnimator.Misc.Enums.cs" t="Include" />
+                <e p="LookAnimator.Misc.Gizmos.cs" t="Include" />
+                <e p="LookAnimator.Misc.Logs.cs" t="Include" />
+                <e p="LookAnimator.Misc.Maths.cs" t="Include" />
+              </e>
+              <e p="FLookAnimator.cs" t="Include" />
+              <e p="Read Me - Look Animator.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Plugins - Shared" t="Include">
+            <e p="FBasic Assets" t="Include">
+              <e p="Behaviours" t="Include">
+                <e p="Cameras" t="Include">
+                  <e p="FBasic_FreeCameraBehaviour.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Math Helpers" t="Include">
+              <e p="Animating" t="Include">
+                <e p="FAnimationClips.cs" t="Include" />
+                <e p="FAnimatorMethods.cs" t="Include" />
+              </e>
+              <e p="Helpers" t="Include">
+                <e p="FColorMethods.cs" t="Include" />
+                <e p="FDebug.cs" t="Include" />
+                <e p="FStringMethods.cs" t="Include" />
+              </e>
+              <e p="Math" t="Include">
+                <e p="FEasing.cs" t="Include" />
+                <e p="FEngineering.cs" t="Include" />
+                <e p="FLogicMethods.cs" t="Include" />
+                <e p="FTransformMethods.cs" t="Include" />
+                <e p="FVectorMethods.cs" t="Include" />
+              </e>
+              <e p="MathHelpers - ReadMe.txt" t="Include" />
+            </e>
+            <e p="Shared Scripts" t="Include">
+              <e p="Procedural" t="Include">
+                <e p="UniRotateBone.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Utils" t="Include">
+              <e p="FBasic_Enums.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Shared Tools" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Property Drawers" t="Include">
+                <e p="FPD_FoldableDrawer.cs" t="Include" />
+                <e p="FPD_HeaderDrawer.cs" t="Include" />
+                <e p="FPD_PercentageDrawer.cs" t="Include" />
+                <e p="FPD_SuffixDrawer.cs" t="Include" />
+                <e p="FPD_TabDrawer.cs" t="Include" />
+              </e>
+              <e p="Support" t="Include">
+                <e p="FEditor_CustomInspectorHelpers.cs" t="Include" />
+                <e p="FEditor_Styles.cs" t="Include" />
+                <e p="FEditorBasicTools.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Editor Tools" t="Include">
+              <e p="FEditor_OneShotLog.cs" t="Include" />
+              <e p="Inspector And Scene Tools" t="Include">
+                <e p="FEditor_Handles.cs" t="Include" />
+                <e p="FHierarchyIcons.cs" t="Include" />
+              </e>
+              <e p="Property Attributes" t="Include">
+                <e p="FPD_FoldableAttribute.cs" t="Include" />
+                <e p="FPD_HeaderAttribute.cs" t="Include" />
+                <e p="FPD_PercentageAttribute.cs" t="Include" />
+                <e p="FPD_SuffixAttribute.cs" t="Include" />
+                <e p="FPD_TabAttribute.cs" t="Include" />
+              </e>
+            </e>
+            <e p="GUI Helpers" t="Include">
+              <e p="FEditor_StylesIn.cs" t="Include" />
+              <e p="FGUI_Finders.cs" t="Include" />
+              <e p="FGUI_Handles.cs" t="Include" />
+              <e p="FGUI_Inspector.cs" t="Include" />
+              <e p="FGUI_Resources.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Joystick Pack" t="Include">
@@ -217,32 +378,6 @@
             </e>
           </e>
         </e>
-        <e p="Samples" t="Include">
-          <e p="Vosk STT Unity" t="Include">
-            <e p="1.0.0" t="Include">
-              <e p="Offline Speech to Text Sample" t="Include">
-                <e p="3rdparty" t="Include">
-                  <e p="Plugin" t="Include">
-                    <e p="License.txt" t="Include" />
-                  </e>
-                  <e p="SimpleJson" t="Include">
-                    <e p="Bunny83.simpleJson.asmdef" t="Include" />
-                    <e p="License.txt" t="Include" />
-                    <e p="SimpleJSON.cs" t="Include" />
-                  </e>
-                </e>
-                <e p="Scripts" t="Include">
-                  <e p="babilinski.vosk.samples.asmdef" t="Include" />
-                  <e p="RecognitionResult.cs" t="Include" />
-                  <e p="VoiceProcessor.cs" t="Include" />
-                  <e p="VoskResultText.cs" t="Include" />
-                  <e p="VoskSpeechToText.cs" t="Include" />
-                  <e p="VoskStatusText.cs" t="Include" />
-                </e>
-              </e>
-            </e>
-          </e>
-        </e>
         <e p="Scripts" t="Include">
           <e p="Asset Bundle Loader" t="Include">
             <e p="LoadAssetBundleAsync.cs" t="Include" />
@@ -272,7 +407,9 @@
             <e p="DoScaleEditor.cs" t="Include" />
             <e p="FadingEditor.cs" t="Include" />
             <e p="FixJawBoneKeyframes.cs" t="Include" />
+            <e p="NewScenarioGeneratorEditor.cs" t="Include" />
             <e p="PrefabButtonEditor.cs" t="Include" />
+            <e p="PrefabLightmapDataEditor.cs" t="Include" />
             <e p="TimerEditor.cs" t="Include" />
           </e>
           <e p="Fading" t="Include">
@@ -360,6 +497,7 @@
             <e p="InitializeNpcInteraction.cs" t="Include" />
             <e p="NpcInteraction.cs" t="Include" />
             <e p="NpcInteractionManager.cs" t="Include" />
+            <e p="NpcLookAnimator.cs" t="Include" />
             <e p="NpcSpeechSalsa.cs" t="Include" />
           </e>
           <e p="Object Name" t="Include">
@@ -399,6 +537,7 @@
             <e p="ResetObjectBehaviour.cs" t="Include" />
           </e>
           <e p="Scenario" t="Include">
+            <e p="AnimatorLookoutController.cs" t="Include" />
             <e p="CommandSequence.cs" t="Include" />
             <e p="CommandSequenceManager.cs" t="Include" />
             <e p="CustomTimer.cs" t="Include" />
@@ -415,6 +554,7 @@
             <e p="LoadPrefabContentBehaviour.cs" t="Include" />
             <e p="PinchScenarioChecker.cs" t="Include" />
             <e p="SpeechStep.cs" t="Include" />
+            <e p="ToolsGenerateScenario.cs" t="Include" />
           </e>
           <e p="Scene Management" t="Include">
             <e p="ResetScene.cs" t="Include" />
@@ -460,6 +600,9 @@
               <e p="ScenarioManager.cs" t="Include" />
             </e>
             <e p="Variable" t="Include">
+              <e p="Float" t="Include">
+                <e p="FloatVariable.cs" t="Include" />
+              </e>
               <e p="Int" t="Include">
                 <e p="IntegerVariable.cs" t="Include" />
               </e>
@@ -469,9 +612,16 @@
             </e>
           </e>
           <e p="Speech Controller" t="Include">
+            <e p="New For Test" t="Include">
+              <e p="TestController.cs" t="Include" />
+            </e>
+            <e p="RecognitionResult.cs" t="Include" />
+            <e p="SpeechCheckerBehaviour.cs" t="Include" />
             <e p="SpeechController.cs" t="Include" />
-            <e p="SpeechResultToText.cs" t="Include" />
-            <e p="TestSpeechController.cs" t="Include" />
+            <e p="VoiceProcessor.cs" t="Include" />
+            <e p="VoskDialogText.cs" t="Include" />
+            <e p="VoskResultText.cs" t="Include" />
+            <e p="VoskSpeechToText.cs" t="Include" />
           </e>
           <e p="SpeechToText" t="Include">
             <e p="SpeechMicController.cs" t="Include" />
@@ -555,6 +705,9 @@
             <e p="AudioRecorder.cs" t="Include" />
             <e p="SpeechRecognizer.cs" t="Include" />
           </e>
+        </e>
+        <e p="Standard 2 Shaders" t="Include">
+          <e p="Standard 2-Sided.shader" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="Effects" t="Include">
@@ -1001,6 +1154,11 @@
           </e>
         </e>
         <e p="ThirdParty" t="Include">
+          <e p="SimpleJson" t="Include">
+            <e p="Bunny83.simpleJson.asmdef" t="Include" />
+            <e p="License.txt" t="Include" />
+            <e p="SimpleJSON.cs" t="Include" />
+          </e>
           <e p="Ultraleap" t="Include">
             <e p="Tracking" t="Include">
               <e p="Core" t="Include">
@@ -1643,6 +1801,16 @@
               </e>
             </e>
           </e>
+          <e p="Vosk" t="Include">
+            <e p="Model.cs" t="Include" />
+            <e p="SpkModel.cs" t="Include" />
+            <e p="Vosk.cs" t="Include" />
+            <e p="VoskPINVOKE.cs" t="Include" />
+            <e p="VoskRecognizer.cs" t="Include" />
+          </e>
+          <e p="Zip" t="Include">
+            <e p="License.txt" t="Include" />
+          </e>
         </e>
         <e p="UBER" t="Include">
           <e p="_Examples" t="Include">
@@ -1809,8 +1977,6 @@
           </e>
         </e>
       </e>
-      <e p="babilinski.vosk.samples.csproj" t="IncludeRecursive" />
-      <e p="babilinski.vosk.unity.csproj" t="IncludeRecursive" />
       <e p="Bunny83.simpleJson.csproj" t="IncludeRecursive" />
       <e p="CodeStage.AFPSCounter.Editor.csproj" t="IncludeRecursive" />
       <e p="CodeStage.AFPSCounter.Examples.csproj" t="IncludeRecursive" />
@@ -1818,20 +1984,7 @@
       <e p="LeapMotion.LeapCSharp.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="OEBIF.csproj" t="IncludeRecursive" />
-      <e p="Packages" t="ExcludeRecursive">
-        <e p="Vosk" t="Include">
-          <e p="Runtime" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="babilinski.vosk.unity.asmdef" t="Include" />
-              <e p="Model.cs" t="Include" />
-              <e p="SpkModel.cs" t="Include" />
-              <e p="Vosk.cs" t="Include" />
-              <e p="VoskPINVOKE.cs" t="Include" />
-              <e p="VoskRecognizer.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-      </e>
+      <e p="Packages" t="ExcludeRecursive" />
       <e p="SteamVR.csproj" t="IncludeRecursive" />
       <e p="SteamVR_Actions.csproj" t="IncludeRecursive" />
       <e p="SteamVR_Editor.csproj" t="IncludeRecursive" />

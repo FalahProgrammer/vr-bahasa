@@ -138,7 +138,7 @@ MonoBehaviour:
       conversation_topic: Tell the rules in this place
     duration: 60
     path_area_prefab: Language/German/Airforce Base/Barracks
-    AreaPrefab: {fileID: 0}
+    AreaPrefab: {fileID: 7154482406215965304, guid: 924b859bbbd48374a8cb9f940ad57142, type: 3}
   - id: 13
     materi_id: 5
     chapter_id: 9
@@ -258,8 +258,10 @@ MonoBehaviour:
     chapter_id: 16
     area_name: Barracks
     npc:
-    - npc_name: Indonesian Airforce Staff 1
+    - npc_name: France Airforce Staff 1
       conversation_topic: Talk about basic combat training
+    - npc_name: France Airforce Staff 2
+      conversation_topic: Tell the rules in this place
     duration: 60
     path_area_prefab: Language/French/Airforce Base/Barracks
     AreaPrefab: {fileID: 0}
@@ -331,7 +333,7 @@ MonoBehaviour:
       conversation_topic: Direction to the toilet
     duration: 60
     path_area_prefab: Language/German/Airport/Restaurant
-    AreaPrefab: {fileID: 0}
+    AreaPrefab: {fileID: 4996747566057745537, guid: 2ba190ad8729f944ca66d1ba9977f9cf, type: 3}
   - id: 31
     materi_id: 4
     chapter_id: 7
@@ -676,7 +678,7 @@ MonoBehaviour:
       conversation_topic: Ask About The Assigned Task
     duration: 60
     path_area_prefab: Language/German/Army Office/Inside The Meeting Room
-    AreaPrefab: {fileID: 0}
+    AreaPrefab: {fileID: 1694578247746608568, guid: cc18a089153369a4d8d85f9953fb9b4c, type: 3}
   - id: 59
     materi_id: 4
     chapter_id: 28
@@ -694,7 +696,7 @@ MonoBehaviour:
       conversation_topic: Invite the army for have dinner at the nearest restaurant
     duration: 60
     path_area_prefab: Language/German/Army Office/Inside The Auditorium
-    AreaPrefab: {fileID: 0}
+    AreaPrefab: {fileID: 6144437404637143939, guid: 6d1baab55cc5bee4f97c673c55918d5f, type: 3}
   - id: 60
     materi_id: 4
     chapter_id: 29
@@ -730,7 +732,7 @@ MonoBehaviour:
       conversation_topic: Ask about Navy water Transportation
     duration: 60
     path_area_prefab: Language/German/Navy Office/Inside The Lounge
-    AreaPrefab: {fileID: 0}
+    AreaPrefab: {fileID: 8028458341480315839, guid: 5e7afaa48f823374d85760464eddf711, type: 3}
   - id: 62
     materi_id: 4
     chapter_id: 30
@@ -810,7 +812,7 @@ MonoBehaviour:
       conversation_topic: Different toilet habit
     duration: 60
     path_area_prefab: Language/French/Airport/Toilet
-    AreaPrefab: {fileID: 0}
+    AreaPrefab: {fileID: 5139264626278355629, guid: 2cc88290650274f4290bfd0a026b6b00, type: 3}
   - id: 67
     materi_id: 8
     chapter_id: 15
@@ -826,7 +828,7 @@ MonoBehaviour:
       conversation_topic: Ask money changer location
     duration: 60
     path_area_prefab: Language/French/Airport/Welcome Center
-    AreaPrefab: {fileID: 0}
+    AreaPrefab: {fileID: 5252484510913186111, guid: 10d6b0144c5d17b48b23a956d130a5e4, type: 3}
   - id: 68
     materi_id: 8
     chapter_id: 15
@@ -848,27 +850,25 @@ MonoBehaviour:
     chapter_id: 16
     area_name: Classroom 1
     npc:
-    - npc_name: German Airforce Staff 2
-      conversation_topic: Tell the rules in this place
-    - npc_name: German Airforce Staff 3
+    - npc_name: France Airforce Staff 3
       conversation_topic: The Military Alphabet
-    - npc_name: German Airforce Staff 4
+    - npc_name: France Airforce Staff 4
       conversation_topic: Weapons and Equipment
-    - npc_name: German Airforce Staff 5
+    - npc_name: France Airforce Staff 5
       conversation_topic: Military uniform
-    - npc_name: German Airforce Staff 6
+    - npc_name: France Airforce Staff 6
       conversation_topic: Army Banks
-    - npc_name: German Airforce Staff 7
+    - npc_name: France Airforce Staff 7
       conversation_topic: Organising next class
-    - npc_name: German Airforce Staff 8
+    - npc_name: France Airforce Staff 8
       conversation_topic: First Aid
-    - npc_name: German Airforce Staff 9
+    - npc_name: France Airforce Staff 9
       conversation_topic: Terrain Analysis
-    - npc_name: German Airforce Staff 10
+    - npc_name: France Airforce Staff 10
       conversation_topic: United Nations peace keeping operations
-    - npc_name: German Airforce Staff 11
+    - npc_name: France Airforce Staff 11
       conversation_topic: The Route Sign
-    - npc_name: German Airforce Staff 12
+    - npc_name: France Airforce Staff 12
       conversation_topic: The Army Units Sign
     duration: 60
     path_area_prefab: Language/French/Airforce Base/Classroom 1
@@ -878,15 +878,15 @@ MonoBehaviour:
     chapter_id: 16
     area_name: Classroom 2
     npc:
-    - npc_name: German Airforce Staff 13
+    - npc_name: France Airforce Staff 13
       conversation_topic: Parts of a rifle
-    - npc_name: German Airforce Staff 14
+    - npc_name: France Airforce Staff 14
       conversation_topic: Patrol Kit
-    - npc_name: German Airforce Staff 15
+    - npc_name: France Airforce Staff 15
       conversation_topic: UNTAG
-    - npc_name: German Airforce Staff 16
+    - npc_name: France Airforce Staff 16
       conversation_topic: UNPROFOR
-    - npc_name: German Airforce Staff 17
+    - npc_name: France Airforce Staff 17
       conversation_topic: UNDOF
     duration: 60
     path_area_prefab: Language/French/Airforce Base/Classroom 2
@@ -896,26 +896,65 @@ MonoBehaviour:
     chapter_id: 16
     area_name: Classroom 3
     npc:
-    - npc_name: German Airforce Staff 18
+    - npc_name: France Airforce Staff 18
       conversation_topic: Ask about military intervention
-    - npc_name: German Airforce Staff 19
+    - npc_name: France Airforce Staff 19
       conversation_topic: Ask about armoured vehicle
-    - npc_name: German Airforce Staff 20
+    - npc_name: France Airforce Staff 20
       conversation_topic: Ask about George Washington
-    - npc_name: German Airforce Staff 21
+    - npc_name: France Airforce Staff 21
       conversation_topic: Ask about the battle of Cambrain
-    - npc_name: German Airforce Staff 22
+    - npc_name: France Airforce Staff 22
       conversation_topic: Ask about the history of NATO
-    - npc_name: German Airforce Staff 23
+    - npc_name: France Airforce Staff 23
       conversation_topic: Ask about united nations peacekeeping mission
-    - npc_name: German Airforce Staff 24
+    - npc_name: France Airforce Staff 24
       conversation_topic: Ask an information about sector headquarters west
-    - npc_name: German Airforce Staff 25
+    - npc_name: France Airforce Staff 25
       conversation_topic: Ask about rules of engagement
-    - npc_name: German Airforce Staff 26
+    - npc_name: France Airforce Staff 26
       conversation_topic: Ask about vietnam war
-    - npc_name: German Airforce Staff 27
+    - npc_name: France Airforce Staff 27
       conversation_topic: Ask about world war II
     duration: 60
     path_area_prefab: Language/French/Airforce Base/Classroom 3
+    AreaPrefab: {fileID: 0}
+  - id: 72
+    materi_id: 8
+    chapter_id: 31
+    area_name: Inside The Car
+    npc:
+    - npc_name: Driver 1
+      conversation_topic: Trip validation, How long the driver worked, Driver jobs
+        besides drive
+    duration: 60
+    path_area_prefab: Language/French/Transportation Online/Inside The Car
+    AreaPrefab: {fileID: 0}
+  - id: 74
+    materi_id: 8
+    chapter_id: 35
+    area_name: Lobby
+    npc:
+    - npc_name: Museum Classic Art Staff 1
+      conversation_topic: Tell must-visit spot
+    - npc_name: Museum Classic Art Staff 2
+      conversation_topic: Ask the location of a certain art
+    - npc_name: Museum Classic Art Visitor 1
+      conversation_topic: Tell best transportation for tourist
+    duration: 60
+    path_area_prefab: Language/French/Museum Classic Art  ICONIC /Lobby
+    AreaPrefab: {fileID: 0}
+  - id: 75
+    materi_id: 8
+    chapter_id: 35
+    area_name: Inside The Museum
+    npc:
+    - npc_name: Museum Classic Art Visitor 2
+      conversation_topic: Tell the meaning of a certain art
+    - npc_name: Museum Classic Art Visitor 3
+      conversation_topic: Tell favorite art
+    - npc_name: Museum Classic Art Staff 3
+      conversation_topic: Tell background story of a certain art
+    duration: 60
+    path_area_prefab: Language/French/Museum Classic Art  ICONIC /Inside The Museum
     AreaPrefab: {fileID: 0}

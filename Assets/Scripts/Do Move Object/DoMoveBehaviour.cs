@@ -149,6 +149,7 @@ public class DoMoveBehaviour : MonoBehaviour
         }
         else
         {
+            Debug.Log("Begin Do Select Local Move Immediately");
             _doMoveObject.BeginDoSelectLocalMove();
         }
     }

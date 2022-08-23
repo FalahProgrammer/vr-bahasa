@@ -27,13 +27,12 @@ public class InitialPosRotBehaviour : MonoBehaviour
         {
             SizeDelta = transform.GetComponent<RectTransform>().sizeDelta;
         }
-        
-        GetLocalScale = transform.localScale;
-        
-        GetPos = transform.position;
 
-        GetLocalPos = transform.localPosition;
+        var objTransform = transform;
         
-        GetRot = transform.rotation;
+        GetLocalScale = objTransform.localScale;
+        GetPos = objTransform.position;
+        GetLocalPos = objTransform.localPosition;
+        GetRot = objTransform.rotation;
     }
 }
