@@ -115,7 +115,7 @@ public class LogControllerBehaviour : MonoBehaviour, iResetable
         
         for (int i = 0; i < _contentAreaController.ListContent.Count; i++)
         {
-            if (_contentAreaController.ListContent[i].materi_id == _dataVariable.materi_id)
+            if (_contentAreaController.ListContent[i].language_id.ToString() == _dataVariable.materi_id)
             {
                 _logRepository.content_id = _contentAreaController.ListContent[i].id;
             }

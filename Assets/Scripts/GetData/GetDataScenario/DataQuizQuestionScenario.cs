@@ -6,7 +6,7 @@ using UnityEngine;
 [Serializable]
 public class DataQuizQuestionScenario
 {
-    public string materi_id;
+    public string language_id;
     
     //public string chapter_id;
 
@@ -14,7 +14,7 @@ public class DataQuizQuestionScenario
     
     public string question_id;
     
-    public string questions;
+    public string question;
     
     //public string right_answer_id;
     

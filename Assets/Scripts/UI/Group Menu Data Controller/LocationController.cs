@@ -11,6 +11,8 @@ public class LocationController : MonoBehaviour
     
     public DataVariable DataVariable;
 
+    [SerializeField] private SendGETMethod _sendGetMethod;
+    
     [SerializeField] private TimerBehaviour _timerBehaviour;
     
     [SerializeField] private RepositoryLocation repositoryLocation;
@@ -25,6 +27,8 @@ public class LocationController : MonoBehaviour
     public List<DataLocation> repositoryChapter = new List<DataLocation>();
     
     public UnityEvent OnClickChapter;
+
+    
     
     private void Awake()
     {
@@ -56,20 +60,23 @@ public class LocationController : MonoBehaviour
         
         repositoryChapter.Clear();
         
-        for (int i = 0; i < repositoryLocation.Items.Count; i++)
+        _sendGetMethod.GetLocationData(DataVariable.materi_id);
+        
+        /*for (int i = 0; i < repositoryLocation.Items.Count; i++)
         {
             if (repositoryLocation.Items[i].materi_id.Equals(DataVariable.materi_id) && repositoryLocation.Items[i].menu_id.Equals(DataVariable.menu_id))
             {
                 repositoryChapter.Add(repositoryLocation.Items[i]);
             }
-        }
-        for (int i = 0; i < repositoryChapter.Count; i++)
+        }*/
+        
+        /*for (int i = 0; i < repositoryChapter.Count; i++)
         {
             //GenerateButtonChapter(_repositoryItems.ListChapter[i].no, _repositoryItems.ListChapter[i].judul);
 
             for (int v = 0; v < _repositoryContentArea.Items.Count; v++)
             {
-                if (_repositoryContentArea.Items[v].chapter_id != repositoryChapter[i].id) continue;
+                if (_repositoryContentArea.Items[v].location_id.ToString() != repositoryChapter[i].id) continue;
                 if (_repositoryContentArea.Items[v].AreaPrefab == null) continue;
                 
                 Debug.Log("Location: " + repositoryChapter[i].judul);
@@ -78,9 +85,30 @@ public class LocationController : MonoBehaviour
             }
 
             //GenerateButtonLocation(repositoryChapter[i].id,repositoryChapter[i].materi_id, repositoryChapter[i].judul);
+        }*/
+    }
+
+    public void ValidateAreaButtons()
+    {
+        for (int i = 0; i < repositoryLocation.Items.Count; i++)
+        {
+            //GenerateButtonChapter(_repositoryItems.ListChapter[i].no, _repositoryItems.ListChapter[i].judul);
+
+            for (int v = 0; v < _repositoryContentArea.Items.Count; v++)
+            {
+                if (_repositoryContentArea.Items[v].language_id.ToString() != DataVariable.materi_id) continue;
+                if (_repositoryContentArea.Items[v].location_id.ToString() != repositoryLocation.Items[i].id) continue;
+                if (_repositoryContentArea.Items[v].AreaPrefab == null) continue;
+                
+                Debug.Log("Location: " + repositoryLocation.Items[i].title);
+                GenerateButtonLocation(repositoryLocation.Items[i].id,repositoryLocation.Items[i].language_id, repositoryLocation.Items[i].title);
+                break;
+            }
+
+            //GenerateButtonLocation(repositoryChapter[i].id,repositoryChapter[i].materi_id, repositoryChapter[i].judul);
         }
     }
-    
+
     public void GenerateButtonLocation( string sID,string sMateriID, string sLocationName)
     {
         //InitThis();

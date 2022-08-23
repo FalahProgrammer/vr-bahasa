@@ -32,11 +32,17 @@ public class SendGETMethod : MonoBehaviour
     [Space(10)]
     [SerializeField] private UnityEvent _onAllDataReceived;
     [SerializeField] private UnityEvent _onContentsDataReceived;
+    [SerializeField] private UnityEvent _onLocationDataReceived;
 
     private int _dataRequired;
     private int _dataReceived;
     
-    private void Start()
+    private void Awake()
+    {
+        GetServerURL();
+    }
+
+    void GetServerURL()
     {
         URL = "http://"+_repositoryLoginData.API_URL;
     }
@@ -53,15 +59,16 @@ public class SendGETMethod : MonoBehaviour
 
     public void GetDataFromServer()
     {
+        GetServerURL();
         GetToken();
         
         _dataReceived = 0;
-        _dataRequired = 2;
+        _dataRequired = 1;
         
         // get data
         
         GetRepositoryMateri(URL+"/vr-bahasa/public/api/v1/materis");
-        GetRepositoryLocation(URL+"/vr-bahasa/public/api/v1/chapters");
+        //GetRepositoryLocation(URL+"/vr-bahasa/public/api/v1/chapters");
         //GetRepositoryPassingGrade(URL+"/vr-bahasa/public/api/v1/passgrade");     -> obsolete
         //GetRepositoryDataQuiz(URL+"/vr-bahasa/public/api/v1/exam-questions");    -> move to get per NPC
     }
@@ -69,52 +76,97 @@ public class SendGETMethod : MonoBehaviour
     // user can validate content area data from home -> settings
     public void ValidateData()
     {
+        GetServerURL();
         GetToken();
         
         _dataReceived = 0;
         _dataRequired = 1;
-        GetRepositoryContentArea(URL+"/vr-bahasa/public/api/v1/contents");
+        GetRepositoryContentArea(URL + "/vr_bahasa_v2/public/api/v1/area"); 
+        //"/vr-bahasa/public/api/v1/contents");
     }
 
-    public void GetQuizData(string area_ID, string location_ID, string language_ID)
+    public void GetScenarioData (string language_id, string scenario_id)
     {
-        // format: http://localhost/vr_bahasa_v2/public/api/v2/area/15/location/1/language/5
+        _repositoryQuizQuestion.Items.Clear();  
         
+        GetServerURL();
         GetToken();
         
         _dataReceived = 0;
         _dataRequired = 1;
-        GetRepositoryDataQuiz(URL+"/vr-bahasa/public/api/v1/exam-questions");
+        
+        // format: http://localhost/vr_bahasa_v2/public/api/v2/area/15/location/1/language/5
+        GetRepositoryDataQuiz(URL+"/vr_bahasa_v2/public/api/v1/sentence/language/" + language_id + "/scenario?scenario[]=" + scenario_id);
+    }
+
+    public void GetLocationData(string language_id)
+    {
+        GetServerURL();
+        GetToken();
+        
+        _dataReceived = 0;
+        _dataRequired = 1;
+        GetRepositoryLocation(URL+"/vr_bahasa_v2/public/api/v1/location/language/" + language_id);
     }
 
     public void GetRepositoryMateri(string url)
     {
         //GetToken();
-        SendGET(url,x=>_repositoryMateri.SetItems(x, DataReceived),Header.ToDictionary(x=>x.key));
+        SendGET(url, x => _repositoryMateri.SetItems(x, DataReceived), Header.ToDictionary(x => x.key),
+            () => Callback());
+
+        void Callback()
+        {
+            
+        }
     }
     
     public void GetRepositoryDataQuiz(string url)
     {
         //GetToken();
-        SendGET(url,x=>_repositoryQuizQuestion.SetItems(x, DataReceived),Header.ToDictionary(x=>x.key));
+        SendGET(url,x=>_repositoryQuizQuestion.SetItems(x, DataReceived),Header.ToDictionary(x=>x.key),
+            () => Callback());
+
+        void Callback()
+        {
+            
+        }
     }
     
     public void GetRepositoryLocation(string url)
     {
         //GetToken();
-        SendGET(url,x=>_repositoryLocation.SetItems(x, DataReceived),Header.ToDictionary(x=>x.key));
+        SendGET(url,x=>_repositoryLocation.SetItems(x, DataReceived),Header.ToDictionary(x=>x.key),
+            () => Callback());
+
+        void Callback()
+        {
+            _onLocationDataReceived?.Invoke();
+        }
     }
     
     public void GetRepositoryContentArea(string url)
     {
         //GetToken();
-        SendGET(url,x=>_repositoryContentArea.SetItems(x, DataReceived),Header.ToDictionary(x=>x.key));
+        SendGET(url,x=>_repositoryContentArea.SetItems(x, DataReceived),Header.ToDictionary(x=>x.key),
+            () => Callback());
+
+        void Callback()
+        {
+            _onContentsDataReceived?.Invoke();
+        }
     }
     
     public void GetRepositoryPassingGrade(string url)
     {
         //GetToken();
-        SendGET(url,x=>_repositoryPassingGrade.SetItems(x, DataReceived),Header.ToDictionary(x=>x.key));
+        SendGET(url,x=>_repositoryPassingGrade.SetItems(x, DataReceived),Header.ToDictionary(x=>x.key),
+            () => Callback());
+
+        void Callback()
+        {
+            
+        }
     }
 
     void DataReceived()
@@ -135,7 +187,13 @@ public class SendGETMethod : MonoBehaviour
         SendGET(URL + "/vr-bahasa/public/api/v1/tokens",(x)=>
         {
             DeserializeLoginResult(x);
-        },Header.ToDictionary(x=>x.key));
+        },Header.ToDictionary(x=>x.key),
+            () => Callback());
+
+        void Callback()
+        {
+            
+        }
     }
     void DeserializeLoginResult(string www)
     {
@@ -151,12 +209,12 @@ public class SendGETMethod : MonoBehaviour
         }
     }
     
-    public void SendGET(string url, Action<string> callback, Dictionary<string,RequestHeader> requestheader)
+    public void SendGET(string url, Action<string> callback, Dictionary<string,RequestHeader> requestheader, Action callback2)
     {
-        StartCoroutine(GetContentsCoroutine( url,callback,requestheader));
+        StartCoroutine(GetContentsCoroutine( url,callback,requestheader, callback2));
     }
 
-    private IEnumerator GetContentsCoroutine(string url, Action<string> callback,Dictionary<string,RequestHeader> requestheader)
+    private IEnumerator GetContentsCoroutine(string url, Action<string> callback,Dictionary<string,RequestHeader> requestheader, Action callback2)
     {
         //Debug.Log("UnityWebRequest.Get: " + url);
         
@@ -183,6 +241,8 @@ public class SendGETMethod : MonoBehaviour
                 Debug.Log("Error connecting to the server: " + www.error + ", " + $"{www.responseCode}");
                 /*if(www.isHttpError)
                     Debug.Log($"{www.responseCode}");*/
+                
+                Debug.Log("Error API: " + url);
             }
             else
             {
@@ -194,7 +254,7 @@ public class SendGETMethod : MonoBehaviour
                     Debug.Log("Data Received: " + _dataReceived);
                 }
 
-                if (url == URL + "/vr-bahasa/public/api/v1/contents")
+                /*if (url == URL + "/vr_bahasa_v2/public/api/v1/area")
                 {
                     if (debugMod)
                     {
@@ -202,7 +262,8 @@ public class SendGETMethod : MonoBehaviour
                     }
 
                     _onContentsDataReceived?.Invoke();
-                }
+                }*/
+
                 if (_dataReceived == _dataRequired)
                 {
                     if (debugMod)
@@ -212,6 +273,8 @@ public class SendGETMethod : MonoBehaviour
                     
                     _onAllDataReceived?.Invoke();
                 }
+                
+                callback2?.Invoke();
             }
         }
     }

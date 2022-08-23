@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Repository Log", menuName = "Repository/Repository Log")]
 public class LogRepository : ScriptableObject
 {
-    public string content_id;
+    public int content_id;
     public Log logs;
     
 }

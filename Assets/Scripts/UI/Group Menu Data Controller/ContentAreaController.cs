@@ -13,6 +13,7 @@ public class ContentAreaController : MonoBehaviour
     
     [SerializeField] private LocationController _locationController;
     
+    [SerializeField] private RepositoryLocation repositoryLocation;
     [SerializeField] private RepositoryContentArea repositoryContentArea;
     
     [SerializeField] private ScriptableGameObjectDataController _scriptableGameObjectDataController;
@@ -40,6 +41,7 @@ public class ContentAreaController : MonoBehaviour
     public int CurrentScenarioNumber;
     
     public List<DataContentArea> ListContent = new List<DataContentArea>();
+    public Dictionary<int, int> DictContent = new Dictionary<int, int>();
     
     public UnityEvent OnClickContent;
 
@@ -74,12 +76,15 @@ public class ContentAreaController : MonoBehaviour
         Init();
         
         ListContent.Clear();
+        DictContent.Clear();
         
         for (int i = 0; i < repositoryContentArea.Items.Count; i++)
         {
-            if (repositoryContentArea.Items[i].chapter_id.Equals(DataVariable.chapter_id) && repositoryContentArea.Items[i].materi_id.Equals(DataVariable.materi_id))
+            if (repositoryContentArea.Items[i].language_id.ToString() == DataVariable.materi_id && repositoryContentArea.Items[i].location_id.ToString() == DataVariable.chapter_id)
+            //if (repositoryContentArea.Items[i].location_id.Equals(DataVariable.chapter_id) && repositoryContentArea.Items[i].language_id.Equals(DataVariable.materi_id))
             {
                 ListContent.Add(repositoryContentArea.Items[i]);
+                DictContent.Add(repositoryContentArea.Items[i].id, i);
             }
         }
 
@@ -97,7 +102,7 @@ public class ContentAreaController : MonoBehaviour
                 
             }*/
             
-            GenerateButtonContentArea(ListContent[i].duration * 60,ListContent[i].id/*,ListContent[i].scenario_number*/, ListContent[i].npc[0].conversation_topic, ListContent[i].area_name,ListContent[i].chapter_id, ListContent[i].AreaPrefab/*, _locationController.repositoryChapter[i].judul*/);
+            GenerateButtonContentArea(ListContent[i].npc[_integerVariable.IntegerValue - 1].duration * 60,ListContent[i].id/*,ListContent[i].scenario_number*/, ListContent[i].npc[0].conversation_topic, ListContent[i].area_name,ListContent[i].location_id.ToString(), ListContent[i].AreaPrefab, DictContent[ListContent[i].id]/*, _locationController.repositoryChapter[i].judul*/);
 
             //GenerateButtonContentArea(ListContent[i].duration * 60,ListContent[i].id/*,ListContent[i].scenario_number*/,
                  // ListContent[i].npc[_integerVariable.IntegerValue - 1].conversation_topic, ListContent[i].area_name,ListContent[i].chapter_id, ListContent[i].AreaPrefab/*, _locationController.repositoryChapter[i].judul*/);
@@ -107,8 +112,8 @@ public class ContentAreaController : MonoBehaviour
     }
     
     public int GetCurrentScenarioNumber() => CurrentScenarioNumber;
-	public void GenerateButtonContentArea(int sDuration, string sID/*, int sScenarioNumber*/, string sConversationTopic, string sContentAreaName, 
-        string sChapterID, GameObject sAreaPrefab/*, string sSceneName*/)
+	public void GenerateButtonContentArea(int sDuration, int sID/*, int sScenarioNumber*/, string sConversationTopic, string sContentAreaName, 
+        string sChapterID, GameObject sAreaPrefab, int index/*, string sSceneName*/)
     {
         if (!sConversationTopic.Equals("Bibliography"))
         {
@@ -125,7 +130,7 @@ public class ContentAreaController : MonoBehaviour
             
             prefabButtonDataController.UrlImage = sUrlImage;*/
             
-            prefabButtonDataController.ID = sID;
+            prefabButtonDataController.ID = sID.ToString();
 
             //prefabButtonDataController.SceneName = sSceneName;
 
@@ -143,9 +148,9 @@ public class ContentAreaController : MonoBehaviour
 
             prefabButtonDataController.TextButtonName.text = sContentAreaName;
 
-            PointerHandlerBehaviour pointerHandlerBehaviour = prefabButtonDataController.GetComponent<PointerHandlerBehaviour>();
+            /*PointerHandlerBehaviour pointerHandlerBehaviour = prefabButtonDataController.GetComponent<PointerHandlerBehaviour>();
             pointerHandlerBehaviour.OnPointerEnterEvent.AddListener(_timerButton.StartCounting);
-            pointerHandlerBehaviour.OnPointerExitEvent.AddListener(_timerButton.Reset);
+            pointerHandlerBehaviour.OnPointerExitEvent.AddListener(_timerButton.Reset);*/
 
             _scriptableGameObjectDataController.ContentButton.transform.localScale = new Vector3(1, 1, 1);
             
@@ -181,7 +186,7 @@ public class ContentAreaController : MonoBehaviour
 
                 _dateTime.text = thisTime.ToString("f");
 
-                DataVariable.area_id = Int32.Parse(sID);
+                DataVariable.area_id = sID;
 
                 if (_scriptableTransform != null)
                 {
@@ -189,7 +194,8 @@ public class ContentAreaController : MonoBehaviour
                     
                     _scriptableTransform.MyTransform = sAreaPrefab.transform;
                 }
-                    
+
+                DataVariable.contentAreaIndex = index;
 
                 OnClickContent.Invoke();
                 

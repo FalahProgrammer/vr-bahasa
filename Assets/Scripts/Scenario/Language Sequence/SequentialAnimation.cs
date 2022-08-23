@@ -10,6 +10,7 @@ using UnityEngine.Events;
 public class SequentialAnimation : MonoBehaviour
 {
     public int _currentIteration;
+    public int scenario_id;
     public int _id;
     [SerializeField] private IntegerVariable _integerVariable;
     [SerializeField] public List<AnimInteraction> AnimationList = new List<AnimInteraction>();
@@ -203,6 +204,7 @@ public class SequentialAnimation : MonoBehaviour
                 Debug.Log("Anim Lenght Continue Name : " + AnimationList[_currentIteration].AudioClip.name);
                 
                 yield return new WaitForSeconds(AnimationList[_currentIteration].AudioClip.length + 0.5f);
+                
                 
                 if(l[i].OnPartialAnimationFinished!=null)
                     l[i].OnPartialAnimationFinished.Invoke();

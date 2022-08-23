@@ -145,23 +145,23 @@ public class SendScoreBehaviour : MonoBehaviour
         
         for (int i = 0; i < _contentAreaController.ListContent.Count; i++)
         {
-            if (_contentAreaController.ListContent[i].materi_id == _dataVariable.materi_id)
+            if (_contentAreaController.ListContent[i].language_id.ToString() == _dataVariable.materi_id)
             {
                 Debug.Log("_contentAreaController.ListContent Index: " + i);
                 
-                var dt = _contentAreaController.ListContent[i].duration -
+                var dt = _contentAreaController.ListContent[i].npc[_integerVariable.IntegerValue -1].duration -
                          (int) _logControllerBehaviour._timerBehaviour._currentDuration;
                 Debug.Log(dt);
                 var datatosend = new DataPostScenario 
                 {
                     user_id = UserId, 
                     conversation_topic = _contentAreaController.ListContent[i].npc[_integerVariable.IntegerValue - 1].conversation_topic, 
-                    waktu_pengerjaan = _contentAreaController.ListContent[i].duration, 
+                    waktu_pengerjaan = _contentAreaController.ListContent[i].npc[_integerVariable.IntegerValue - 1].duration, 
                     total_score = _RepositoryLogAnswer.TotalScore, 
                     total_correct = _RepositoryLogAnswer.CorrectAnswer, 
                     total_incorrect = _RepositoryLogAnswer.InCorrectAnswer,
                     //duration_taken = _contentAreaController.ListContent[i].duration - Int32.Parse(_repositoryLog.logs.Items.Last().duration),_logControllerBehaviour._timerBehaviour._currentDuration
-                    duration_taken = _contentAreaController.ListContent[i].duration - (int)_logControllerBehaviour._timerBehaviour._currentDuration,
+                    duration_taken = _contentAreaController.ListContent[i].npc[_integerVariable.IntegerValue - 1].duration - (int)_logControllerBehaviour._timerBehaviour._currentDuration,
                     content_id = _repositoryLog.content_id,
                     //asnwer_status = _repositoryLog.logs.Items[i].answer_status,
                     logs = _repositoryLog.logs
@@ -209,7 +209,7 @@ public class DataPostScenario
     public int total_correct;
     public int total_incorrect;
     public int duration_taken;
-    public string content_id;
+    public int content_id;
     //public bool asnwer_status;
     public Log logs;
 }

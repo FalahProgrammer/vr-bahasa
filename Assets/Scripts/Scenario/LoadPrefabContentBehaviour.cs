@@ -28,6 +28,7 @@ public class LoadPrefabContentBehaviour : MonoBehaviour
 
     public void GetPrefabContent()
     {
+        Debug.Log("Load prefab content!");
         StartCoroutine(LoadPrefabContent(FinishedLoadPrefabs));
         
         /*for (int i = 0; i < _repositoryContentArea.Items.Count; i++)
@@ -171,6 +172,7 @@ public class LoadPrefabContentBehaviour : MonoBehaviour
 
     void FinishedLoadPrefabs()
     {
+        Debug.Log("Data Validated");
         OnFinishedLoadPrefabs.Invoke();
     }
 }

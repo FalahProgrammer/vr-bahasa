@@ -23,7 +23,7 @@ public class NewScenarioGeneratorEditor : UnityEditor.Editor
         {
             case ToolsGenerateScenario.GenerateScenarioMode.GenerateNewPrefab:
                 script.scenarioName = EditorGUILayout.TextField("Scenario Name", script.scenarioName);
-                
+
                 GUILayout.Space(10);
                 if(GUILayout.Button("New Scenario"))
                 {

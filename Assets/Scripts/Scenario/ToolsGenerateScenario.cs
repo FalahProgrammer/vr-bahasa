@@ -15,13 +15,34 @@ public class ToolsGenerateScenario : MonoBehaviour
     [SerializeField] private List<AudioClip> _audioClip;
     private SequentialAnimation ScenarioScript;
 
+    //public bool replaceAudio = true;
+
     public void EditScenario()
     {
-        int itemCount = Mathf.RoundToInt(_audioClip.Count * 2);
-
         ScenarioScript = scenarioPrefab.GetComponent<SequentialAnimation>();
         
+        var replaceAudio = false;
+        
+        if (_audioClip.Count == 0)
+        {
+            var count = ScenarioScript.AnimationList.Count;
+            replaceAudio = true;
+
+            for (int i = 0; i < count; i++)
+            {
+                // even number is NPC
+                if (i % 2 == 0)
+                {
+                    AnimInteraction animInteraction = ScenarioScript.AnimationList[i];
+                    
+                    _audioClip.Add(animInteraction.AudioClip);
+                }
+            }
+        }
+        
         ScenarioScript.AnimationList.Clear();
+        
+        int itemCount = Mathf.RoundToInt(_audioClip.Count * 2);
 
         int npcIndex = 0;
 
@@ -34,6 +55,8 @@ public class ToolsGenerateScenario : MonoBehaviour
             {
                 animInteraction.name = "NPC " + (npcIndex + 1);
                 animInteraction.AudioClip = _audioClip[npcIndex];
+                animInteraction.QuestionID = npcIndex;
+                animInteraction.AnimationState.Add("S+" + (npcIndex + 1));
 
                 npcIndex += 1;
             }
@@ -41,9 +64,15 @@ public class ToolsGenerateScenario : MonoBehaviour
             {
                 animInteraction.name = "USER";
                 animInteraction.AudioClip = null;
+                animInteraction.AnimationState.Add("IDLE");
             }
             
             ScenarioScript.AnimationList.Add(animInteraction);
+        }
+
+        if (replaceAudio)
+        {
+            _audioClip.Clear();
         }
     }
 

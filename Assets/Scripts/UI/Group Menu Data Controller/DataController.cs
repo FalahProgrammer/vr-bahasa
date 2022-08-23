@@ -76,8 +76,8 @@ public class DataController : IGetData
 
         for (int i = 0; i < _repositoryContentArea.Items.Count; i++)
         {
-            if (_repositoryContentArea.Items[i].chapter_id.Equals(_dataVariable.chapter_id) &&
-                _repositoryContentArea.Items[i].materi_id.Equals(_dataVariable.materi_id))
+            if (_repositoryContentArea.Items[i].location_id.Equals(_dataVariable.chapter_id) &&
+                _repositoryContentArea.Items[i].language_id.Equals(_dataVariable.materi_id))
             {
                 /*GenerateContent(
                     _repositoryContentArea.Items[i].content, 
@@ -90,13 +90,13 @@ public class DataController : IGetData
         
         for (int i = 0; i < _repositoryLocation.Items.Count; i++)
         {
-            if (_repositoryLocation.Items[i].materi_id.Equals(_dataVariable.materi_id) &&
-                _repositoryLocation.Items[i].menu_id.Equals(_dataVariable.menu_id))
+            if (_repositoryLocation.Items[i].language_id.Equals(_dataVariable.materi_id))// &&
+            //    _repositoryLocation.Items[i].menu_id.Equals(_dataVariable.menu_id))
             {
                 //GenerateButtonChapter(_repositoryItems.ListChapter[i].no, _repositoryItems.ListChapter[i].judul);
                 GenerateChapter(
                     _repositoryLocation.Items[i].id, 
-                    _repositoryLocation.Items[i].judul
+                    _repositoryLocation.Items[i].title
                     );
             }
         }

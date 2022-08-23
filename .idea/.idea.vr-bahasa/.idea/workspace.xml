@@ -2,118 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99c69635-610c-4701-9b96-cb889ac100b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/English/Airforce Base/Barracks/Barracks.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/English/Airforce Base/Barracks/Barracks.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/English/Airforce Base/Barracks/Indonesian Airforce Staff 1/Talk about basic combat training.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/English/Airforce Base/Barracks/Indonesian Airforce Staff 1/Talk about basic combat training.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/French/Airforce Base/Classroom 2/Classroom 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/French/Airforce Base/Classroom 2/Classroom 2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Restaurant/Restaurant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Restaurant/Restaurant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Toilet/Toilet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Toilet/Toilet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Barracks/Barracks.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Barracks/Barracks.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/Classroom 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/Classroom 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap_Restaurant_1.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap_Restaurant_1.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap_Restaurant_2.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap_Restaurant_2.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap_Restaurant_3.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap_Restaurant_3.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap_Restaurant_4.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap_Restaurant_4.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap_Restaurant_5.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap_Restaurant_5.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap_Restaurant_6.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap_Restaurant_6.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Restaurant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Restaurant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lobby/Lobby.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lobby/Lobby.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/Lounge.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/Lounge.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Data Scene.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Data Scene.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lobby/UN Consultant 4/Offer to driving to the hotel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lobby/UN Consultant 4/Offer to driving to the hotel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lobby/UN Consultant 5/Introducing friend (Major Wahyu).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lobby/UN Consultant 5/Introducing friend (Major Wahyu).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/Major 2/Talk about Military Technology.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/Major 2/Talk about Military Technology.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/Office Staff 2/Talk About Sports.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/Office Staff 2/Talk About Sports.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/UN Consultant 1/Iconic places in this city.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/UN Consultant 1/Iconic places in this city.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/UN Consultant 2/Hobbies.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/UN Consultant 2/Hobbies.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/UN Consultant 3/Families.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/UN Consultant 3/Families.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Content Area.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Content Area.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Exam Question.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Exam Question.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Language Home Prefabs.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Language Home Prefabs.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Language URL.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Language URL.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Materi.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Materi.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Scene Management/Scenario Manager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Scene Management/Scenario Manager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Variable/Integer Variable.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Variable/Integer Variable.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Location.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Location.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Variable/String Variable.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Variable/String Variable.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English 1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English 1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/War council.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/War council.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/ReflectionProbe-0.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/ReflectionProbe-1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/ReflectionProbe-1.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Home.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Home.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Login.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Login.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sequence Menu Test/Sequence Menu TestSettings.lighting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sequence Menu Test/Sequence Menu TestSettings.lighting.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/NewScenarioGeneratorEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/NewScenarioGeneratorEditor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataQuizQuestionScenario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataQuizQuestionScenario.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/ScenarioQuizController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/ScenarioQuizController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grabable Object/InitialPosRotBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grabable Object/InitialPosRotBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Label Controller/LabelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Label Controller/LabelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Lightmap/PrefabLightmapData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Lightmap/PrefabLightmapData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Log Controller/SentenceChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Log Controller/SentenceChecker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network API/NetworkApiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Network API/NetworkApiManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network API/SendGETMethod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Network API/SendGETMethod.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Object Name/LabelNameBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Object Name/LabelNameBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pinch Object/PinchObjectBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pinch Object/PinchObjectBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Reset Object/ResetObjectBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Reset Object/ResetObjectBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network API/SendScoreBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Network API/SendScoreBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/CommandSequenceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/CommandSequenceManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/AnimInteraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/AnimInteraction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/LoadPrefabContentBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/LoadPrefabContentBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/DataSceneManagement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/DataSceneManagement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Speech Controller/SpeechController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Speech Controller/SpeechController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Speech Controller/SpeechResultToText.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Speech Controller/SpeechResultToText.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Speech Controller/TestSpeechController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Speech Controller/TestSpeechController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/RuntimeSet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/RuntimeSet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/License.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Plugins/Android.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Plugins/Android/libvosk.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Plugins/Android/libvosk.so.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Plugins/Windows.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Plugins/Windows/libgcc_s_seh-1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Plugins/Windows/libgcc_s_seh-1.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Plugins/Windows/libstdc++-6.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Plugins/Windows/libstdc++-6.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Plugins/Windows/libvosk.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Plugins/Windows/libvosk.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Plugins/Windows/libwinpthread-1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Plugins/Windows/libwinpthread-1.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Scripts/Model.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Scripts/Model.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Scripts/SpkModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Scripts/SpkModel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Scripts/Vosk.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Scripts/Vosk.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Scripts/VoskPINVOKE.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Scripts/VoskPINVOKE.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Scripts/VoskRecognizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Scripts/VoskRecognizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Scripts/babilinski.vosk.unity.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/Runtime/Scripts/babilinski.vosk.unity.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/THIRD-PARTY-NOTICES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/THIRD-PARTY-NOTICES.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Vosk/package.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/ToolsGenerateScenario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/ToolsGenerateScenario.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/LogRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/LogRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/String/DataVariable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/String/DataVariable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/ContentAreaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/ContentAreaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataContentArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataContentArea.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataControllerBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataControllerBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataLocation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataLocation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/LocationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/LocationController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -209,6 +138,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Object/Scriptable Transform/ScriptableListTransform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Object/Scriptable Transform/ScriptableTransform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Object/Scriptable Game Object/ScriptableGameObjectDataController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Object/Scriptable Canvas Group/ScriptableCanvasGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SpeechRecognitionSystem/Scripts/SpeechRecognizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/DetectionUtilities/PinchDetector.cs" root0="FORCE_HIGHLIGHTING" />
@@ -217,11 +147,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/DetectionUtilities/Detector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/Float/FloatVariable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/String/DataVariable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/RepositoryContentArea.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Vosk/VoskRecognizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/testread.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/RepositoryMateri.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Vosk/Vosk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Utils/Comment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/LogRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Vosk/Model.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Vosk/VoskPINVOKE.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/RepositoryLocation.cs" root0="FORCE_HIGHLIGHTING" />
@@ -262,10 +194,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pinch Object/RegisterHand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/RuntimeSet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/PrefabButtonDataController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataControllerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UBER/Editor/UBER_StandardShaderGUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/JsonHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Reset Object/ResetObjectBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataContentArea.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpeechToText/SpeechMicController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/LocationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prefab Object/CharacterAdjustment.cs" root0="FORCE_HIGHLIGHTING" />
@@ -283,24 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Network API/LoginVerificationBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Network API/SendScoreBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scene Management/SceneLoaderManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scene Management/ResetScene.cs" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Lightmap/LightProbeRuntime.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Speech Controller/SpeechResultToText.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Asset Bundle Loader/LoadAsyncLanguageAssetBundle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/PinchScenarioChecker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/AnimInteraction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ObjectBuilderEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/ToolsGenerateScenario.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcLookAnimator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/OneClickLookAnimatorEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/NewScenarioGeneratorEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Animator/AnimatorLookatPreset.cs" />
-        <option value="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Logic.UpdateBones.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/DataSceneManagement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Object Name/LabelNameBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveBehaviour.cs" />
@@ -322,18 +239,36 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Speech Controller/New For Test/NewVoskResultText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Speech Controller/New For Test/NewVoiceProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Speech Controller/New For Test/NewVoskSpeechToText.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Speech Controller/New For Test/TestController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Speech Controller/VoskSpeechToText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Speech Controller/SpeechController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Speech Controller/VoskResultText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIBackToBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/LoadPrefabContentBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/RuntimeSet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Network API/NetworkApiManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/AnimInteraction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataQuizQuestionScenario.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/ScenarioQuizController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/CommandSequenceManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/NewScenarioGeneratorEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/ToolsGenerateScenario.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/LogRepository.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/PrefabButtonDataController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataContentArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Network API/SendScoreBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/JsonHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/LoadPrefabContentBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataControllerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataLocation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Network API/SendGETMethod.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/LocationController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/String/DataVariable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/ContentAreaController.cs" />
       </list>
     </option>
   </component>
@@ -366,10 +301,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="8236">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="2592">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="8236" />
+      <option name="pid" value="2592" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -421,6 +356,8 @@
       <workItem from="1660538898378" duration="6005000" />
       <workItem from="1661148384718" duration="1000" />
       <workItem from="1661148573023" duration="8380000" />
+      <workItem from="1661223953593" duration="17033000" />
+      <workItem from="1661245787398" duration="4161000" />
     </task>
     <task id="LOCAL-00001" summary="perubahan pada konsep pembacaan animator, tatapi masih butuh review faizrizky 20/06/2022 17:23">
       <created>1655721023629</created>

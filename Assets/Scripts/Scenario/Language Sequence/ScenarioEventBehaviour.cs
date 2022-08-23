@@ -23,6 +23,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
     [SerializeField] private FadingBehaviour _answerFading;
 
     [SerializeField] private MenuControllerBehaviour _menuScenario;
+    
     [SerializeField] private MenuControllerBehaviour _logScenario;
 
     [SerializeField] private CanvasGroup _panelScore;
@@ -38,10 +39,20 @@ public class ScenarioEventBehaviour : MonoBehaviour
     [SerializeField] private NpcInteractionManager _npcInteractionManager;
 
     [SerializeField] private FadingBehaviour _requiredTextFadingBehaviour;
+    
     [SerializeField] private TextMeshProUGUI _answerText;
 
     [SerializeField] private LogControllerBehaviour _logControllerBehaviour;
+    
     [SerializeField] private ConversationPanelController _conversationPanelController;
+    
+    [SerializeField] private TimerBehaviour _timerBehaviour;
+
+    [SerializeField] private Text _dateTime;
+    
+    [SerializeField] private Text _durationText;
+    
+    [SerializeField] private Text _finalDurationText;
 
     public int questionCounter;
 
@@ -50,6 +61,8 @@ public class ScenarioEventBehaviour : MonoBehaviour
     AudioClip clip;
         
     NpcSpeechSalsa npcSpeech;
+    
+    DateTime thisTime = DateTime.Now;
 
     private void Start()
     {
@@ -65,10 +78,31 @@ public class ScenarioEventBehaviour : MonoBehaviour
         //ScenarioSubmiter();
     }
 
+    public void SetDuration(int sDuration)
+    {
+        _timerBehaviour._currentDuration = sDuration;
+                
+        _timerBehaviour._initialDuration = sDuration;
+
+        /*for (int i = 0; i < _scenarioNameText.Length; i++)
+        {
+            _scenarioNameText[i].text = sConversationTopic;
+        }*/
+                
+                
+        _durationText.text = sDuration / 60 + " " + "minutes";
+                
+        _finalDurationText.text = sDuration / 60 + " " + "minutes";
+
+        _dateTime.text = thisTime.ToString("f");
+    }
+
     public void ScenarioSubmiter()
     {
+        //_timerBehaviour._currentDuration = 
         SequentialAnimation.AudioSource = null;
-        questionCounter = Int32.Parse(_dataVariable.qustion_id);
+        
+        questionCounter = _dataVariable.qustion_id;
 
         Debug.Log("Scenario Submited");
         
@@ -83,7 +117,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
             SequentialAnimation.AnimationList[i].Animators.Clear();
             //Debug.Log("Animator Cleared! Current Animation List Index: " + i + ", Animator Count: " + SequentialAnimation.AnimationList[i].Animators.Count);
 
-            SequentialAnimation.AnimationList[i].AnimationState.Clear();
+            //SequentialAnimation.AnimationList[i].AnimationState.Clear();
 
             for (int j = 0; j < _npcInteractionManager._npcInteractions.Count; j++)
             {
@@ -114,9 +148,9 @@ public class ScenarioEventBehaviour : MonoBehaviour
 
                 counter += 1;
                 
-                SequentialAnimation.AnimationList[i].QuestionID = questionCounter += 1;
+                // SequentialAnimation.AnimationList[i].QuestionID = questionCounter += 1;
                 
-                SequentialAnimation.AnimationList[i].AnimationState.Add("S" + counter);
+                //SequentialAnimation.AnimationList[i].AnimationState.Add("S" + counter);
 
                 /*for (int j = 0; j < SequentialAnimation.AnimationList[i].AnimationState.Count; j++)
                 {
@@ -147,7 +181,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
                 
                
 
-                SequentialAnimation.AnimationList[i].AnimationState.Add("S" + counter);
+                //SequentialAnimation.AnimationList[i].AnimationState.Add("S" + counter);
                 
                 /*for (int j = 0; j < SequentialAnimation.AnimationList[i].AnimationState.Count; j++)
                 {
@@ -170,7 +204,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
                 SequentialAnimation.AnimationList[i].OnPartialAnimationPlayed.AddListener(_answerFading.BeginFadingOut);
                 //SequentialAnimation.AnimationList[i].OnPartialAnimationPlayed.AddListener(_typerTextBehaviour.BeginPlayText);
 
-                SequentialAnimation.AnimationList[i].QuestionID = questionCounter += 1;
+                //SequentialAnimation.AnimationList[i].QuestionID = questionCounter += 1;
 
                 _answerText.text = "";
 
@@ -182,7 +216,7 @@ public class ScenarioEventBehaviour : MonoBehaviour
                     {
                         if (j == SequentialAnimation._currentIteration)
                         {
-                            _dataVariable.qustion_id = SequentialAnimation.AnimationList[j].QuestionID.ToString();
+                            //_dataVariable.qustion_id = SequentialAnimation.AnimationList[j].QuestionID.ToString();
                             Debug.Log("_currentIteration : "+ SequentialAnimation._currentIteration + ", Question ID: " + _dataVariable.qustion_id);
                         }
                     }

@@ -14,74 +14,58 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Items:
   - id: 1
-    menu_id: 1
-    materi_id: 1
-    judul: Airport
+    title: Airport
+    language_id: 4
+    language: German
   - id: 2
-    menu_id: 1
-    materi_id: 1
-    judul: Airforce Base
+    title: Transportation Online
+    language_id: 4
+    language: German
   - id: 3
-    menu_id: 1
-    materi_id: 2
-    judul: Airport
+    title: Office
+    language_id: 4
+    language: German
   - id: 4
-    menu_id: 1
-    materi_id: 2
-    judul: Airforce Base
+    title: Clinic
+    language_id: 4
+    language: German
   - id: 5
-    menu_id: 1
-    materi_id: 3
-    judul: Airport
+    title: Subway
+    language_id: 4
+    language: German
   - id: 6
-    menu_id: 1
-    materi_id: 3
-    judul: Airforce Base
+    title: Museum Classic Art (ICONIC)
+    language_id: 4
+    language: German
   - id: 7
-    menu_id: 1
-    materi_id: 4
-    judul: Airport
+    title: Airforce Base
+    language_id: 4
+    language: German
   - id: 8
-    menu_id: 1
-    materi_id: 4
-    judul: Airforce Base
+    title: Workshop
+    language_id: 4
+    language: German
   - id: 9
-    menu_id: 1
-    materi_id: 5
-    judul: Airport
+    title: Street View
+    language_id: 4
+    language: German
   - id: 10
-    menu_id: 1
-    materi_id: 5
-    judul: Airforce Base
+    title: Building (ICONIC)
+    language_id: 4
+    language: German
   - id: 11
-    menu_id: 1
-    materi_id: 6
-    judul: Airport
+    title: Landmark  (ICONIC)
+    language_id: 4
+    language: German
   - id: 12
-    menu_id: 1
-    materi_id: 6
-    judul: Airforce Base
+    title: Army Office
+    language_id: 4
+    language: German
   - id: 13
-    menu_id: 1
-    materi_id: 7
-    judul: Airport
+    title: Navy Office
+    language_id: 4
+    language: German
   - id: 14
-    menu_id: 1
-    materi_id: 7
-    judul: Airforce Base
-  - id: 15
-    menu_id: 1
-    materi_id: 8
-    judul: Airport
-  - id: 16
-    menu_id: 1
-    materi_id: 8
-    judul: Airforce Base
-  - id: 17
-    menu_id: 1
-    materi_id: 9
-    judul: Airport
-  - id: 18
-    menu_id: 1
-    materi_id: 9
-    judul: Airforce Base
+    title: Museum Historical (ICONIC)
+    language_id: 4
+    language: German

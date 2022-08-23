@@ -71,10 +71,9 @@ public class CommandSequenceManager : MonoBehaviour, iResetable
         Debug.Log("Skip To End!");
             
         CallContinueCommand();
-        
-        _counterOdd = Int32.Parse(_dataVariable.qustion_id);
-        
-        _counterEven = Int32.Parse(_dataVariable.qustion_id);
+
+        _counterOdd = _dataVariable.qustion_id;
+        _counterEven = _counterOdd;
         
         for (_commandSequences._currentIteration = _commandSequences._currentIteration; _commandSequences._currentIteration < _commandSequences.AnimationList.Count; _commandSequences._currentIteration++)
         {
@@ -92,7 +91,7 @@ public class CommandSequenceManager : MonoBehaviour, iResetable
                 {
                     if (j == _commandSequences._currentIteration)
                     {
-                        _dataVariable.qustion_id = _commandSequences.AnimationList[j].QuestionID.ToString();
+                        _dataVariable.qustion_id = _commandSequences.AnimationList[j].QuestionID;
                             
                         Debug.Log(_dataVariable.qustion_id);
                         

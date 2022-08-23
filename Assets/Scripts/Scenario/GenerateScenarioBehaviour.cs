@@ -46,6 +46,8 @@ public class GenerateScenarioBehaviour : MonoBehaviour
     [SerializeField] private Text[] _scenarioNameText;
     
     [SerializeField] private Text[] _scenarioDescText;
+
+    [SerializeField] private SendGETMethod _sendGetMethod;
     
     private void Awake()
     {
@@ -75,7 +77,6 @@ public class GenerateScenarioBehaviour : MonoBehaviour
     
     public void GetScenario()
     {
-
         if (_usingVR)
         {
             if (_graspBehaviour._myTarget)
@@ -94,17 +95,16 @@ public class GenerateScenarioBehaviour : MonoBehaviour
                         Debug.Log(index);
 
                         _durationFinal.text = _timerBehaviour.GetTime();
+
+                        //GetScenarioSentences();
         
                         GenerateScenario(index, OnFinishedLoadAsset);
                     }
                 }
-                
-            
-                
-            
             }
         }
 
+        // if not using VR
         else
         {
             Init();
@@ -114,15 +114,17 @@ public class GenerateScenarioBehaviour : MonoBehaviour
             var index = _integerVariable.IntegerValue - 1;
 
             _durationFinal.text = _timerBehaviour.GetTime();
-        
+
+            //GetScenarioSentences();
+            
             GenerateScenario(index, OnFinishedLoadAsset);
         }
-        
-        
-        
-        
-        
-        
+    }
+
+    public void GetScenarioSentences()
+    {
+        _dataVariable.qustion_id = 0;
+        _sendGetMethod.GetScenarioData(_dataVariable.materi_id, _scenarioEventBehaviour.SequentialAnimation.scenario_id.ToString());
     }
 
     private void Update()
@@ -176,8 +178,8 @@ public class GenerateScenarioBehaviour : MonoBehaviour
                                ", Chapter ID: " + _repositoryContentArea.Items[j].chapter_id + ", Expected: " + _dataVariable.chapter_id + 
                                ", ID: " + _repositoryContentArea.Items[j].id + ", Expected: " + _dataVariable.exam_id);*/
             
-            if (_repositoryContentArea.Items[j].chapter_id.Equals(_dataVariable.chapter_id) &&
-                _repositoryContentArea.Items[j].materi_id.Equals(_dataVariable.materi_id) && 
+            if (_repositoryContentArea.Items[j].location_id.Equals(_dataVariable.chapter_id) &&
+                _repositoryContentArea.Items[j].language_id.Equals(_dataVariable.materi_id) && 
                 _repositoryContentArea.Items[j].id.Equals(_dataVariable.area_id.ToString()))
             {
                 for (int i = 0; i < _scenarioNameText.Length; i++)
@@ -203,6 +205,7 @@ public class GenerateScenarioBehaviour : MonoBehaviour
         //_commandSequenceManager.CallContinueCommand();
         _scenarioEventBehaviour.ScenarioSubmiter();
         OnScenarioGenerated?.Invoke();
+        GetScenarioSentences();
     }
 
     // called when an area is instantiated

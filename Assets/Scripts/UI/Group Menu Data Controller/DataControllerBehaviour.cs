@@ -75,13 +75,13 @@ public class DataControllerBehaviour : MonoBehaviour
         
         for (int i = 0; i < repositoryLocation.Items.Count; i++)
         {
-            if (repositoryLocation.Items[i].materi_id.Equals(_dataVariable.materi_id) &&
-                repositoryLocation.Items[i].menu_id.Equals(_dataVariable.menu_id))
+            if (repositoryLocation.Items[i].language_id.Equals(_dataVariable.materi_id)) // &&
+            //    repositoryLocation.Items[i].menu_id.Equals(_dataVariable.menu_id))
             {
                 //GenerateButtonChapter(_repositoryItems.ListChapter[i].no, _repositoryItems.ListChapter[i].judul);
                 GenerateChapter(
                     repositoryLocation.Items[i].id, 
-                    repositoryLocation.Items[i].judul
+                    repositoryLocation.Items[i].title
                 );
             }
         }
@@ -109,8 +109,8 @@ public class DataControllerBehaviour : MonoBehaviour
 
         for (int i = 0; i < repositoryContentArea.Items.Count; i++)
         {
-            if (repositoryContentArea.Items[i].chapter_id.Equals(_dataVariable.chapter_id) &&
-                repositoryContentArea.Items[i].materi_id.Equals(_dataVariable.materi_id))
+            if (repositoryContentArea.Items[i].location_id.Equals(_dataVariable.chapter_id) &&
+                repositoryContentArea.Items[i].language_id.Equals(_dataVariable.materi_id))
             {
                 /*GenerateContent(
                     repositoryContentArea.Items[i].content, 

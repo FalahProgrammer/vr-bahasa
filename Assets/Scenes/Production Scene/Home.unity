@@ -5307,7 +5307,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debugMod: 0
-  _isStart: 0
   URL: http://localhost/vr-bahasa/public/api/v1/tokens
   Header: []
   _repositoryMateri: {fileID: 11400000, guid: 1a51ad2dc34bf144ea0eb370b86f9191, type: 2}
@@ -5320,6 +5319,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _onContentsDataReceived:
+    m_PersistentCalls:
+      m_Calls: []
+  _onLocationDataReceived:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &475991907
@@ -26081,7 +26083,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debugMod: 0
-  _isStart: 1
   URL: http://localhost/vr-bahasa/public/api/v1/tokens
   Header: []
   _repositoryMateri: {fileID: 11400000, guid: 1a51ad2dc34bf144ea0eb370b86f9191, type: 2}
@@ -26108,6 +26109,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  _onLocationDataReceived:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1820967664
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,9 +11,9 @@ public class AnimInteraction
     
     [SerializeField] public int QuestionID;
     
-    [SerializeField] public List<Animator> Animators = new List<Animator>();
+     public List<Animator> Animators = new List<Animator>();
     
-    [SerializeField] public List<string> AnimationState = new List<string>();
+     public List<string> AnimationState = new List<string>();
     
     [SerializeField] public AudioClip AudioClip;
     

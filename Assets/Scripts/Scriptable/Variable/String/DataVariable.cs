@@ -10,8 +10,11 @@ public class DataVariable : ScriptableObject
     public string materi_id;
     public string menu_id;
     public string chapter_id;
-    public string qustion_id;
-    [FormerlySerializedAs("exam_id")] public int area_id;
+    public int qustion_id;
+    public int area_id;
+    
+    // repository content area index
+    public int contentAreaIndex;
 
     public void Materi_Id(string materi_ID)
     {
@@ -31,7 +34,7 @@ public class DataVariable : ScriptableObject
         Debug.Log("Chapter ID kepannggil ");
     }
     
-    public void Question_Id(string question_ID)
+    public void Question_Id(int question_ID)
     {
         qustion_id = question_ID;
         Debug.Log("Question ID kepannggil ");
@@ -45,11 +48,11 @@ public class DataVariable : ScriptableObject
 
     public void IncreamentQuestionID(int startFrom)
     {
-        startFrom = Int32.Parse(qustion_id);
+        startFrom = qustion_id; //Int32.Parse(qustion_id);
 
         startFrom += 1;
 
-        qustion_id = startFrom.ToString();
+        qustion_id = startFrom; //.ToString();
 
     }
 }

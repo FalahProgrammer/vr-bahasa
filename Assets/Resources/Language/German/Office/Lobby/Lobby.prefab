@@ -20471,7 +20471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerIsSitting: 0
-  adjustmentUIPosition: {x: 0, y: 0, z: 0}
+  adjustmentUIPosition: {x: 0, y: -0.2, z: 0}
   adjustmentPlayerPosition: {x: 0, y: 0, z: 0}
   adjustmentPlayerRotation: {x: 0, y: 0, z: 0}
   characterPivot: {fileID: 4400803284510944698}

@@ -75,29 +75,32 @@ public class ScenarioQuizController : MonoBehaviour
 
         //DataVariable.IncreamentQuestionID(Int32.Parse(DataVariable.qustion_id));
         
-        for (int i = 0; i < _repositoryQuizQuestion.Items.Count; i++)
+        /*for (int i = 0; i < _repositoryQuizQuestion.Items.Count; i++)
         {
-            /*DataVariable.IncreamentQuestionID(Int32.Parse(DataVariable.qustion_id));*/
+            /*DataVariable.IncreamentQuestionID(Int32.Parse(DataVariable.qustion_id));#1#
             
             
             
-            if (_repositoryQuizQuestion.Items[i].question_id == DataVariable.qustion_id)
+            /*if (_repositoryQuizQuestion.Items[i].question_id == DataVariable.qustion_id)
             {
 
-                //Debug.Log(_repositoryQuizQuestion.Items[i].question_id);
+                
+            }#1#
+            
+            //Debug.Log(_repositoryQuizQuestion.Items[i].question_id);
                 
                 GenerateButtonChapter(
-                    sMateri_id: _repositoryQuizQuestion.Items[i].materi_id,
-                    /*sChapter_id: _repositoryQuizQuestion.Items[i].chapter_id,*/
+                    sMateri_id: _repositoryQuizQuestion.Items[i].language_id,
+                    /*sChapter_id: _repositoryQuizQuestion.Items[i].chapter_id,#1#
                     _repositoryQuizQuestion.Items[i].question_id,
                     _repositoryQuizQuestion.Items[i].answer,
                     //_repositoryQuizQuestion.Items[i].answers[0].text,
-                    /*_repositoryQuizQuestion.Items[i].answers[1].text,*/
-                    _repositoryQuizQuestion.Items[i].questions);
+                    /*_repositoryQuizQuestion.Items[i].answers[1].text,#1#
+                    _repositoryQuizQuestion.Items[i].question);
 
 
                 CorrectAnswer = _repositoryQuizQuestion.Items[i].answer; //_repositoryQuizQuestion.Items[i].answers[0].text;
-                Question = _repositoryQuizQuestion.Items[i].questions;
+                Question = _repositoryQuizQuestion.Items[i].question;
                 answerCheckerBehaviour.Input1 = CorrectAnswer;
                 speechCheckerBehaviour.RequiredAnswer = CorrectAnswer;
 
@@ -106,7 +109,7 @@ public class ScenarioQuizController : MonoBehaviour
                     /*var iconassets = from asset in _repositoryQuizQuestion.Items[i].answers
                         where asset.id == _repositoryQuizQuestion.Items[i].right_answer_id
                         select asset;
-                    var iconlist = iconassets.ToList();#1#
+                    var iconlist = iconassets.ToList();#2#
                     
                     if (_repositoryQuizQuestion.Items[i].right_answer_id == _repositoryQuizQuestion.Items[i].answers[j].id)
                     {
@@ -120,10 +123,28 @@ public class ScenarioQuizController : MonoBehaviour
                         
                         //answerCheckerBehaviour.GetDataQuiz(_repositoryQuizQuestion.Items[i].questions, CorrectAnswer, null);
                     }
-                }*/
-            }
+                }#1#
             
-        }
+        }*/
+
+        var index = DataVariable.qustion_id;
+        
+        GenerateButtonChapter(
+            sMateri_id: _repositoryQuizQuestion.Items[index].language_id,
+            /*sChapter_id: _repositoryQuizQuestion.Items[i].chapter_id,*/
+            _repositoryQuizQuestion.Items[index].question_id,
+            _repositoryQuizQuestion.Items[index].answer,
+            //_repositoryQuizQuestion.Items[i].answers[0].text,
+            /*_repositoryQuizQuestion.Items[i].answers[1].text,*/
+            _repositoryQuizQuestion.Items[index].question);
+
+
+        CorrectAnswer = _repositoryQuizQuestion.Items[index].answer; //_repositoryQuizQuestion.Items[i].answers[0].text;
+        Question = _repositoryQuizQuestion.Items[index].question;
+        answerCheckerBehaviour.Input1 = CorrectAnswer;
+        speechCheckerBehaviour.RequiredAnswer = CorrectAnswer;
+        
+        DataVariable.qustion_id += 1;
     }
 
     public string GetCurrentQuestion() => Question;
