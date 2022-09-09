@@ -138,18 +138,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _currentIteration: 0
+  scenario_id: 8
   _id: 3
   _integerVariable: {fileID: 11400000, guid: 05e3189e17a53fa44b625301249eeb94, type: 2}
   AnimationList:
-  - QuestionID: 0
-    Animators:
-    - {fileID: 0}
+  - name: NPC 1
+    QuestionID: 0
+    Animators: []
     AnimationState:
     - S+1
     AudioClip: {fileID: 8300000, guid: 6139dc6e8575d6346ab5b235a86f43dc, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
-    WaitForInteraction: 1
     Length: 0
     OnPartialAnimationPlayed:
       m_PersistentCalls:
@@ -157,435 +157,171 @@ MonoBehaviour:
     OnPartialAnimationFinished:
       m_PersistentCalls:
         m_Calls: []
-  - QuestionID: 0
+  - name: USER
+    QuestionID: 0
     Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
     AudioDelay: 0
     AnimationDelay: 0
-    WaitForInteraction: 0
-    Length: 6
+    Length: 0
     OnPartialAnimationPlayed:
       m_PersistentCalls:
         m_Calls: []
     OnPartialAnimationFinished:
       m_PersistentCalls:
         m_Calls: []
-  - QuestionID: 0
+  - name: NPC 2
+    QuestionID: 1
     Animators: []
     AnimationState:
     - S+2
     AudioClip: {fileID: 8300000, guid: ade105cbd1df719419e6f35dbdec8026, type: 3}
     AudioDelay: 0
-    AnimationDelay: 2
-    WaitForInteraction: 1
-    Length: 6
+    AnimationDelay: 0
+    Length: 0
     OnPartialAnimationPlayed:
       m_PersistentCalls:
         m_Calls: []
     OnPartialAnimationFinished:
       m_PersistentCalls:
         m_Calls: []
-  - QuestionID: 0
+  - name: USER
+    QuestionID: 0
     Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
     AudioDelay: 0
-    AnimationDelay: 2
-    WaitForInteraction: 0
-    Length: 6
+    AnimationDelay: 0
+    Length: 0
     OnPartialAnimationPlayed:
       m_PersistentCalls:
         m_Calls: []
     OnPartialAnimationFinished:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: ClickMyTargetMenu
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: BeginFadingOut
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-  - QuestionID: 0
+        m_Calls: []
+  - name: NPC 3
+    QuestionID: 2
     Animators: []
     AnimationState:
     - S+3
     AudioClip: {fileID: 8300000, guid: 8c4841d700986d447a49585ae4e56139, type: 3}
     AudioDelay: 0
-    AnimationDelay: 2
-    WaitForInteraction: 1
-    Length: 6
-    OnPartialAnimationPlayed:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 11400000, guid: 9a271b6f96e2b7e418b05ec8e3c2eb1b, type: 2}
-          m_TargetAssemblyTypeName: DataVariable, Assembly-CSharp
-          m_MethodName: Question_Id
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 7
-            m_BoolArgument: 0
-          m_CallState: 0
-    OnPartialAnimationFinished:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: ClickMyTargetMenu
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: BeginFadingOut
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-  - QuestionID: 0
-    Animators: []
-    AnimationState:
-    - IDLE
-    AudioClip: {fileID: 0}
-    AudioDelay: 0
-    AnimationDelay: 2
-    WaitForInteraction: 0
-    Length: 6
+    AnimationDelay: 0
+    Length: 0
     OnPartialAnimationPlayed:
       m_PersistentCalls:
         m_Calls: []
     OnPartialAnimationFinished:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: ClickMyTargetMenu
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: BeginFadingOut
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-  - QuestionID: 0
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 4
+    QuestionID: 3
     Animators: []
     AnimationState:
     - S+4
     AudioClip: {fileID: 8300000, guid: e94e6c4a0b2916a419be0d5440a706ef, type: 3}
     AudioDelay: 0
-    AnimationDelay: 2
-    WaitForInteraction: 1
-    Length: 6
-    OnPartialAnimationPlayed:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 11400000, guid: 9a271b6f96e2b7e418b05ec8e3c2eb1b, type: 2}
-          m_TargetAssemblyTypeName: DataVariable, Assembly-CSharp
-          m_MethodName: Question_Id
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 8
-            m_BoolArgument: 0
-          m_CallState: 0
-    OnPartialAnimationFinished:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: ClickMyTargetMenu
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: BeginFadingOut
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-  - QuestionID: 0
-    Animators: []
-    AnimationState:
-    - IDLE
-    AudioClip: {fileID: 0}
-    AudioDelay: 0
-    AnimationDelay: 2
-    WaitForInteraction: 0
-    Length: 6
+    AnimationDelay: 0
+    Length: 0
     OnPartialAnimationPlayed:
       m_PersistentCalls:
         m_Calls: []
     OnPartialAnimationFinished:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: ClickMyTargetMenu
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: BeginFadingOut
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-  - QuestionID: 0
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 5
+    QuestionID: 4
     Animators: []
     AnimationState:
     - S+5
     AudioClip: {fileID: 8300000, guid: 7f0c92441fc0778489132f685d5d2a7a, type: 3}
     AudioDelay: 0
-    AnimationDelay: 2
-    WaitForInteraction: 1
-    Length: 6
-    OnPartialAnimationPlayed:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 11400000, guid: 9a271b6f96e2b7e418b05ec8e3c2eb1b, type: 2}
-          m_TargetAssemblyTypeName: DataVariable, Assembly-CSharp
-          m_MethodName: Question_Id
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 9
-            m_BoolArgument: 0
-          m_CallState: 0
-    OnPartialAnimationFinished:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: ClickMyTargetMenu
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: BeginFadingOut
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-  - QuestionID: 0
-    Animators: []
-    AnimationState:
-    - IDLE
-    AudioClip: {fileID: 0}
-    AudioDelay: 0
-    AnimationDelay: 2
-    WaitForInteraction: 0
-    Length: 6
+    AnimationDelay: 0
+    Length: 0
     OnPartialAnimationPlayed:
       m_PersistentCalls:
         m_Calls: []
     OnPartialAnimationFinished:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: ClickMyTargetMenu
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: BeginFadingOut
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-  - QuestionID: 0
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 6
+    QuestionID: 5
     Animators: []
     AnimationState:
     - S+6
     AudioClip: {fileID: 8300000, guid: c5a6d080aca76294589c72e992c939cf, type: 3}
     AudioDelay: 0
-    AnimationDelay: 2
-    WaitForInteraction: 1
-    Length: 6
-    OnPartialAnimationPlayed:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 11400000, guid: 9a271b6f96e2b7e418b05ec8e3c2eb1b, type: 2}
-          m_TargetAssemblyTypeName: DataVariable, Assembly-CSharp
-          m_MethodName: Question_Id
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 10
-            m_BoolArgument: 0
-          m_CallState: 0
-    OnPartialAnimationFinished:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: ClickMyTargetMenu
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: BeginFadingOut
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-  - QuestionID: 0
-    Animators: []
-    AnimationState:
-    - IDLE
-    AudioClip: {fileID: 0}
-    AudioDelay: 0
-    AnimationDelay: 2
-    WaitForInteraction: 0
-    Length: 6
+    AnimationDelay: 0
+    Length: 0
     OnPartialAnimationPlayed:
       m_PersistentCalls:
         m_Calls: []
     OnPartialAnimationFinished:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: ClickMyTargetMenu
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.CanvasGroup, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: BeginFadingOut
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
   AudioSource: {fileID: 0}
   CanBeInterrupted: 0
   IsPlaying: 0

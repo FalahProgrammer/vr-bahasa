@@ -8,6 +8,7 @@
 **/.idea/
 .idea/
 
+/[Aa]ssets/3D MODELS
 /[Aa]ssets/FImpossible Creations
 /[Aa]ssets/CC_Assets
 /[Aa]ssets/Joystick Pack
@@ -22,6 +23,7 @@
 /[Aa]ssets/Materials
 /[Aa]ssets/OutlineEffect
 /[Aa]ssets/Plugins
+/[Aa]ssets/Resources/Voice
 /[Aa]ssets/Samples
 /[Aa]ssets/SkySerie Freebie
 /[Aa]ssets/SpeechRecognitionSystem

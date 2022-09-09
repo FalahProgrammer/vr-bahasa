@@ -101,8 +101,15 @@ public class ContentAreaController : MonoBehaviour
 
                 
             }*/
+
+            GenerateButtonContentArea(
+                ListContent[i].id, ListContent[i].npc[0].conversation_topic,
+                ListContent[i].area_name,
+                ListContent[i].location_id.ToString(),
+                ListContent[i].AreaPrefab,
+                DictContent[ListContent[i].id]);
             
-            GenerateButtonContentArea(ListContent[i].npc[_integerVariable.IntegerValue - 1].duration * 60,ListContent[i].id/*,ListContent[i].scenario_number*/, ListContent[i].npc[0].conversation_topic, ListContent[i].area_name,ListContent[i].location_id.ToString(), ListContent[i].AreaPrefab, DictContent[ListContent[i].id]/*, _locationController.repositoryChapter[i].judul*/);
+                //(ListContent[i].npc[_integerVariable.IntegerValue - 1].duration * 60,ListContent[i].id/*,ListContent[i].scenario_number*/, ListContent[i].npc[0].conversation_topic, ListContent[i].area_name,ListContent[i].location_id.ToString(), ListContent[i].AreaPrefab, DictContent[ListContent[i].id]/*, _locationController.repositoryChapter[i].judul*/);
 
             //GenerateButtonContentArea(ListContent[i].duration * 60,ListContent[i].id/*,ListContent[i].scenario_number*/,
                  // ListContent[i].npc[_integerVariable.IntegerValue - 1].conversation_topic, ListContent[i].area_name,ListContent[i].chapter_id, ListContent[i].AreaPrefab/*, _locationController.repositoryChapter[i].judul*/);
@@ -112,8 +119,11 @@ public class ContentAreaController : MonoBehaviour
     }
     
     public int GetCurrentScenarioNumber() => CurrentScenarioNumber;
-	public void GenerateButtonContentArea(int sDuration, int sID/*, int sScenarioNumber*/, string sConversationTopic, string sContentAreaName, 
-        string sChapterID, GameObject sAreaPrefab, int index/*, string sSceneName*/)
+	public void GenerateButtonContentArea (int sID, string sConversationTopic, string sContentAreaName, string sChapterID, GameObject sAreaPrefab, int index)
+        
+    /*(int sDuration, 
+        int sID/*, int sScenarioNumber#1#, string sConversationTopic, string sContentAreaName, 
+        string sChapterID, GameObject sAreaPrefab, int index/*, string sSceneName#1#)*/
     {
         if (!sConversationTopic.Equals("Bibliography"))
         {
@@ -134,7 +144,7 @@ public class ContentAreaController : MonoBehaviour
 
             //prefabButtonDataController.SceneName = sSceneName;
 
-            prefabButtonDataController.Duration = sDuration;
+            //prefabButtonDataController.Duration = sDuration;
             
             //prefabButtonDataController.ScenarioNumber = sScenarioNumber;
             
@@ -170,9 +180,9 @@ public class ContentAreaController : MonoBehaviour
                 btn.interactable = false;
                 //CurrentScenarioNumber = sScenarioNumber;
                 
-                _timerBehaviour._currentDuration = sDuration;
+                //_timerBehaviour._currentDuration = sDuration;
                 
-                _timerBehaviour._initialDuration = sDuration;
+                //_timerBehaviour._initialDuration = sDuration;
 
                 /*for (int i = 0; i < _scenarioNameText.Length; i++)
                 {
@@ -180,9 +190,9 @@ public class ContentAreaController : MonoBehaviour
                 }*/
                 
                 
-                _durationText.text = sDuration / 60 + " " + "minutes";
+                //_durationText.text = sDuration / 60 + " " + "minutes";
                 
-                _finalDurationText.text = sDuration / 60 + " " + "minutes";
+                //_finalDurationText.text = sDuration / 60 + " " + "minutes";
 
                 _dateTime.text = thisTime.ToString("f");
 

@@ -138,10 +138,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _currentIteration: 0
+  scenario_id: 57
   _id: 9
   _integerVariable: {fileID: 11400000, guid: 05e3189e17a53fa44b625301249eeb94, type: 2}
   AnimationList:
-  - QuestionID: 0
+  - name: 
+    QuestionID: 0
     Animators:
     - {fileID: 0}
     AnimationState:
@@ -149,7 +151,6 @@ MonoBehaviour:
     AudioClip: {fileID: 8300000, guid: a26cce037edbdda48887ff43e2379137, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
-    WaitForInteraction: 1
     Length: 0
     OnPartialAnimationPlayed:
       m_PersistentCalls:
@@ -169,14 +170,14 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 0
-  - QuestionID: 0
+  - name: 
+    QuestionID: 0
     Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
     AudioDelay: 0
     AnimationDelay: 0
-    WaitForInteraction: 0
     Length: 6
     OnPartialAnimationPlayed:
       m_PersistentCalls:
@@ -184,14 +185,14 @@ MonoBehaviour:
     OnPartialAnimationFinished:
       m_PersistentCalls:
         m_Calls: []
-  - QuestionID: 0
+  - name: 
+    QuestionID: 0
     Animators: []
     AnimationState:
     - S+2
     AudioClip: {fileID: 8300000, guid: b5fc5dca10d2d964aa85ec0d2f824fcb, type: 3}
     AudioDelay: 0
     AnimationDelay: 2
-    WaitForInteraction: 1
     Length: 6
     OnPartialAnimationPlayed:
       m_PersistentCalls:
@@ -211,14 +212,14 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 0
-  - QuestionID: 0
+  - name: 
+    QuestionID: 0
     Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
     AudioDelay: 0
     AnimationDelay: 2
-    WaitForInteraction: 0
     Length: 6
     OnPartialAnimationPlayed:
       m_PersistentCalls:
@@ -250,14 +251,14 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - QuestionID: 0
+  - name: 
+    QuestionID: 0
     Animators: []
     AnimationState:
     - S+3
     AudioClip: {fileID: 8300000, guid: 308339d726400f74b893f8223025f127, type: 3}
     AudioDelay: 0
     AnimationDelay: 2
-    WaitForInteraction: 1
     Length: 6
     OnPartialAnimationPlayed:
       m_PersistentCalls:
@@ -301,14 +302,14 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - QuestionID: 0
+  - name: 
+    QuestionID: 0
     Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
     AudioDelay: 0
     AnimationDelay: 2
-    WaitForInteraction: 0
     Length: 6
     OnPartialAnimationPlayed:
       m_PersistentCalls:
@@ -340,14 +341,14 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - QuestionID: 0
+  - name: 
+    QuestionID: 0
     Animators: []
     AnimationState:
     - S+4
     AudioClip: {fileID: 8300000, guid: 93d731e99f9e3da4bac177f22d4ad929, type: 3}
     AudioDelay: 0
     AnimationDelay: 2
-    WaitForInteraction: 1
     Length: 6
     OnPartialAnimationPlayed:
       m_PersistentCalls:
@@ -391,14 +392,14 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - QuestionID: 0
+  - name: 
+    QuestionID: 0
     Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
     AudioDelay: 0
     AnimationDelay: 2
-    WaitForInteraction: 0
     Length: 6
     OnPartialAnimationPlayed:
       m_PersistentCalls:
@@ -430,14 +431,14 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - QuestionID: 0
+  - name: 
+    QuestionID: 0
     Animators: []
     AnimationState:
     - S+5
     AudioClip: {fileID: 8300000, guid: c0df26a5c97a04448804429039a2517d, type: 3}
     AudioDelay: 0
     AnimationDelay: 2
-    WaitForInteraction: 1
     Length: 6
     OnPartialAnimationPlayed:
       m_PersistentCalls:
@@ -481,14 +482,14 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - QuestionID: 0
+  - name: 
+    QuestionID: 0
     Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
     AudioDelay: 0
     AnimationDelay: 2
-    WaitForInteraction: 0
     Length: 6
     OnPartialAnimationPlayed:
       m_PersistentCalls:
@@ -520,14 +521,14 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - QuestionID: 0
+  - name: 
+    QuestionID: 0
     Animators: []
     AnimationState:
     - S+6
     AudioClip: {fileID: 8300000, guid: 3c01346149c65b1448987aae62e98f01, type: 3}
     AudioDelay: 0
     AnimationDelay: 2
-    WaitForInteraction: 1
     Length: 6
     OnPartialAnimationPlayed:
       m_PersistentCalls:
@@ -571,14 +572,14 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - QuestionID: 0
+  - name: 
+    QuestionID: 0
     Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
     AudioDelay: 0
     AnimationDelay: 2
-    WaitForInteraction: 0
     Length: 6
     OnPartialAnimationPlayed:
       m_PersistentCalls:
@@ -610,14 +611,14 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - QuestionID: 0
+  - name: 
+    QuestionID: 0
     Animators: []
     AnimationState:
     - 
     AudioClip: {fileID: 8300000, guid: 610b31b026fea054b9b221bd19f9d7ba, type: 3}
     AudioDelay: 0
     AnimationDelay: 2
-    WaitForInteraction: 0
     Length: 6
     OnPartialAnimationPlayed:
       m_PersistentCalls:
@@ -649,14 +650,14 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 0
-  - QuestionID: 0
+  - name: 
+    QuestionID: 0
     Animators: []
     AnimationState:
     - IDLE
     AudioClip: {fileID: 0}
     AudioDelay: 0
     AnimationDelay: 0
-    WaitForInteraction: 0
     Length: 0
     OnPartialAnimationPlayed:
       m_PersistentCalls:

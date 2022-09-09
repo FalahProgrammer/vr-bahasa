@@ -23980,12 +23980,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbcf7161429c52b479b092b985c9f0dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterContainer: {fileID: 1925908861829072212}
   _debugMode: 0
+  characterContainer: {fileID: 1925908861829072212}
   _listInteractor: {fileID: 11400000, guid: bd8e800f64f383f4db9e2c91a34d6892, type: 2}
   _playerInitialPosition: {fileID: 1925908861808718379}
-  prefabScale: 1
   playerInitialPositionAdjustment: {x: 0, y: 0, z: 0}
+  skyboxType: 0
+  skybox: {fileID: 0}
 --- !u!114 &4052412240629304801
 MonoBehaviour:
   m_ObjectHideFlags: 0

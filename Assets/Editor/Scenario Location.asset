@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801af919a4d11dd4b84534a430dba3aa, type: 3}
+  m_Name: Scenario Location
+  m_EditorClassIdentifier: 
+  ScenarioLocationList:
+  - Airport
+  - Airport
+  - Airport
+  - Airport
+  - Airport
+  - Airport
+  - Airport
+  - Airport
+  - Airport
+  - Airport
+  - Airport
+  - Airport
+  - Airport
+  - Airport
+  - Airport
+  - Airport
+  - Airport
+  - Airport
+  - Airport
+  - Transportation Online
+  - Office
+  - Office
+  - Office
+  - Office
+  - Office
+  - Office
+  - Office
+  - Office
+  - Office
+  - Office
+  - Clinic
+  - Clinic
+  - Clinic
+  - Clinic
+  - Clinic
+  - Subway
+  - Subway
+  - Subway
+  - Subway
+  - Subway
+  - Museum Classic Art (ICONIC)
+  - Museum Classic Art (ICONIC)
+  - Museum Classic Art (ICONIC)
+  - Museum Classic Art (ICONIC)
+  - Museum Classic Art (ICONIC)
+  - Museum Classic Art (ICONIC)
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Airforce Base
+  - Workshop
+  - Workshop
+  - Workshop
+  - Street View
+  - Street View
+  - Street View
+  - Street View
+  - Building (ICONIC)
+  - Building (ICONIC)
+  - Building (ICONIC)
+  - Building (ICONIC)
+  - Building (ICONIC)
+  - Landmark  (ICONIC)
+  - Landmark  (ICONIC)
+  - Landmark  (ICONIC)
+  - Landmark  (ICONIC)
+  - Landmark  (ICONIC)
+  - Army Office
+  - Army Office
+  - Army Office
+  - Army Office
+  - Army Office
+  - Army Office
+  - Army Office
+  - Army Office
+  - Army Office
+  - Army Office
+  - Navy Office
+  - Navy Office
+  - Navy Office
+  - Navy Office
+  - Navy Office
+  - Navy Office
+  - Navy Office
+  - Navy Office
+  - Navy Office
+  - Navy Office
+  - Museum Historical (ICONIC)
+  - Museum Historical (ICONIC)
+  - Museum Historical (ICONIC)
+  - Museum Historical (ICONIC)
+  - Museum Historical (ICONIC)
+  - Museum Historical (ICONIC)
+  - Museum Historical (ICONIC)
+  - Museum Historical (ICONIC)
+  - Museum Historical (ICONIC)
+  - Museum Historical (ICONIC)
+  - Museum Historical (ICONIC)
+  ScenarioAreaList:
+  - Mobile Passport Control Place (Immigration Area)
+  - Immigration Area
+  - Immigration Interview (Immigration Area)
+  - Immigration Area
+  - Immigration Area
+  - Restaurant
+  - Restaurant
+  - Restaurant
+  - Restaurant
+  - Toilet
+  - Toilet
+  - Welcome Center
+  - Welcome Center
+  - Welcome Center
+  - Welcome Center
+  - Money Changer
+  - Money Changer
+  - Money Changer
+  - Money Changer
+  - Inside The Car
+  - Head Office
+  - Meeting Room
+  - Lounge
+  - Lounge
+  - Lounge
+  - Lounge
+  - Lounge
+  - Lounge
+  - Lobby
+  - Lobby
+  - Lobby
+  - Lobby
+  - Lobby
+  - Doctor's Room
+  - Doctor's Room
+  - Card Machine Area
+  - Card Machine Area
+  - Card Machine Area
+  - Subway Waiting Area
+  - Subway Waiting Area
+  - Lobby
+  - Lobby
+  - Lobby
+  - Inside The Museum
+  - Inside The Museum
+  - Inside The Museum
+  - Barracks
+  - Barracks
+  - Classroom 1
+  - Classroom 1
+  - Classroom 1
+  - Classroom 1
+  - Classroom 1
+  - Classroom 1
+  - Classroom 1
+  - Classroom 1
+  - Classroom 1
+  - Classroom 1
+  - Classroom 2
+  - Classroom 2
+  - Classroom 2
+  - Classroom 2
+  - Classroom 2
+  - Classroom 3
+  - Classroom 3
+  - Classroom 3
+  - Classroom 3
+  - Classroom 3
+  - Classroom 3
+  - Classroom 3
+  - Classroom 3
+  - Classroom 3
+  - Classroom 3
+  - Inside The Workshop
+  - Inside The Workshop
+  - Inside The Workshop
+  - Inside The Area
+  - Inside The Area
+  - Inside The Area
+  - Inside The Area
+  - On Observation Deck
+  - On Observation Deck
+  - On Observation Deck
+  - On Observation Deck
+  - On Observation Deck
+  - In This Area
+  - In This Area
+  - In This Area
+  - In This Area
+  - In This Area
+  - Inside The Meeting Room
+  - Inside The Meeting Room
+  - Inside The Meeting Room
+  - Inside The Meeting Room
+  - Inside The Meeting Room
+  - Inside The Auditorium
+  - Inside The Auditorium
+  - Inside The Auditorium
+  - Inside The Auditorium
+  - Inside The Auditorium
+  - Inside The Lobby
+  - Inside The Lobby
+  - Inside The Lobby
+  - Inside The Lobby
+  - Inside The Lobby
+  - Inside The Lounge
+  - Inside The Lounge
+  - Inside The Lounge
+  - Inside The Lounge
+  - Inside The Lounge
+  - Inside The Museum
+  - Inside The Museum
+  - Inside The Museum
+  - Inside The Museum
+  - Inside The Museum
+  - Inside The Museum
+  - Inside The Museum
+  - Inside The Museum
+  - Inside The Museum
+  - Inside The Museum
+  - Inside The Museum
+  npcId: 0100000001000000010000000100000001000000010000000200000003000000040000000100000002000000010000000200000003000000040000000100000002000000030000000400000001000000010000000100000001000000020000000300000004000000050000000600000001000000020000000100000002000000030000000100000002000000010000000200000003000000010000000200000001000000020000000300000001000000020000000300000001000000020000000100000002000000030000000400000005000000060000000700000008000000090000000a00000001000000020000000300000004000000050000000100000002000000030000000400000005000000060000000700000008000000090000000a000000010000000200000003000000010000000200000003000000040000000100000002000000030000000400000005000000010000000200000003000000040000000500000001000000020000000300000004000000050000000100000002000000030000000400000005000000010000000200000003000000040000000500000001000000020000000300000004000000050000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b000000
