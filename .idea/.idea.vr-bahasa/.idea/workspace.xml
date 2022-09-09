@@ -2,47 +2,288 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99c69635-610c-4701-9b96-cb889ac100b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airforce Base.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airforce Base/Barracks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airforce Base/Barracks/German Airforce Staff 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airforce Base/Barracks/German Airforce Staff 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airforce Base/Classroom 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airforce Base/Classroom 1/German Airforce Staff 10.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airforce Base/Classroom 1/German Airforce Staff 11.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airforce Base/Classroom 1/German Airforce Staff 12.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airforce Base/Classroom 1/German Airforce Staff 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airforce Base/Classroom 1/German Airforce Staff 4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airforce Base/Classroom 1/German Airforce Staff 5.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airforce Base/Classroom 1/German Airforce Staff 6.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airforce Base/Classroom 1/German Airforce Staff 7.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airforce Base/Classroom 1/German Airforce Staff 8.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airforce Base/Classroom 1/German Airforce Staff 9.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airforce Base/Classroom 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airforce Base/Classroom 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airport.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airport/Immigration Area.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airport/Immigration Interview Immigration Area.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airport/Mobile Passport Control Place Immigration Area.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airport/Money Changer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airport/Restaurant.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airport/Toilet.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Airport/Welcome Center.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Army Office.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Army Office/Inside The Auditorium.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Army Office/Inside The Meeting Room.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Building  ICONIC.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Building  ICONIC/On Observation Deck.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Clinic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Clinic/Doctor's Room.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Clinic/Lobby.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Immigration Area.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Immigration Area.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Immigration Area/Airport Officer 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Immigration Area/Airport Officer 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Immigration Area/Airport Officer 2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Immigration Area/Airport Officer 2.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Immigration Area/Airport Officer 3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Immigration Area/Airport Officer 3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Immigration Interview (Immigration Area).meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Immigration Interview (Immigration Area).meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Immigration Interview (Immigration Area)/Immigration Officer 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Immigration Interview (Immigration Area)/Immigration Officer 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Landmark   ICONIC.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Landmark   ICONIC/In This Area.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Mobile Passport Control Place (Immigration Area).meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Mobile Passport Control Place (Immigration Area).meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Mobile Passport Control Place (Immigration Area)/Airport Security 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Mobile Passport Control Place (Immigration Area)/Airport Security 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Mobile Passport Control Place Immigration Area.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Mobile Passport Control Place Immigration Area.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Mobile Passport Control Place Immigration Area/Airport Security 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Mobile Passport Control Place Immigration Area/Airport Security 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Money Changer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Money Changer.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Money Changer/Money Changer Employee 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Money Changer/Money Changer Employee 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Money Changer/Money Changer Security 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Money Changer/Money Changer Security 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Money Changer/Money Changer Visitor 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Money Changer/Money Changer Visitor 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Money Changer/Money Changer Visitor 2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Money Changer/Money Changer Visitor 2.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Museum Classic Art  ICONIC.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Museum Classic Art  ICONIC/Inside The Museum.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Museum Classic Art  ICONIC/Lobby.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Museum Historical  ICONIC.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Museum Historical  ICONIC/Inside The Museum.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Navy Office.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Navy Office/Inside The Lobby.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Navy Office/Inside The Lounge.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Office.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Office/Head Office.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Office/Lobby.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Office/Lobby/UN Consultant 4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Office/Lobby/UN Consultant 5.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Office/Lounge.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Office/Lounge/Major 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Office/Lounge/Major 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Office/Lounge/Office Staff 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Office/Lounge/UN Consultant 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Office/Lounge/UN Consultant 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Office/Lounge/UN Consultant 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Office/Meeting Room.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Restaurant.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Restaurant.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Restaurant/Airport Restaurant Customer 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Restaurant/Airport Restaurant Customer 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Restaurant/Airport Restaurant Waitress 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Restaurant/Airport Restaurant Waitress 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Restaurant/Airport Restaurant Waitress 2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Restaurant/Airport Restaurant Waitress 2.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Restaurant/Airport Restaurant Waitress 3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Restaurant/Airport Restaurant Waitress 3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Street View.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Street View/Inside The Area.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Subway.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Subway/Card Machine Area.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Subway/Subway Waiting Area.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Toilet.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Toilet.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Toilet/Airport Janitor 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Toilet/Airport Janitor 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Toilet/Airport Visitor 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Toilet/Airport Visitor 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Transportation Online.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Transportation Online/Inside The Car.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Welcome Center.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Welcome Center.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Welcome Center/Airport Officer 4.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Welcome Center/Airport Officer 4.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Welcome Center/Airport Officer 5.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Welcome Center/Airport Officer 5.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Welcome Center/Tourist 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Welcome Center/Tourist 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Welcome Center/Tourist 2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Welcome Center/Tourist 2.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Workshop.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Arabic/Airport/Workshop/Inside The Workshop.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/English/Airport/Immigration Interview (Immigration Area).meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/English/Airport/Immigration Interview (Immigration Area).meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/English/Airport/Immigration Interview (Immigration Area)/Immigration Officer 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/English/Airport/Immigration Interview (Immigration Area)/Immigration Officer 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/English/Airport/Mobile Passport Control Place (Immigration Area).meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/English/Airport/Mobile Passport Control Place (Immigration Area).meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/English/Airport/Mobile Passport Control Place (Immigration Area)/Airport Security 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/English/Airport/Mobile Passport Control Place (Immigration Area)/Airport Security 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/French/Airforce Base/Classroom 2/Classroom 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/French/Airforce Base/Classroom 2/Classroom 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Immigration Interview (Immigration Area).meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Immigration Interview (Immigration Area).meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Immigration Interview (Immigration Area)/Immigration Officer 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Immigration Interview (Immigration Area)/Immigration Officer 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Mobile Passport Control Place (Immigration Area).meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Mobile Passport Control Place (Immigration Area).meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Mobile Passport Control Place (Immigration Area)/Airport Security 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Mobile Passport Control Place (Immigration Area)/Airport Security 1.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Toilet/Toilet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Toilet/Toilet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Barracks/Barracks.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Barracks/Barracks.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Barracks/German Airforce Staff 1/Talk about basic combat training.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Barracks/German Airforce Staff 1/Talk about basic combat training.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Barracks/German Airforce Staff 2/Tell the rules in this place.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Barracks/German Airforce Staff 2/Tell the rules in this place.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/Classroom 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/Classroom 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 10/United Nations peace keeping operations.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 10/United Nations peace keeping operations.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 11/The Route Sign.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 11/The Route Sign.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 12/The Army Units Sign.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 12/The Army Units Sign.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 3/The Military Alphabet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 3/The Military Alphabet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 4/Weapons and Equipment.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 4/Weapons and Equipment.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 5/Military uniform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 5/Military uniform.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 6/Army Banks.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 6/Army Banks.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 7/Organising next class.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 7/Organising next class.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 8/First Aid.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 8/First Aid.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 9/Terrain Analysis.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 9/Terrain Analysis.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/Lightmap_Classroom 1.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/Lightmap_Classroom 1.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Immigration Interview (Immigration Area).meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Immigration Interview (Immigration Area).meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Immigration Interview (Immigration Area)/Immigration Officer 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Immigration Interview (Immigration Area)/Immigration Officer 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Mobile Passport Control Place (Immigration Area).meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Mobile Passport Control Place (Immigration Area).meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Mobile Passport Control Place (Immigration Area)/Airport Security 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Mobile Passport Control Place (Immigration Area)/Airport Security 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Airport Restaurant Customer 1/Compliments for food.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Airport Restaurant Customer 1/Compliments for food.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Airport Restaurant Waitress 1/Recommendation Food, and Order Food.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Airport Restaurant Waitress 1/Recommendation Food, and Order Food.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Airport Restaurant Waitress 2/Payment Method Options.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Airport Restaurant Waitress 2/Payment Method Options.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Airport Restaurant Waitress 3/Direction to the toilet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Airport Restaurant Waitress 3/Direction to the toilet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap-0_comp_dir 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap-0_comp_dir 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap-0_comp_dir 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap-0_comp_dir 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap-0_comp_light 1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap-0_comp_light 1.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap-0_comp_light 1.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Lightmap-0_comp_light 1.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Restaurant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Restaurant/Restaurant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Navy Office/Inside The Lounge/Inside The Lounge.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Navy Office/Inside The Lounge/Inside The Lounge.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Navy Office/Inside The Lounge/Lightmap-0_comp_dir 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Navy Office/Inside The Lounge/Lightmap-0_comp_dir 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Navy Office/Inside The Lounge/Lightmap-0_comp_dir 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Navy Office/Inside The Lounge/Lightmap-0_comp_dir 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Navy Office/Inside The Lounge/Lightmap-0_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Navy Office/Inside The Lounge/Lightmap-0_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Navy Office/Inside The Lounge/Lightmap-0_comp_light 1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Navy Office/Inside The Lounge/Lightmap-0_comp_light 1.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Navy Office/Inside The Lounge/Lightmap-0_comp_light 1.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Navy Office/Inside The Lounge/Lightmap-0_comp_light 1.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Navy Office/Inside The Lounge/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Navy Office/Inside The Lounge/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lobby/Lobby.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lobby/Lobby.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lobby/UN Consultant 4/Offer to driving to the hotel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lobby/UN Consultant 4/Offer to driving to the hotel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lobby/UN Consultant 5/Introducing friend (Major Wahyu).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lobby/UN Consultant 5/Introducing friend (Major Wahyu).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/Major 2/Talk about Military Technology.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/Major 2/Talk about Military Technology.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/Office Staff 2/Talk About Sports.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/Office Staff 2/Talk About Sports.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/UN Consultant 1/Iconic places in this city.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/UN Consultant 1/Iconic places in this city.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/UN Consultant 2/Hobbies.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/UN Consultant 2/Hobbies.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/UN Consultant 3/Families.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/UN Consultant 3/Families.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Content Area.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Content Area.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Exam Question.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Exam Question.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Location.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Location.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/Lounge.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/Lounge.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/Major 3/Talk About Aircraft.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/Major 3/Talk About Aircraft.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Indonesian/Airport/Immigration Interview (Immigration Area).meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Indonesian/Airport/Immigration Interview (Immigration Area).meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Indonesian/Airport/Immigration Interview (Immigration Area)/Immigration Officer 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Indonesian/Airport/Immigration Interview (Immigration Area)/Immigration Officer 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Indonesian/Airport/Mobile Passport Control Place (Immigration Area).meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Indonesian/Airport/Mobile Passport Control Place (Immigration Area).meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Indonesian/Airport/Mobile Passport Control Place (Immigration Area)/Airport Security 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Indonesian/Airport/Mobile Passport Control Place (Immigration Area)/Airport Security 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Japanese/Airport/Immigration Interview (Immigration Area).meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Japanese/Airport/Immigration Interview (Immigration Area).meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Japanese/Airport/Immigration Interview (Immigration Area)/Immigration Officer 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Japanese/Airport/Immigration Interview (Immigration Area)/Immigration Officer 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Japanese/Airport/Mobile Passport Control Place (Immigration Area).meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Japanese/Airport/Mobile Passport Control Place (Immigration Area).meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Japanese/Airport/Mobile Passport Control Place (Immigration Area)/Airport Security 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Japanese/Airport/Mobile Passport Control Place (Immigration Area)/Airport Security 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Korean/Airport/Immigration Interview (Immigration Area).meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Korean/Airport/Immigration Interview (Immigration Area).meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Korean/Airport/Immigration Interview (Immigration Area)/Immigration Officer 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Korean/Airport/Immigration Interview (Immigration Area)/Immigration Officer 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Korean/Airport/Mobile Passport Control Place (Immigration Area).meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Korean/Airport/Mobile Passport Control Place (Immigration Area).meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Korean/Airport/Mobile Passport Control Place (Immigration Area)/Airport Security 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Korean/Airport/Mobile Passport Control Place (Immigration Area)/Airport Security 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Mandarin/Airport/Immigration Interview (Immigration Area).meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Mandarin/Airport/Immigration Interview (Immigration Area).meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Mandarin/Airport/Immigration Interview (Immigration Area)/Immigration Officer 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Mandarin/Airport/Immigration Interview (Immigration Area)/Immigration Officer 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Mandarin/Airport/Mobile Passport Control Place (Immigration Area).meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Mandarin/Airport/Mobile Passport Control Place (Immigration Area).meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Mandarin/Airport/Mobile Passport Control Place (Immigration Area)/Airport Security 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Mandarin/Airport/Mobile Passport Control Place (Immigration Area)/Airport Security 1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Barracks/German Airforce Staff 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Barracks/German Airforce Staff 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Barracks/Indonesian Airforce Staff 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/German Airforce Staff 10.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/German Airforce Staff 11.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/German Airforce Staff 12.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/German Airforce Staff 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/German Airforce Staff 4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/German Airforce Staff 5.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/German Airforce Staff 6.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/German Airforce Staff 7.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/German Airforce Staff 8.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/German Airforce Staff 9.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 2/German Airforce Staff 13.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 2/German Airforce Staff 14.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 2/German Airforce Staff 15.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 2/German Airforce Staff 16.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 2/German Airforce Staff 17.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/German Airforce Staff 18.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/German Airforce Staff 19.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/German Airforce Staff 20.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/German Airforce Staff 21.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/German Airforce Staff 22.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/German Airforce Staff 23.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/German Airforce Staff 24.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/German Airforce Staff 25.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/German Airforce Staff 26.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/German Airforce Staff 27.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Area/Airport Officer 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Area/Airport Officer 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Area/Airport Officer 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Interview (Immigration Area).meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Interview (Immigration Area)/Immigration Officer 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Mobile Passport Control Place (Immigration Area).meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Mobile Passport Control Place (Immigration Area)/Airport Security 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Mobile Passport Control Place Immigration Area.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Mobile Passport Control Place Immigration Area/Airport Security 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Money Changer/Money Changer Employee 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Money Changer/Money Changer Security 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Money Changer/Money Changer Visitor 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Money Changer/Money Changer Visitor 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Restaurant/Airport Restaurant Customer 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Restaurant/Airport Restaurant Waitress 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Restaurant/Airport Restaurant Waitress 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Restaurant/Airport Restaurant Waitress 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Toilet/Airport Janitor 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Toilet/Airport Visitor 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Welcome Center/Airport Officer 4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Welcome Center/Airport Officer 5.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Welcome Center/Tourist 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Welcome Center/Tourist 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Auditorium/German Army Staff 4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Auditorium/German Major Army 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Auditorium/Indonesian Army Staff 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Auditorium/Indonesian Army Staff 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Auditorium/Indonesian Army Staff 4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Meeting Room/German Army Staff 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Meeting Room/German Army Staff 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Meeting Room/German Army Staff 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Meeting Room/German Major Army 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Meeting Room/Indonesian Army Staff 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Building  ICONIC/On Observation Deck/Building Staff 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Building  ICONIC/On Observation Deck/Building Visitor 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Building  ICONIC/On Observation Deck/Building Visitor 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Building  ICONIC/On Observation Deck/Building Visitor 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Building  ICONIC/On Observation Deck/Building Visitor 4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Clinic/Doctor's Room/Doctor 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Clinic/Doctor's Room/Nurse 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Clinic/Lobby/Clinic Receptionist 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Clinic/Lobby/Clinic Visitor 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Clinic/Lobby/Clinic Visitor 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Landmark   ICONIC/In This Area/Landmark Employee 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Landmark   ICONIC/In This Area/Landmark Employee 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Landmark   ICONIC/In This Area/Landmark Visitor 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Landmark   ICONIC/In This Area/Landmark Visitor 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Landmark   ICONIC/In This Area/Landmark Visitor 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Inside The Museum/Museum Classic Art Staff 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Inside The Museum/Museum Classic Art Visitor 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Inside The Museum/Museum Classic Art Visitor 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Lobby/Museum Classic Art Staff 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Lobby/Museum Classic Art Staff 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Lobby/Museum Classic Art Visitor 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Museum Historical Employee 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Museum Historical Employee 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Museum Historical Employee 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Museum Historical Security 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Museum Historical Visitor 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Museum Historical Visitor 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Museum Historical Visitor 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Museum Historical Visitor 4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Museum Historical Visitor 5.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Museum Historical Visitor 6.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Photographer 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Presets/LookAnimatorTemplate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Presets/LookAnimatorTemplate.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Variable/String Variable.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Variable/String Variable.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/War council.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/War council.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_dir.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_light.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/ReflectionProbe-0.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/ReflectionProbe-1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/ReflectionProbe-1.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/ReflectionProbe-1.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/ReflectionProbe-1.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Home.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Home.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Login.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Login.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Test Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Test Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Test Scene/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Test Scene/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Test Scene/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Test Scene/LightingData.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Test Scene/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Test Scene/ReflectionProbe-0.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Test Scene/ReflectionProbe-0.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Test Scene/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Test Scene/ReflectionProbe-1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Test Scene/ReflectionProbe-1.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Test Scene/ReflectionProbe-1.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Test Scene/ReflectionProbe-1.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sequence Menu Test/Lighting Settings - Main.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sequence Menu Test/Lighting Settings - Main.lighting" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/NewScenarioGeneratorEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/NewScenarioGeneratorEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataQuizQuestionScenario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataQuizQuestionScenario.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/ScenarioQuizController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/ScenarioQuizController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network API/SendGETMethod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Network API/SendGETMethod.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network API/SendScoreBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Network API/SendScoreBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/CommandSequenceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/CommandSequenceManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/AnimInteraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/AnimInteraction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/LoadPrefabContentBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/LoadPrefabContentBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Prefab Object/AreaPrefab.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prefab Object/AreaPrefab.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/ToolsGenerateScenario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/ToolsGenerateScenario.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/LogRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/LogRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/String/DataVariable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/String/DataVariable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/ContentAreaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/ContentAreaController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataContentArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataContentArea.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataControllerBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataControllerBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataLocation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataLocation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/LocationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/LocationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,17 +303,24 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/PrefabLightmapDataEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Outline Object/OutlineSettingBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/ButtonControllerEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/FLookAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Recenter HTC 5/RecenterHTC5.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/FadingEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Class.LookBone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/NewScenarioGeneratorEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Logic.Targeting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Logic.Core.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/PrefabButtonEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Logic.Variables.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fading/FadingBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Class.CompensationBone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Time Countdown/TimerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAt/LookAtBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAt/AlwaysLookAtCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boolean/Booleanbehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/XRManagerSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/LookAnimatorCorrectionEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataQuizQuestionScenario.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grabable Object/AddObjectsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -86,10 +334,12 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcLookAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcSpeechSalsa.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Misc.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataExamQuestionScenario.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/ScenarioQuizController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteractionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Logic.AnimateBones.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/PrefabAnswerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Hands/HandEnableDisable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast/GraspBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -134,6 +384,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Teleport/TeleportBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Utils/EnumEventTable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Teleport/InitializeTeleport.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 6/Army Banks.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Interaction Engine/Runtime/Scripts/Utility/SimpleFacingCameraCallbacks.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Object/Scriptable Transform/ScriptableListTransform.cs" root0="FORCE_HIGHLIGHTING" />
@@ -142,6 +393,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Object/Scriptable Canvas Group/ScriptableCanvasGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SpeechRecognitionSystem/Scripts/SpeechRecognizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/DetectionUtilities/PinchDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animator/IdleAnimationInRangeChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/DetectionUtilities/AbstractHoldDetector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SpeechRecognitionSystem/Scripts/AudioRecorder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/DetectionUtilities/Detector.cs" root0="FORCE_HIGHLIGHTING" />
@@ -188,15 +440,23 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PointerStatesCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/NetworkApiManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Object Name/LabelNameBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.Tabs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.SceneGUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pinch Object/PinchObjectBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Button Controlller/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendGETMethod.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pinch Object/RegisterHand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.OldGUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/RuntimeSet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.Variables.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/PrefabButtonDataController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataControllerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animator/LookAnimatorOneClick.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.Helpers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.Foldouts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UBER/Editor/UBER_StandardShaderGUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.Elements.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/JsonHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Reset Object/ResetObjectBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -207,6 +467,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataLocation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/ContentAreaController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prefab Object/AreaPrefab.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/String/ScenarioLocation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Menu Navigation Controller/MenuControllerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -218,14 +479,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/DataSceneManagement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Object Name/LabelNameBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Speech Controller/RecognitionResult.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Log Controller/SentenceChecker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Speech Controller/SpeechChecker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Speech Controller/SpeechCheckerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/Float/FloatVariable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/AnimatorLookoutController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pinch Object/PinchObjectBehaviour.cs" />
@@ -252,12 +505,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/ScenarioQuizController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/CommandSequenceManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/NewScenarioGeneratorEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/ToolsGenerateScenario.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/LogRepository.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/PrefabButtonDataController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataContentArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Network API/SendScoreBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/JsonHelper.cs" />
@@ -266,9 +516,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataControllerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataLocation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Network API/SendGETMethod.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/LocationController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/String/DataVariable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/ContentAreaController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/LocationController.cs" />
+        <option value="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Logic.Targeting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Animator/IdleAnimationInRangeChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Logic.UpdateBones.cs" />
+        <option value="$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Class.LookBone.cs" />
+        <option value="$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.Helpers.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/LookAnimatorCorrectionEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Animator/LookAnimatorOneClick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/String/ScenarioLocation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/ToolsGenerateScenario.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/NewScenarioGeneratorEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataContentArea.cs" />
       </list>
     </option>
   </component>
@@ -301,10 +562,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="2592">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="20804">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="2592" />
+      <option name="pid" value="20804" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -358,6 +619,17 @@
       <workItem from="1661148573023" duration="8380000" />
       <workItem from="1661223953593" duration="17033000" />
       <workItem from="1661245787398" duration="4161000" />
+      <workItem from="1661313952934" duration="3092000" />
+      <workItem from="1661396078581" duration="605000" />
+      <workItem from="1661479223260" duration="2003000" />
+      <workItem from="1661760181422" duration="6034000" />
+      <workItem from="1661827685065" duration="7332000" />
+      <workItem from="1661840446354" duration="5446000" />
+      <workItem from="1661913359816" duration="1032000" />
+      <workItem from="1662015355455" duration="11854000" />
+      <workItem from="1662078791241" duration="11693000" />
+      <workItem from="1662430152858" duration="2706000" />
+      <workItem from="1662606172794" duration="1637000" />
     </task>
     <task id="LOCAL-00001" summary="perubahan pada konsep pembacaan animator, tatapi masih butuh review faizrizky 20/06/2022 17:23">
       <created>1655721023629</created>
@@ -399,6 +671,19 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/LocationController.cs</url>
+          <line>92</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/LocationController.cs" initialLine="92">
+            <startOffsets>
+              <option value="3056" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3112" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -24,4 +24,5 @@ public class NpcList
     public string npc_name;
     public string conversation_topic;
     public int duration;
+    public int passing_grade;
 }

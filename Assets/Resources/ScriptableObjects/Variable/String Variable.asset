@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   materi_id: 4
   menu_id: 1
-  chapter_id: 3
-  qustion_id: 0
-  area_id: 27
-  contentAreaIndex: 0
+  chapter_id: 1
+  qustion_id: 1
+  area_id: 22
+  contentAreaIndex: 103

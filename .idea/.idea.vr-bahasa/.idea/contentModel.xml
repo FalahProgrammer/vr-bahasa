@@ -84,6 +84,22 @@
               </e>
             </e>
             <e p="GERMANY" t="Include">
+              <e p="Airport - Money Changer" t="Include">
+                <e p="VOICEOVER" t="Include">
+                  <e p="16. GR-MCS01" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                  <e p="17. GR-MCV01" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                  <e p="18. GR-MCV02" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                  <e p="19. GR-MCE01" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                </e>
+              </e>
               <e p="Airport - Restaurant" t="Include">
                 <e p="VOICEOVER" t="Include">
                   <e p="6. GR-ARW01" t="Include">
@@ -168,6 +184,9 @@
               </e>
               <e p="FLookAnimator.cs" t="Include" />
               <e p="Read Me - Look Animator.txt" t="Include" />
+              <e p="State Machines" t="Include">
+                <e p="SM_SwitchLookAnimator.cs" t="Include" />
+              </e>
             </e>
           </e>
           <e p="Plugins - Shared" t="Include">
@@ -378,7 +397,20 @@
             </e>
           </e>
         </e>
+        <e p="Resources" t="Include">
+          <e p="Voice" t="Include">
+            <e p="German" t="Include">
+              <e p="6_Recommendation Food, and Order Food" t="Include">
+                <e p="SKENARIO.txt" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
+          <e p="Animator" t="Include">
+            <e p="IdleAnimationInRangeChecker.cs" t="Include" />
+            <e p="LookAnimatorOneClick.cs" t="Include" />
+          </e>
           <e p="Asset Bundle Loader" t="Include">
             <e p="LoadAssetBundleAsync.cs" t="Include" />
             <e p="LoadAsyncLanguageAssetBundle.cs" t="Include" />
@@ -407,7 +439,9 @@
             <e p="DoScaleEditor.cs" t="Include" />
             <e p="FadingEditor.cs" t="Include" />
             <e p="FixJawBoneKeyframes.cs" t="Include" />
+            <e p="LookAnimatorCorrectionEditor.cs" t="Include" />
             <e p="NewScenarioGeneratorEditor.cs" t="Include" />
+            <e p="PrefabAreaEditor.cs" t="Include" />
             <e p="PrefabButtonEditor.cs" t="Include" />
             <e p="PrefabLightmapDataEditor.cs" t="Include" />
             <e p="TimerEditor.cs" t="Include" />
@@ -592,6 +626,7 @@
               <e p="RepositoryPassingGrade.cs" t="Include" />
               <e p="RepositoryQuizPostData.cs" t="Include" />
               <e p="RepositoryQuizQuestion.cs" t="Include" />
+              <e p="RepositorySkybox.cs" t="Include" />
             </e>
             <e p="Scene Management" t="Include">
               <e p="ClearRepoOnAppQuit.cs" t="Include" />
@@ -608,6 +643,7 @@
               </e>
               <e p="String" t="Include">
                 <e p="DataVariable.cs" t="Include" />
+                <e p="ScenarioLocation.cs" t="Include" />
               </e>
             </e>
           </e>

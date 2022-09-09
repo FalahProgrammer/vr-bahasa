@@ -4,15 +4,21 @@ using UnityEngine.Serialization;
 
 public class AreaPrefab : MonoBehaviour
 {
-   public Transform characterContainer;
-   
    [SerializeField] private bool _debugMode;
+   
+   [Space(10)]
+   public Transform characterContainer;
    [SerializeField] private ListInteractor _listInteractor;
    [SerializeField] private Transform _playerInitialPosition;
 
-   [SerializeField] private float prefabScale = 1;
-
+   [Space(10)]
    [SerializeField] private Vector3 playerInitialPositionAdjustment;
+   
+   [Space(10)]
+   public SkyboxType skyboxType;
+   [HideInInspector] public Material skybox;
+   
+   private RepositorySkybox _repositorySkybox;
 
    public void ClearData()
    {
@@ -25,7 +31,31 @@ public class AreaPrefab : MonoBehaviour
 
    private void Awake()
    {
+      SetSkyBox();
+      
+      if (_listInteractor == null) _listInteractor = Resources.Load<ListInteractor>("ScriptableObjects/List Interactor");
+      _repositorySkybox = Resources.Load<RepositorySkybox>("ScriptableObjects/Repository/Repository Skybox");
+      
       GetNewData();
+   }
+   
+   private void SetSkyBox()
+   {
+      switch (skyboxType)
+      {
+         case SkyboxType.defaultSkybox:
+            if (RenderSettings.skybox != _repositorySkybox.defaultSkybox)
+            {
+               RenderSettings.skybox = _repositorySkybox.defaultSkybox;
+            }
+            break;
+         case SkyboxType.customSkybox:
+            if (RenderSettings.skybox != skybox)
+            {
+               RenderSettings.skybox = skybox;
+            }
+            break;
+      }
    }
 
    public void GetNewData()
@@ -122,4 +152,9 @@ public class AreaPrefab : MonoBehaviour
      
       if (_debugMode) Debug.Log("Data Generated!");
    }
+}
+
+public enum SkyboxType
+{
+   defaultSkybox, customSkybox
 }
