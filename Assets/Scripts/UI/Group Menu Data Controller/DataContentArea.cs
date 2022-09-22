@@ -21,6 +21,7 @@ public class DataContentArea
 [Serializable]
 public class NpcList
 {
+    public int id;
     public string npc_name;
     public string conversation_topic;
     public int duration;

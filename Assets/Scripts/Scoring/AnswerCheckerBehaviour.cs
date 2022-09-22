@@ -21,9 +21,11 @@ public class AnswerCheckerBehaviour : MonoBehaviour, iResetable
     
     [SerializeField] private DataVariable _dataVariable;
     
-    //[SerializeField] private RepositoryContentArea _repositoryContentArea;
+    [SerializeField] private IntegerVariable _integerVariable;
     
-    [SerializeField] private RepositoryPassingGrade _repositoryPassingGrade;
+    [SerializeField] private RepositoryContentArea _repositoryContentArea;
+    
+    //[SerializeField] private RepositoryPassingGrade _repositoryPassingGrade;
     
     //private int _count;
     
@@ -36,6 +38,8 @@ public class AnswerCheckerBehaviour : MonoBehaviour, iResetable
     [SerializeField] private UnityEvent OnInCorrect;
 
     private SentenceChecker _sentenceChecker;
+    
+    int limit_score = 75;
 
     private void Start()
     {
@@ -98,18 +102,14 @@ public class AnswerCheckerBehaviour : MonoBehaviour, iResetable
         
         Debug.Log(_stringSimiliarity.Similarity(EscapedCharacter(rightAnswer), micAnswer)._score);
         
-        int limit_score = 75;
-        
-        for (int i = 0; i < _repositoryPassingGrade.Items.Count; i++)
+        for (int i = 0; i < _repositoryContentArea.Items.Count; i++)
         {
-            if (_repositoryPassingGrade.Items[i].content_id==_dataVariable.area_id)
+            if (_dataVariable.contentAreaIndex == i)
             {
-                Debug.Log(_repositoryPassingGrade.Items[i].pass_grade);
-
-                limit_score = _repositoryPassingGrade.Items[i].pass_grade; 
+                limit_score = _repositoryContentArea.Items[i]
+                    .npc[_integerVariable.IntegerValue - 1].passing_grade;
             }
         }
-        
         
         if (_stringSimiliarity.Similarity(EscapedCharacter(rightAnswer), micAnswer)._score < limit_score)
         {

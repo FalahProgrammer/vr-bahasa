@@ -15,6 +15,6 @@ MonoBehaviour:
   materi_id: 4
   menu_id: 1
   chapter_id: 1
-  qustion_id: 1
-  area_id: 22
-  contentAreaIndex: 103
+  qustion_id: 0
+  area_id: 30
+  contentAreaIndex: 100

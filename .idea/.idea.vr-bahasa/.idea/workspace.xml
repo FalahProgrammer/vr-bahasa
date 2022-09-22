@@ -2,150 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99c69635-610c-4701-9b96-cb889ac100b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-bahasa/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Scenario Location.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Scenario Location.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tools/Scenario Creator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tools/Scenario Creator.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Toilet/Toilet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Toilet/Toilet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Money Changer/Money Changer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Airport/Money Changer/Money Changer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/Lounge.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/German/Office/Lounge/Lounge.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Barracks/Talk about basic combat training.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Barracks/Talk about basic combat training.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Barracks/Tell the rules in this place.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Barracks/Tell the rules in this place.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/Army Banks.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/Army Banks.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/First Aid.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/First Aid.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/Military uniform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/Military uniform.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/Organising next class.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/Organising next class.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/Terrain Analysis.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/Terrain Analysis.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/The Army Units Sign.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/The Army Units Sign.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/The Military Alphabet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/The Military Alphabet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/The Route Sign.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/The Route Sign.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/United Nations peace keeping operations.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/United Nations peace keeping operations.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/Weapons and Equipment.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 1/Weapons and Equipment.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 2/Parts of a rifle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 2/Parts of a rifle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 2/Patrol Kit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 2/Patrol Kit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 2/UNDOF.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 2/UNDOF.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 2/UNPROFOR.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 2/UNPROFOR.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 2/UNTAG.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 2/UNTAG.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about George Washington.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about George Washington.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about armoured vehicle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about armoured vehicle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about military intervention.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about military intervention.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about rules of engagement.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about rules of engagement.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about the battle of Cambrain.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about the battle of Cambrain.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about the history of NATO.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about the history of NATO.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about united nations peacekeeping mission.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about united nations peacekeeping mission.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about vietnam war.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about vietnam war.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about world war II.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask about world war II.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask an information about sector headquarters west.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airforce Base/Classroom 3/Ask an information about sector headquarters west.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Area/Direction to immigration interview.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Area/Direction to immigration interview.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Area/Guidance to use the machine.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Area/Guidance to use the machine.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Area/Guidance to use the machine.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Area/Guidance to use the machine.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Area/Immigration Interview.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Area/Immigration Interview.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Area/Immigration Interview.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Area/Immigration Interview.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Area/Procedure buy SIM card mobile phone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Area/Procedure buy SIM card mobile phone.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Area/Recommendation Airport Restaurant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Immigration Area/Recommendation Airport Restaurant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Money Changer/Ask about recommendation trip .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Money Changer/Ask about recommendation trip .prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Money Changer/Ask about recommendation trip .prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Money Changer/Ask about recommendation trip .prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Money Changer/Ask about vacation trip.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Money Changer/Ask about vacation trip.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Money Changer/Ask available counter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Money Changer/Ask available counter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Money Changer/Change money.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Money Changer/Change money.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Restaurant/Compliments for food.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Restaurant/Compliments for food.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Restaurant/Direction to the toilet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Restaurant/Direction to the toilet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Restaurant/Payment Method Options.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Restaurant/Payment Method Options.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Restaurant/Recommendation Food and Order Food.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Restaurant/Recommendation Food and Order Food.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Toilet/Different toilet habit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Toilet/Different toilet habit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Toilet/Warning about wet floor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Toilet/Warning about wet floor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Welcome Center/Ask money changer location.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Welcome Center/Ask money changer location.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Welcome Center/Guidance to use transportation online application.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Welcome Center/Guidance to use transportation online application.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Welcome Center/How to get to the hotel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Welcome Center/How to get to the hotel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Welcome Center/airport transportation scam history.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Welcome Center/airport transportation scam history.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Auditorium/Ask about cultural opinion in this area.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Auditorium/Ask about cultural opinion in this area.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Auditorium/Ask about his experience in the army.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Auditorium/Ask about his experience in the army.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Auditorium/Ask about the point of view of the event activities.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Auditorium/Ask about the point of view of the event activities.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Auditorium/Asking for opinions about the cooperation of the two militaries.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Auditorium/Asking for opinions about the cooperation of the two militaries.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Auditorium/Invite the army for have dinner at the nearest restaurant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Auditorium/Invite the army for have dinner at the nearest restaurant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Meeting Room/Ask About Military History.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Meeting Room/Ask About Military History.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Meeting Room/Ask About The Assigned Task.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Meeting Room/Ask About The Assigned Task.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Meeting Room/Ask About The Standard for Entering The Army.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Meeting Room/Ask About The Standard for Entering The Army.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Meeting Room/Ask About The Toughest Task Experienced.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Meeting Room/Ask About The Toughest Task Experienced.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Meeting Room/Discussion of The Army Defense System Used.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Army Office/Inside The Meeting Room/Discussion of The Army Defense System Used.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Building  ICONIC/On Observation Deck/Compliment the view.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Building  ICONIC/On Observation Deck/Compliment the view.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Building  ICONIC/On Observation Deck/Recommending place to visit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Building  ICONIC/On Observation Deck/Recommending place to visit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Building  ICONIC/On Observation Deck/Talk about the height of the building.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Building  ICONIC/On Observation Deck/Talk about the height of the building.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Building  ICONIC/On Observation Deck/Tell best spot to take picture.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Building  ICONIC/On Observation Deck/Tell best spot to take picture.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Building  ICONIC/On Observation Deck/Tell of interest in building.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Building  ICONIC/On Observation Deck/Tell of interest in building.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Clinic/Doctor's Room/Express the Illness You Feel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Clinic/Doctor's Room/Express the Illness You Feel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Clinic/Doctor's Room/State a History of Illness.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Clinic/Doctor's Room/State a History of Illness.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Clinic/Lobby/Ask The Doctors Experience.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Clinic/Lobby/Ask The Doctors Experience.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Clinic/Lobby/Ask him what Illness.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Clinic/Lobby/Ask him what Illness.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Clinic/Lobby/Register to check.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Clinic/Lobby/Register to check.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Landmark   ICONIC/In This Area/Ask about cultural in this statue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Landmark   ICONIC/In This Area/Ask about cultural in this statue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Landmark   ICONIC/In This Area/Guidance for visiting the statue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Landmark   ICONIC/In This Area/Guidance for visiting the statue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Landmark   ICONIC/In This Area/Talk about history of the statue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Landmark   ICONIC/In This Area/Talk about history of the statue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Landmark   ICONIC/In This Area/Talk about monument.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Landmark   ICONIC/In This Area/Talk about monument.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Landmark   ICONIC/In This Area/Talk about the height of the statue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Landmark   ICONIC/In This Area/Talk about the height of the statue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Inside The Museum/Ask the location of a certain art.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Inside The Museum/Ask the location of a certain art.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Inside The Museum/Talk about the public transportation in this area.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Inside The Museum/Talk about the public transportation in this area.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Inside The Museum/Tell mustvisit spot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Inside The Museum/Tell mustvisit spot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Lobby/Recommending to get guide tour.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Lobby/Recommending to get guide tour.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Lobby/Talk about job and origin country.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Lobby/Talk about job and origin country.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Lobby/Tell about museum.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Classic Art  ICONIC/Lobby/Tell about museum.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Ask about his job and location.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Ask about his job and location.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Ask opinion about a certain art.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Ask opinion about a certain art.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Ask recommendation public transportation.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Ask recommendation public transportation.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Ask the direction of a certain art.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Ask the direction of a certain art.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Ask the operational time.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Ask the operational time.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Ask when this place is established.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Ask when this place is established.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Offering museum directory flyer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Offering museum directory flyer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Tell another place to visit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Tell another place to visit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Tell his country.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Tell his country.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Tell the reason to come to this country.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/Tell the reason to come to this country.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/ask about background story of the museum.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Museum Historical  ICONIC/Inside The Museum/ask about background story of the museum.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lobby/Ask About Navy Military History.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lobby/Ask About Navy Military History.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lobby/Ask About The Assigned Task in Navy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lobby/Ask About The Assigned Task in Navy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lobby/Ask About The Standard for Entering The Army.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lobby/Ask About The Standard for Entering The Army.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lobby/Ask about lounge location.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lobby/Ask about lounge location.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lobby/Attendance and ask about event activities.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lobby/Attendance and ask about event activities.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lounge/Ask about Navy air Transportation.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lounge/Ask about Navy air Transportation.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lounge/Ask about Navy land Transportation.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lounge/Ask about Navy land Transportation.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lounge/Ask about Navy water Transportation.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lounge/Ask about Navy water Transportation.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lounge/Ask about cultural opinion in this area.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lounge/Ask about cultural opinion in this area.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lounge/Ask about the point of view of the event activities.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Navy Office/Inside The Lounge/Ask about the point of view of the event activities.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Head Office/Duty in this city.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Head Office/Duty in this city.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lobby/Introducing friend Major Wahyu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lobby/Introducing friend Major Wahyu.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lobby/offer to driving to the hotel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lobby/offer to driving to the hotel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lounge/Families.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lounge/Families.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lounge/Hobbies.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lounge/Hobbies.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lounge/Iconic places in this city.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lounge/Iconic places in this city.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lounge/Office - Lounge.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lounge/Office - Lounge.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lounge/Talk About Aircraft.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lounge/Talk About Aircraft.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lounge/Talk About Sports.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lounge/Talk About Sports.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lounge/Talk about Military Technology.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Lounge/Talk about Military Technology.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Meeting Room/Peace Operation Program.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Office/Meeting Room/Peace Operation Program.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Street View/Inside The Area/Ask About Street Photo Art.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Street View/Inside The Area/Ask About Street Photo Art.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Street View/Inside The Area/Ask The Taste of Food in This Area.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Street View/Inside The Area/Ask The Taste of Food in This Area.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Street View/Inside The Area/Ask The Way to the Hotel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Street View/Inside The Area/Ask The Way to the Hotel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Street View/Inside The Area/Report Found Items.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Street View/Inside The Area/Report Found Items.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Subway/Card Machine Area/Ask for directions to get a card.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Subway/Card Machine Area/Ask for directions to get a card.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Subway/Card Machine Area/How to Get Access by Train.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Subway/Card Machine Area/How to Get Access by Train.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Subway/Card Machine Area/how to use the card and its regulations.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Subway/Card Machine Area/how to use the card and its regulations.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Subway/Subway Waiting Area/Ask the Destination .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Subway/Subway Waiting Area/Ask the Destination .prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Subway/Subway Waiting Area/Asking Where it Came From.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Subway/Subway Waiting Area/Asking Where it Came From.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Transportation Online/Inside The Car/Inside The Car.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Transportation Online/Inside The Car/Inside The Car.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Transportation Online/Inside The Car/Trip validation How long the driver worked Driver jobs besides drive.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Transportation Online/Inside The Car/Trip validation How long the driver worked Driver jobs besides drive.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Workshop/Inside The Workshop/Vehicle maintenance tools.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Workshop/Inside The Workshop/Vehicle maintenance tools.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Workshop/Inside The Workshop/decide what tools you need to fix specific problem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Workshop/Inside The Workshop/decide what tools you need to fix specific problem.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Workshop/Inside The Workshop/things you have to do before you start a journey.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Language/Russian/Workshop/Inside The Workshop/things you have to do before you start a journey.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Skybox.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Skybox.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Skybox.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Skybox.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Content Area.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Repository/Repository Content Area.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Variable/Integer Variable.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Variable/Integer Variable.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Variable/String Variable.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Variable/String Variable.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/ReflectionProbe-0.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/ReflectionProbe-1.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/English/ReflectionProbe-1.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Test Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production Scene/Test Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Prefab Object/AreaPrefab.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prefab Object/AreaPrefab.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scoring/AnswerCheckerBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scoring/AnswerCheckerBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataContentArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataContentArea.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -162,190 +28,181 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/PrefabLightmapDataEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Outline Object/OutlineSettingBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/ButtonControllerEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/FLookAnimator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Recenter HTC 5/RecenterHTC5.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/FadingEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Class.LookBone.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/NewScenarioGeneratorEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Logic.Targeting.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Logic.Core.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/PrefabButtonEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Logic.Variables.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fading/FadingBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Class.CompensationBone.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Time Countdown/TimerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAt/LookAtBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAt/AlwaysLookAtCamera.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boolean/Booleanbehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/XRManagerSettings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/LookAnimatorCorrectionEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataQuizQuestionScenario.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grabable Object/AddObjectsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grabable Object/AddObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Misc.Gizmos.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataAnswerScenario.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Logic.UpdateBones.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataPassingGrade.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grabable Object/InitialPosRotBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataMateri.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcLookAnimator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcSpeechSalsa.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Misc.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataExamQuestionScenario.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/ScenarioQuizController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteraction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteractionManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Logic.AnimateBones.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/PrefabAnswerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Hands/HandEnableDisable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast/GraspBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Label Controller/LabelController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Laser Controller/SteamVRLaserController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast/RayController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene Management/ResetScene.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene Management/SceneManagement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast/Ray2D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scoring/StringSimiliarity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene Management/SceneLoaderManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scoring/AnswerCheckerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Leap Motion Event/LeapMotionEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lightmap/PrefabLightmapData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lightmap/LightProbeRuntime.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Speech Controller/VoskSpeechToText.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/LoadPrefabContentBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/For Collab Purpose/CD-MD_CHARACTER_FR_002-FIT036-20210926 (1) Variant.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateEnvirontmentBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Speech Controller/VoskResultText.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/CommandSequence.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/ToolsGenerateScenario.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Speech Controller/SpeechController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/CommandSequenceManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/PinchScenarioChecker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Speech Controller/RecognitionResult.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Speech Controller/VoiceProcessor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Speech Controller/SpeechCheckerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Speech Controller/New For Test/TestController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/AnimatorLookoutController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Editor/JoystickEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Asset Bundle Loader/LoadAsyncLanguageAssetBundle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Asset Bundle Loader/LoadAssetBundleAsync.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/CustomTimer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_TerrainAutoUpgrade.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/AnimInteraction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fill Ammount Loading/FillAmmountLoading.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Toilet/Mirror.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Teleport/TeleportBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Utils/EnumEventTable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Teleport/InitializeTeleport.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 6/Army Banks.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CC_Assets/3D Models.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Interaction Engine/Runtime/Scripts/Utility/SimpleFacingCameraCallbacks.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Teleport/InitializeTeleport.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Reset Object/ResetObjectBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fill Ammount Loading/FillAmmountLoading.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataMateri.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Object/Scriptable Canvas Group/ScriptableCanvasGroup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.Foldouts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Utils/EnumEventTable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/ScenarioQuizController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Language/French/Airport/Toilet/Mirror.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.Elements.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/PrefabAnswerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.Helpers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpeechToText/SpeechMicController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking OpenXR/Runtime/Scripts/HandTracker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lightmap/LightProbeRuntime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/RepositoryMateri.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.SceneGUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/LogRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.OldGUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.Variables.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.Tabs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast/GraspBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Welcome Center/airport transportation scam history.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/testread.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/RepositoryPassingGrade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Time Countdown/TimerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UBER/Editor/UBER_StandardShaderGUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast/RayController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast/Ray2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/CommandSequence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scoring/AnswerCheckerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lightmap/PrefabLightmapData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UserPanelLeftHand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Log Controller/SentenceChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Button Controlller/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/LoadPrefabContentBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Object Name/LabelNameBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateEnvirontmentBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/CommandSequenceManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Outline Object/OutlineSettingBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/LookAnimatorCorrectionEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/AnimInteraction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/RuntimeSet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcLookAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpeechRecognitionSystem/Scripts/SpeechRecognizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/NewScenarioGeneratorEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/PrefabLightmapDataEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/For Collab Purpose/CD-MD_CHARACTER_FR_002-FIT036-20210926 (1) Variant.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/ToolsGenerateScenario.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/AnimatorLookoutController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/String/ScenarioLocation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Recenter HTC 5/RecenterHTC5.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Editor/JoystickEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/VRCheck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Teleport/TeleportBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/PrefabButtonDataController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpeechRecognitionSystem/Scripts/AudioRecorder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/JsonHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/ScenarioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Hands/HandEnableDisable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prefab Object/AreaPrefab.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prefab Object/CharacterAdjustment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Object/Scriptable Transform/ScriptableListTransform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Object/Scriptable Transform/ScriptableTransform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataContentArea.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/ListInteractor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/LocationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataLocation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Object/Scriptable Game Object/ScriptableGameObjectDataController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Object/Scriptable Canvas Group/ScriptableCanvasGroup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SpeechRecognitionSystem/Scripts/SpeechRecognizer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/DetectionUtilities/PinchDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/ContentAreaController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_TerrainAutoUpgrade.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animator/IdleAnimationInRangeChecker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/DetectionUtilities/AbstractHoldDetector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SpeechRecognitionSystem/Scripts/AudioRecorder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/DetectionUtilities/Detector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/Float/FloatVariable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/String/DataVariable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/RepositoryContentArea.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Vosk/VoskRecognizer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/testread.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/RepositoryMateri.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Vosk/Vosk.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grabable Object/InitialPosRotBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Utils/Comment.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/LogRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Vosk/Model.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Vosk/VoskPINVOKE.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animator/LookAnimatorOneClick.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Menu Navigation Controller/MenuControllerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Crazy Minnow Studio/SALSA LipSync/Editor/OneClicks/OneClickCC3Editor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grabable Object/AddObjectsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grabable Object/AddObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Speech Controller/New For Test/TestController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/JoyStickUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Label Controller/LabelController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Speech Controller/SpeechCheckerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Speech Controller/VoskResultText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/String/DataVariable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAt/AlwaysLookAtCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Speech Controller/RecognitionResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene Management/SceneManagement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Speech Controller/VoskSpeechToText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Crazy Minnow Studio/SALSA LipSync/Plugins/OneClickRuntimes/OneClickCC3Eyes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Menu Navigation Controller/ScriptController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Crazy Minnow Studio/SALSA LipSync/Plugins/OneClickRuntimes/OneClickCC3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteractionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Speech Controller/SpeechController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcInteraction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Speech Controller/VoiceProcessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/RepositoryContentArea.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/PrefabButtonEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR Changer/TeleportAndGrabCheck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Crazy Minnow Studio/SALSA LipSync/Plugins/OneClickRuntimes/OneClickBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Crazy Minnow Studio/SALSA LipSync/Plugins/OneClickRuntimes/OneClickConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/DetectionUtilities/Detector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/OnSceneChangeBlackPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PointerStatesCheck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataControllerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/RepositoryLocation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/RepositoryQuizQuestion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/RepositoryLoginData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/RepositoryPassingGrade.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CC_Assets/3D Models.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/ListInteractor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/ScenarioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Language/German/Airforce Base/Classroom 1/German Airforce Staff 6/Army Banks.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Scene Management/DataSceneManagement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/ButtonControllerEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Typer Text/TyperTextBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Crazy Minnow Studio/SALSA LipSync/Editor/OneClicks/OneClickCC3Editor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR Changer/ToggleController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC Interaction/NpcSpeechSalsa.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/DetectionUtilities/AbstractHoldDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/DetectionUtilities/PinchDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Laser Controller/SteamVRLaserController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene Management/ResetScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Vosk/Model.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/FLookAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/FadingEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Class.LookBone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Vosk/VoskPINVOKE.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Class.CompensationBone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Vosk/Vosk.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Vosk/VoskRecognizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Logic.AnimateBones.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR Changer/XRChanger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR Changer/ToggleController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataAnswerScenario.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataPassingGrade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Logic.Core.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fading/FadingBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR Changer/ToggleBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR Changer/TeleportAndGrabCheck.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Crazy Minnow Studio/SALSA LipSync/Plugins/OneClickRuntimes/OneClickCC3Eyes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Config JSON/ConfigLoader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking OpenXR/Runtime/Scripts/HandTracker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Crazy Minnow Studio/SALSA LipSync/Plugins/OneClickRuntimes/OneClickCC3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Logic.Targeting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Config JSON/ConfigFile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/OnSceneChangeBlackPanel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Language/Russian/Airport/Welcome Center/airport transportation scam history.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/JoyStickUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataExamQuestionScenario.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Logic.UpdateBones.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Logic.Variables.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene Management/SceneLoaderManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendGETMethod.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendScoreBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendPOSTMethod.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking OpenXR/Runtime/Scripts/HandTrackingFeature.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Crazy Minnow Studio/SALSA LipSync/Plugins/OneClickRuntimes/OneClickBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Misc.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Leap Motion Event/LeapMotionEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/LoginVerificationBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UserPanelLeftHand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Crazy Minnow Studio/SALSA LipSync/Plugins/OneClickRuntimes/OneClickConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PointerStatesCheck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAt/LookAtBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scoring/StringSimiliarity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/NetworkApiManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Object Name/LabelNameBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.Tabs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.SceneGUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boolean/Booleanbehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Plugins - Animating/Look Animator/Code/LookAnimator.Misc.Gizmos.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/PinchScenarioChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Asset Bundle Loader/LoadAsyncLanguageAssetBundle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pinch Object/PinchObjectBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Button Controlller/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network API/SendGETMethod.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pinch Object/RegisterHand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.OldGUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/RuntimeSet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.Variables.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/PrefabButtonDataController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataControllerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animator/LookAnimatorOneClick.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.Helpers.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.Foldouts.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UBER/Editor/UBER_StandardShaderGUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Look Animator/LookAnimator.Editor.Elements.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/JsonHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Production Scene/English.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Reset Object/ResetObjectBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataContentArea.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpeechToText/SpeechMicController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/LocationController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prefab Object/CharacterAdjustment.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataLocation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/ContentAreaController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prefab Object/AreaPrefab.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/String/ScenarioLocation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Do Move Object/DoMoveObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Menu Navigation Controller/MenuControllerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Menu Navigation Controller/ScriptController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Log Controller/LogControllerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/VRCheck.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Log Controller/SentenceChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/Float/FloatVariable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Asset Bundle Loader/LoadAssetBundleAsync.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scenario/CustomTimer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Ultraleap/Tracking OpenXR/Runtime/Scripts/HandTrackingFeature.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataQuizQuestionScenario.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/AnimatorLookoutController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Pinch Object/PinchObjectBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Grabable Object/InitialPosRotBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Label Controller/LabelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Reset Object/ResetObjectBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/PrefabLightmapDataEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Lightmap/PrefabLightmapData.cs" />
@@ -365,7 +222,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/DataQuizQuestionScenario.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/SequentialAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GetData/GetDataScenario/ScenarioQuizController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/CommandSequenceManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/Language Sequence/ScenarioEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable/Repository/LogRepository.cs" />
@@ -390,9 +246,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Animator/LookAnimatorOneClick.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable/Variable/String/ScenarioLocation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/NewScenarioGeneratorEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataContentArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Prefab Object/AreaPrefab.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/ToolsGenerateScenario.cs" />
+        <option value="$PROJECT_DIR$/Assets/StreamingAssets/Config.json" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Network API/LoginVerificationBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/DataContentArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Time Countdown/TimerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scoring/AnswerCheckerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scenario/GenerateScenarioBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -425,10 +286,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="20804">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="12124">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="20804" />
+      <option name="pid" value="12124" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -495,6 +356,7 @@
       <workItem from="1662606172794" duration="1637000" />
       <workItem from="1663054696399" duration="871000" />
       <workItem from="1663209949491" duration="2594000" />
+      <workItem from="1663803337445" duration="10023000" />
     </task>
     <task id="LOCAL-00001" summary="perubahan pada konsep pembacaan animator, tatapi masih butuh review faizrizky 20/06/2022 17:23">
       <created>1655721023629</created>
@@ -536,19 +398,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/LocationController.cs</url>
-          <line>92</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/UI/Group Menu Data Controller/LocationController.cs" initialLine="92">
-            <startOffsets>
-              <option value="3056" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3112" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
