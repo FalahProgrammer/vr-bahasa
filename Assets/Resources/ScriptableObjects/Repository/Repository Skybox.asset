@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10b930350b97eb44790bed928c55365a, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3c4857488bd0549909099baf21b8a1, type: 3}
   m_Name: Repository Skybox
   m_EditorClassIdentifier: 
-  skyboxInside: {fileID: 2100000, guid: 4e154bf235e41704bbd6bbc6fd6c63f6, type: 2}
-  skyboxOutside: {fileID: 2100000, guid: 5d133deeaa66ed445853e946ff25e073, type: 2}
+  defaultSkybox: {fileID: 2100000, guid: 4e154bf235e41704bbd6bbc6fd6c63f6, type: 2}

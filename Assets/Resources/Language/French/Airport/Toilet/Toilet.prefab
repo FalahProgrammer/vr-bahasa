@@ -23987,6 +23987,7 @@ MonoBehaviour:
   playerInitialPositionAdjustment: {x: 0, y: 0, z: 0}
   skyboxType: 0
   skybox: {fileID: 0}
+  _repositorySkybox: {fileID: 0}
 --- !u!114 &4052412240629304801
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2460633070352114223}
-  - component: {fileID: -7576879633936881129}
+  - component: {fileID: -8104800423295423763}
   m_Layer: 0
   m_Name: Direction to immigration interview
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-7576879633936881129
+--- !u!114 &-8104800423295423763
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

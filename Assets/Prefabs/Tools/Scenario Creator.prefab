@@ -45,6 +45,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mode: 0
   _integerVariable: {fileID: 11400000, guid: 05e3189e17a53fa44b625301249eeb94, type: 2}
+  scenarioId: 
+  npcId: 0
   scenarioPrefab: {fileID: 2261339318223234641, guid: 793862c6e5ae8e5429bf8344baee8bf6, type: 3}
   scenarioName: War council
-  _audioClip: []
+  soundAssetsPath: 
+  audioClip: []
+  scenarioArray: []
+  folderArray: []
+  ScenarioLocation: {fileID: 11400000, guid: 2b1abed33a354274f9ae06e674127d07, type: 2}
