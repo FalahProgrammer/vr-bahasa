@@ -8,8 +8,11 @@ using UnityEngine.UI;
 
 public class NpcInteraction : MonoBehaviour
 {
+    [SerializeField] private bool debugMode;
+    [Space(10)]
+    
     //   [SerializeField] private GraspBehaviour _graspBehaviour;
-    public int _id;
+    [HideInInspector] public int _id;
 
     /*[SerializeField] private NpcInteractionManager _npcInteractionManager;
 
@@ -23,9 +26,9 @@ public class NpcInteraction : MonoBehaviour
 
     private GraspBehaviour _graspBehaviour;
 
-    public Animator Animator;
+    [HideInInspector] public Animator Animator;
 
-    [SerializeField] public IntegerVariable _integerVariable;
+    [HideInInspector] public IntegerVariable _integerVariable;
 
     private NpcInteractionManager _npcInteractionManager;
 
@@ -36,14 +39,56 @@ public class NpcInteraction : MonoBehaviour
     /*[SerializeField] private Text[] _scenarioNameText;
     
     [SerializeField] private Text[] _scenarioDescText;*/
+    
+    [HideInInspector] public MeshRenderer MeshRenderer;
 
     [SerializeField] private UnityEvent OnInteract;
-
-    public MeshRenderer MeshRenderer;
 
     private void Awake()
     {
         MeshRenderer = GetComponent<MeshRenderer>();
+        
+        bool hasPersistentTarget = false;
+       
+        for (int i = 0; i < OnInteract.GetPersistentEventCount(); i++)
+        {
+            if (OnInteract.GetPersistentTarget(i) != null)
+            {
+                hasPersistentTarget = true;
+            }
+        }
+
+        if (!hasPersistentTarget)
+        {
+            // Load Scriptable Data
+            _integerVariable = Resources.Load<IntegerVariable>("ScriptableObjects/Variable/Integer Variable");
+            
+            // Remove all prior assigned listeners
+            OnInteract.RemoveAllListeners();
+            
+            // Add new Listener when NPC is interacted
+            OnInteract.AddListener(()=> SetIntegerVariable());
+            
+            if (debugMode)
+            {
+                Debug.Log("Added listener to 'On Interact' in NPC Interaction of NPC " + transform.parent.GetChild(1).name);
+            }
+        }
+        
+        AssignData();
+    }
+    
+    void AssignData()
+    {
+        Transform parent = transform.parent;
+        
+        _id = parent.GetSiblingIndex() + 1;
+        Animator = parent.GetComponentInChildren<Animator>();
+    }
+
+    public void SetIntegerVariable()
+    {
+        _integerVariable.IntegerValue = _id;
     }
 
     private void Start()

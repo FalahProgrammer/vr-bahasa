@@ -18,7 +18,7 @@ public class AreaPrefab : MonoBehaviour
    public SkyboxType skyboxType;
    [HideInInspector] public Material skybox;
    
-   [SerializeField] private RepositorySkybox _repositorySkybox;
+   private RepositorySkybox _repositorySkybox;
 
    public void ClearData()
    {
@@ -31,10 +31,10 @@ public class AreaPrefab : MonoBehaviour
 
    private void Awake()
    {
-      _repositorySkybox = Resources.Load<RepositorySkybox>("ScriptableObjects/Repository/Repository Skybox");
-      SetSkyBox();
-      
       if (_listInteractor == null) _listInteractor = Resources.Load<ListInteractor>("ScriptableObjects/List Interactor");
+      _repositorySkybox = Resources.Load<RepositorySkybox>("ScriptableObjects/Repository/Repository Skybox");
+      
+      SetSkyBox();
       
       GetNewData();
    }

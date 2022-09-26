@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Personal\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Personal\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_vr-bahasa.1091179060.00" t="ExcludeRecursive" />
-    <e p="D:\Projects\Pusdiklat Bahasa\VTS Language 20220624 - 2020.3.30f1\vr-bahasa" t="IncludeRecursive">
+    <e p="C:\Users\Personal\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_vr-bahasa.-1134701379.00" t="ExcludeRecursive" />
+    <e p="D:\GitHub\VTS Language 20220317 - 2020.3.30f1\vr-bahasa" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -79,6 +79,40 @@
                   </e>
                   <e p="FN-VO-MCAV01" t="Include">
                     <e p="FN-VO-MCAV01 TXT.txt" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="GERMANY" t="Include">
+              <e p="Airport - Money Changer" t="Include">
+                <e p="VOICEOVER" t="Include">
+                  <e p="16. GR-MCS01" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                  <e p="17. GR-MCV01" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                  <e p="18. GR-MCV02" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                  <e p="19. GR-MCE01" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Airport - Restaurant" t="Include">
+                <e p="VOICEOVER" t="Include">
+                  <e p="6. GR-ARW01" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                  <e p="7. GR-ARW02" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                  <e p="8. GR-ARC01" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
+                  </e>
+                  <e p="9. GR-ARW03" t="Include">
+                    <e p="SKENARIO.txt" t="Include" />
                   </e>
                 </e>
               </e>
@@ -360,6 +394,15 @@
                 <e p="DOTweenModuleUtils.cs" t="Include" />
               </e>
               <e p="readme.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Resources" t="Include">
+          <e p="Voice" t="Include">
+            <e p="German" t="Include">
+              <e p="6_Recommendation Food, and Order Food" t="Include">
+                <e p="SKENARIO.txt" t="Include" />
+              </e>
             </e>
           </e>
         </e>
