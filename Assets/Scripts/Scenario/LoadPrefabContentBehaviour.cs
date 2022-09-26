@@ -62,14 +62,15 @@ public class LoadPrefabContentBehaviour : MonoBehaviour
         for (int i = 0; i < _repositoryContentArea.Items.Count; i++)
         {
             #if UNITY_EDITOR
-            for (int p = 0; p < _repositoryContentArea.Items[i].npc.Length; p++)
+            if(!Directory.Exists("Assets/Resources/" + _repositoryContentArea.Items[i].path_area_prefab/* + "/" + _repositoryContentArea.Items[i].npc[p].npc_name*/))
             {
-                if(!Directory.Exists("Assets/Resources/" + _repositoryContentArea.Items[i].path_area_prefab + "/" + _repositoryContentArea.Items[i].npc[p].npc_name))
-                {
-                    //Debug.Log("Directory doesn't exist!!, creating folder..... \n Directory Location : " + "Assets/Resources/" + _repositoryContentArea.Items[i].path_area_prefab + "/" + _repositoryContentArea.Items[i].npc_name.GetDirectoryName());
-                    Directory.CreateDirectory("Assets/Resources/" + _repositoryContentArea.Items[i].path_area_prefab + "/" + _repositoryContentArea.Items[i].npc[p].npc_name);
-                }
+                //Debug.Log("Directory doesn't exist!!, creating folder..... \n Directory Location : " + "Assets/Resources/" + _repositoryContentArea.Items[i].path_area_prefab + "/" + _repositoryContentArea.Items[i].npc_name.GetDirectoryName());
+                Directory.CreateDirectory("Assets/Resources/" + _repositoryContentArea.Items[i].path_area_prefab/* + "/" + _repositoryContentArea.Items[i].npc[p].npc_name*/);
             }
+            /*for (int p = 0; p < _repositoryContentArea.Items[i].npc.Length; p++)
+            {
+                
+            }*/
             #endif
             
             

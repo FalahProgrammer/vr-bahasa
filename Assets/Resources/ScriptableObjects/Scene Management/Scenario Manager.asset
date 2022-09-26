@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b512e5c82d85f6a409869f926d7f9ef7, type: 3}
   m_Name: Scenario Manager
   m_EditorClassIdentifier: 
-  <ScenarioIsActive>k__BackingField: 0
+  <ScenarioIsActive>k__BackingField: 1
