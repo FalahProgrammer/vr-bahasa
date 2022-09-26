@@ -3138,7 +3138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d162ef1c8d9bf124fa18657415ae2a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcScenario: {fileID: 8234571543875088540, guid: a5367fe35f2f5f843abe191193c2a236, type: 3}
+  npcScenario: {fileID: 186920051062549086, guid: f44c45c11f40ce64eaf7362290a03231, type: 3}
 --- !u!1 &496175275922156571
 GameObject:
   m_ObjectHideFlags: 0
@@ -15554,12 +15554,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbcf7161429c52b479b092b985c9f0dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterContainer: {fileID: 1767631281259756548}
   _debugMode: 0
+  characterContainer: {fileID: 1767631281259756548}
   _listInteractor: {fileID: 11400000, guid: bd8e800f64f383f4db9e2c91a34d6892, type: 2}
   _playerInitialPosition: {fileID: 8168177457252364470}
-  prefabScale: 2
   playerInitialPositionAdjustment: {x: 0, y: 0, z: 0}
+  skyboxType: 0
+  skybox: {fileID: 0}
+  _repositorySkybox: {fileID: 0}
 --- !u!114 &5745987372111439314
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,7 +5,11 @@ using UnityEngine;
 public class LookAnimatorOneClick : MonoBehaviour
 {
     [SerializeField] private string boneName = "CC_Base_Waist";
+    [SerializeField] private IntegerVariable _integerVariable;
 
+
+
+#if UNITY_EDITOR
     public void BoneCorrection()
     {
         AreaPrefab _areaPrefab = GetComponent<AreaPrefab>();
@@ -13,6 +17,22 @@ public class LookAnimatorOneClick : MonoBehaviour
         foreach (Transform npc in _areaPrefab.characterContainer)
         {
             var found = false;
+
+            NpcInteraction npcInteraction = npc.GetComponentInChildren<NpcInteraction>();
+            if (npcInteraction._integerVariable == null)
+            {
+                npcInteraction._integerVariable = _integerVariable;
+            }
+            
+            CharacterAdjustment characterAdjustment = npc.GetComponentInChildren<CharacterAdjustment>();
+            if (characterAdjustment.characterPivot == null)
+            {
+                characterAdjustment.characterPivot = characterAdjustment.transform.GetChild(0).GetChild(0);
+            }
+            if (characterAdjustment.uiPivot == null)
+            {
+                characterAdjustment.uiPivot = characterAdjustment.characterPivot.transform.GetChild(0);
+            }
 
             FLookAnimator _fLookAnimator = npc.GetComponentInChildren<FLookAnimator>();
 
@@ -156,6 +176,8 @@ public class LookAnimatorOneClick : MonoBehaviour
             lookAnimator.ConstantParentalAxisUpdate = true;
         }
     }
+#endif
+    
 
     public void Finished()
     {

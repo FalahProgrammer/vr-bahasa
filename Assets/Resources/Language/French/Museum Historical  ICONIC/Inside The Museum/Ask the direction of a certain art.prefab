@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2133061756070480915}
-  - component: {fileID: -6395570084236448154}
+  - component: {fileID: 3995809363638999229}
   m_Layer: 0
   m_Name: Ask the direction of a certain art
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-6395570084236448154
+--- !u!114 &3995809363638999229
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -52,7 +52,7 @@ MonoBehaviour:
     QuestionID: 0
     Animators: []
     AnimationState:
-    - S+1
+    - S1
     AudioClip: {fileID: 8300000, guid: db748f51d0805af4ea2e7a24e317ca08, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -82,7 +82,7 @@ MonoBehaviour:
     QuestionID: 1
     Animators: []
     AnimationState:
-    - S+2
+    - S2
     AudioClip: {fileID: 8300000, guid: dc341791a44fa5c4d884d3f6b3ca35d0, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
     QuestionID: 2
     Animators: []
     AnimationState:
-    - S+3
+    - S3
     AudioClip: {fileID: 8300000, guid: 88348e5d23cdc874c903bb709e904bca, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
     QuestionID: 3
     Animators: []
     AnimationState:
-    - S+4
+    - S4
     AudioClip: {fileID: 8300000, guid: 51add2b995dba1846a08cf0edba49595, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -172,7 +172,7 @@ MonoBehaviour:
     QuestionID: 4
     Animators: []
     AnimationState:
-    - S+5
+    - S5
     AudioClip: {fileID: 8300000, guid: 6cb1bb2f429d82540b4617f9d26835f9, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -202,7 +202,7 @@ MonoBehaviour:
     QuestionID: 5
     Animators: []
     AnimationState:
-    - S+6
+    - S6
     AudioClip: {fileID: 8300000, guid: 97346caaa15af504f9203bbd25955e9b, type: 3}
     AudioDelay: 0
     AnimationDelay: 0

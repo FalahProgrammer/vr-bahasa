@@ -16,6 +16,8 @@ public class GenerateScenarioBehaviour : MonoBehaviour
     [SerializeField] private IntegerVariable _integerVariable;
 
     [SerializeField] private RepositoryContentArea _repositoryContentArea;
+    
+    [SerializeField] private RepositoryLoginData _repositoryLoginData;
 
     [SerializeField] private DataVariable _dataVariable;
 
@@ -37,6 +39,8 @@ public class GenerateScenarioBehaviour : MonoBehaviour
 
     //[SerializeField] private GraspBehaviour _graspBehaviour;
 
+    [SerializeField] private Text _usernameText;
+    
     [SerializeField] private Text _durationPanelUser;
     
     [SerializeField] private Text _duration;
@@ -117,7 +121,7 @@ public class GenerateScenarioBehaviour : MonoBehaviour
             var index = _integerVariable.IntegerValue - 1;
 
             //_durationFinal.text = _durationPanelUser.text;
-
+            
             //GetScenarioSentences();
 
             GenerateScenario(index, OnFinishedLoadAsset);
@@ -176,8 +180,11 @@ public class GenerateScenarioBehaviour : MonoBehaviour
         _scriptableGameObjectDataController.ContentButton.transform.localPosition = localPosition;
 
         _scriptableGameObjectDataController.ContentButton.transform.localRotation = new Quaternion(0, 0, 0, 0);
-
+        
         Debug.Log("Assigning NPC Data");
+        
+        _usernameText.text = _repositoryLoginData.data[0].username;
+        
         for (int j = 0; j < _repositoryContentArea.Items.Count; j++)
         {
             /*Debug.Log("Materi ID: " + _repositoryContentArea.Items[j].materi_id + ", Expected: " + _dataVariable.materi_id +
@@ -207,6 +214,8 @@ public class GenerateScenarioBehaviour : MonoBehaviour
                                     .npc[_integerVariable.IntegerValue - 1].npc_name;
                                 
                                 _durationFinal.text = _durationPanelUser.text;
+
+                                
                             } 
                             
                         }

@@ -25,7 +25,7 @@ public class NpcInteraction : MonoBehaviour
 
     public Animator Animator;
 
-    [SerializeField] private IntegerVariable _integerVariable;
+    [SerializeField] public IntegerVariable _integerVariable;
 
     private NpcInteractionManager _npcInteractionManager;
 

@@ -5999,7 +5999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d162ef1c8d9bf124fa18657415ae2a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcScenario: {fileID: 8234571543875088540, guid: fd72f6eed0e026843bb6e766567b51fe, type: 3}
+  npcScenario: {fileID: 2406442722224564185, guid: cae1b2d8f0a60114eb59645bda7842b1, type: 3}
 --- !u!1 &505271953540244243
 GameObject:
   m_ObjectHideFlags: 0
@@ -35450,7 +35450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d162ef1c8d9bf124fa18657415ae2a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcScenario: {fileID: 8234571543875088540, guid: 4dd97ae4edcac5d43a69a42dd74712c5, type: 3}
+  npcScenario: {fileID: 7639276166641133300, guid: 9d81cb02043007c4d91e2611d9f9b0a1, type: 3}
 --- !u!1 &2756471919363989411
 GameObject:
   m_ObjectHideFlags: 0
@@ -45466,7 +45466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d162ef1c8d9bf124fa18657415ae2a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcScenario: {fileID: 8234571543875088540, guid: 4f46c959a0403cb48aa608ab6b53ed54, type: 3}
+  npcScenario: {fileID: 6656644778959830424, guid: 54d8f1779c2f168439197f8832806aff, type: 3}
 --- !u!1 &4286481893781127630
 GameObject:
   m_ObjectHideFlags: 0
@@ -55015,7 +55015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d162ef1c8d9bf124fa18657415ae2a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcScenario: {fileID: 8234571543875088540, guid: a5b926a2b35144747b6c653173dd319a, type: 3}
+  npcScenario: {fileID: 4214560209068639634, guid: e1b7dd0790d1870478dceef697e5edc4, type: 3}
 --- !u!1 &5071545516193068682
 GameObject:
   m_ObjectHideFlags: 0
@@ -68485,7 +68485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d162ef1c8d9bf124fa18657415ae2a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcScenario: {fileID: 8234571543875088540, guid: 03784281739f695479a9cf3fc9c6c47f, type: 3}
+  npcScenario: {fileID: 6403508574757036671, guid: e0665a5d7348cff4891941d9419e1222, type: 3}
 --- !u!1 &7417314447327459419
 GameObject:
   m_ObjectHideFlags: 0
@@ -77540,7 +77540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d162ef1c8d9bf124fa18657415ae2a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcScenario: {fileID: 8234571543875088540, guid: 29d16be43db78b74c9bcf0bcdc88d04c, type: 3}
+  npcScenario: {fileID: 721410186192913020, guid: c2d2b96fe2cdb264eb11e368f2e37cee, type: 3}
 --- !u!1 &8163188601918628719
 GameObject:
   m_ObjectHideFlags: 0

@@ -79,6 +79,10 @@ public class AnswerCheckerBehaviour : MonoBehaviour, iResetable
     
     public void GetDataQuiz(bool boolStatus)
     {
+        var answer_Id =_scenarioQuizController.GetCurrentAnswerID();
+        
+        var question_Id =_scenarioQuizController.GetCurrentQuestionID();
+        
         var logQuestion =_scenarioQuizController.GetCurrentQuestion();
 
         var rightAnswer = _scenarioQuizController.GetCurrentAnswer();
@@ -93,7 +97,7 @@ public class AnswerCheckerBehaviour : MonoBehaviour, iResetable
 
         _logControllerBehaviour.SubmitBoolAnswer(boolStatus);
         
-        _logControllerBehaviour.SetLog(logQuestion,rightAnswer,resultText, finalLogIndicatorIcon, logIndicatorIcon,score, _logControllerBehaviour._timerBehaviour._currentDuration,boolStatus);
+        _logControllerBehaviour.SetLog(question_Id,answer_Id, logQuestion,rightAnswer,resultText, finalLogIndicatorIcon, logIndicatorIcon,score, _logControllerBehaviour._timerBehaviour._currentDuration,boolStatus);
     }
 
     private void CalculateString(String rightAnswer, String micAnswer)

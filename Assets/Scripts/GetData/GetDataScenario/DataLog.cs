@@ -5,15 +5,19 @@ using UnityEngine;
 [System.Serializable]
 public class DataLog
 {
-    public string duration;
+    public int question_id;
     
     public string question;
+
+    public int answer_id;
     
     public string right_answer;
     
     public string user_answer;
 
-    public bool answer_status;
-    
     public double score;
+    
+    public string duration_taken;
+    
+    public bool answer_status;
 }

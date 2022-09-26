@@ -3941,7 +3941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d162ef1c8d9bf124fa18657415ae2a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcScenario: {fileID: 8234571543875088540, guid: 9773e282deaa88d409b2c3e18fcfc5a1, type: 3}
+  npcScenario: {fileID: 2208784434370728429, guid: 5b67c7e5c5129fd428281ae9240a6223, type: 3}
 --- !u!1 &1172951387331701416
 GameObject:
   m_ObjectHideFlags: 0
@@ -9444,7 +9444,7 @@ MonoBehaviour:
   randomHoldDurationMax: 0.5
   configReady: 1
   warnOnNullRefs: 1
-  inspSalsaLinked: 1
+  inspSalsaLinked: 0
   inspStateFoldoutProcessing: 0
   inspStateFoldoutSettings: 0
   inspStateFoldoutEmotes: 0
@@ -11112,7 +11112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d162ef1c8d9bf124fa18657415ae2a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcScenario: {fileID: 8234571543875088540, guid: 7032f665648bc3c46b5ba560bce4d9c7, type: 3}
+  npcScenario: {fileID: 6641616869243787646, guid: f316f354ba71f5847a367b49be7f15d8, type: 3}
 --- !u!1 &1783510349933115011
 GameObject:
   m_ObjectHideFlags: 0
@@ -42595,7 +42595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d162ef1c8d9bf124fa18657415ae2a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcScenario: {fileID: 8234571543875088540, guid: 86329f402a0b5384ba35424fa772b518, type: 3}
+  npcScenario: {fileID: 3197486199598986, guid: 4998395f5a408fe4980fde593d97dfc0, type: 3}
 --- !u!1 &6959391780318966914
 GameObject:
   m_ObjectHideFlags: 0
@@ -51568,7 +51568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d162ef1c8d9bf124fa18657415ae2a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcScenario: {fileID: 8234571543875088540, guid: d02be659fff818c438b67261a83cd24c, type: 3}
+  npcScenario: {fileID: 3954998604279859504, guid: f3d9a7a4c0bb5af4ea7bb646c6ad1a5b, type: 3}
 --- !u!1 &8361930838879757473
 GameObject:
   m_ObjectHideFlags: 0
@@ -53758,7 +53758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d162ef1c8d9bf124fa18657415ae2a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcScenario: {fileID: 8234571543875088540, guid: d4e255776be451941b5f5be121c9ef0a, type: 3}
+  npcScenario: {fileID: 7841037835955849559, guid: 8c16a6738e140424daa46d7852ad2328, type: 3}
 --- !u!1 &9139904431594748247
 GameObject:
   m_ObjectHideFlags: 0
@@ -53871,12 +53871,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbcf7161429c52b479b092b985c9f0dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterContainer: {fileID: 7397928038616669633}
   _debugMode: 0
+  characterContainer: {fileID: 7397928038616669633}
   _listInteractor: {fileID: 11400000, guid: bd8e800f64f383f4db9e2c91a34d6892, type: 2}
   _playerInitialPosition: {fileID: 7397928038578383550}
-  prefabScale: 1
   playerInitialPositionAdjustment: {x: 0, y: 0, z: 0}
+  skyboxType: 0
+  skybox: {fileID: 0}
+  _repositorySkybox: {fileID: 0}
 --- !u!114 &1868821945869819020
 MonoBehaviour:
   m_ObjectHideFlags: 0

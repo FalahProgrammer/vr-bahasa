@@ -9,7 +9,7 @@ public class PrefabAnswerController : MonoBehaviour
 {
     public string Materi_Id;
     public string Chapter_Id;
-    public string Question_Id;
+    public int Question_Id;
     public TextMeshProUGUI Question;
     public Text Answer;
     public Text AnswerB;

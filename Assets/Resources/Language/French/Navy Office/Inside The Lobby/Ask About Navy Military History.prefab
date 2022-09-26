@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9091496903472141453}
-  - component: {fileID: -8908878407520793909}
+  - component: {fileID: 3027544272927572113}
   m_Layer: 0
   m_Name: Ask About Navy Military History
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-8908878407520793909
+--- !u!114 &3027544272927572113
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -52,7 +52,7 @@ MonoBehaviour:
     QuestionID: 0
     Animators: []
     AnimationState:
-    - S+1
+    - S1
     AudioClip: {fileID: 8300000, guid: c4e72aff9fcf05a40ae90050685b1741, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -82,7 +82,7 @@ MonoBehaviour:
     QuestionID: 1
     Animators: []
     AnimationState:
-    - S+2
+    - S2
     AudioClip: {fileID: 8300000, guid: dfba8ce699a55cb4dac43c31c8212b06, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
     QuestionID: 2
     Animators: []
     AnimationState:
-    - S+3
+    - S3
     AudioClip: {fileID: 8300000, guid: bfe1fb3fd677e134ead4b4584cbf5e52, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
     QuestionID: 3
     Animators: []
     AnimationState:
-    - S+4
+    - S4
     AudioClip: {fileID: 8300000, guid: 4041347b05eb8e5459bd3a278f36a115, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -172,7 +172,7 @@ MonoBehaviour:
     QuestionID: 4
     Animators: []
     AnimationState:
-    - S+5
+    - S5
     AudioClip: {fileID: 8300000, guid: c2af7a6b2c13cc04fafaef08162c9bd6, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -202,7 +202,7 @@ MonoBehaviour:
     QuestionID: 5
     Animators: []
     AnimationState:
-    - S+6
+    - S6
     AudioClip: {fileID: 8300000, guid: 3cd722ae67291fe448fe83ffbe69e874, type: 3}
     AudioDelay: 0
     AnimationDelay: 0

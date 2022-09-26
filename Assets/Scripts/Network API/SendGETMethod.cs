@@ -67,7 +67,7 @@ public class SendGETMethod : MonoBehaviour
         
         // get data
         
-        GetRepositoryMateri(URL+"/vr-bahasa/public/api/v1/materis");
+        GetRepositoryMateri(URL+"/vr_bahasa_v2/public/api/v1/language");
         //GetRepositoryLocation(URL+"/vr-bahasa/public/api/v1/chapters");
         //GetRepositoryPassingGrade(URL+"/vr-bahasa/public/api/v1/passgrade");     -> obsolete
         //GetRepositoryDataQuiz(URL+"/vr-bahasa/public/api/v1/exam-questions");    -> move to get per NPC
@@ -198,10 +198,14 @@ public class SendGETMethod : MonoBehaviour
     void DeserializeLoginResult(string www)
     {
         var result = JsonUtility.FromJson<LoginResponse>(www);
-        
+        Debug.Log(www);
         _repositoryLoginData.status_code = result.status_code;
+
+        /*if (!_repositoryLoginData.Header.Contains(Header[0]))
+        {
+            _repositoryLoginData.Header.Add(Header[0]);
+        }*/
         
-        _repositoryLoginData.Header.Add(Header[0]);
 
         if (debugMod)
         {

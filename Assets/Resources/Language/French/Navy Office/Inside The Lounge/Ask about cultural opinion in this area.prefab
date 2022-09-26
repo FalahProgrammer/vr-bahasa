@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2340367012782296604}
-  - component: {fileID: 1618925926119210231}
+  - component: {fileID: 8559096659535248184}
   m_Layer: 0
   m_Name: Ask about cultural opinion in this area
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1618925926119210231
+--- !u!114 &8559096659535248184
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -52,7 +52,7 @@ MonoBehaviour:
     QuestionID: 0
     Animators: []
     AnimationState:
-    - S+1
+    - S1
     AudioClip: {fileID: 8300000, guid: ed4366e885dcb3847a12b293d8e914c9, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -82,7 +82,7 @@ MonoBehaviour:
     QuestionID: 1
     Animators: []
     AnimationState:
-    - S+2
+    - S2
     AudioClip: {fileID: 8300000, guid: 243e6b20390e7334b95a886ccc43a5b8, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
     QuestionID: 2
     Animators: []
     AnimationState:
-    - S+3
+    - S3
     AudioClip: {fileID: 8300000, guid: 4dfd8ee3933679f47b49a90396d47996, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
     QuestionID: 3
     Animators: []
     AnimationState:
-    - S+4
+    - S4
     AudioClip: {fileID: 8300000, guid: 86084856599d1c74b9281017e4447aa9, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -172,7 +172,7 @@ MonoBehaviour:
     QuestionID: 4
     Animators: []
     AnimationState:
-    - S+5
+    - S5
     AudioClip: {fileID: 8300000, guid: 2412b332f106d444daf4b8f7c86625c1, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -202,7 +202,7 @@ MonoBehaviour:
     QuestionID: 5
     Animators: []
     AnimationState:
-    - S+6
+    - S6
     AudioClip: {fileID: 8300000, guid: 2acc9ed2aa46c2b4abe5c02b172a4b8e, type: 3}
     AudioDelay: 0
     AnimationDelay: 0

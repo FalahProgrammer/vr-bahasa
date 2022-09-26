@@ -46,7 +46,7 @@ public class LoginVerificationBehaviour : MonoBehaviour
             _sendPostMethod = gameObject.GetComponent<SendPOSTMethod>();
         }*/
 
-        url = "http://"+_repositoryLoginData.API_URL + "/vr-bahasa/public/api/v1/login";
+        url = "http://"+_repositoryLoginData.API_URL + "/vr_bahasa_v2/public/api/v1/login";
         
         //Login();
     }
@@ -79,13 +79,23 @@ public class LoginVerificationBehaviour : MonoBehaviour
    
     void DeserializeLoginResult(string www)
     {
-        _repositoryLoginData.Header.Add(Header[0]);
+        if (!_repositoryLoginData.Header.Contains(Header[0]))
+        {
+            _repositoryLoginData.Header.Add(Header[0]);
+        }
         
         var result = JsonUtility.FromJson<LoginResponse>(www);
         
+        
+        Debug.Log(www);
         _repositoryLoginData.status_code = result.status_code;
         
-        _repositoryLoginData.token = result.token;
+        //_repositoryLoginData.token = result.token;
+        _repositoryLoginData.data[0].id = result.data.id;
+        _repositoryLoginData.data[0].name = result.data.name;
+        _repositoryLoginData.data[0].username = result.data.username;
+        _repositoryLoginData.data[0].login_date = result.data.login_date;
+        //_repositoryLoginData.token = result.token;
         
         Debug.Log("Token code is : " +_repositoryLoginData.token);
         
@@ -131,10 +141,8 @@ public class ClientData
 {
     public int id;
     public string username;
-    public string email;
     public string name;
-    public string email_verified;
-    public string licence;
+    public string login_date;
 
 }
 

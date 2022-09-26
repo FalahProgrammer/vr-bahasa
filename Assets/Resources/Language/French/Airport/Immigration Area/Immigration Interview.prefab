@@ -1,0 +1,713 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2764975993422136883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4950621133561553194}
+  - component: {fileID: -3479147291460917898}
+  m_Layer: 0
+  m_Name: Immigration Interview
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4950621133561553194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2764975993422136883}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-3479147291460917898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2764975993422136883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 433a6ff288908bd46a1612c0773ccde6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _currentIteration: 0
+  scenario_id: 3
+  _id: 3
+  _integerVariable: {fileID: 11400000, guid: 05e3189e17a53fa44b625301249eeb94, type: 2}
+  AnimationList:
+  - name: NPC 1
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - S1
+    AudioClip: {fileID: 8300000, guid: 25d772eb3fd9ba8478bee4924e46800d, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 2
+    QuestionID: 1
+    Animators: []
+    AnimationState:
+    - S2
+    AudioClip: {fileID: 8300000, guid: 935f2358d2aa3934e851fa48a74aa2d1, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 3
+    QuestionID: 2
+    Animators: []
+    AnimationState:
+    - S3
+    AudioClip: {fileID: 8300000, guid: 69883559e4922684ea997a76cfe1e09a, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 4
+    QuestionID: 3
+    Animators: []
+    AnimationState:
+    - S4
+    AudioClip: {fileID: 8300000, guid: 9f95c96df9ae2174dafa8942f47f39f3, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 5
+    QuestionID: 4
+    Animators: []
+    AnimationState:
+    - S5
+    AudioClip: {fileID: 8300000, guid: 99f9354ce9a22fb47a06324aeffadfcb, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 6
+    QuestionID: 5
+    Animators: []
+    AnimationState:
+    - S6
+    AudioClip: {fileID: 8300000, guid: d71f4060b1eb84942a098324c47329db, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 7
+    QuestionID: 6
+    Animators: []
+    AnimationState:
+    - S7
+    AudioClip: {fileID: 8300000, guid: 7619a436cd6373246bc4f6c01559d07c, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 8
+    QuestionID: 7
+    Animators: []
+    AnimationState:
+    - S8
+    AudioClip: {fileID: 8300000, guid: a202e1c09db5a28459994b4d52d5da1a, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 9
+    QuestionID: 8
+    Animators: []
+    AnimationState:
+    - S9
+    AudioClip: {fileID: 8300000, guid: f25e5717d7981ed45b6e30611bb008b5, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 10
+    QuestionID: 9
+    Animators: []
+    AnimationState:
+    - S10
+    AudioClip: {fileID: 8300000, guid: aa5a5d9620cfb5d42942283d8725b7c1, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 11
+    QuestionID: 10
+    Animators: []
+    AnimationState:
+    - S11
+    AudioClip: {fileID: 8300000, guid: c9f70787f30d8d4488ff47310d60db0d, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 12
+    QuestionID: 11
+    Animators: []
+    AnimationState:
+    - S12
+    AudioClip: {fileID: 8300000, guid: fba721dc80b5a0c4ba899eba92efaf69, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 13
+    QuestionID: 12
+    Animators: []
+    AnimationState:
+    - S13
+    AudioClip: {fileID: 8300000, guid: c9b990fa7342c5e42859d7fb4bc48bfd, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 14
+    QuestionID: 13
+    Animators: []
+    AnimationState:
+    - S14
+    AudioClip: {fileID: 8300000, guid: 0ebd84421c8ae7d4c98e800f57f6f048, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 15
+    QuestionID: 14
+    Animators: []
+    AnimationState:
+    - S15
+    AudioClip: {fileID: 8300000, guid: 62d62751a160feb43811449bc947a8eb, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 16
+    QuestionID: 15
+    Animators: []
+    AnimationState:
+    - S16
+    AudioClip: {fileID: 8300000, guid: 2a474a5b07a33ae4c8f5a7d156b6820b, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 17
+    QuestionID: 16
+    Animators: []
+    AnimationState:
+    - S17
+    AudioClip: {fileID: 8300000, guid: 96abbe82e5a2a4c4089474e315aa5f72, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 18
+    QuestionID: 17
+    Animators: []
+    AnimationState:
+    - S18
+    AudioClip: {fileID: 8300000, guid: 5ad86f9ac3d7683448709a65fe19eaaa, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 19
+    QuestionID: 18
+    Animators: []
+    AnimationState:
+    - S19
+    AudioClip: {fileID: 8300000, guid: ad4e2b3a8ebfbc14390cd425fb065899, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 20
+    QuestionID: 19
+    Animators: []
+    AnimationState:
+    - S20
+    AudioClip: {fileID: 8300000, guid: 603b758b105c40347bc4530ad5be8f07, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 21
+    QuestionID: 20
+    Animators: []
+    AnimationState:
+    - S21
+    AudioClip: {fileID: 8300000, guid: ccee9f114dc40834aa9cbf71942e1694, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: NPC 22
+    QuestionID: 21
+    Animators: []
+    AnimationState:
+    - S22
+    AudioClip: {fileID: 8300000, guid: 31e98056e66c33446b42d78496887052, type: 3}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: USER
+    QuestionID: 0
+    Animators: []
+    AnimationState:
+    - IDLE
+    AudioClip: {fileID: 0}
+    AudioDelay: 0
+    AnimationDelay: 0
+    Length: 0
+    OnPartialAnimationPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPartialAnimationFinished:
+      m_PersistentCalls:
+        m_Calls: []
+  AudioSource: {fileID: 0}
+  CanBeInterrupted: 0
+  IsPlaying: 0

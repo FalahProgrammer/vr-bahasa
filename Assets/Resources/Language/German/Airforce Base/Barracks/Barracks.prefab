@@ -3098,7 +3098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d162ef1c8d9bf124fa18657415ae2a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcScenario: {fileID: 8234571543875088540, guid: aa651a26cfb6e7643899d4f4c34ed2b5, type: 3}
+  npcScenario: {fileID: 6440377279695274381, guid: fec9f133e3d8c8345826574b0182f42d, type: 3}
 --- !u!1 &2188039441254557551
 GameObject:
   m_ObjectHideFlags: 0
@@ -16457,7 +16457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d162ef1c8d9bf124fa18657415ae2a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcScenario: {fileID: 8234571543875088540, guid: 867e065f5e5398a4da6d92798e8dec02, type: 3}
+  npcScenario: {fileID: 4516905511355966954, guid: 7fa9f9cf4ff3dbd4ead6b1a896a11a77, type: 3}
 --- !u!1 &6293191772204376768
 GameObject:
   m_ObjectHideFlags: 0
@@ -23614,12 +23614,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbcf7161429c52b479b092b985c9f0dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterContainer: {fileID: 3497535674164949579}
   _debugMode: 0
+  characterContainer: {fileID: 3497535674164949579}
   _listInteractor: {fileID: 11400000, guid: bd8e800f64f383f4db9e2c91a34d6892, type: 2}
   _playerInitialPosition: {fileID: 4498732727052956199}
-  prefabScale: 1
   playerInitialPositionAdjustment: {x: 0, y: 0, z: 0}
+  skyboxType: 0
+  skybox: {fileID: 0}
+  _repositorySkybox: {fileID: 0}
 --- !u!114 &3373201835143582284
 MonoBehaviour:
   m_ObjectHideFlags: 0

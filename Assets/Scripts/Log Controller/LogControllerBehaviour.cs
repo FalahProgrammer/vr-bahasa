@@ -97,7 +97,7 @@ public class LogControllerBehaviour : MonoBehaviour, iResetable
             Mode = Type.None;
         }
     }
-    public void SetLog(string logQuestion, string logRightAnswer, string logYourAnswer, Image finalLogIndicator, Image logIndicator, double score, float duration, bool answer_status)
+    public void SetLog(int questionId,int answerId, string logQuestion, string logRightAnswer, string logYourAnswer, Image finalLogIndicator, Image logIndicator, double score, float duration, bool answer_status)
     {
         GenerateLog(duration,logQuestion, logRightAnswer, logYourAnswer, logIndicator);
         
@@ -121,13 +121,15 @@ public class LogControllerBehaviour : MonoBehaviour, iResetable
             }
         }
         
-        _logRepository.logs.Items.Add(new DataLog 
+        _logRepository.logs.Add(new Log 
         { 
+            question_id = questionId,
+            answer_id = answerId,
             question = logQuestion, 
             right_answer = logRightAnswer, 
             user_answer = logYourAnswer,
             score = score, 
-            duration = durationFormat,
+            duration_taken = durationFormat,
             answer_status = answer_status
         });
         
@@ -157,12 +159,12 @@ public class LogControllerBehaviour : MonoBehaviour, iResetable
     {
         double totalScore = 0;
         
-        for (int i = 0; i < _logRepository.logs.Items.Count; i++)
+        for (int i = 0; i < _logRepository.logs.Count; i++)
         {
-            totalScore += _logRepository.logs.Items[i].score;
+            totalScore += _logRepository.logs[i].score;
         }
 
-        totalScore = Math.Round(totalScore / _logRepository.logs.Items.Count) * 1 / 1;
+        totalScore = Math.Round(totalScore / _logRepository.logs.Count) * 1 / 1;
 
         _finalScoreText.text = totalScore.ToString();
 
@@ -215,7 +217,7 @@ public class LogControllerBehaviour : MonoBehaviour, iResetable
 
     public void ClearLog()
     {
-        _logRepository.logs.Items.Clear();
+        _logRepository.logs.Clear();
 
         _repositoryLogAnswer.CorrectAnswer = 0;
         

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4498352140001760136}
-  - component: {fileID: -3579704618490826214}
+  - component: {fileID: 4836705907359871293}
   m_Layer: 0
   m_Name: Ask recommendation public transportation
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-3579704618490826214
+--- !u!114 &4836705907359871293
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -52,7 +52,7 @@ MonoBehaviour:
     QuestionID: 0
     Animators: []
     AnimationState:
-    - S+1
+    - S1
     AudioClip: {fileID: 8300000, guid: 4c1df97298085f2449f7d4dab831ebdd, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -82,7 +82,7 @@ MonoBehaviour:
     QuestionID: 1
     Animators: []
     AnimationState:
-    - S+2
+    - S2
     AudioClip: {fileID: 8300000, guid: 8ad5280d99900984282ed6aa8adef184, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
     QuestionID: 2
     Animators: []
     AnimationState:
-    - S+3
+    - S3
     AudioClip: {fileID: 8300000, guid: cd3d97984e004fe47a0343d1af830788, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
     QuestionID: 3
     Animators: []
     AnimationState:
-    - S+4
+    - S4
     AudioClip: {fileID: 8300000, guid: 99872e2c95bb9c740ad7ae2ac21a69e3, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -172,7 +172,7 @@ MonoBehaviour:
     QuestionID: 4
     Animators: []
     AnimationState:
-    - S+5
+    - S5
     AudioClip: {fileID: 8300000, guid: 8640bc184c5b0b949bd9eae798e00214, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -202,7 +202,7 @@ MonoBehaviour:
     QuestionID: 5
     Animators: []
     AnimationState:
-    - S+6
+    - S6
     AudioClip: {fileID: 8300000, guid: 4b9d7441fc1e5ac4ab5fe8649bb7d9a3, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -232,7 +232,7 @@ MonoBehaviour:
     QuestionID: 6
     Animators: []
     AnimationState:
-    - S+7
+    - S7
     AudioClip: {fileID: 8300000, guid: 80f1404b30403424d87e620f54f3aa7f, type: 3}
     AudioDelay: 0
     AnimationDelay: 0

@@ -20,4 +20,9 @@ public class ActiveScenarioCheck : MonoBehaviour
                 break;
         }
     }
+    
+    private void OnDestroy()
+    {
+        _scenarioManager.ScenarioIsFinished();
+    }
 }

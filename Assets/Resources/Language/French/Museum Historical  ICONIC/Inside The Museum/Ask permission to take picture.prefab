@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2681120758178210016}
-  - component: {fileID: -4924704411218287203}
+  - component: {fileID: -1383519055586372696}
   m_Layer: 0
   m_Name: Ask permission to take picture
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-4924704411218287203
+--- !u!114 &-1383519055586372696
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -52,7 +52,7 @@ MonoBehaviour:
     QuestionID: 0
     Animators: []
     AnimationState:
-    - S+1
+    - S1
     AudioClip: {fileID: 8300000, guid: 1c794c33dd15d61479ec77656b7f3a48, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -82,7 +82,7 @@ MonoBehaviour:
     QuestionID: 1
     Animators: []
     AnimationState:
-    - S+2
+    - S2
     AudioClip: {fileID: 8300000, guid: 9308c60ba23660c4cb08fb985eae5374, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
     QuestionID: 2
     Animators: []
     AnimationState:
-    - S+3
+    - S3
     AudioClip: {fileID: 8300000, guid: f0cca2ebd43ba1e4ba966296b1abdeb3, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
     QuestionID: 3
     Animators: []
     AnimationState:
-    - S+4
+    - S4
     AudioClip: {fileID: 8300000, guid: a5382953d34adb140b406763907a8510, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -172,7 +172,7 @@ MonoBehaviour:
     QuestionID: 4
     Animators: []
     AnimationState:
-    - S+5
+    - S5
     AudioClip: {fileID: 8300000, guid: 7b0481aeca077e1438a0bfd0a2647a2f, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -202,7 +202,7 @@ MonoBehaviour:
     QuestionID: 5
     Animators: []
     AnimationState:
-    - S+6
+    - S6
     AudioClip: {fileID: 8300000, guid: 6c5e6391c0687f84889b693efc00c764, type: 3}
     AudioDelay: 0
     AnimationDelay: 0

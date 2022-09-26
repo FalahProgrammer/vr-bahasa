@@ -141,7 +141,7 @@ public class SendScoreBehaviour : MonoBehaviour
         if (UserId.ToString() == "")
             Debug.Log("No UserID Found");
 
-        var URL = "http://192.168.101.32/vr-bahasa/public/api/v1/report";
+        //var URL = "http://192.168.101.32/vr-bahasa/public/api/v1/report";
         
         for (int i = 0; i < _contentAreaController.ListContent.Count; i++)
         {
@@ -154,12 +154,16 @@ public class SendScoreBehaviour : MonoBehaviour
                 Debug.Log(dt);
                 var datatosend = new DataPostScenario 
                 {
-                    user_id = UserId, 
-                    conversation_topic = _contentAreaController.ListContent[i].npc[_integerVariable.IntegerValue - 1].conversation_topic, 
-                    waktu_pengerjaan = _contentAreaController.ListContent[i].npc[_integerVariable.IntegerValue - 1].duration, 
+                    user_id = _repositoryLoginData.data[0].id, 
+                    scenario_id = _contentAreaController.ListContent[i].npc[_integerVariable.IntegerValue - 1].id,
+                    language_id = _contentAreaController.ListContent[i].language_id,
+                    
+                    //conversation_topic = _contentAreaController.ListContent[i].npc[_integerVariable.IntegerValue - 1].conversation_topic, 
+                     
                     total_score = _RepositoryLogAnswer.TotalScore, 
-                    total_correct = _RepositoryLogAnswer.CorrectAnswer, 
-                    total_incorrect = _RepositoryLogAnswer.InCorrectAnswer,
+                    duration = _contentAreaController.ListContent[i].npc[_integerVariable.IntegerValue - 1].duration,
+                    correct = _RepositoryLogAnswer.CorrectAnswer, 
+                    incorrect = _RepositoryLogAnswer.InCorrectAnswer,
                     //duration_taken = _contentAreaController.ListContent[i].duration - Int32.Parse(_repositoryLog.logs.Items.Last().duration),_logControllerBehaviour._timerBehaviour._currentDuration
                     duration_taken = _contentAreaController.ListContent[i].npc[_integerVariable.IntegerValue - 1].duration - (int)_logControllerBehaviour._timerBehaviour._currentDuration,
                     content_id = _repositoryLog.content_id,
@@ -172,7 +176,7 @@ public class SendScoreBehaviour : MonoBehaviour
                 Debug.Log(JSON);
 
                 if (_sendPost)
-                    _sendPostMethod.SendPOST(url + "/vr-bahasa/public/api/v1/report",JSON, (x) =>
+                    _sendPostMethod.SendPOST(url + "/vr_bahasa_v2/public/api/v1/report",JSON, (x) =>
                     {
                         
                         Debug.Log("Callback : " + x);
@@ -203,14 +207,17 @@ public class DataPostQuizScenario
 public class DataPostScenario
 {
     public int user_id;
-    public string conversation_topic;
-    public int waktu_pengerjaan;
+    public int scenario_id;
+    public int language_id;
+    //public string conversation_topic;
     public double total_score;
-    public int total_correct;
-    public int total_incorrect;
+    public int duration;
+    
+    public int correct;
+    public int incorrect;
     public int duration_taken;
     public int content_id;
     //public bool asnwer_status;
-    public Log logs;
+    public List<Log> logs;
 }
 

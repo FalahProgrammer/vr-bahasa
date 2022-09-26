@@ -24,9 +24,13 @@ public class ScenarioQuizController : MonoBehaviour
 
     [SerializeField] private GameObject _prefabButtonChapter;
     
-    public string CorrectAnswer;
-
+    public int Question_Id;
+    
+    public int Answer_Id;
+    
     public string Question;
+    
+    public string CorrectAnswer;
 
     [SerializeField] private UnityEvent OnFinishedGetScenarioQuiz;
     
@@ -133,13 +137,15 @@ public class ScenarioQuizController : MonoBehaviour
             sMateri_id: _repositoryQuizQuestion.Items[index].language_id,
             /*sChapter_id: _repositoryQuizQuestion.Items[i].chapter_id,*/
             _repositoryQuizQuestion.Items[index].question_id,
-            _repositoryQuizQuestion.Items[index].answer,
+            _repositoryQuizQuestion.Items[index].answer_1,
             //_repositoryQuizQuestion.Items[i].answers[0].text,
             /*_repositoryQuizQuestion.Items[i].answers[1].text,*/
             _repositoryQuizQuestion.Items[index].question);
 
 
-        CorrectAnswer = _repositoryQuizQuestion.Items[index].answer; //_repositoryQuizQuestion.Items[i].answers[0].text;
+        Question_Id = _repositoryQuizQuestion.Items[index].question_id;
+        Answer_Id = _repositoryQuizQuestion.Items[index].answer_id;
+        CorrectAnswer = _repositoryQuizQuestion.Items[index].answer_1; //_repositoryQuizQuestion.Items[i].answers[0].text;
         Question = _repositoryQuizQuestion.Items[index].question;
         answerCheckerBehaviour.Input1 = CorrectAnswer;
         speechCheckerBehaviour.RequiredAnswer = CorrectAnswer;
@@ -150,8 +156,12 @@ public class ScenarioQuizController : MonoBehaviour
     public string GetCurrentQuestion() => Question;
 
     public string GetCurrentAnswer() => CorrectAnswer;
+    
+    public int GetCurrentQuestionID() => Question_Id;
+    
+    public int GetCurrentAnswerID() => Answer_Id;
 
-    public void GenerateButtonChapter(string sMateri_id/*, string sChapter_id*/, string sQuestion_id, string sAnswerA/*, string sAnswerB*/, string sQuestion)
+    public void GenerateButtonChapter(string sMateri_id/*, string sChapter_id*/, int sQuestion_id, string sAnswerA/*, string sAnswerB*/, string sQuestion)
     {
         //InitThis();
 

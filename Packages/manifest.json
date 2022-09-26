@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.soupday.cc3_unity_tools": "https://github.com/soupday/cc_unity_tools_3D.git",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.assetbundlebrowser": "https://github.com/Unity-Technologies/AssetBundles-Browser.git",
     "com.unity.collab-proxy": "1.15.12",

@@ -83,40 +83,6 @@
                 </e>
               </e>
             </e>
-            <e p="GERMANY" t="Include">
-              <e p="Airport - Money Changer" t="Include">
-                <e p="VOICEOVER" t="Include">
-                  <e p="16. GR-MCS01" t="Include">
-                    <e p="SKENARIO.txt" t="Include" />
-                  </e>
-                  <e p="17. GR-MCV01" t="Include">
-                    <e p="SKENARIO.txt" t="Include" />
-                  </e>
-                  <e p="18. GR-MCV02" t="Include">
-                    <e p="SKENARIO.txt" t="Include" />
-                  </e>
-                  <e p="19. GR-MCE01" t="Include">
-                    <e p="SKENARIO.txt" t="Include" />
-                  </e>
-                </e>
-              </e>
-              <e p="Airport - Restaurant" t="Include">
-                <e p="VOICEOVER" t="Include">
-                  <e p="6. GR-ARW01" t="Include">
-                    <e p="SKENARIO.txt" t="Include" />
-                  </e>
-                  <e p="7. GR-ARW02" t="Include">
-                    <e p="SKENARIO.txt" t="Include" />
-                  </e>
-                  <e p="8. GR-ARC01" t="Include">
-                    <e p="SKENARIO.txt" t="Include" />
-                  </e>
-                  <e p="9. GR-ARW03" t="Include">
-                    <e p="SKENARIO.txt" t="Include" />
-                  </e>
-                </e>
-              </e>
-            </e>
           </e>
           <e p="Shaders" t="Include">
             <e p="Standard 2-Sided.shader" t="Include" />
@@ -397,15 +363,6 @@
             </e>
           </e>
         </e>
-        <e p="Resources" t="Include">
-          <e p="Voice" t="Include">
-            <e p="German" t="Include">
-              <e p="6_Recommendation Food, and Order Food" t="Include">
-                <e p="SKENARIO.txt" t="Include" />
-              </e>
-            </e>
-          </e>
-        </e>
         <e p="Scripts" t="Include">
           <e p="Animator" t="Include">
             <e p="IdleAnimationInRangeChecker.cs" t="Include" />
@@ -467,6 +424,9 @@
               <e p="PrefabAnswerController.cs" t="Include" />
               <e p="PrefabLogController.cs" t="Include" />
               <e p="ScenarioQuizController.cs" t="Include" />
+            </e>
+            <e p="GetDataUser" t="Include">
+              <e p="DataUserBehaviour.cs" t="Include" />
             </e>
           </e>
           <e p="Grabable Object" t="Include">

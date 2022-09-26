@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1113863408810631819}
-  - component: {fileID: 8188173677416013761}
+  - component: {fileID: 2323283560053282192}
   m_Layer: 0
   m_Name: Ask About The Standard for Entering The Navy
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8188173677416013761
+--- !u!114 &2323283560053282192
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -52,7 +52,7 @@ MonoBehaviour:
     QuestionID: 0
     Animators: []
     AnimationState:
-    - S+1
+    - S1
     AudioClip: {fileID: 8300000, guid: c656b8f710b6d634fac8ff1c47183978, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -82,7 +82,7 @@ MonoBehaviour:
     QuestionID: 1
     Animators: []
     AnimationState:
-    - S+2
+    - S2
     AudioClip: {fileID: 8300000, guid: 752db71508331e74fb51378c3480dc26, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
     QuestionID: 2
     Animators: []
     AnimationState:
-    - S+3
+    - S3
     AudioClip: {fileID: 8300000, guid: 70e32f994199603488e059ef19c27da7, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
     QuestionID: 3
     Animators: []
     AnimationState:
-    - S+4
+    - S4
     AudioClip: {fileID: 8300000, guid: 97af166b7ac42e14196fc30b29bb8aa0, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -172,7 +172,7 @@ MonoBehaviour:
     QuestionID: 4
     Animators: []
     AnimationState:
-    - S+5
+    - S5
     AudioClip: {fileID: 8300000, guid: 5928547551720b94b8216b6191e2b413, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -202,7 +202,7 @@ MonoBehaviour:
     QuestionID: 5
     Animators: []
     AnimationState:
-    - S+6
+    - S6
     AudioClip: {fileID: 8300000, guid: 33f4969e8d65a094f9bf3dae7941113f, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -232,7 +232,7 @@ MonoBehaviour:
     QuestionID: 6
     Animators: []
     AnimationState:
-    - S+7
+    - S7
     AudioClip: {fileID: 8300000, guid: 433cf121a28ecbf4397a2cdd24c0d7b0, type: 3}
     AudioDelay: 0
     AnimationDelay: 0
@@ -262,7 +262,7 @@ MonoBehaviour:
     QuestionID: 7
     Animators: []
     AnimationState:
-    - S+8
+    - S8
     AudioClip: {fileID: 8300000, guid: 3760a84ad42ce544fbae812f84c48423, type: 3}
     AudioDelay: 0
     AnimationDelay: 0

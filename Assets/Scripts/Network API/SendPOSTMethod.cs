@@ -28,6 +28,7 @@ public class SendPOSTMethod : MonoBehaviour
         using (UnityWebRequest www = UnityWebRequest.Put(url, data))
         {
             www.method="POST";
+            www.chunkedTransfer = false;
             if (requestheader != null)
             {
                 foreach (var singleheader in requestheader)
@@ -41,6 +42,7 @@ public class SendPOSTMethod : MonoBehaviour
             Debug.Log("Type of Key : " + www.GetRequestHeader("Content-Type"));
             Debug.Log("Type of Values : " + www.GetRequestHeader("Authorization"));
 
+            Debug.Log(www.isHttpError);
             //Error handling
             if (www.isNetworkError || www.isHttpError)
             {
@@ -62,6 +64,7 @@ public class SendPOSTMethod : MonoBehaviour
             else
             {
                callback.Invoke(www.downloadHandler.text);
+               Debug.Log(www.downloadHandler.text);
             }
         }
     }

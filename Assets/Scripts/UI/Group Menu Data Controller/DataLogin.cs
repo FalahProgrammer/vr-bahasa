@@ -3,11 +3,11 @@ using System;
 [Serializable]
 public class DataLogin
 {
-    public string id;
+    public int id;
 
     public string username;
 
-    public string email;
+    public string login_date;
 
     public string name;
 

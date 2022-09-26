@@ -103,4 +103,9 @@ public class VoskResultText : MonoBehaviour
     {
         nilai.Add(value);
     }
+
+    public void AddNilai(double value)
+    {
+        nilai.Add(value);
+    }
 }
