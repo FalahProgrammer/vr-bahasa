@@ -148,7 +148,8 @@ public class SendScoreBehaviour : MonoBehaviour
             if (_contentAreaController.ListContent[i].language_id.ToString() == _dataVariable.materi_id)
             {
                 Debug.Log("_contentAreaController.ListContent Index: " + i);
-                
+                Debug.Log("Available Duration : " + _contentAreaController.ListContent[i].npc[_integerVariable.IntegerValue -1].duration);
+                Debug.Log("Remaining Duration : " + (int) _logControllerBehaviour._timerBehaviour._currentDuration);
                 var dt = _contentAreaController.ListContent[i].npc[_integerVariable.IntegerValue -1].duration -
                          (int) _logControllerBehaviour._timerBehaviour._currentDuration;
                 Debug.Log(dt);
@@ -165,8 +166,8 @@ public class SendScoreBehaviour : MonoBehaviour
                     correct = _RepositoryLogAnswer.CorrectAnswer, 
                     incorrect = _RepositoryLogAnswer.InCorrectAnswer,
                     //duration_taken = _contentAreaController.ListContent[i].duration - Int32.Parse(_repositoryLog.logs.Items.Last().duration),_logControllerBehaviour._timerBehaviour._currentDuration
-                    duration_taken = _contentAreaController.ListContent[i].npc[_integerVariable.IntegerValue - 1].duration - (int)_logControllerBehaviour._timerBehaviour._currentDuration,
-                    content_id = _repositoryLog.content_id,
+                    duration_taken = (int)_logControllerBehaviour._timerBehaviour._currentDuration - _contentAreaController.ListContent[i].npc[_integerVariable.IntegerValue - 1].duration,
+                    //content_id = _repositoryLog.content_id,
                     //asnwer_status = _repositoryLog.logs.Items[i].answer_status,
                     logs = _repositoryLog.logs
                 };
@@ -212,11 +213,12 @@ public class DataPostScenario
     //public string conversation_topic;
     public double total_score;
     public int duration;
+    public int duration_taken;
     
     public int correct;
     public int incorrect;
-    public int duration_taken;
-    public int content_id;
+    
+    //public int content_id;
     //public bool asnwer_status;
     public List<Log> logs;
 }
