@@ -20,6 +20,9 @@ public class AreaPrefab : MonoBehaviour
    
    private RepositorySkybox _repositorySkybox;
 
+   private DataVariable _dataVariable;
+   private RepositoryContentArea _repositoryContentArea;
+
    public void ClearData()
    {
       if (_debugMode) Debug.Log("Data CLeared!");
@@ -33,6 +36,11 @@ public class AreaPrefab : MonoBehaviour
    {
       if (_listInteractor == null) _listInteractor = Resources.Load<ListInteractor>("ScriptableObjects/List Interactor");
       _repositorySkybox = Resources.Load<RepositorySkybox>("ScriptableObjects/Repository/Repository Skybox");
+      
+      _dataVariable = Resources.Load<DataVariable>("ScriptableObjects/Variable/String Variable");
+      _repositoryContentArea = Resources.Load<RepositoryContentArea>("ScriptableObjects/Repository/Repository Content Area");
+
+      SetNPCConversationPrefabs();
       
       SetSkyBox();
       
@@ -151,6 +159,39 @@ public class AreaPrefab : MonoBehaviour
       // _listInteractor.listCharacterPosition.Add(_playerInitialPosition.position);
      
       if (_debugMode) Debug.Log("Data Generated!");
+   }
+
+   private void SetNPCConversationPrefabs()
+   {
+      string path = _repositoryContentArea.Items[_dataVariable.contentAreaIndex].path_area_prefab;
+      Debug.LogWarning("Path: " + path);
+      GameObject[] conversationPrefabs = Resources.LoadAll<GameObject>(path);
+
+      int id = 1;
+      foreach (Transform c in characterContainer)
+      {
+         Interactor interactor = c.GetComponent<Interactor>();
+         interactor.npcScenario = null;
+
+         foreach (GameObject prefab in conversationPrefabs)
+         {
+            SequentialAnimation seq = prefab.GetComponent<SequentialAnimation>();
+            
+            if (seq == null) continue;
+            int prefabId =  seq._id;
+            
+            Debug.Log("ID: " + prefabId);
+            
+            if (prefabId != id) continue;
+
+            interactor.npcScenario = prefab;
+            break;
+         }
+         
+         id++;
+      }
+      
+      Debug.Log("Assigned NPC Conversation Prefabs");
    }
 }
 
